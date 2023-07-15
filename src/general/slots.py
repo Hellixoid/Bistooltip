@@ -1,0 +1,20 @@
+slots = {
+    "Head": 0,
+    "Neck": 1,
+    "Shoulder": 2,
+    "Back": 3,
+    "Chest": 4,
+    "Wrist": 5,
+    "Hands": 6,
+    "Waist": 7,
+    "Legs": 8,
+    "Feet": 9,
+    "Finger": 10,
+    "Trinket": 11,
+    "Weapon": 12,
+    "Weapon 1H": 13,
+    "Off hand": 14,
+    "Weapon 2H": 15,
+    "Ranged": 16,
+    "Relic": 17
+}
