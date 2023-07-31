@@ -38,7 +38,7 @@
 <span class="slider-labels-title">Level</span>
 <span class="slider-labels-values">
 <span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
 <span class="slider-labels-values-max">80</span></span></div></div></div>
 <div class="gear-planner-slots" data-currently-visible="true">
 <div class="gear-planner-slots-talents" style="top: 45px;">
@@ -57,7 +57,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
+<div class="ctc-tree-slider" data-active-tree="0">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -1416,8 +1416,8 @@
 <tr>
 <td>Helm</td>
 <td>
-<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=39619/heroes-scourgeborne-helmet">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_helmet_58.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Heroes' Scourgeborne Helmet</span></a></td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=46115/conquerors-darkruned-helmet">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_helmet_58.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Conqueror's Darkruned Helmet</span></a></td>
 <td>
 <div class="iconsmall" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_shadowspirit_02.jpg");'></ins>
@@ -1489,8 +1489,8 @@
 <tr>
 <td>Chest</td>
 <td>
-<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=39617/heroes-scourgeborne-battleplate">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_chest_plate02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Heroes' Scourgeborne Battleplate</span></a></td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=46111/conquerors-darkruned-battleplate">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_chest_plate02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Conqueror's Darkruned Battleplate</span></a></td>
 <td>
 <div class="iconsmall" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_gem_37.jpg");'></ins>
