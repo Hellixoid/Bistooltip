@@ -5445,99 +5445,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Runetotem's Gloves of Triumph (H)",
-          "slot": "hands",
-          "phase": [
-            "T9",
-            "T10"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t7": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t8": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t9": {
-            "bis": true,
-            "enchant": {
-              "name": "Gloves - Exceptional Spellpower",
-              "rarity": "common",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Reckless Ametrine",
-                "image": "ametrine"
-              }
-            ]
-          },
-          "t10": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Trial of the Grand Crusader (25)",
-          "source_type": "Tribute Run (1+)",
-          "drop_chance": 1,
-          "rarity": "epic",
-          "alternative": "Malfurion's Gloves of Triumph (H)"
-        },
-        {
-          "name": "Runetotem's Gloves of Triumph",
-          "slot": "hands",
-          "phase": [
-            "T9",
-            "T10"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t7": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t8": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t9": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t10": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Multiple",
-          "source_type": "Emblem of Triumph (45) & Trophy of the Crusade (1), Koralon the Flame Watcher (25)",
-          "rarity": "epic",
-          "alternative": "Malfurion's Gloves of Triumph"
-        },
-        {
           "name": "Pharos Gloves",
           "slot": "hands",
           "phase": [
@@ -5624,48 +5531,6 @@
           "alternative": "Gloves of the Lifeless Touch (H)"
         },
         {
-          "name": "Runetotem's Gloves of Conquest",
-          "slot": "hands",
-          "phase": [
-            "T9",
-            "T10"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t7": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t8": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t9": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t10": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Multiple",
-          "source_type": "Emblem of Triumph (30), Koralon the Flame Watcher (10)",
-          "rarity": "epic",
-          "alternative": "Malfurion's Gloves of Conquest"
-        },
-        {
           "name": "Handwraps of Plentiful Recovery",
           "slot": "hands",
           "phase": [
@@ -5707,6 +5572,57 @@
           "source_type": "Kologarn",
           "drop_chance": 0.07,
           "rarity": "epic"
+        },
+        {
+          "name": "Runetotem's Handguards of Triumph (H)",
+          "slot": "hands",
+          "phase": [
+            "T9",
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": true,
+            "enchant": {
+              "name": "Gloves - Exceptional Spellpower",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ametrine",
+                "image": "ametrine"
+              }
+            ]
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trial of the Grand Crusader (25)",
+          "source_type": "Tribute Run (1+)",
+          "drop_chance": 1,
+          "rarity": "epic",
+          "alternative": "Malfurion's Handguards of Triumph (H)"
         },
         {
           "name": "Touch of the Occult",
@@ -26980,85 +26896,6 @@
           "drop_chance": 0.2
         },
         {
-          "name": "Runetotem's Gloves of Triumph (H)",
-          "alternative": "Malfurion's Gloves of Triumph (H)",
-          "ilvl": 258,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "hands",
-          "type": "leather",
-          "special_stats": {
-            "armor": 407
-          },
-          "primary_stats": {
-            "intellect": 86,
-            "stamina": 86,
-            "spirit": 68
-          },
-          "sockets": {
-            "socket_colors": [
-              "red"
-            ],
-            "sockets": 1,
-            "socket_bonus": "5 Spell Power"
-          },
-          "other_stats": {
-            "durability": 40,
-            "min_level": 80,
-            "classes": [
-              "Druid"
-            ]
-          },
-          "secondary_stats": {
-            "spell_power": 124,
-            "haste": 76
-          },
-          "set": "Runetotem's Regalia",
-          "phase": "T9, T10",
-          "source": "Trial of the Grand Crusader (25)",
-          "source_type": "Tribute Run (1+)",
-          "drop_chance": 1
-        },
-        {
-          "name": "Runetotem's Gloves of Triumph",
-          "alternative": "Malfurion's Gloves of Triumph",
-          "ilvl": 245,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "hands",
-          "type": "leather",
-          "special_stats": {
-            "armor": 389
-          },
-          "primary_stats": {
-            "intellect": 77,
-            "stamina": 77,
-            "spirit": 59
-          },
-          "sockets": {
-            "socket_colors": [
-              "red"
-            ],
-            "sockets": 1,
-            "socket_bonus": "5 Spell Power"
-          },
-          "other_stats": {
-            "durability": 40,
-            "min_level": 80,
-            "classes": [
-              "Druid"
-            ]
-          },
-          "secondary_stats": {
-            "spell_power": 109,
-            "haste": 67
-          },
-          "set": "Runetotem's Regalia",
-          "phase": "T9, T10",
-          "source": "Multiple",
-          "source_type": "Emblem of Triumph (45) & Trophy of the Crusade (1), Koralon the Flame Watcher (25)"
-        },
-        {
           "name": "Pharos Gloves",
           "ilvl": 252,
           "rarity": "epic",
@@ -27132,45 +26969,6 @@
           "drop_chance": 0.05
         },
         {
-          "name": "Runetotem's Gloves of Conquest",
-          "alternative": "Malfurion's Gloves of Conquest",
-          "ilvl": 232,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "hands",
-          "type": "leather",
-          "special_stats": {
-            "armor": 373
-          },
-          "primary_stats": {
-            "intellect": 68,
-            "stamina": 68,
-            "spirit": 52
-          },
-          "sockets": {
-            "socket_colors": [
-              "red"
-            ],
-            "sockets": 1,
-            "socket_bonus": "5 Spell Power"
-          },
-          "other_stats": {
-            "durability": 40,
-            "min_level": 80,
-            "classes": [
-              "Druid"
-            ]
-          },
-          "secondary_stats": {
-            "spell_power": 96,
-            "haste": 60
-          },
-          "set": "Runetotem's Regalia",
-          "phase": "T9, T10",
-          "source": "Multiple",
-          "source_type": "Emblem of Triumph (30), Koralon the Flame Watcher (10)"
-        },
-        {
           "name": "Handwraps of Plentiful Recovery",
           "ilvl": 232,
           "rarity": "epic",
@@ -27197,6 +26995,46 @@
           "source": "Ulduar (25)",
           "source_type": "Kologarn",
           "drop_chance": 0.07
+        },
+        {
+          "name": "Runetotem's Handguards of Triumph (H)",
+          "alternative": "Malfurion's Handguards of Triumph (H)",
+          "ilvl": 258,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 407
+          },
+          "primary_stats": {
+            "intellect": 86,
+            "stamina": 86,
+            "spirit": 76
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "5 Spell Power"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "spell_power": 124,
+            "crit": 68
+          },
+          "set": "Runetotem's Garb",
+          "phase": "T9, T10",
+          "source": "Trial of the Grand Crusader (25)",
+          "source_type": "Tribute Run (1+)",
+          "drop_chance": 1
         },
         {
           "name": "Touch of the Occult",
