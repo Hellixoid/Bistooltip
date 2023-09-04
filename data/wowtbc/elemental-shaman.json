@@ -23241,6 +23241,11 @@
           "range": 30,
           "time": "Instant",
           "description": "Steals a beneficial magic effect from the target. This effect lasts a maximum of 2 min."
+        },
+        {
+          "name": "Hammer of Justice",
+          "time": "Instant",
+          "description": "Stuns an enemy, rendering them vulnerable to Hammer of the Righteous and unable to move or attack for 6 sec."
         }
       ],
       "gearData": [
@@ -37035,6 +37040,16 @@
             "Resilient Parchment"
           ],
           "use": "Your Swiftmend ability no longer consumes a Rejuvenation or Regrowth effect from the target."
+        },
+        {
+          "name": "Omen of Clarity",
+          "class": "druid",
+          "type": "major",
+          "reagents": [
+            "Ink of the Sea",
+            "Resilient Parchment"
+          ],
+          "use": "Your Omen of Clarity talent has a 100% chance to be triggered by successfully casting Faerie Fire (Feral). Does not trigger on players or player-controlled pets."
         },
         {
           "name": "Wild Growth",

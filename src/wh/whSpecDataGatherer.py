@@ -12,11 +12,18 @@ URL_SUFFIX = '-bis-gear-'
 
 def collect_specs_data(data_dir):
     driver = webdriver.Chrome()
-
+    driver.set_page_load_timeout(20)
     for spec in whSpecs.specs:
         print("Collecting spec " + spec)
         for phase_id in phases.phases.values():
-            save_spec_page(data_dir, spec, phase_id, driver)
+            collected_flag = False
+            while collected_flag is not True:
+                try:
+                    save_spec_page(data_dir, spec, phase_id, driver)
+                    collected_flag = True
+                except Exception as e:
+                    print("Failed to load page: %s", e)
+
 
     driver.close()
 
