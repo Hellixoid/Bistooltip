@@ -36418,6 +36418,443 @@
               }
             ]
           }
+        },
+        {
+          "name": "Scourgelord's Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Scourgelord Battleplate",
+              "Scourgelord Gauntlets",
+              "Scourgelord Helmet",
+              "Scourgelord Legplates",
+              "Scourgelord Shoulderplates"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Obliterate and Scourge Strike abilities deal 10% increased damage, and your Heart Strike ability deals 7% increased damage."
+              },
+              {
+                "count": 4,
+                "value": "Whenever all your runes are on cooldown, you gain 3% increased damage done with weapons, spells, and abilities for the next 15 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Scourgelord's Plate",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Scourgelord Pauldrons",
+              "Scourgelord Legguards",
+              "Scourgelord Faceguard",
+              "Scourgelord Handguards",
+              "Scourgelord Chestguard"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Increases the damage done by your Death and Decay ability by 20%."
+              },
+              {
+                "count": 4,
+                "value": "When you activate Blood Tap, you gain 12% damage reduction from all attacks for 10 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lasherweave Regalia",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lasherweave Mantle",
+              "Lasherweave Trousers",
+              "Lasherweave Cover",
+              "Lasherweave Gloves",
+              "Lasherweave Vestment"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "When you gain Clearcasting from your Omen of Clarity talent, you deal 15% additional Nature and Arcane damage for 6 sec."
+              },
+              {
+                "count": 4,
+                "value": "Your critical strikes from Starfire and Wrath cause the target to languish for an additional 7% of your spell's damage over 4 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lasherweave Garb",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lasherweave Robes",
+              "Lasherweave Gauntlets",
+              "Lasherweave Helmet",
+              "Lasherweave Legplates",
+              "Lasherweave Pauldrons"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "The healing granted by your Wild Growth spell reduces 30% less over time."
+              },
+              {
+                "count": 4,
+                "value": "Each time your Rejuvenation spell heals a target, it has a 2% chance to jump to a new target at full duration."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lasherweave Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lasherweave Shoulderpads",
+              "Lasherweave Legguards",
+              "Lasherweave Headguard",
+              "Lasherweave Handgrips",
+              "Lasherweave Raiment"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Swipe (Bear) and Lacerate abilities deal 20% additional damage and the cost of your Rip ability is reduced by 10 energy."
+              },
+              {
+                "count": 4,
+                "value": "Your Enrage ability no longer decreases your armor and instead decreases all damage taken by 12%, and the periodic damage done by your Rake ability can now be a critical strike."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Shadowblade's Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Shadowblade Pauldrons",
+              "Shadowblade Helmet",
+              "Shadowblade Legplates",
+              "Shadowblade Breastplate",
+              "Shadowblade Gauntlets"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Tricks of the Trade ability now grants you 15 energy instead of costing energy."
+              },
+              {
+                "count": 4,
+                "value": "Gives your melee finishing moves a 13% chance to add 3 combo points to your target."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bloodmage's Regalia",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Bloodmage Gloves",
+              "Bloodmage Hood",
+              "Bloodmage Leggings",
+              "Bloodmage Robe",
+              "Bloodmage Shoulderpads"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Hot Streak, Missile Barrage, and Brain Freeze talents also grant you 12% haste for 5 sec when the effect of the talent is consumed."
+              },
+              {
+                "count": 4,
+                "value": "Your Mirror Image ability also causes you to deal 18% additional damage for 30 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lightsworn Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lightsworn Shoulderplates",
+              "Lightsworn Legplates",
+              "Lightsworn Helmet",
+              "Lightsworn Gauntlets",
+              "Lightsworn Battleplate"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your melee attacks have a 40% chance to reset the cooldown on your Divine Storm ability."
+              },
+              {
+                "count": 4,
+                "value": "Your Seals and Judgements deal 10% additional damage."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lightsworn Plate",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lightsworn Shoulderguards",
+              "Lightsworn Legguards",
+              "Lightsworn Faceguard",
+              "Lightsworn Handguards",
+              "Lightsworn Chestguard"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Hammer of the Righteous ability deals 20% increased damage."
+              },
+              {
+                "count": 4,
+                "value": "When you activate Divine Plea, you gain 12% dodge for 10 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lightsworn Garb",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Lightsworn Spaulders",
+              "Lightsworn Greaves",
+              "Lightsworn Headpiece",
+              "Lightsworn Gloves",
+              "Lightsworn Tunic"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "While your Divine Illumination talent is active, your healing spells are 35% stronger."
+              },
+              {
+                "count": 4,
+                "value": "Your Holy Shock spell causes the next Holy Light you cast within 10 sec to have 0.3 sec reduced cast time."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Crimson Acolyte's Regalia",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Crimson Acolyte Pants",
+              "Crimson Acolyte Raiments",
+              "Crimson Acolyte Mantle",
+              "Crimson Acolyte Handwraps",
+              "Crimson Acolyte Cowl"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "The critical strike chance of your Shadow Word: Pain, Devouring Plague, and Vampiric Touch spells is increased by 5%."
+              },
+              {
+                "count": 4,
+                "value": "Reduces the channel duration by 0.5 sec and period by 0.17 sec on your Mind Flay spell."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Crimson Acolyte's Raiment",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Crimson Acolyte Leggings",
+              "Crimson Acolyte Robe",
+              "Crimson Acolyte Shoulderpads",
+              "Crimson Acolyte Gloves",
+              "Crimson Acolyte Hood"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Flash Heal has a 33% chance to cause the target to heal for 33% of the healed amount over 9 sec."
+              },
+              {
+                "count": 4,
+                "value": "Increases the effect of Power Word: Shield by 5% and Circle of Healing by 10%."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Dark Coven's Regalia",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Dark Coven Gloves",
+              "Dark Coven Hood",
+              "Dark Coven Leggings",
+              "Dark Coven Robe",
+              "Dark Coven Shoulderpads"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "The critical strike chance of your Shadowbolt, Incinerate, Soulfire, and Corruption spells is increased by 5%."
+              },
+              {
+                "count": 4,
+                "value": "Each time your Immolate and Unstable Affliction spells deal periodic damage, you have a 15% chance to gain 10% damage done by you and your pet for 10 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ymirjar Lord's Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Ymirjar Lord's Battleplate",
+              "Ymirjar Lord's Gauntlets",
+              "Ymirjar Lord's Helmet",
+              "Ymirjar Lord's Legplates",
+              "Ymirjar Lord's Shoulderplates"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "When your Deep Wounds ability deals damage you have a 3% chance to gain 16% attack power for 10 sec."
+              },
+              {
+                "count": 4,
+                "value": "You have a 20% chance for your Bloodsurge and Sudden Death talents to grant 2 charges of their effect instead of 1, reduce the global cooldown on Execute or Slam by 0.5 sec, and for the duration of the effect to be increased by 100%."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ymirjar Lord's Plate",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Ymirjar Lord's Pauldrons",
+              "Ymirjar Lord's Legguards",
+              "Ymirjar Lord's Greathelm",
+              "Ymirjar Lord's Handguards",
+              "Ymirjar Lord's Breastplate"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Shield Slam and Shockwave abilities deal 20% increased damage."
+              },
+              {
+                "count": 4,
+                "value": "Your Bloodrage ability no longer costs health to use, and now causes you to absorb damage equal to 20% of your maximum health.  Lasts until cancelled."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Frost Witch's Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Frost Witch's Chestguard",
+              "Frost Witch's Grips",
+              "Frost Witch's Faceguard",
+              "Frost Witch's War-Kilt",
+              "Frost Witch's Shoulderguards"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "When you activate your Shamanistic Rage ability you also deal 12% additional damage for 15 sec."
+              },
+              {
+                "count": 4,
+                "value": "Each time the beneficial effect of your Maelstrom Weapon talent reaches 5 charges, you have a 15% chance to gain 20% attack power for 10 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Frost Witch's Regalia",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Frost Witch's Hauberk",
+              "Frost Witch's Gloves",
+              "Frost Witch's Helm",
+              "Frost Witch's Kilt",
+              "Frost Witch's Shoulderpads"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Lightning Bolt and Chain Lightning spells reduce the remaining cooldown on your Elemental Mastery talent by 2 sec."
+              },
+              {
+                "count": 4,
+                "value": "Your Lava Burst spell causes your Flame Shock effect on the target to deal at least two additional periodic damage ticks before expiring."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Frost Witch's Garb",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Frost Witch's Tunic",
+              "Frost Witch's Handguards",
+              "Frost Witch's Headpiece",
+              "Frost Witch's Legguards",
+              "Frost Witch's Spaulders"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Riptide spell grants 20% spell haste for your next spellcast within 10 sec."
+              },
+              {
+                "count": 4,
+                "value": "Your Chain Heal critical strikes cause the target to heal for 25% of the healed amount over 9 sec."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ahn'Kahar Blood Hunter's Battlegear",
+          "set": {
+            "count": 5,
+            "set_pieces": [
+              "Ahn'Kahar Blood Hunter's Handguards",
+              "Ahn'Kahar Blood Hunter's Headpiece",
+              "Ahn'Kahar Blood Hunter's Legguards",
+              "Ahn'Kahar Blood Hunter's Spaulders",
+              "Ahn'Kahar Blood Hunter's Tunic"
+            ],
+            "set_bonus": [
+              {
+                "count": 2,
+                "value": "Your Auto Shots have a 5% chance to cause you and your pet to deal 15% additional damage for 10 sec."
+              },
+              {
+                "count": 4,
+                "value": "When your Serpent Sting and Wyvern Sting abilities deal damage, you have a 5% chance to gain 20% attack power for 10 sec."
+              }
+            ]
+          }
         }
       ],
       "glyphData": [
