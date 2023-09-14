@@ -73,3 +73,14 @@ class ItemListConstructor:
                 item.sort_specs()
                 file.write(str(item))
                 file.write('\n')
+
+    def save_csv(self, source_name):
+
+        with open("../"+source_name + "_items.csv", 'w') as file:
+            for item in self.item_list.values():
+                for spec in item.specs.values():
+                    for slot in spec.slots.values():
+                        if slot.phases[2] is not "-":
+                            file.write(str(item.id) + "," + str(spec.spec_id) + "," + str(slot.name) + "," + str(slot.phases[2]) + "\n")
+
+
