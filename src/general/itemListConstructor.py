@@ -3,6 +3,7 @@ import json
 from src.general import phases
 from src.general.bisItem import BisItem
 from src.general.sortedSpec import SortedSpec, Slot
+from src.general.specs import specs
 
 
 class ItemListConstructor:
@@ -81,6 +82,8 @@ class ItemListConstructor:
                 for spec in item.specs.values():
                     for slot in spec.slots.values():
                         if slot.phases[2] is not "-":
-                            file.write(str(item.id) + "," + str(spec.spec_id) + "," + str(slot.name) + "," + str(slot.phases[2]) + "\n")
-
-
+                            file.write(str(item.id) + ","
+                                       + str(specs.spec_to_class[spec.spec_id]) + ","
+                                       + str(specs.spec_to_spec_name[spec.spec_id]) + ","
+                                       + str(slot.name) + ","
+                                       + str(slot.phases[2]) + "\n")
