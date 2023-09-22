@@ -6,6 +6,182 @@
       "spec": "feral-tank-druid",
       "bisList": [
         {
+          "name": "Geistlord's Punishment Sack (H)",
+          "slot": "head",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Headguard (H)",
+          "slot": "head",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Arcanum of the Stalwart Protector",
+              "rarity": "rare",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Austered Earthsiege Diamond",
+                "image": "earthsiege-diamond"
+              },
+              {
+                "name": "Shifting Dreadstone",
+                "image": "dreadstone"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
+          "name": "Geistlord's Punishment Sack",
+          "slot": "head",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Headguard",
+          "slot": "head",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
           "name": "Runetotem's Headguard of Triumph (H)",
           "slot": "head",
           "phase": [
@@ -59,6 +235,47 @@
           "drop_chance": 1,
           "rarity": "epic",
           "alternative": "Malfurion's Headguard of Triumph (H)"
+        },
+        {
+          "name": "Discarded Bag of Entrails (H)",
+          "slot": "head",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08,
+          "rarity": "epic"
         },
         {
           "name": "Mask of Lethal Intent",
@@ -968,6 +1185,260 @@
           "rarity": "rare"
         },
         {
+          "name": "Bile-Encrusted Medallion (H)",
+          "slot": "neck",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Bile-Encrusted Medallion",
+          "slot": "neck",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Noose of Malachite (H)",
+          "slot": "neck",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sindragosa's Cruel Claw (H)",
+          "slot": "neck",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Legionnaire's Gorget (H)",
+          "slot": "neck",
+          "phase": [
+            "T9",
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trial of the Grand Crusader (25)",
+          "source_type": "Twin Val'kyr",
+          "drop_chance": 0.06,
+          "rarity": "epic",
+          "alternative": "The Arbiter's Muse (H)"
+        },
+        {
+          "name": "Noose of Malachite",
+          "slot": "neck",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Legionnaire's Gorget (H)",
           "slot": "neck",
           "phase": [
@@ -1857,6 +2328,178 @@
           "source_type": "Jedoga Shadowseeker",
           "drop_chance": 0.25,
           "rarity": "rare"
+        },
+        {
+          "name": "Cultist's Bloodsoaked Spaulders (H)",
+          "slot": "shoulder",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Shoulderpads (H)",
+          "slot": "shoulder",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Greater Inscription of the Gladiator",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
+          "name": "Cultist's Bloodsoaked Spaulders",
+          "slot": "shoulder",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Shoulderpads",
+          "slot": "shoulder",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
         },
         {
           "name": "Shoulderpads of the Intruder",
@@ -2760,6 +3403,136 @@
           "rarity": "rare"
         },
         {
+          "name": "Royal Crimson Cloak (H)",
+          "slot": "back",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Cloak - Mighty Armor",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sentinel's Winter Cloak",
+          "slot": "back",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (50)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shadowvault Slayer's Cloak (H)",
+          "slot": "back",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Sylvanas' Cunning (H)",
           "slot": "back",
           "phase": [
@@ -2809,6 +3582,47 @@
           "drop_chance": 0.2,
           "rarity": "epic",
           "alternative": "Vereesa's Dexterity (H)"
+        },
+        {
+          "name": "Royal Crimson Cloak",
+          "slot": "back",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07,
+          "rarity": "epic"
         },
         {
           "name": "Cairne's Endurance (H)",
@@ -3691,6 +4505,226 @@
           "source": "Reputation",
           "source_type": "The Wyrmrest Accord - Honored",
           "rarity": "rare"
+        },
+        {
+          "name": "Ikfirus's Sack of Wonder (H)",
+          "slot": "chest",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Chest - Powerful Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Raiment (H)",
+          "slot": "chest",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
+          "name": "Ikfirus's Sack of Wonder",
+          "slot": "chest",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Shadow Seeker's Tunic",
+          "slot": "chest",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (95)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Raiment",
+          "slot": "chest",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
         },
         {
           "name": "Vest of Calamitous Fate (H)",
@@ -4667,6 +5701,55 @@
           "rarity": "rare"
         },
         {
+          "name": "Toskk's Maximized Wristguards (H)",
+          "slot": "wrist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Bracer - Major Stamina",
+              "rarity": "rare",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
           "name": "Armbands of Dark Determination (H)",
           "slot": "wrist",
           "phase": [
@@ -4708,6 +5791,88 @@
           "drop_chance": 0.22,
           "rarity": "epic",
           "alternative": "Bracers of Dark Determination (H)"
+        },
+        {
+          "name": "Toskk's Maximized Wristguards",
+          "slot": "wrist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Deathbringer Saurfang",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Vambraces of the Frost Wyrm Queen (H)",
+          "slot": "wrist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.08,
+          "rarity": "epic"
         },
         {
           "name": "Solar Bindings",
@@ -5384,6 +6549,218 @@
           "source": "Sunwell Plateau",
           "source_type": "Kalecgos, Eredar Twins",
           "drop_chance": 0.56,
+          "rarity": "epic"
+        },
+        {
+          "name": "Aldriana's Gloves of Secrecy (H)",
+          "slot": "hands",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Handgrips (H)",
+          "slot": "hands",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Glove Reinforcements",
+              "rarity": "uncommon",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
+          "name": "Aldriana's Gloves of Secrecy",
+          "slot": "hands",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Cat Burglar's Grips",
+          "slot": "hands",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Handgrips",
+          "slot": "hands",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
           "rarity": "epic"
         },
         {
@@ -6294,6 +7671,101 @@
           "rarity": "epic"
         },
         {
+          "name": "Astrylian's Sutured Cinch (H)",
+          "slot": "waist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Vengeful Noose",
+          "slot": "waist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)",
+          "rarity": "epic"
+        },
+        {
           "name": "Belt of the Pitiless Killer (H)",
           "slot": "waist",
           "phase": [
@@ -6349,6 +7821,88 @@
           "drop_chance": 0.09,
           "rarity": "epic",
           "alternative": "Belt of the Merciless Killer (H)"
+        },
+        {
+          "name": "Astrylian's Sutured Cinch",
+          "slot": "waist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Soulthief's Braided Belt (H)",
+          "slot": "waist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.08,
+          "rarity": "epic"
         },
         {
           "name": "Belt of the Pitiless Killer",
@@ -7044,6 +8598,263 @@
           "source_type": "Trash Drop",
           "drop_chance": 0.02,
           "rarity": "rare"
+        },
+        {
+          "name": "Gangrenous Leggings (H)",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Legguards (H)",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Frosthide Leg Armor",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
+        },
+        {
+          "name": "Gangrenous Leggings",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06,
+          "rarity": "epic"
+        },
+        {
+          "name": "Plague-Soaked Leather Leggings (H)",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Festergut",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "Bladeborn Leggings",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoP Pattern (450)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Sanctified Lasherweave Legguards",
+          "slot": "legs",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33,
+          "rarity": "epic"
         },
         {
           "name": "Legwraps of the Broken Beast (H)",
@@ -7970,6 +9781,140 @@
           "rarity": "epic"
         },
         {
+          "name": "Frostbitten Fur Boots (H)",
+          "slot": "feet",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Boots - Tuskarr's Vitality",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Footpads of Impending Death",
+          "slot": "feet",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoP Pattern (450)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Frostbitten Fur Boots",
+          "slot": "feet",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Icewalker Treads (H)",
           "slot": "feet",
           "phase": [
@@ -8023,6 +9968,47 @@
           "drop_chance": 0.04,
           "rarity": "epic",
           "alternative": "Treads of the Icewalker (H)"
+        },
+        {
+          "name": "Taldaram's Soft Slippers (H)",
+          "slot": "feet",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.08,
+          "rarity": "epic"
         },
         {
           "name": "Acidmaw Treads (H)",
@@ -8750,6 +10736,257 @@
           "rarity": "epic"
         },
         {
+          "name": "Ashen Band of Endless Courage",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Reputation",
+          "source_type": "The Ashen Verdict - Exalted",
+          "rarity": "epic"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Band of the Bone Colossus (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Seal of Many Mouths (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Frostbrood Sapphire Ring (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Band of the Twin Val'kyr (H)",
           "slot": "finger 1",
           "phase": [
@@ -9630,6 +11867,257 @@
           "rarity": "epic"
         },
         {
+          "name": "Ashen Band of Endless Courage",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Reputation",
+          "source_type": "The Ashen Verdict - Exalted",
+          "rarity": "epic"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Band of the Bone Colossus (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Seal of Many Mouths (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Frostbrood Sapphire Ring (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Band of the Twin Val'kyr (H)",
           "slot": "finger 2",
           "phase": [
@@ -10504,6 +12992,169 @@
           "rarity": "epic"
         },
         {
+          "name": "Sindragosa's Flawless Fang (H)",
+          "slot": "trinket 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Corroded Skeleton Key",
+          "slot": "trinket 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Unidentifiable Organ (H)",
+          "slot": "trinket 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sindragosa's Flawless Fang",
+          "slot": "trinket 1",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
           "name": "Juggernaut's Vitality (H)",
           "slot": "trinket 1",
           "phase": [
@@ -11067,6 +13718,169 @@
           "rarity": "rare"
         },
         {
+          "name": "Sindragosa's Flawless Fang (H)",
+          "slot": "trinket 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
+          "name": "Corroded Skeleton Key",
+          "slot": "trinket 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Unidentifiable Organ (H)",
+          "slot": "trinket 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "Sindragosa's Flawless Fang",
+          "slot": "trinket 2",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2,
+          "rarity": "epic"
+        },
+        {
           "name": "Juggernaut's Vitality (H)",
           "slot": "trinket 2",
           "phase": [
@@ -11628,6 +14442,268 @@
           "source": "Alchemy",
           "source_type": "Trainer (400)",
           "rarity": "rare"
+        },
+        {
+          "name": "Oathbinder, Charge of the Ranger-General (H)",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Weapon - Blood Draining",
+              "rarity": "epic",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              },
+              {
+                "name": "Solid Majestic Zircon",
+                "image": "majestic-zircon"
+              }
+            ]
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11,
+          "rarity": "epic"
+        },
+        {
+          "name": "Bloodfall (H)",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood-Queen Lana'thel",
+          "drop_chance": 0.17,
+          "rarity": "epic"
+        },
+        {
+          "name": "Cryptmaker (H)",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Distant Land (H)",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06,
+          "rarity": "epic"
+        },
+        {
+          "name": "Oathbinder, Charge of the Ranger-General",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11,
+          "rarity": "epic"
+        },
+        {
+          "name": "Tainted Twig of Nordrassil (H)",
+          "slot": "weapon",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11,
+          "rarity": "epic"
         },
         {
           "name": "Twin's Pact (H)",
@@ -12611,6 +15687,46 @@
           "rarity": "rare"
         },
         {
+          "name": "Idol of the Crying Moon",
+          "slot": "relic",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (30)",
+          "rarity": "epic"
+        },
+        {
           "name": "Idol of the Corruptor",
           "slot": "relic",
           "phase": [
@@ -12832,15 +15948,15 @@
                 "Link": "https://eightyupgrades.com/set/fcLMwsjQ3iMnFumzBkrvrg"
               },
               "T10": {
-                "Health": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Defense": 1000,
-                "Resilience": 1000,
-                "Dodge Chance": 1000,
-                "Parry Chance": 1000,
-                "Avoidance": 1000,
-                "Link": "URL"
+                "Health": 48876,
+                "Hit": 7.72,
+                "Expertise": 27,
+                "Defense": 592,
+                "Resilience": 15,
+                "Dodge Chance": 25.43,
+                "Parry Chance": 23.31,
+                "Avoidance": 61.6,
+                "Link": "https://eightyupgrades.com/set/hCqGsEGx4Ra3qet9EfRWJQ"
               }
             },
             "Info": [
@@ -12893,13 +16009,13 @@
                 "Link": "https://eightyupgrades.com/set/fwDgvy1YDGn529pFyDDTUe"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 4886,
+                "Hit": 11.84,
+                "Expertise": 11,
+                "Crit": 32.48,
+                "Haste": 2.81,
+                "Armor Penetration": 1306,
+                "Link": "https://eightyupgrades.com/set/oWT31YN9Krc9K5v3ZvLVmJ"
               }
             },
             "Info": [
@@ -12949,13 +16065,13 @@
                 "Link": "https://eightyupgrades.com/set/ocZmcVG97pnjud9HTB78EH"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 6067,
+                "Hit": 7.96,
+                "Expertise": 5,
+                "Crit": 35.14,
+                "Haste": 10.35,
+                "Armor Penetration": 787,
+                "Link": "https://eightyupgrades.com/set/3fFkft3Vr29Z612MgJ6FQk"
               }
             },
             "Info": [
@@ -13000,15 +16116,16 @@
                 "Link": "https://eightyupgrades.com/set/eRGxtMkzV7oP5BmSEYZNEY"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3793,
+                "Hit": 14.18,
+                "Crit": 42.71,
+                "Haste": 41.56,
+                "Link": "https://eightyupgrades.com/set/SGLFGsR9hfjUVQLBMiVvu"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: The DPS difference between using *{\"wowGear\": \"Ether-Soaked Bracers (H)\"}*, *{\"wowGear\": \"Bracers of Eternal Dreaming (H)\"}*, *{\"wowGear\": \"Death Surgeon's Sleeves (H)\"}*, and *{\"wowGear\": \"The Lady's Brittle Bracers (H)\"}* is negligible. Grab whichever one you can.",
               "P3: Alliance can use *{\"wowGear\": \"Bindings of the Autumn Willow (H)\"}* instead.",
               "PreRaid: *{\"wowGear\": \"Greensight Gogs\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -13056,17 +16173,18 @@
                 "Link": "https://eightyupgrades.com/set/bdURjUPhCdzX1PKQz14XeT"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 10959,
+                "Hit": 7.96,
+                "Expertise": 25,
+                "Crit": 69.57,
+                "Haste": 7.89,
+                "Armor Penetration": 1356,
+                "Link": "https://eightyupgrades.com/set/8KMKQFT2MX9E6CFnCyTBjs"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: *{\"wowGear\": \"Whispering Fanged Skull (H)\"}* is a negligible DPS increase over *{\"wowGear\": \"Death's Choice (H)\"}* in full BiS.",
               "Phase 3: Alliance can use *{\"wowGear\": \"Solar Bindings\"}*, *{\"wowGear\": \"Sunreaver Assassin's Gloves (H)\"}*, and Tier 9 Pants instead.",
               "PreRaid: *{\"wowGear\": \"Weakness Spectralizers\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -13118,15 +16236,15 @@
                 "Link": "https://eightyupgrades.com/set/951F5kFhKYE2oAJigJk39Q"
               },
               "T10": {
-                "Health": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Defense": 1000,
-                "Resilience": 1000,
+                "Health": 57577,
+                "Hit": 6.5,
+                "Expertise": 35,
+                "Defense": 451,
+                "Resilience": 15,
                 "Block Chance": 0,
-                "Dodge Chance": 1000,
-                "Avoidance": 1000,
-                "Link": "URL"
+                "Dodge Chance": 46.48,
+                "Avoidance": 53.34,
+                "Link": "https://eightyupgrades.com/set/goit6YxL14FZnHk58nHzHV"
               }
             },
             "Info": [
@@ -13176,13 +16294,13 @@
                 "Link": "https://eightyupgrades.com/set/fhLaVBnRY9yMnRvAaaVsgn"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Intellect": 1000,
-                "Spirit": 1000,
-                "MP5": 1000,
-                "Link": "URL"
+                "Spell Power": 3711,
+                "Crit": 19.68,
+                "Haste": 36.17,
+                "Intellect": 1545,
+                "Spirit": 1436,
+                "MP5": 48,
+                "Link": "https://eightyupgrades.com/set/64vcpy1DBwCUD3Gedo2Avx"
               }
             },
             "Info": [
@@ -13229,12 +16347,12 @@
                 "Link": "https://eightyupgrades.com/set/4EUthCeA5E6Cbe3fTZke5K"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 5533,
+                "Hit": 8.14,
+                "Crit": 55.82,
+                "Haste": 3.81,
+                "Armor Penetration": 1291,
+                "Link": "https://eightyupgrades.com/set/89LEnCF2NAZUeqcZWfZdXF"
               }
             },
             "Info": [
@@ -13281,12 +16399,12 @@
                 "Link": "https://eightyupgrades.com/set/smHHrhKYBVT7445LDx2MqZ"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 5655,
+                "Hit": 7.95,
+                "Crit": 63.33,
+                "Haste": 1.83,
+                "Armor Penetration": 1359,
+                "Link": "https://eightyupgrades.com/set/bqXnE6gyTfGSKjmSB7GrxV"
               }
             },
             "Info": [
@@ -13334,12 +16452,12 @@
                 "Link": "https://eightyupgrades.com/set/4otuabNDbmhSZAqTdPoL3M"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 7164,
+                "Hit": 8.14,
+                "Crit": 65.23,
+                "Haste": 3.81,
+                "Armor Penetration": 891,
+                "Link": "https://eightyupgrades.com/set/uoTF3r7B8CogXMKzCfefn1"
               }
             },
             "Info": [
@@ -13385,15 +16503,16 @@
                 "Link": "https://eightyupgrades.com/set/sB2edsZyJt71wXNZYcg8o6"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3805,
+                "Hit": 14.27,
+                "Crit": 35.3,
+                "Haste": 44.61,
+                "Link": "https://eightyupgrades.com/set/joVDoqcZc557sxCFFr82oA"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: The difference between *{\"wowGear\": \"Sundial of Eternal Dusk (H)\"}* and *{\"wowGear\": \"Shadow Silk Spindle (H)\"}*, *{\"wowGear\": \"Greatcloak of the Turned Champion (H)\"}* and *{\"wowGear\": \"Frostbinder's Shredded Cape (H)\"}*, and *{\"wowGear\": \"Memory of Malygos (H)\"}* and *{\"wowGear\": \"Ring of Rapid Ascent (H)\"}* are negligible while being much less contested.",
               "PreRaid: *{\"wowGear\": \"Visage Liquification Goggles\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
             "Sources": [
@@ -13432,11 +16551,11 @@
                 "Link": "https://eightyupgrades.com/set/vkta7yMstbi3oXxsCkezjG"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3362,
+                "Hit": 14.83,
+                "Crit": 44.66,
+                "Haste": 29.46,
+                "Link": "https://eightyupgrades.com/set/f5m6gzdrZt5PggfSswVj2F"
               }
             },
             "Info": [
@@ -13480,11 +16599,11 @@
                 "Link": "https://eightyupgrades.com/set/fUKLHNzp3HNX3KpPvgva7R"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3357,
+                "Hit": 14.09,
+                "Crit": 44.09,
+                "Haste": 33.18,
+                "Link": "https://eightyupgrades.com/set/d3UhyLy9YqnFTU9c6NHsop"
               }
             },
             "Info": [
@@ -13527,11 +16646,11 @@
                 "Link": "https://eightyupgrades.com/set/jWA1hoEKBEmfTK8GAjjx4L"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3357,
+                "Hit": 14.09,
+                "Crit": 39.74,
+                "Haste": 35.01,
+                "Link": "https://eightyupgrades.com/set/rYhfTGdPqLZWWpmzvJ7S7e"
               }
             },
             "Info": [
@@ -13580,12 +16699,12 @@
                 "Link": "https://eightyupgrades.com/set/davseHPpg6wcub5vRhMve"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Intellect": 1000,
-                "MP5": 1000,
-                "Link": "URL"
+                "Spell Power": 3240,
+                "Crit": 44.73,
+                "Haste": 33.46,
+                "Intellect": 2224,
+                "MP5": 37,
+                "Link": "https://eightyupgrades.com/set/jrr2LaxtmLkKJ4WKF4VxWH"
               }
             },
             "Info": [
@@ -13652,16 +16771,16 @@
                 "Link": "https://eightyupgrades.com/set/kR5z54ntQqP8GXQQuKPrKA"
               },
               "T10": {
-                "Health": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Defense": 1000,
-                "Resilience": 1000,
-                "Block Chance": 0,
-                "Dodge Chance": 1000,
-                "Parry Chance": 1000,
-                "Avoidance": 1000,
-                "Link": "URL"
+                "Health": 48424,
+                "Hit": 8.08,
+                "Expertise": 26,
+                "Defense": 581,
+                "Resilience": 15,
+                "Block Chance": 12.24,
+                "Dodge Chance": 30.62,
+                "Parry Chance": 22.51,
+                "Avoidance": 75.51,
+                "Link": "https://eightyupgrades.com/set/9H3LyXvoEorDcj2vSNYicz"
               }
             },
             "Info": [
@@ -13713,17 +16832,18 @@
                 "Link": "https://eightyupgrades.com/set/siSLzeyTVmPRicWbnJmSdr"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 5784,
+                "Hit": 8.05,
+                "Expertise": 12,
+                "Crit": 51.75,
+                "Haste": 17.29,
+                "Armor Penetration": 23.57,
+                "Link": "https://eightyupgrades.com/set/jbfKWMvtfWkbbYrhUyDGEq"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: The difference between using *{\"wowGear\": \"Sindragosa's Cruel Claw (H)\"}*, *{\"wowGear\": \"Toskk's Maximized Wristguards (H)\"}*, *{\"wowGear\": \"Frostbrood Sapphire Ring (H)\"}*, and *{\"wowGear\": \"Might of Blight (H)\"}* as your non-hit offpiece is negligible. Grab whichever one you can.",
               "P3: You replace *{\"consume\": \"Glyph of Seal of Vengeance\"}* with *{\"consume\": \"Glyph of Exorcism\"}* this phase.",
               "P3: You can run *{\"wowGear\": \"Dual-blade Butcher (H)\"}* + *{\"wowGear\": \"Cuirass of Cruel Intent (H)\"}* instead for nearly identical results.",
               "PreRaid: For *{\"wowBoss\": \"Humans\"}* and *{\"wowBoss\": \"Dwarves\"}*, replace *{\"wowGear\": \"Colossal Skull-Clad Cleaver\"}* and *{\"wowGear\": \"Sphere of Red Dragon's Blood\"}* with *{\"wowGear\": \"Titansteel Destroyer\"}* and *{\"wowGear\": \"Mirror of Truth\"}*."
@@ -13775,17 +16895,18 @@
                 "Link": "https://eightyupgrades.com/set/vRThTrjkjjPT2CcRBiF6vG"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Intellect": 1000,
-                "Spirit": 1000,
-                "MP5": 1000,
-                "Link": "URL"
+                "Spell Power": 3713,
+                "Crit": 36.2,
+                "Haste": 13.17,
+                "Intellect": 1864,
+                "Spirit": 1073,
+                "MP5": 153,
+                "Link": "https://eightyupgrades.com/set/5LdPxkEWsPrKaVdCSpWjk4"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"San'layn Ritualist Gloves (H)\"}* and *{\"wowGear\": \"Sanctified Crimson Acolyte Leggings (H)\"}* for nearly identical results.",
               "T8: We opt for *{\"wowGear\": \"Constellus\"}* over *{\"wowGear\": \"Val'anyr, Hammer of Ancient Kings\"}* since the legendary is better used by other healers.",
               "PreRaid: *{\"wowGear\": \"Visage Liquification Goggles\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -13832,13 +16953,13 @@
                 "Link": "https://eightyupgrades.com/set/uNDqZ9ZHMZdwgt1ZK6joBL"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Intellect": 1000,
-                "Spirit": 1000,
-                "MP5": 1000,
-                "Link": "URL"
+                "Spell Power": 3813,
+                "Crit": 22.75,
+                "Haste": 26.78,
+                "Intellect": 1661,
+                "Spirit": 1230,
+                "MP5": 32,
+                "Link": "https://eightyupgrades.com/set/qwRDj4aExAgdqfNAq5BkUk"
               }
             },
             "Info": [
@@ -13880,11 +17001,11 @@
                 "Link": "https://eightyupgrades.com/set/qGKPv37qboFJhRYeVQKEDD"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3402,
+                "Hit": 14.02,
+                "Crit": 39.03,
+                "Haste": 42.3,
+                "Link": "https://eightyupgrades.com/set/syBxMbyKa24L7Fgs8iMK1Q"
               }
             },
             "Info": [
@@ -13939,13 +17060,13 @@
                 "Link": "https://eightyupgrades.com/set/cBeKJwSbp8urUybXC28Sgm"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 5464,
+                "Hit": 17.26,
+                "Expertise": 25,
+                "Crit": 53.84,
+                "Haste": 12.84,
+                "Armor Penetration": 634,
+                "Link": "https://eightyupgrades.com/set/34SbU4vzip6SY8239d954E"
               }
             },
             "Info": [
@@ -13997,12 +17118,12 @@
                 "Link": "https://eightyupgrades.com/set/urVeQtY5fg1p3e8VK2Xo7c"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
+                "Attack Power": 4903,
+                "Hit": 15.77,
+                "Expertise": 22,
+                "Crit": 53.56,
+                "Haste": 15.55,
+                "Armor Penetration": 1289,
                 "Link": "URL"
               }
             },
@@ -14050,11 +17171,11 @@
                 "Link": "https://eightyupgrades.com/set/rSxZFsSoJmci5vdWc7tuzv"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3351,
+                "Hit": 14.4,
+                "Crit": 48.98,
+                "Haste": 35.68,
+                "Link": "https://eightyupgrades.com/set/e5sPXLqpgj8fhvNPeWA8WT"
               }
             },
             "Info": [
@@ -14110,14 +17231,14 @@
                 "Link": "https://eightyupgrades.com/set/sHewvbw55w7HdWjkQdhoek"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Spell Power": 2409,
+                "Attack Power": 5051,
+                "Hit": 20.52,
+                "Expertise": 26,
+                "Crit": 50.45,
+                "Haste": 40.72,
+                "Armor Penetration": 0,
+                "Link": "https://eightyupgrades.com/set/dQbUbH3hYjYkj7F4WWCzRv"
               }
             },
             "Info": [
@@ -14166,12 +17287,12 @@
                 "Link": "https://eightyupgrades.com/set/vheBTt5aBoXokEZ9nmTDXf"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Intellect": 1000,
-                "MP5": 1000,
-                "Link": "URL"
+                "Spell Power": 3151,
+                "Crit": 40.34,
+                "Haste": 41.35,
+                "Intellect": 1678,
+                "MP5": 137,
+                "Link": "https://eightyupgrades.com/set/kLNztvLeDn4vY3GXZn9i9r"
               }
             },
             "Info": [
@@ -14216,15 +17337,16 @@
                 "Link": "https://eightyupgrades.com/set/e5MWeCUvMsDZJVGw1TuoyT"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3390,
+                "Hit": 14.02,
+                "Crit": 37.87,
+                "Haste": 38.61,
+                "Link": "https://eightyupgrades.com/set/iEXrdgtbEWNBDYn2WDEgZA"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"Amulet of the Silent Eulogy (H)\"}* and *{\"wowGear\": \"Death Surgeon's Sleeves (H)\"}* for nearly identical results. Can use *{\"wowGear\": \"Memory of Malygos (H)\"}* instead of *{\"wowGear\": \"Ring of Rapid Ascent (H)\"}* for nearly identical results.",
               "PreRaid: Tier Chest and Gloves are slightly behind the *{\"wowBoss\": \"Spellweave\"}* pieces, but they might be easier to get and put you closer to 4pc.",
               "PreRaid: *{\"wowGear\": \"Visage Liquification Goggles\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -14264,11 +17386,11 @@
                 "Link": "https://eightyupgrades.com/set/9YcsbjG3SVZR8hvPaDssR4"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3395,
+                "Hit": 14.07,
+                "Crit": 41.72,
+                "Haste": 29.28,
+                "Link": "https://eightyupgrades.com/set/bqC2Wco9xazy8H8MwemBAR"
               }
             },
             "Info": [
@@ -14313,11 +17435,11 @@
                 "Link": "https://eightyupgrades.com/set/brjtMTjV3rnRgajRsmVwnq"
               },
               "T10": {
-                "Spell Power": 1000,
-                "Hit": 1000,
-                "Crit": 1000,
-                "Haste": 0,
-                "Link": "URL"
+                "Spell Power": 3393,
+                "Hit": 14.22,
+                "Crit": 40.21,
+                "Haste": 37.15,
+                "Link": "https://eightyupgrades.com/set/etmhpkujAEEekZuGbA4YzE"
               }
             },
             "Info": [
@@ -14370,17 +17492,18 @@
                 "Link": "https://eightyupgrades.com/set/iB2W799NbEGsfFmoyFSbUq"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 4933,
+                "Hit": 7.96,
+                "Expertise": 4,
+                "Crit": 58.19,
+                "Haste": 11.83,
+                "Armor Penetration": 1269,
+                "Link": "https://eightyupgrades.com/set/wZgrbxfWyjyTNmdW2zyVuN"
               }
             },
             "Info": [
-              "Every Phase: Always use your profession specific bonuses instead of the listed enchants."
+              "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"Polar Bear Claw Bracers (H)\"}*, *{\"wowGear\": \"Astrylian's Sutured Cinch (H)\"}*, and *{\"wowGear\": \"Blood-Soaked Saronite Stompers (H)\"}* for nearly identical results."
             ],
             "Sources": [
               "<a href='https://wowsims.github.io/wotlk/warrior/' target='_blank'>Warrior WOTLK Simulator</a>",
@@ -14427,17 +17550,18 @@
                 "Link": "https://eightyupgrades.com/set/cg9kK5iA31wndxfZvvJTTu"
               },
               "T10": {
-                "Attack Power": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Crit": 1000,
-                "Haste": 1000,
-                "Armor Penetration": 1000,
-                "Link": "URL"
+                "Attack Power": 5986,
+                "Hit": 8.15,
+                "Expertise": 26,
+                "Crit": 54.69,
+                "Haste": 4.09,
+                "Armor Penetration": 1391,
+                "Link": "https://eightyupgrades.com/set/5azuMiPrAr9J7hug1PuU1H"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"Polar Bear Claw Bracers (H)\"}* and *{\"wowGear\": \"Astrylian's Sutured Cinch (H)\"}* for nearly identical results.",
               "P3: Alliance can use *{\"wowGear\": \"Bracers of the Silent Massacre (H)\"}* and *{\"wowGear\": \"Greaves of the Saronite Citadel (H)\"}* instead."
             ],
             "Sources": [
@@ -14500,16 +17624,16 @@
                 "Link": "https://eightyupgrades.com/set/hQhavWRTH6uaTsS25LzLCU"
               },
               "T10": {
-                "Health": 1000,
-                "Hit": 1000,
-                "Expertise": 1000,
-                "Defense": 1000,
-                "Resilience": 1000,
-                "Block Chance": 0,
-                "Dodge Chance": 1000,
-                "Parry Chance": 1000,
-                "Avoidance": 1000,
-                "Link": "URL"
+                "Health": 50401,
+                "Hit": 8.02,
+                "Expertise": 29,
+                "Defense": 593,
+                "Resilience": 15,
+                "Block Chance": 19.49,
+                "Dodge Chance": 31.02,
+                "Parry Chance": 23.26,
+                "Avoidance": 84.14,
+                "Link": "https://eightyupgrades.com/set/9wvH3CCygT1VDkDkprRETP"
               }
             },
             "Info": [
@@ -16225,7 +19349,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "25 Critical Strike Rating and 1% Spell Reflect",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16235,7 +19361,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "32 Stamina and Reduce Spell Damage Taken by 2%",
           "requirements": [
-            "Requires at least 2 blue gems, Requires at least 1 red gem"
+            "Requires at least 2 blue gems",
+            "Requires at least 1 red gem"
           ]
         },
         {
@@ -16255,7 +19382,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Critical Strike Rating and Reduces Snare/Root Duration by 10%",
           "requirements": [
-            "Requires at least 2 red gems, Requires at least 1 yellow gem"
+            "Requires at least 2 red gems",
+            "Requires at least 1 yellow gem"
           ]
         },
         {
@@ -16265,7 +19393,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "25 Spell Power and Silence Duration Reduced by 10%",
           "requirements": [
-            "Requires at least 2 yellow gems, Requires at least 1 blue gem"
+            "Requires at least 2 yellow gems",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16275,7 +19404,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Critical Strike Rating and Fear Duration Reduced by 10%",
           "requirements": [
-            "Requires at least 2 red gems, Requires at least 1 blue gem"
+            "Requires at least 2 red gems",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16295,7 +19425,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "42 Attack Power and Minor Run Speed Increase",
           "requirements": [
-            "Requires at least 2 yellow gems, Requires at least 1 red gem"
+            "Requires at least 2 yellow gems",
+            "Requires at least 1 red gem"
           ]
         },
         {
@@ -16305,7 +19436,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "Chance to Increase Melee/Ranged Attack Speed",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16315,7 +19448,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "25 Spell Power and Minor Run Speed Increase",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16325,7 +19460,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "32 Stamina and 2% Increased Armor Value from Items",
           "requirements": [
-            "Requires at least 2 blue gems, Requires at least 1 red gem"
+            "Requires at least 2 blue gems",
+            "Requires at least 1 red gem"
           ]
         },
         {
@@ -16335,7 +19471,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Critical Strike Rating and +2% Mana",
           "requirements": [
-            "Requires at least 2 red gems, Requires at least 1 yellow gem"
+            "Requires at least 2 red gems",
+            "Requires at least 1 yellow gem"
           ]
         },
         {
@@ -16345,7 +19482,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "25 Spell Power and 2% Reduced Threat",
           "requirements": [
-            "Requires at least 2 red gems, Requires at least 1 blue gem"
+            "Requires at least 2 red gems",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16355,7 +19493,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Defense Rating and +5% Shield Block Value",
           "requirements": [
-            "Requires at least 2 red gems, Requires at least 1 blue gem"
+            "Requires at least 2 red gems",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16365,7 +19504,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Intellect and Chance to restore mana on spellcast",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16375,7 +19516,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "42 Attack Power and Sometimes Heal on Your Crits",
           "requirements": [
-            "Requires at least 2 blue gems, Requires at least 1 red gem"
+            "Requires at least 2 blue gems",
+            "Requires at least 1 red gem"
           ]
         },
         {
@@ -16385,7 +19527,8 @@
           "description": "Only fits in a meta gem slot",
           "value": "42 Attack Power and Stun Duration Reduced by 10%",
           "requirements": [
-            "Requires at least 2 yellow gems, Requires at least 1 blue gem"
+            "Requires at least 2 yellow gems",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16405,7 +19548,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "21 Agility and 3% Increased Critical Damage",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -16415,7 +19560,9 @@
           "description": "Only fits in a meta gem slot",
           "value": "25 Spell Power and Stun Duration Reduced by 10%",
           "requirements": [
-            "Requires at least 1 red gem, Requires at least 1 yellow gem, Requires at least 1 blue gem"
+            "Requires at least 1 red gem",
+            "Requires at least 1 yellow gem",
+            "Requires at least 1 blue gem"
           ]
         },
         {
@@ -17187,6 +20334,34 @@
           "type": "dreadstone",
           "description": "Matches a Red or Blue Socket.",
           "value": "10 Agility and +15 Stamina"
+        },
+        {
+          "name": "Potent Ametrine",
+          "rarity": "epic",
+          "type": "ametrine",
+          "description": "Matches a Red or Yellow Socket.",
+          "value": "12 Spell Power and +10 Critical Strike Rating"
+        },
+        {
+          "name": "Sovereign Dreadstone",
+          "rarity": "epic",
+          "type": "dreadstone",
+          "description": "Matches a Red or Blue Socket.",
+          "value": "10 Strength and +15 Stamina"
+        },
+        {
+          "name": "Rigid King's Amber",
+          "rarity": "epic",
+          "type": "kings-amber",
+          "description": "Matches a Yellow Socket.",
+          "value": "20 Hit Rating"
+        },
+        {
+          "name": "Accurate Ametrine",
+          "rarity": "epic",
+          "type": "ametrine",
+          "description": "Matches a Red or Yellow Socket.",
+          "value": "10 Expertise Rating and +10 Hit Rating"
         }
       ],
       "abilitiesData": [
@@ -21903,6 +25078,162 @@
       ],
       "gearData": [
         {
+          "name": "Geistlord's Punishment Sack (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 564
+          },
+          "primary_stats": {
+            "agility": 159,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 244,
+            "crit": 122,
+            "hit": 98
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Headguard (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 564
+          },
+          "primary_stats": {
+            "agility": 183,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 196,
+            "crit": 114,
+            "armor_pen": 106
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
+          "name": "Geistlord's Punishment Sack",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 540
+          },
+          "primary_stats": {
+            "agility": 138,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 216,
+            "crit": 108,
+            "hit": 84
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Headguard",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 540
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 168,
+            "crit": 100,
+            "armor_pen": 92
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
           "name": "Runetotem's Headguard of Triumph (H)",
           "alternative": "Malfurion's Headguard of Triumph (H)",
           "ilvl": 258,
@@ -21943,6 +25274,43 @@
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Tribute Run (1+)",
           "drop_chance": 1
+        },
+        {
+          "name": "Discarded Bag of Entrails (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 540
+          },
+          "primary_stats": {
+            "agility": 154,
+            "stamina": 111
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "8 Armor Penetration Rating"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 230,
+            "haste": 92,
+            "armor_pen": 100
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08
         },
         {
           "name": "Mask of Lethal Intent",
@@ -22721,6 +26089,187 @@
           "drop_chance": 0.25
         },
         {
+          "name": "Bile-Encrusted Medallion (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 141
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 54,
+            "dodge": 46
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Bile-Encrusted Medallion",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 90,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 48,
+            "dodge": 40
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Noose of Malachite (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 78,
+            "stamina": 141
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "hit": 52,
+            "defense": 68,
+            "dodge": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sindragosa's Cruel Claw (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 60,
+            "armor_pen": 68
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Legionnaire's Gorget (H)",
+          "alternative": "The Arbiter's Muse (H)",
+          "ilvl": 258,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "special_stats": {
+            "armor": 616
+          },
+          "primary_stats": {
+            "strength": 85,
+            "stamina": 116
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 45,
+            "dodge": 37
+          },
+          "phase": "T9, T10",
+          "source": "Trial of the Grand Crusader (25)",
+          "source_type": "Twin Val'kyr",
+          "drop_chance": 0.06
+        },
+        {
+          "name": "Noose of Malachite",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 69,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "hit": 46,
+            "defense": 60,
+            "dodge": 52
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
           "name": "Legionnaire's Gorget (H)",
           "alternative": "The Arbiter's Muse (H)",
           "ilvl": 258,
@@ -23261,6 +26810,156 @@
           "source": "Ahn'kahet: Old Kingdom (H)",
           "source_type": "Jedoga Shadowseeker",
           "drop_chance": 0.25
+        },
+        {
+          "name": "Cultist's Bloodsoaked Spaulders (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 521
+          },
+          "primary_stats": {
+            "agility": 128,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 165,
+            "haste": 74,
+            "crit": 90
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Shoulderpads (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 521
+          },
+          "primary_stats": {
+            "agility": 136,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 165,
+            "crit": 90,
+            "armor_pen": 82
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
+          "name": "Cultist's Bloodsoaked Spaulders",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 499
+          },
+          "primary_stats": {
+            "agility": 112,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "haste": 64,
+            "crit": 80
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Shoulderpads",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 499
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "crit": 80,
+            "armor_pen": 72
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
         },
         {
           "name": "Shoulderpads of the Intruder",
@@ -23965,6 +27664,100 @@
           "source_type": "BoP Pattern (420)"
         },
         {
+          "name": "Royal Crimson Cloak (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 185
+          },
+          "primary_stats": {
+            "strength": 78,
+            "stamina": 141
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "hit": 44,
+            "defense": 68,
+            "dodge": 68
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sentinel's Winter Cloak",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 737
+          },
+          "primary_stats": {
+            "strength": 90,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 48,
+            "dodge": 48
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (50)"
+        },
+        {
+          "name": "Shadowvault Slayer's Cloak (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 68,
+            "crit": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07
+        },
+        {
           "name": "Sylvanas' Cunning (H)",
           "alternative": "Vereesa's Dexterity (H)",
           "ilvl": 272,
@@ -23997,6 +27790,39 @@
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Tribute Run (50)",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Royal Crimson Cloak",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 177
+          },
+          "primary_stats": {
+            "strength": 69,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "hit": 38,
+            "defense": 60,
+            "dodge": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07
         },
         {
           "name": "Cairne's Endurance (H)",
@@ -24586,6 +28412,196 @@
           "phase": "Pre-Bis, T7, T8, T9, T10",
           "source": "Reputation",
           "source_type": "The Wyrmrest Accord - Honored"
+        },
+        {
+          "name": "Ikfirus's Sack of Wonder (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 694
+          },
+          "primary_stats": {
+            "agility": 167,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 228,
+            "hit": 114,
+            "expertise": 106
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Raiment (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 694
+          },
+          "primary_stats": {
+            "agility": 183,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 212,
+            "crit": 122,
+            "armor_pen": 106
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
+          "name": "Ikfirus's Sack of Wonder",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 665
+          },
+          "primary_stats": {
+            "agility": 146,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 200,
+            "hit": 100,
+            "expertise": 92
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Gunship Battle",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Shadow Seeker's Tunic",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 665
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 184,
+            "crit": 92,
+            "expertise": 92
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (95)"
+        },
+        {
+          "name": "Sanctified Lasherweave Raiment",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 665
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 184,
+            "crit": 108,
+            "armor_pen": 92
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
         },
         {
           "name": "Vest of Calamitous Fate (H)",
@@ -25355,6 +29371,41 @@
           "source_type": "Junk in My Trunk"
         },
         {
+          "name": "Toskk's Maximized Wristguards (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 304
+          },
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "crit": 60,
+            "armor_pen": 68
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang",
+          "drop_chance": 0.2
+        },
+        {
           "name": "Armbands of Dark Determination (H)",
           "alternative": "Bracers of Dark Determination (H)",
           "ilvl": 258,
@@ -25390,6 +29441,76 @@
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Anub'arak",
           "drop_chance": 0.22
+        },
+        {
+          "name": "Toskk's Maximized Wristguards",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 291
+          },
+          "primary_stats": {
+            "agility": 90,
+            "stamina": 90
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 105,
+            "crit": 52,
+            "armor_pen": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Deathbringer Saurfang",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Vambraces of the Frost Wyrm Queen (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 291
+          },
+          "primary_stats": {
+            "agility": 90,
+            "stamina": 79
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 113,
+            "haste": 52,
+            "crit": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.08
         },
         {
           "name": "Solar Bindings",
@@ -25857,6 +29978,191 @@
           "source": "Sunwell Plateau",
           "source_type": "Kalecgos, Eredar Twins",
           "drop_chance": 0.56
+        },
+        {
+          "name": "Aldriana's Gloves of Secrecy (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 434
+          },
+          "primary_stats": {
+            "agility": 128,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 165,
+            "haste": 74,
+            "armor_pen": 90
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Sanctified Lasherweave Handgrips (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 434
+          },
+          "primary_stats": {
+            "agility": 136,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 165,
+            "haste": 82,
+            "armor_pen": 90
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
+          "name": "Aldriana's Gloves of Secrecy",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 416
+          },
+          "primary_stats": {
+            "agility": 112,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "haste": 64,
+            "armor_pen": 80
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Cat Burglar's Grips",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 416
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 129,
+            "crit": 80,
+            "armor_pen": 64
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)"
+        },
+        {
+          "name": "Sanctified Lasherweave Handgrips",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 416
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "haste": 72,
+            "armor_pen": 80
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
         },
         {
           "name": "Runetotem's Handgrips of Triumph (H)",
@@ -26533,6 +30839,77 @@
           "drop_chance": 0.4
         },
         {
+          "name": "Astrylian's Sutured Cinch (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 391
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 181,
+            "crit": 90,
+            "armor_pen": 74
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Vengeful Noose",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 374
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 129,
+            "haste": 64,
+            "armor_pen": 80
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)"
+        },
+        {
           "name": "Belt of the Pitiless Killer (H)",
           "alternative": "Belt of the Merciless Killer (H)",
           "ilvl": 258,
@@ -26568,6 +30945,78 @@
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Twin Val'kyr",
           "drop_chance": 0.09
+        },
+        {
+          "name": "Astrylian's Sutured Cinch",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 374
+          },
+          "primary_stats": {
+            "agility": 104,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 161,
+            "crit": 80,
+            "armor_pen": 64
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Soulthief's Braided Belt (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 374
+          },
+          "primary_stats": {
+            "agility": 104,
+            "stamina": 92
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 183,
+            "crit": 86,
+            "hit": 54
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.08
         },
         {
           "name": "Belt of the Pitiless Killer",
@@ -27067,6 +31516,239 @@
           "source": "Azjol-Nerub (H)",
           "source_type": "Trash Drop",
           "drop_chance": 0.02
+        },
+        {
+          "name": "Gangrenous Leggings (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 608
+          },
+          "primary_stats": {
+            "agility": 167,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 228,
+            "crit": 122,
+            "hit": 98
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06
+        },
+        {
+          "name": "Sanctified Lasherweave Legguards (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 608
+          },
+          "primary_stats": {
+            "agility": 183,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 212,
+            "expertise": 106,
+            "armor_pen": 122
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
+        },
+        {
+          "name": "Gangrenous Leggings",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 582
+          },
+          "primary_stats": {
+            "agility": 146,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "red",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 200,
+            "crit": 108,
+            "hit": 84
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06
+        },
+        {
+          "name": "Plague-Soaked Leather Leggings (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 582
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "red",
+              "red"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Haste Rating"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 168,
+            "haste": 108,
+            "crit": 84
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Festergut",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Bladeborn Leggings",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 582
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "materials": [
+              "Nerubian Chitin (20)",
+              "Arctic Fur (8)",
+              "Eternal Shadow (16)",
+              "Primordial Saronite (8)"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 168,
+            "crit": 92,
+            "armor_pen": 100
+          },
+          "phase": "T10",
+          "source": "Leatherworking",
+          "source_type": "BoP Pattern (450)"
+        },
+        {
+          "name": "Sanctified Lasherweave Legguards",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 582
+          },
+          "primary_stats": {
+            "agility": 162,
+            "stamina": 162
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 90,
+            "min_level": 80,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 184,
+            "expertise": 92,
+            "armor_pen": 108
+          },
+          "set": "Lasherweave Battlegear",
+          "phase": "T10",
+          "source": "Icecrown Citadel (10H & 25N)",
+          "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
+          "drop_chance": 0.33
         },
         {
           "name": "Legwraps of the Broken Beast (H)",
@@ -27780,6 +32462,119 @@
           "drop_chance": 0.22
         },
         {
+          "name": "Frostbitten Fur Boots (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 477
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 136
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 181,
+            "crit": 90,
+            "armor_pen": 74
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Footpads of Impending Death",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 457
+          },
+          "primary_stats": {
+            "agility": 120,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 80,
+            "materials": [
+              "Nerubian Chitin (12)",
+              "Arctic Fur (8)",
+              "Eternal Shadow (10)",
+              "Primordial Saronite (5)"
+            ]
+          },
+          "secondary_stats": {
+            "attack_power": 1129,
+            "crit": 80,
+            "expertise": 64
+          },
+          "phase": "T10",
+          "source": "Leatherworking",
+          "source_type": "BoP Pattern (450)"
+        },
+        {
+          "name": "Frostbitten Fur Boots",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 457
+          },
+          "primary_stats": {
+            "agility": 104,
+            "stamina": 120
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 161,
+            "crit": 80,
+            "armor_pen": 64
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07
+        },
+        {
           "name": "Icewalker Treads (H)",
           "alternative": "Treads of the Icewalker (H)",
           "ilvl": 258,
@@ -27815,6 +32610,42 @@
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Faction Champions",
           "drop_chance": 0.04
+        },
+        {
+          "name": "Taldaram's Soft Slippers (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 457
+          },
+          "primary_stats": {
+            "agility": 104,
+            "stamina": 106
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 172,
+            "crit": 64,
+            "armor_pen": 80
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.08
         },
         {
           "name": "Acidmaw Treads (H)",
@@ -28359,6 +33190,197 @@
           "source_type": "Argent Crusade - Exalted"
         },
         {
+          "name": "Ashen Band of Endless Courage",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 68,
+            "stamina": 130
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80,
+            "requirement": "The Ashen Verdict - Exalted"
+          },
+          "secondary_stats": {
+            "hit": 55,
+            "defense": 59,
+            "dodge": 59,
+            "equip_1": "When struck in combat has a chance of increasing your armor by 2400 for 10 sec."
+          },
+          "phase": "T10",
+          "source": "Reputation",
+          "source_type": "The Ashen Verdict - Exalted"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "special_stats": {
+            "armor": 756
+          },
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 141
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 54,
+            "dodge": 46
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Devium's Eternally Cold Ring",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "special_stats": {
+            "armor": 672
+          },
+          "primary_stats": {
+            "strength": 90,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 48,
+            "dodge": 40
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Band of the Bone Colossus (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 65,
+            "hit": 62
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Seal of Many Mouths (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "crit": 68,
+            "expertise": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Frostbrood Sapphire Ring (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Critical Strike Rating"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "crit": 60,
+            "armor_pen": 120
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
           "name": "Band of the Twin Val'kyr (H)",
           "alternative": "Loop of the Twin Val'kyr (H)",
           "ilvl": 245,
@@ -28931,6 +33953,197 @@
           "source_type": "8500g"
         },
         {
+          "name": "Ashen Band of Endless Courage",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 68,
+            "stamina": 130
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80,
+            "requirement": "The Ashen Verdict - Exalted"
+          },
+          "secondary_stats": {
+            "hit": 55,
+            "defense": 59,
+            "dodge": 59,
+            "equip_1": "When struck in combat has a chance of increasing your armor by 2400 for 10 sec."
+          },
+          "phase": "T10",
+          "source": "Reputation",
+          "source_type": "The Ashen Verdict - Exalted"
+        },
+        {
+          "name": "Devium's Eternally Cold Ring (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "special_stats": {
+            "armor": 756
+          },
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 141
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 54,
+            "dodge": 46
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Devium's Eternally Cold Ring",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "special_stats": {
+            "armor": 672
+          },
+          "primary_stats": {
+            "strength": 90,
+            "stamina": 124
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "6 Stamina"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "defense": 48,
+            "dodge": 40
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Band of the Bone Colossus (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 65,
+            "hit": 62
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Seal of Many Mouths (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "crit": 68,
+            "expertise": 60
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Rotface",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Frostbrood Sapphire Ring (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Critical Strike Rating"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "crit": 60,
+            "armor_pen": 120
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Valithria Dreamwalker",
+          "drop_chance": 0.07
+        },
+        {
           "name": "Band of the Twin Val'kyr (H)",
           "alternative": "Loop of the Twin Val'kyr (H)",
           "ilvl": 245,
@@ -29503,6 +34716,89 @@
           "source_type": "8500g"
         },
         {
+          "name": "Sindragosa's Flawless Fang (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 258
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Increases resistance to Arcane, Fire, Frost, Nature, and Shadow spells by 268 for 10 sec. (1 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Corroded Skeleton Key",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 228
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Absorbs 6400 damage. Lasts 10 sec. (2 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)"
+        },
+        {
+          "name": "Unidentifiable Organ (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "special_stats": {
+            "armor": 2128
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "equip_1": "Each time you are struck by a melee attack, you have a 60% chance to gain 27 stamina for the next 10 sec, stacking up to 10 times."
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Sindragosa's Flawless Fang",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 228
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Increases resistance to Arcane, Fire, Frost, Nature, and Shadow spells by 239 for 10 sec. (1 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2
+        },
+        {
           "name": "Juggernaut's Vitality (H)",
           "alternative": "Satrina's Impeding Scarab (H)",
           "ilvl": 258,
@@ -29809,6 +35105,89 @@
           "source_type": "Trainer (400)"
         },
         {
+          "name": "Sindragosa's Flawless Fang (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 258
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Increases resistance to Arcane, Fire, Frost, Nature, and Shadow spells by 268 for 10 sec. (1 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Corroded Skeleton Key",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 228
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Absorbs 6400 damage. Lasts 10 sec. (2 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (60)"
+        },
+        {
+          "name": "Unidentifiable Organ (H)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "special_stats": {
+            "armor": 2128
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "equip_1": "Each time you are struck by a melee attack, you have a 60% chance to gain 27 stamina for the next 10 sec, stacking up to 10 times."
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "Professor Putricide",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Sindragosa's Flawless Fang",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 228
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "use_1": "Increases resistance to Arcane, Fire, Frost, Nature, and Shadow spells by 239 for 10 sec. (1 Min Cooldown)"
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Sindragosa",
+          "drop_chance": 0.2
+        },
+        {
           "name": "Juggernaut's Vitality (H)",
           "alternative": "Satrina's Impeding Scarab (H)",
           "ilvl": 258,
@@ -30113,6 +35492,239 @@
           "phase": "Pre-Bis, T7, T8, T9, T10",
           "source": "Alchemy",
           "source_type": "Trainer (400)"
+        },
+        {
+          "name": "Oathbinder, Charge of the Ranger-General (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "991 - 1487 Damage",
+            "weapon_speed": 3.6,
+            "weapon_dps": 344.2
+          },
+          "primary_stats": {
+            "agility": 179,
+            "stamina": 195
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 228,
+            "crit": 114,
+            "armor_pen": 122,
+            "lore": "A grotesque skull now rests atop the blade. Etched in blood across the axe head is one word repeated ten times: SUFFER."
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11
+        },
+        {
+          "name": "Bloodfall (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "polearm",
+          "special_stats": {
+            "weapon_damage": "886 - 1329 Damage",
+            "weapon_speed": 3.4,
+            "weapon_dps": 325.7
+          },
+          "primary_stats": {
+            "agility": 175,
+            "stamina": 183
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "16 Attack Power"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 212,
+            "haste": 98,
+            "crit": 122
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood-Queen Lana'thel",
+          "drop_chance": 0.17
+        },
+        {
+          "name": "Cryptmaker (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "mace",
+          "special_stats": {
+            "weapon_damage": "938 - 1407 Damage",
+            "weapon_speed": 3.6,
+            "weapon_dps": 325.7
+          },
+          "primary_stats": {
+            "strength": 185,
+            "stamina": 209
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Strength"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "hit": 99,
+            "armor_pen": 115
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Blood Prince Council",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Distant Land (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "625 - 938 Damage",
+            "weapon_speed": 2.4,
+            "weapon_dps": 325.6
+          },
+          "primary_stats": {
+            "agility": 159,
+            "stamina": 147
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 244,
+            "haste": 122,
+            "crit": 122
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Festergut",
+          "drop_chance": 0.06
+        },
+        {
+          "name": "Oathbinder, Charge of the Ranger-General",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "895 - 1344 Damage",
+            "weapon_speed": 3.6,
+            "weapon_dps": 311
+          },
+          "primary_stats": {
+            "agility": 157,
+            "stamina": 173
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 231,
+            "crit": 99,
+            "armor_pen": 115
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11
+        },
+        {
+          "name": "Tainted Twig of Nordrassil (H)",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "597 - 896 Damage",
+            "weapon_speed": 2.4,
+            "weapon_dps": 311
+          },
+          "primary_stats": {
+            "agility": 149,
+            "stamina": 156
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red",
+              "red"
+            ],
+            "sockets": 3,
+            "socket_bonus": "8 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 244,
+            "crit": 109,
+            "armor_pen": 97
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (10)",
+          "source_type": "The Lich King",
+          "drop_chance": 0.11
         },
         {
           "name": "Twin's Pact (H)",
@@ -30858,6 +36470,23 @@
           "drop_chance": 0.25
         },
         {
+          "name": "Idol of the Crying Moon",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "type": "idol",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "equip_1": "The periodic damage from your Lacerate and Rake abilities grants 44 Agility for 15 sec. Stacks up to 5 times."
+          },
+          "phase": "T10",
+          "source": "Vendor",
+          "source_type": "Emblem of Frost (30)"
+        },
+        {
           "name": "Idol of the Corruptor",
           "ilvl": 232,
           "rarity": "epic",
@@ -31493,6 +37122,36 @@
           "phase": "T8, T9, T10",
           "source": "Ulduar (10)",
           "source_type": "Freya (HM)",
+          "drop_chance": 0.2
+        },
+        {
+          "name": "Sindragosa's Cruel Claw (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 60,
+            "armor_pen": 68
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Sindragosa",
           "drop_chance": 0.2
         }
       ],
