@@ -22,7 +22,7 @@ def collect_specs_data(data_dir):
                     save_spec_page(data_dir, spec, phase_id, driver)
                     collected_flag = True
                 except Exception as e:
-                    print("Failed to load page: %s", e)
+                    print("Failed to load page: %s" % (e))
 
 
     driver.close()
