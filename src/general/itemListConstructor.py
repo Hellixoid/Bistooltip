@@ -1,9 +1,9 @@
 import json
 
-from src.general import phases
+from src.general import phases, cleaner
 from src.general.bisItem import BisItem
 from src.general.sortedSpec import SortedSpec, Slot
-from src.general.specs import specs
+from src.general import specs
 
 
 class ItemListConstructor:
@@ -76,12 +76,13 @@ class ItemListConstructor:
                 file.write('\n')
 
     def save_csv(self, source_name):
-
-        with open("../"+source_name + "_items.csv", 'w') as file:
+        path = "../" + source_name + "_items.csv"
+        cleaner.delete_file(path)
+        with open(path, 'w') as file:
             for item in self.item_list.values():
                 for spec in item.specs.values():
                     for slot in spec.slots.values():
-                        if slot.phases[2] is not "-":
+                        if slot.phases[2] != "-":
                             file.write(str(item.id) + ","
                                        + str(specs.spec_to_class[spec.spec_id]) + ","
                                        + str(specs.spec_to_spec_name[spec.spec_id]) + ","
