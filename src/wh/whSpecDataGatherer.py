@@ -16,6 +16,7 @@ def collect_specs_data(data_dir):
     for spec in whSpecs.specs:
         print("Collecting spec " + spec)
         for phase_id in phases.phases.values():
+            print("Phase: " + str(phase_id))
             collected_flag = False
             while collected_flag is not True:
                 try:

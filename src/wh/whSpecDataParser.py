@@ -157,6 +157,8 @@ class WhSpecDataParser:
         return (groups[1], groups[2])
 
     def parse_slot(self, text):
+        if " options for " in text:
+            return text[:text.index(" options for ")]
         if " for " in text:
             return text[:text.index(" for ")]
         return text

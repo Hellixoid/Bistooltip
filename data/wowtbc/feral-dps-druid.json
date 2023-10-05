@@ -16403,6 +16403,26 @@
               "<a href='https://discord.gg/worms' target='_blank'>Blight Club Discord</a>"
             ]
           },
+          "blood dps": {
+            "All": {
+              "T10": {
+                "Attack Power": 6427,
+                "Hit": 7.9,
+                "Expertise": 25,
+                "Crit": 35.84,
+                "Haste": 6.22,
+                "Armor Penetration": 1210,
+                "Link": "https://eightyupgrades.com/set/rSpUS1CgGwP3KbSnSWyn54"
+              }
+            },
+            "Info": [
+              "Every Phase: Always use your profession specific bonuses instead of the listed enchants."
+            ],
+            "Sources": [
+              "<a href='https://wowsims.github.io/wotlk/deathknight/' target='_blank'>Death Knight WOTLK Simulator</a>",
+              "<a href='https://discord.gg/xr5gR3CZnx' target='_blank'>Woims Discord</a>"
+            ]
+          },
           "frost": {
             "All": {
               "Pre-Bis": {
@@ -16456,7 +16476,8 @@
             ],
             "Sources": [
               "<a href='https://wowsims.github.io/wotlk/deathknight/' target='_blank'>Death Knight WOTLK Simulator</a>",
-              "<a href='https://discord.gg/worms' target='_blank'>Blight Club Discord</a>"
+              "<a href='https://discord.gg/worms' target='_blank'>Blight Club Discord</a>",
+              "<a href='https://discord.gg/ebonhold' target='_blank'>Ebon Hold Discord</a>"
             ]
           },
           "unholy": {
@@ -16513,7 +16534,8 @@
             ],
             "Sources": [
               "<a href='https://wowsims.github.io/wotlk/deathknight/' target='_blank'>Death Knight WOTLK Simulator</a>",
-              "<a href='https://discord.gg/worms' target='_blank'>Blight Club Discord</a>"
+              "<a href='https://discord.gg/worms' target='_blank'>Blight Club Discord</a>",
+              "<a href='https://discord.gg/ebonhold' target='_blank'>Ebon Hold Discord</a>"
             ]
           }
         },
@@ -16842,6 +16864,7 @@
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"Treads of the Wasteland (H)\"}* and/or *{\"wowGear\": \"Band of the Bone Colossus (H)\"}* for nearly identical results.",
               "T7: You can use *{\"wowGear\": \"Frosted Adroit Handguards\"}* and Tier Legs for nearly identical results.",
               "PreRaid: *{\"wowGear\": \"Truesight Ice Blinders\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -16895,6 +16918,7 @@
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: Can use *{\"wowGear\": \"Treads of the Wasteland (H)\"}* and/or *{\"wowGear\": \"Band of the Bone Colossus (H)\"}* for nearly identical results.",
               "T7: You can use *{\"wowGear\": \"Leggings of Failed Escape\"}* and Tier Chest for nearly identical results.",
               "PreRaid: *{\"wowGear\": \"Truesight Ice Blinders\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -35810,7 +35834,7 @@
           "rarity": "epic",
           "bind": "bop",
           "slot": "two-hand",
-          "type": "staff",
+          "type": "polearm",
           "special_stats": {
             "weapon_damage": "991 - 1487 Damage",
             "weapon_speed": 3.6,
@@ -36005,7 +36029,7 @@
           "rarity": "epic",
           "bind": "bop",
           "slot": "two-hand",
-          "type": "staff",
+          "type": "polearm",
           "special_stats": {
             "weapon_damage": "895 - 1344 Damage",
             "weapon_speed": 3.6,
