@@ -3461,7 +3461,7 @@
             },
             "gems": [
               {
-                "name": "Veiled Ametrine",
+                "name": "Reckless Ametrine",
                 "image": "ametrine"
               }
             ]
@@ -4526,7 +4526,7 @@
                 "image": "cardinal-ruby"
               },
               {
-                "name": "Veiled Ametrine",
+                "name": "Reckless Ametrine",
                 "image": "ametrine"
               }
             ]
@@ -5534,53 +5534,20 @@
             }
           },
           "t10": {
-            "bis": false,
+            "bis": true,
             "enchant": {
-              "recipe": false
-            }
+              "name": "Bracer - Superior Spellpower",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ametrine",
+                "image": "ametrine"
+              }
+            ]
           },
           "source": "Icecrown Citadel (H) (25)",
-          "source_type": "Lady Deathwhisper",
-          "drop_chance": 0.07,
-          "rarity": "epic"
-        },
-        {
-          "name": "The Lady's Brittle Bracers (N)",
-          "slot": "wrist",
-          "phase": [
-            "T10"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t7": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t8": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t9": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t10": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Icecrown Citadel (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07,
           "rarity": "epic"
@@ -5624,6 +5591,47 @@
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Rotface",
           "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "The Lady's Brittle Bracers (N)",
+          "slot": "wrist",
+          "phase": [
+            "T10"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t7": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t8": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t9": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07,
           "rarity": "epic"
         },
         {
@@ -5708,18 +5716,10 @@
             }
           },
           "t10": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Bracer - Superior Spellpower",
-              "rarity": "uncommon",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              }
-            ]
+              "recipe": false
+            }
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Valithria Dreamwalker",
@@ -6693,10 +6693,22 @@
             }
           },
           "t10": {
-            "bis": false,
+            "bis": true,
             "enchant": {
-              "recipe": false
-            }
+              "name": "Gloves - Exceptional Spellpower",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Purified Dreadstone",
+                "image": "dreadstone"
+              },
+              {
+                "name": "Runed Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
@@ -6734,18 +6746,10 @@
             }
           },
           "t10": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Gloves - Exceptional Spellpower",
-              "rarity": "common",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              }
-            ]
+              "recipe": false
+            }
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
@@ -8994,26 +8998,10 @@
             }
           },
           "t10": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Brilliant Spellthread",
-              "rarity": "epic",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              },
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              },
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              }
-            ]
+            }
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
@@ -9051,10 +9039,22 @@
             }
           },
           "t10": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Brilliant Spellthread",
+              "rarity": "epic",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Runed Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Reckless Ametrine",
+                "image": "ametrine"
+              }
+            ]
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
@@ -10387,8 +10387,8 @@
             },
             "gems": [
               {
-                "name": "Purified Dreadstone",
-                "image": "dreadstone"
+                "name": "Runed Cardinal Ruby",
+                "image": "cardinal-ruby"
               },
               {
                 "name": "Runed Cardinal Ruby",
@@ -11346,7 +11346,7 @@
             },
             "gems": [
               {
-                "name": "Veiled Ametrine",
+                "name": "Reckless Ametrine",
                 "image": "ametrine"
               }
             ]
@@ -17688,8 +17688,8 @@
                 "Link": "https://eightyupgrades.com/set/fcLMwsjQ3iMnFumzBkrvrg"
               },
               "T10": {
-                "Health": 48876,
-                "Hit": 7.72,
+                "Health": 48686,
+                "Hit": 8.02,
                 "Expertise": 27,
                 "Defense": 592,
                 "Resilience": 15,
@@ -17878,10 +17878,10 @@
                 "Link": "https://eightyupgrades.com/set/eRGxtMkzV7oP5BmSEYZNEY"
               },
               "T10": {
-                "Spell Power": 3793,
-                "Hit": 14.18,
-                "Crit": 42.71,
-                "Haste": 41.56,
+                "Spell Power": 3756,
+                "Hit": 14.79,
+                "Crit": 43.69,
+                "Haste": 42.29,
                 "Link": "https://eightyupgrades.com/set/SGLFGsR9hfjUVQLBMiVvu"
               }
             },
@@ -17998,7 +17998,7 @@
                 "Link": "https://eightyupgrades.com/set/951F5kFhKYE2oAJigJk39Q"
               },
               "T10": {
-                "Health": 57577,
+                "Health": 57407,
                 "Hit": 6.5,
                 "Expertise": 35,
                 "Defense": 451,
@@ -18464,8 +18464,8 @@
               },
               "T10": {
                 "Spell Power": 3240,
-                "Crit": 44.73,
-                "Haste": 33.46,
+                "Crit": 44.53,
+                "Haste": 33.73,
                 "Intellect": 2224,
                 "MP5": 37,
                 "Link": "https://eightyupgrades.com/set/jrr2LaxtmLkKJ4WKF4VxWH"
@@ -18535,7 +18535,7 @@
                 "Link": "https://eightyupgrades.com/set/kR5z54ntQqP8GXQQuKPrKA"
               },
               "T10": {
-                "Health": 48424,
+                "Health": 48284,
                 "Hit": 8.08,
                 "Expertise": 26,
                 "Defense": 581,
@@ -18670,7 +18670,7 @@
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
-              "T10: Can use *{\"wowGear\": \"San'layn Ritualist Gloves (H)\"}* and *{\"wowGear\": \"Sanctified Crimson Acolyte Leggings (H)\"}* for nearly identical results.",
+              "T10: Can use *{\"wowGear\": \"San'layn Ritualist Gloves (H)\"}* and *{\"wowGear\": \"Sanctified Crimson Acolyte Leggings (H)\"}* for nearly identical results. The difference between using *{\"wowGear\": \"Mystifying Charm (H)\"}* and *{\"wowGear\": \"Scourgelord's Baton (H)\"}* is negligible.",
               "T8: We opt for *{\"wowGear\": \"Constellus\"}* over *{\"wowGear\": \"Val'anyr, Hammer of Ancient Kings\"}* since the legendary is better used by other healers.",
               "PreRaid: *{\"wowGear\": \"Visage Liquification Goggles\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
             ],
@@ -19199,10 +19199,10 @@
                 "Link": "https://eightyupgrades.com/set/brjtMTjV3rnRgajRsmVwnq"
               },
               "T10": {
-                "Spell Power": 3393,
-                "Hit": 14.22,
-                "Crit": 40.21,
-                "Haste": 37.15,
+                "Spell Power": 3372,
+                "Hit": 14.07,
+                "Crit": 39.51,
+                "Haste": 38.55,
                 "Link": "https://eightyupgrades.com/set/etmhpkujAEEekZuGbA4YzE"
               }
             },
@@ -19256,12 +19256,12 @@
                 "Link": "https://eightyupgrades.com/set/iB2W799NbEGsfFmoyFSbUq"
               },
               "T10": {
-                "Attack Power": 4933,
+                "Attack Power": 4935,
                 "Hit": 7.96,
-                "Expertise": 4,
-                "Crit": 58.19,
-                "Haste": 11.83,
-                "Armor Penetration": 1269,
+                "Expertise": 10,
+                "Crit": 58.59,
+                "Haste": 10,
+                "Armor Penetration": 1250,
                 "Link": "https://eightyupgrades.com/set/wZgrbxfWyjyTNmdW2zyVuN"
               }
             },
@@ -19388,7 +19388,7 @@
                 "Link": "https://eightyupgrades.com/set/hQhavWRTH6uaTsS25LzLCU"
               },
               "T10": {
-                "Health": 50401,
+                "Health": 50271,
                 "Hit": 8.02,
                 "Expertise": 29,
                 "Defense": 593,
@@ -30957,41 +30957,6 @@
           "drop_chance": 0.07
         },
         {
-          "name": "The Lady's Brittle Bracers (N)",
-          "ilvl": 264,
-          "rarity": "epic",
-          "bind": "boe",
-          "slot": "wrist",
-          "type": "cloth",
-          "special_stats": {
-            "armor": 155
-          },
-          "primary_stats": {
-            "intellect": 69,
-            "stamina": 69
-          },
-          "sockets": {
-            "socket_colors": [
-              "yellow"
-            ],
-            "sockets": 1,
-            "socket_bonus": "5 Spell Power"
-          },
-          "other_stats": {
-            "durability": 35,
-            "min_level": 80
-          },
-          "secondary_stats": {
-            "spell_power": 97,
-            "crit": 65,
-            "hit": 45
-          },
-          "phase": "T10",
-          "source": "Icecrown Citadel (25)",
-          "source_type": "Lady Deathwhisper",
-          "drop_chance": 0.07
-        },
-        {
           "name": "Ether-Soaked Bracers (H)",
           "ilvl": 264,
           "rarity": "epic",
@@ -31025,6 +30990,41 @@
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Rotface",
           "drop_chance": 0.08
+        },
+        {
+          "name": "The Lady's Brittle Bracers (N)",
+          "ilvl": 264,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "cloth",
+          "special_stats": {
+            "armor": 155
+          },
+          "primary_stats": {
+            "intellect": 69,
+            "stamina": 69
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "5 Spell Power"
+          },
+          "other_stats": {
+            "durability": 35,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "spell_power": 97,
+            "crit": 65,
+            "hit": 45
+          },
+          "phase": "T10",
+          "source": "Icecrown Citadel (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07
         },
         {
           "name": "Dark Essence Bindings (H)",
