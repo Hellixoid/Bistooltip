@@ -78,13 +78,14 @@ class ItemListConstructor:
     def save_csv(self, source_name):
         path = "../" + source_name + "_items.csv"
         cleaner.delete_file(path)
+        phase_index = 3
         with open(path, 'w') as file:
             for item in self.item_list.values():
                 for spec in item.specs.values():
                     for slot in spec.slots.values():
-                        if slot.phases[2] != "-":
+                        if slot.phases[phase_index] != "-":
                             file.write(str(item.id) + ","
                                        + str(specs.spec_to_class[spec.spec_id]) + ","
                                        + str(specs.spec_to_spec_name[spec.spec_id]) + ","
                                        + str(slot.name) + ","
-                                       + str(slot.phases[2]) + "\n")
+                                       + str(slot.phases[phase_index]) + "\n")
