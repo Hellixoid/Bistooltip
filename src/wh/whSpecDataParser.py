@@ -36,7 +36,7 @@ class WhSpecDataParser:
     def parse(self, spec_id):
         sorted_spec = SortedSpec(spec_id)
         for phase_id in phases.phases.values():
-            if spec_id == "blood-dps-death-knight" and phase_id < 3:
+            if spec_id == "blood-dps-death-knight" and phase_id < 2:
                 file_path = os.path.join(dirsAndFiles.wh_spec_data_dir, spec_id + "." + str(0))
             else:
                 file_path = os.path.join(dirsAndFiles.wh_spec_data_dir, spec_id + "." + str(phase_id))

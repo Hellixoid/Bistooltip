@@ -212,7 +212,7 @@ spec_to_slots = {
         "off-hand weapon": "Off hand"
     },
     "destruction-warlock": {
-        "off-hand weapon": "Weapon",
+        "off-hand weapon": "Off hand",
         "offhand": "Off hand",
         "1-handed weapons": "Weapon 1H",
         "2-handed weapons": "Weapon 2H",
