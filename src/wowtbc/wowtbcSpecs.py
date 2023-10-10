@@ -2,6 +2,7 @@ specs = [
     "blood-tank-death-knight",
     "frost-death-knight",
     "unholy-death-knight",
+    "blood-dps-death-knight",
     "balance-druid",
     "feral-tank-druid",
     "feral-dps-druid",
