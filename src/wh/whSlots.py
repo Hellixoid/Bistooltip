@@ -64,6 +64,9 @@ spec_to_slots = {
         "off-hand weapon": "Off hand",
         "main-hand weapon": "Weapon",
     },
+    "blood-dps-death-knight": {
+        "2-hander": "Weapon"
+    },
     "balance-druid": {
         "off-hand weapons": "Off hand",
         "main hand weapons": "Weapon 1H",
