@@ -107,6 +107,7 @@ spec_to_slots = {
     },
     "arcane-mage": {
         "off hand weapons": "Off hand",
+        "off-hand weapon": "Off hand",
         "main-hand and two-handed weapons": "Weapon",
         "main-hand weapon": "Weapon",
     },
@@ -117,6 +118,7 @@ spec_to_slots = {
         "off-hand weapon": "Off hand"
     },
     "frost-mage": {
+        "off-hand weapon": "Off hand",
         "off hand weapons": "Off hand",
         "main-hand and two-handed weapons": "Weapon",
         "main-hand weapon": "Weapon",
@@ -136,6 +138,7 @@ spec_to_slots = {
         "weapons and offhands": "Weapon",
     },
     "retribution-paladin": {
+        "main-hand weapon": "Weapon",
         "two hand weapons": "Weapon",
         "two-hand weapon": "Weapon",
         "weapon": "Weapon"
@@ -209,10 +212,11 @@ spec_to_slots = {
         "off-hand weapon": "Off hand"
     },
     "destruction-warlock": {
+        "off-hand weapon": "Weapon",
         "offhand": "Off hand",
         "1-handed weapons": "Weapon 1H",
         "2-handed weapons": "Weapon 2H",
-        "main-hand weapon": "Weapon 2H",
+        "main-hand weapon": "Weapon 1H",
         "weapon": "Weapon 2H",
         "main-hand": "Weapon 1H",
         "off-hand": "Off hand"

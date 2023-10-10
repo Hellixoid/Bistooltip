@@ -43,7 +43,7 @@ class WhSpecDataParser:
             with open(file_path, "r", encoding="utf-8") as html_file:
                 soup = BeautifulSoup(html_file.read(), 'html.parser')
                 doc = soup.find("div", {"id": "guide-body"})
-                if spec_id == "blood-dps-death-knight" and phase_id < 3:
+                if spec_id == "blood-dps-death-knight" and phase_id < 2:
                     self.parse_bdk_dps_data(sorted_spec, doc, phase_id)
                     continue
 
@@ -67,13 +67,13 @@ class WhSpecDataParser:
                     slot_name = bdk_planner_slots[int(slot.attrs["data-slot-id"])]
                     sorted_spec.add_item(slot_name, phases.id_to_phase[phase_id], Item(item_id, 0, None), False)
 
-                    #enchs:
+                    # enchs:
                     enchs = slot.findChildren("div", {"class": "gear-planner-slots-group-slot-enchant"})
                     for ench in enchs:
                         item_links = ench.findChildren("a", href=True)
                         self.find_ench_in_tags(item_links, slot_name, phase_id, sorted_spec)
 
-                    #gems
+                    # gems
                     gems = slot.findChildren("div", {"class": "gear-planner-slots-group-slot-gem"})
 
                     for gem in gems:
@@ -133,13 +133,24 @@ class WhSpecDataParser:
         tr_tags = tbody_tag.findChildren("tr")
         tr_tags_list = self.rs_to_list(tr_tags)
         header_columns = self.parse_header(tr_tags_list[0])
+        is_no_header_table = False
         while not "Slot" in header_columns:
+            if len(header_columns.keys()) == 0 and spec_id in ["demonology-warlock", "destruction-warlock"]:
+                header_columns = {
+                    "Slot": 0,
+                    "Item": 1,
+                    "Gems": 2,
+                    "Enchant": 3,
+                    "Source": 4
+                }
+                is_no_header_table = True
+                break
             tbody_tag = tbody_tag.findNext("tbody")
             tr_tags = tbody_tag.findChildren("tr")
             tr_tags_list = self.rs_to_list(tr_tags)
             header_columns = self.parse_header(tr_tags_list[0])
 
-        for i in range(1, len(tr_tags_list)):
+        for i in range(0 if is_no_header_table else 1, len(tr_tags_list)):
 
             row = tr_tags_list[i]
             columns = self.rs_to_list(row.findChildren("td"))

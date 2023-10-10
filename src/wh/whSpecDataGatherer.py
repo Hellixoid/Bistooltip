@@ -18,7 +18,7 @@ def collect_specs_data(data_dir):
         for phase_id in phases.phases.values():
             print("Phase: " + str(phase_id))
             if spec == "blood-dps-death-knight":
-                if phase_id == 1 or phase_id == 2:
+                if phase_id == 1:
                     continue
             collected_flag = False
             while collected_flag is not True:

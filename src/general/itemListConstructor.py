@@ -78,7 +78,7 @@ class ItemListConstructor:
     def save_csv(self, source_name):
         path = "../" + source_name + "_items.csv"
         cleaner.delete_file(path)
-        phase_index = 3
+        phase_index = 2
         with open(path, 'w') as file:
             for item in self.item_list.values():
                 for spec in item.specs.values():

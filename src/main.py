@@ -54,7 +54,7 @@ def convert_wowtbc_sorted_spec_to_item_list(sorted_specs):
     item_list_constructor.add_horde_ali_mapping(dirsAndFiles.horde_to_ali_file)
     item_list_constructor.add_tokens(dirsAndFiles.tokens_file)
     item_list_constructor.save_data(dirsAndFiles.Bistooltip_wowtbc_items_data_file, dataSources.wowtbc)
-    item_list_constructor.save_csv(dataSources.wowtbc)
+    # item_list_constructor.save_csv(dataSources.wowtbc)
     shutil.copyfile(
         dirsAndFiles.Bistooltip_wowtbc_items_data_file, dirsAndFiles.addon_Bistooltip_wowtbc_items_data_file)
 
