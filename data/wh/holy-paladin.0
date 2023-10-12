@@ -30,7 +30,7 @@
 <hr class="gear-planner-navigation-divider"/></section>
 <div class="gear-planner-slots-controls">
 <div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/paladin/blood-elf/BgFQAACBQLpHAOpCAKG5IL_WAgC4I4NAs9wA6iEAnLsgnLuFYLn0AO0UAJy7IJy7QJy7BiDEigCcu4dgwuMA2VIApKQgpKRApKSIQMLoANboAJy7IJy7iSC54gCuCwCcu4pAuIMA1tcAszognLsLALiuDCCz3gCcuw0AkPcOALPjjwC4uwC7GpAAuNoAbUCRALi3AOztEgCfAQ" style="margin-left:5px;float:right">Link</a>
+<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/paladin/blood-elf/BgFQAACBQLpHAOpCAKG5IL_WAgC4I4NAs9wA6iEAnLsgnLuFYLn0AO0UAJy7IJy7QJy7BiDEigCcu4dgwuMA2VIApKQgpKRApKSIQMLoANboAJy7IJy7iSC54gCuCwCcu4ogvdEA1tcAnLsLALiuDCCz3gCcuw0AkPcOALPjjwC4uwC7GpAAuNoAbUCRALi3AOztEgCfAQ" style="margin-left:5px;float:right">Link</a>
 <a class="btn btn-small fa fa-user gear-planner-button-container-model" href="javascript:" style="margin-left:5px;float:right">Toggle Model</a></div>
 <div class="slider not-editable has-labels" data-track="progress">
 <div class="slider-track">
@@ -806,25 +806,26 @@
 <a aria-label="Icon" href="javascript:"></a></div>
 <a class="gear-planner-slots-group-slot-add-socket fa fa-plus" href="https://www.wowhead.com/wotlk/spell=55628"></a></div></div></div>
 <div class="gear-planner-slots-group" data-group="1">
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="47235" data-quality="4" data-slot-id="10">
+<div class="gear-planner-slots-group-slot" data-add-socket="1" data-gem-count="1" data-item-id="48593" data-quality="4" data-slot-id="10">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_hands" data-env="wrath" data-game="wow" data-tree="wrath">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_79.jpg");'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_65.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-whtticon="false" data-wowhead="&amp;ench=3604&amp;gems=45882:40123" href="https://www.wowhead.com/wotlk/item=47235/gloves-of-the-lifeless-touch"></a></div>
+<a aria-label="Icon" data-whtticon="false" data-wowhead="ench=3604&amp;gems=40123&amp;pcs=48593" href="https://www.wowhead.com/wotlk/item=48593/liadrins-gloves-of-triumph"></a></div>
 <div class="gear-planner-slots-group-slot-name">
-<a class="gear-planner-slots-group-slot-link q4" data-default-name="Hands" data-whtticon="false" data-wowhead="&amp;ench=3604&amp;gems=45882:40123" href="https://www.wowhead.com/wotlk/item=47235/gloves-of-the-lifeless-touch">Gloves of the Lifeless Touch</a>
+<a class="gear-planner-slots-group-slot-link q4" data-default-name="Hands" data-whtticon="false" data-wowhead="ench=3604&amp;gems=40123&amp;pcs=48593" href="https://www.wowhead.com/wotlk/item=48593/liadrins-gloves-of-triumph">Liadrin's Gloves of Triumph</a>
 <div class="iconsmall gear-planner-slots-group-slot-enchant" data-default-texture="inventoryslot_enchant" data-env="wrath" data-game="wow" data-slot-id="10" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/trade_engineering.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/spell=54999/hyperspeed-accelerators"></a></div>
-<div class="iconsmall gear-planner-slots-group-slot-gem iconsmall-socket-blue" data-env="wrath" data-game="wow" data-gem-id="0" data-slot-id="10" data-tree="wrath">
+<div class="iconsmall gear-planner-slots-group-slot-gem iconsmall-socket-yellow" data-env="wrath" data-game="wow" data-gem-id="0" data-slot-id="10" data-tree="wrath">
 <ins style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_gem_38.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=45882/brilliant-stormjewel"></a></div>
-<div class="iconsmall gear-planner-slots-group-slot-gem iconsmall-socket-prismatic" data-env="wrath" data-game="wow" data-gem-id="1" data-slot-id="10" data-tree="wrath">
-<ins style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_gem_38.jpg");'></ins>
+<a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=40123/brilliant-kings-amber"></a>
+<var></var></div>
+<div class="iconsmall gear-planner-slots-group-slot-gem" data-env="wrath" data-game="wow" data-gem-id="1" data-slot-id="10" data-tree="wrath">
+<ins></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=40123/brilliant-kings-amber"></a></div>
+<a aria-label="Icon" href="javascript:"></a></div>
 <div class="iconsmall gear-planner-slots-group-slot-gem" data-env="wrath" data-game="wow" data-gem-id="2" data-slot-id="10" data-tree="wrath">
 <ins></ins>
 <del></del>
@@ -1097,7 +1098,7 @@
 <div class="gear-planner-stats-group" data-group-name="Defense">
 <div class="gear-planner-stats-group-row" data-stat-name="armor">
 <span class="gear-planner-stats-group-row-title">Armor</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="12866" data-intrinsic="12826" data-raw="13050">13,050</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="14204" data-intrinsic="14164" data-raw="14388">14,388</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="defrtng">
 <span class="gear-planner-stats-group-row-title">Defense</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="0" data-intrinsic="0" data-raw="1967.3992673992675">400</span></div>
@@ -1140,7 +1141,7 @@
 <span class="gear-planner-stats-group-row-value" data-from-items="0" data-intrinsic="0" data-raw="0">0</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="mlecritstrkrtng">
 <span class="gear-planner-stats-group-row-title">Melee Crit<span class="gear-planner-stats-group-row-title-inaccurate fa fa-exclamation-triangle"></span></span>
-<span class="gear-planner-stats-group-row-value" data-from-items="702.6290256935418" data-intrinsic="622" data-raw="944.1318199522103">20.57%</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="643.6290256935418" data-intrinsic="563" data-raw="885.1318199522103">19.28%</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="mlehitrtng">
 <span class="gear-planner-stats-group-row-title">Melee Hit</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="50" data-intrinsic="50" data-raw="50">1.52%</span></div>
@@ -1162,7 +1163,7 @@
 <span class="gear-planner-stats-group-row-value" data-from-items="0" data-intrinsic="0" data-raw="0">0</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="rgdcritstrkrtng">
 <span class="gear-planner-stats-group-row-title">Ranged Crit<span class="gear-planner-stats-group-row-title-inaccurate fa fa-exclamation-triangle"></span></span>
-<span class="gear-planner-stats-group-row-value" data-from-items="702.6290256935418" data-intrinsic="622" data-raw="944.1318199522103">20.57%</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="643.6290256935418" data-intrinsic="563" data-raw="885.1318199522103">19.28%</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="rgdhitrtng">
 <span class="gear-planner-stats-group-row-title">Ranged Hit</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="50" data-intrinsic="50" data-raw="50">1.52%</span></div>
@@ -1220,7 +1221,7 @@
 <span class="gear-planner-stats-group-row-value" data-from-items="10870" data-intrinsic="0" data-raw="19054">19,054</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="mana">
 <span class="gear-planner-stats-group-row-title">Mana</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="24045" data-intrinsic="0" data-raw="29674">29,674</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="23745" data-intrinsic="0" data-raw="29374">29,374</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="healthrgn">
 <span class="gear-planner-stats-group-row-title">HP5</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="2" data-intrinsic="0" data-raw="12.9">13</span></div></div></section>
@@ -1238,7 +1239,7 @@
 <span class="gear-planner-stats-group-row-value" data-from-items="1087" data-intrinsic="1037" data-raw="1230">1,230</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="int">
 <span class="gear-planner-stats-group-row-title">Intellect</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="1603" data-intrinsic="1149" data-raw="1704">1,704</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="1583" data-intrinsic="1149" data-raw="1684">1,684</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="spi">
 <span class="gear-planner-stats-group-row-title">Spirit</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="20" data-intrinsic="0" data-raw="123">123</span></div></div></section>
@@ -1247,10 +1248,10 @@
 <div class="gear-planner-stats-group" data-group-name="Spell" data-visible="true">
 <div class="gear-planner-stats-group-row" data-stat-name="spldmg">
 <span class="gear-planner-stats-group-row-title">Spell Damage</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="2209" data-intrinsic="2089" data-raw="2209">2,209</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="2214" data-intrinsic="2089" data-raw="2214">2,214</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="splcritstrkrtng">
 <span class="gear-planner-stats-group-row-title">Spell Crit</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="685" data-intrinsic="622" data-raw="838.119405982906">18.26%</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="626" data-intrinsic="563" data-raw="779.119405982906">16.97%</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="splhitrtng">
 <span class="gear-planner-stats-group-row-title">Spell Hit</span>
 <span class="gear-planner-stats-group-row-value" data-from-items="50" data-intrinsic="50" data-raw="50">1.91%</span></div>
@@ -1262,10 +1263,10 @@
 <span class="gear-planner-stats-group-row-value" data-from-items="0" data-intrinsic="0" data-raw="0">0</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="splheal">
 <span class="gear-planner-stats-group-row-title">Healing</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="2209" data-intrinsic="2089" data-raw="2209">2,209</span></div>
+<span class="gear-planner-stats-group-row-value" data-from-items="2214" data-intrinsic="2089" data-raw="2214">2,214</span></div>
 <div class="gear-planner-stats-group-row" data-stat-name="manargn">
 <span class="gear-planner-stats-group-row-title">MP5</span>
-<span class="gear-planner-stats-group-row-value" data-from-items="70" data-intrinsic="70" data-raw="70">70</span></div></div></section>
+<span class="gear-planner-stats-group-row-value" data-from-items="100" data-intrinsic="100" data-raw="100">100</span></div></div></section>
 <div class="gear-planner-stats-extras">
 <div class="gear-planner-stats-additional" data-currently-visible="false" data-has-rows="1">
 <div class="gear-planner-stats-group-title">
@@ -1478,11 +1479,11 @@
 <tr>
 <td>Hands</td>
 <td>
-<img alt="" class="no-border" loading="lazy" src="https://wow.zamimg.com/uploads/guide/images/27798.png"/> <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47235/gloves-of-the-lifeless-touch">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_gauntlets_79.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Gloves of the Lifeless Touch</span></a>
+<img alt="" class="no-border" loading="lazy" src="https://wow.zamimg.com/uploads/guide/images/27798.png"/> <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=48576/turalyons-gloves-of-triumph">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_gauntlets_79.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Turalyon's Gloves of Triumph</span></a>
 <br/>
-<img alt="" class="no-border" loading="lazy" src="https://wow.zamimg.com/images/icons/horde.png"/> <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47326/handwraps-of-the-lifeless-touch">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_gauntlets_56.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Handwraps of the Lifeless Touch</span></a></td>
+<img alt="" class="no-border" loading="lazy" src="https://wow.zamimg.com/images/icons/horde.png"/> <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=48593/liadrins-gloves-of-triumph">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_gauntlets_65.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Liadrin's Gloves of Triumph</span></a></td>
 <td>
 <div class="iconsmall" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_gem_38.jpg");'></ins>
@@ -1491,9 +1492,12 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=54999/hyperspeed-accelerators">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/trade_engineering.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Hyperspeed Accelerators</span></a></td>
-<td>38 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
+<td>20 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
 <span>
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a></td></tr>
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a> (for the <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47242/trophy-of-the-crusade">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_trophy_argent.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Trophy of the Crusade</span></a>)<br/>+ 45 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
+<span>
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_summonchampion.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Emblem of Triumph</span></span></a></td></tr>
 <tr>
 <td>Waist</td>
 <td>

@@ -64,6 +64,8 @@ class WhSpecDataParser:
                         item_id = int(slot.attrs["data-item-id"])
                     if item_id is None:
                         continue
+                    if str(item_id) in self.horde_to_ali_dict:
+                        item_id = int(self.horde_to_ali_dict[str(item_id)])
                     slot_name = bdk_planner_slots[int(slot.attrs["data-slot-id"])]
                     sorted_spec.add_item(slot_name, phases.id_to_phase[phase_id], Item(item_id, 0, None), False)
 

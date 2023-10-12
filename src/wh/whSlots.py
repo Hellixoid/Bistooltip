@@ -148,6 +148,8 @@ spec_to_slots = {
         "main and two-handed weapons": "Weapon",
         "off-hand weapon": "Off hand",
         "main-hand weapon": "Weapon",
+        "legs - alternative": "Legs",
+        "feet - alternative": "Feet"
     },
     "holy-priest": {
         "off-hands": "Off hand",
@@ -156,7 +158,9 @@ spec_to_slots = {
         "main-hand weapon": "Weapon",
         "trinket - sustain": "Trinket",
         "trinket - throughput": "Trinket",
-        "two-hand weapon": "Weapon"
+        "two-hand weapon": "Weapon",
+        "legs - alternative": "Legs",
+        "feet - alternative": "Feet"
     },
     "shadow-priest": {
         "off hands": "Off hand",
