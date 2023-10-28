@@ -4757,10 +4757,26 @@
             }
           },
           "t10": {
-            "bis": false,
+            "bis": true,
             "enchant": {
-              "recipe": false
-            }
+              "name": "Chest - Powerful Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Purified Dreadstone",
+                "image": "dreadstone"
+              },
+              {
+                "name": "Runed Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Luminous Ametrine",
+                "image": "ametrine"
+              }
+            ]
           },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood Prince Council",
@@ -4839,26 +4855,10 @@
             }
           },
           "t10": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Chest - Powerful Stats",
-              "rarity": "uncommon",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Purified Dreadstone",
-                "image": "dreadstone"
-              },
-              {
-                "name": "Runed Cardinal Ruby",
-                "image": "cardinal-ruby"
-              },
-              {
-                "name": "Luminous Ametrine",
-                "image": "ametrine"
-              }
-            ]
+              "recipe": false
+            }
           },
           "source": "Icecrown Citadel (25)",
           "source_type": "Blood Prince Council",
