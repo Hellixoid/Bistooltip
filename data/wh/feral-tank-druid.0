@@ -39,7 +39,7 @@
 <div class="gear-planner-slots-controls">
 <div class="gear-planner-slots-controls-buttons">
 <a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/druid/night-elf/BgFQFfUDIyEyMiAQNTEgMAMTUR8gNQAB8B8wMDFuZ3YxMW5ndDIxenB2MzFyZzI0MXJmejUxcmcxgUC8UwEI_wChpCCctwIAuAyDILxQAPOwAJy3hWC57wDG3QCctyCct0CctwZgtA8AnLcgnLdAnLeHYMLrAOylAJy3IJy3QJy3iEDC5wDW6ACctyCct4kAyKoA8zCKILxUAPkaAJy3CwC6cwwgsZ8AnLcNALfoDgC_3o8gsbgAujgAnMKQQKWXAPxDAJy3IJy3EgCxxQ" style="margin-left:5px;float:right">Link</a>
-<a class="btn btn-small fa fa-user gear-planner-button-container-model" href="javascript:" style="margin-left:5px;float:right">Toggle Model</a></div>
+<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
 <div class="slider not-editable has-labels" data-track="progress">
 <div class="slider-track">
 <div class="slider-track-handle" style="left: 100%;"></div>
@@ -49,7 +49,7 @@
 <span class="slider-labels-title">Level</span>
 <span class="slider-labels-values">
 <span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
 <span class="slider-labels-values-max">80</span></span></div></div></div>
 <div class="gear-planner-slots" data-currently-visible="true">
 <div class="gear-planner-slots-talents" style="top: 45px;">
@@ -68,7 +68,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/druid">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -1430,15 +1430,15 @@
 <table class="grid max-width">
 <tbody>
 <tr>
-<td data-background="c11" style="width: 10%;">
+<td data-background="c11" style="width: 10%; max-width: 100%;">
 <b>Slot</b></td>
-<td data-background="c11" style="width: 25%;">
+<td data-background="c11" style="width: 25%; max-width: 100%;">
 <b>Item</b></td>
-<td data-background="c11" style="width: 20%;">
+<td data-background="c11" style="width: 20%; max-width: 100%;">
 <b>Gems</b></td>
-<td data-background="c11" style="width: 23%;">
+<td data-background="c11" style="width: 23%; max-width: 100%;">
 <b>Enchant</b></td>
-<td data-background="c11" style="width: 22%;">
+<td data-background="c11" style="width: 22%; max-width: 100%;">
 <b>Source</b></td></tr>
 <tr>
 <td>Helm</td>
@@ -1727,14 +1727,14 @@
 <h2 class="heading-size-2" id="best-bind-on-equip">Best Bind on Equip Items for Feral Druid Tank - Pre-Raid Phase 4</h2>The above gear list is intended to be appropriate for any fresh Feral Druid in Phase 4, including new players trying out WotLK Classic for the first time, so it excludes expensive BoE raid drops that may be inaccessible to players without previously accumulated gold at their disposal. (Note that three BoE Leatherworking items <i>were</i> included because the reagents required to craft them can be farmed in Titan Rune dungeons). However, if your Feral Druid is an alt character and you have gold available from playing your main in Phase 3, then there are a number of BoE upgrades to the above Heroic Plus gear that you can purchase in order to accelerate your bear's gear progression without relying on raid drops. The BoE list below ranks these items in order of biggest to smallest upgrade from the best BoP Heroic Plus item in that slot. <br/>
 <br/>
 <div style="text-align: -webkit-center;">
-<table border="0" cellpadding="3" cellspacing="3" class="grid clean-markup-table-borders" style="width: 75%;">
+<table border="0" cellpadding="3" cellspacing="3" class="grid clean-markup-table-borders" style="width: 75%; max-width: 100%;">
 <tbody>
 <tr>
-<td data-background="c11" style="width: 20%;">
+<td data-background="c11" style="width: 20%; max-width: 100%;">
 <b>Rank</b></td>
-<td data-background="c11" style="width: 40%;">
+<td data-background="c11" style="width: 40%; max-width: 100%;">
 <b>Item</b></td>
-<td data-background="c11" style="width: 40%;">
+<td data-background="c11" style="width: 40%; max-width: 100%;">
 <b>Source</b></td></tr>
 <tr>
 <td>1</td>

@@ -9,7 +9,8 @@
           "name": "Sanctified Scourgelord Helmet (H)",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -29,6 +30,24 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "name": "Arcanum of Torment",
+              "rarity": "rare",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Relentless Earthsiege Diamond",
+                "image": "earthsiege-diamond"
+              },
+              {
+                "name": "Bold Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33,
@@ -38,9 +57,16 @@
           "name": "Landsoul's Horned Greathelm (H)",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -55,9 +81,16 @@
           "name": "Geistlord's Punishment Sack (H)",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -72,9 +105,16 @@
           "name": "Discarded Bag of Entrails (H)",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -89,9 +129,16 @@
           "name": "Sanctified Scourgelord Helmet",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -106,9 +153,16 @@
           "name": "Landsoul's Horned Greathelm (N)",
           "slot": "head",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -123,7 +177,8 @@
           "name": "Lana'thel's Chain of Flagellation (H)",
           "slot": "neck",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -137,16 +192,22 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood-Queen Lana'thel",
           "drop_chance": 0.17,
           "rarity": "epic"
         },
         {
-          "name": "Ahn'kahar Onyx Neckguard (H)",
+          "name": "Penumbra Pendant (H)",
           "slot": "neck",
           "phase": [
-            "T10"
+            "T10.5"
           ],
           "t10": {
             "bis": false,
@@ -154,18 +215,37 @@
               "recipe": false
             }
           },
-          "source": "Icecrown Citadel (H) (25)",
-          "source_type": "Lady Deathwhisper",
-          "drop_chance": 0.07,
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
+              }
+            ]
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
           "rarity": "epic"
         },
         {
           "name": "Sindragosa's Cruel Claw (H)",
           "slot": "neck",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -177,12 +257,43 @@
           "rarity": "epic"
         },
         {
+          "name": "Ahn'kahar Onyx Neckguard (H)",
+          "slot": "neck",
+          "phase": [
+            "T10",
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
           "name": "Lana'thel's Chain of Flagellation",
           "slot": "neck",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -194,14 +305,44 @@
           "rarity": "epic"
         },
         {
+          "name": "Penumbra Pendant",
+          "slot": "neck",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Frigid Strength of Hodir",
           "slot": "neck",
           "phase": [
             "T8",
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -216,9 +357,16 @@
           "name": "Precious's Putrid Collar (H)",
           "slot": "neck",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -233,9 +381,16 @@
           "name": "Scalpel-Sharpening Shoulderguards (H)",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -250,9 +405,16 @@
           "name": "Raging Behemoth's Shoulderplates (H)",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -267,9 +429,24 @@
           "name": "Sanctified Scourgelord Shoulderplates (H)",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Greater Inscription of the Axe",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "t10.5": {
             "bis": true,
             "enchant": {
               "name": "Greater Inscription of the Axe",
@@ -292,9 +469,16 @@
           "name": "Skinned Whelp Shoulders (H)",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -309,9 +493,16 @@
           "name": "Sanctified Scourgelord Shoulderplates",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -326,9 +517,16 @@
           "name": "Cultist's Bloodsoaked Spaulders (H)",
           "slot": "shoulder",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -344,9 +542,16 @@
           "slot": "back",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -362,9 +567,16 @@
           "name": "Might of the Ocean Serpent",
           "slot": "back",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -379,9 +591,16 @@
           "slot": "back",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -397,9 +616,16 @@
           "name": "Shawl of Nerubian Silk (H)",
           "slot": "back",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -414,7 +640,8 @@
           "name": "Winding Sheet (H)",
           "slot": "back",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -430,6 +657,20 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "name": "Cloak - Greater Speed",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
+              }
+            ]
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07,
@@ -439,9 +680,16 @@
           "name": "Shadowvault Slayer's Cloak (H)",
           "slot": "back",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -456,9 +704,16 @@
           "name": "Ikfirus's Sack of Wonder (H)",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -473,9 +728,16 @@
           "name": "Gendarme's Cuirass (H)",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -490,9 +752,28 @@
           "name": "Sanctified Scourgelord Battleplate (H)",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Chest - Powerful Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Nightmare Tear",
+                "image": "enchanted-tear"
+              }
+            ]
+          },
+          "t10.5": {
             "bis": true,
             "enchant": {
               "name": "Chest - Powerful Stats",
@@ -519,9 +800,16 @@
           "name": "Chestguard of the Frigid Noose (H)",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -536,9 +824,16 @@
           "name": "Castle Breaker's Battleplate",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -552,9 +847,16 @@
           "name": "Sanctified Scourgelord Battleplate",
           "slot": "chest",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -569,7 +871,8 @@
           "name": "Polar Bear Claw Bracers (H)",
           "slot": "wrist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -585,6 +888,12 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07,
@@ -594,9 +903,16 @@
           "name": "Toskk's Maximized Wristguards (H)",
           "slot": "wrist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -608,12 +924,73 @@
           "rarity": "epic"
         },
         {
+          "name": "Umbrage Armbands (H)",
+          "slot": "wrist",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "name": "Bracer - Greater Assault",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "Bracers of the Heir (H)",
+          "slot": "wrist",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Scourge Hunter's Vambraces (H)",
           "slot": "wrist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -628,9 +1005,16 @@
           "name": "Polar Bear Claw Bracers (N)",
           "slot": "wrist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -646,9 +1030,16 @@
           "slot": "wrist",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -664,9 +1055,16 @@
           "name": "Toskk's Maximized Wristguards",
           "slot": "wrist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -681,7 +1079,8 @@
           "name": "Aldriana's Gloves of Secrecy (H)",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -701,6 +1100,24 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "name": "Gloves - Crusher",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07,
@@ -710,9 +1127,16 @@
           "name": "Sanctified Scourgelord Gauntlets (H)",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -727,9 +1151,16 @@
           "name": "Festering Fingerguards (H)",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -744,9 +1175,16 @@
           "name": "Throatrender Handguards (H)",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -761,9 +1199,16 @@
           "name": "Aldriana's Gloves of Secrecy",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -778,9 +1223,16 @@
           "name": "Fleshrending Gauntlets (H)",
           "slot": "hands",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -795,9 +1247,16 @@
           "name": "Flesh-Shaper's Gurney Strap (H)",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -812,7 +1271,8 @@
           "name": "Coldwraith Links (H)",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -823,6 +1283,26 @@
               {
                 "name": "Rigid King's Amber",
                 "image": "kings-amber"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
               },
               {
                 "name": "Fractured Cardinal Ruby",
@@ -843,9 +1323,16 @@
           "name": "Astrylian's Sutured Cinch (H)",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -860,9 +1347,16 @@
           "name": "Vengeful Noose",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -876,9 +1370,16 @@
           "name": "Nerub'ar Stalker's Cord (H)",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -893,9 +1394,16 @@
           "name": "Coldwraith Links (N)",
           "slot": "waist",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -910,9 +1418,16 @@
           "name": "Gangrenous Leggings (H)",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -927,9 +1442,16 @@
           "name": "Legplates of Aetheric Strife (H)",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -944,9 +1466,16 @@
           "name": "Leggings of Northern Lights (H)",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -961,9 +1490,16 @@
           "name": "Scourge Reaver's Legplates (H)",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -978,9 +1514,28 @@
           "name": "Sanctified Scourgelord Legplates (H)",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Icescale Leg Armor",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "t10.5": {
             "bis": true,
             "enchant": {
               "name": "Icescale Leg Armor",
@@ -1007,9 +1562,16 @@
           "name": "Legplates of Painful Death",
           "slot": "legs",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1020,10 +1582,69 @@
           "rarity": "epic"
         },
         {
+          "name": "Apocalypse's Advance (H)",
+          "slot": "feet",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "name": "Boots - Greater Assault",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
+          "name": "Apocalypse's Advance",
+          "slot": "feet",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Blood-Soaked Saronite Stompers (H)",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -1043,6 +1664,12 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07,
@@ -1052,9 +1679,16 @@
           "name": "Frostbitten Fur Boots (H)",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1069,9 +1703,16 @@
           "name": "Bone Drake's Enameled Boots (H)",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1083,12 +1724,42 @@
           "rarity": "epic"
         },
         {
+          "name": "Returning Footfalls (H)",
+          "slot": "feet",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Blood-Soaked Saronite Stompers (N)",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1103,9 +1774,16 @@
           "name": "Hellfrozen Bonegrinders",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1119,9 +1797,16 @@
           "name": "Taldaram's Soft Slippers (H)",
           "slot": "feet",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1136,7 +1821,8 @@
           "name": "Ashen Band of Endless Might",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -1150,6 +1836,18 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
+              }
+            ]
+          },
           "source": "Reputation",
           "source_type": "The Ashen Verdict - Exalted",
           "rarity": "epic"
@@ -1158,9 +1856,16 @@
           "name": "Might of Blight (H)",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1175,9 +1880,16 @@
           "name": "Frostbrood Sapphire Ring (H)",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1189,12 +1901,42 @@
           "rarity": "epic"
         },
         {
+          "name": "Signet of Twilight (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Band of the Bone Colossus (H)",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1206,12 +1948,42 @@
           "rarity": "epic"
         },
         {
+          "name": "Zarithrian's Offering (H)",
+          "slot": "finger 1",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Rotface's Rupturing Ring (H)",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1226,9 +1998,16 @@
           "name": "Skeleton Lord's Circle (H)",
           "slot": "finger 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1243,9 +2022,16 @@
           "name": "Ashen Band of Endless Might",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1256,10 +2042,64 @@
           "rarity": "epic"
         },
         {
+          "name": "Band of the Bone Colossus (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10",
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07,
+          "rarity": "epic"
+        },
+        {
+          "name": "Signet of Twilight (H)",
+          "slot": "finger 2",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Etched Ametrine",
+                "image": "ametrine"
+              }
+            ]
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
+          "rarity": "epic"
+        },
+        {
           "name": "Might of Blight (H)",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -1273,6 +2113,12 @@
               }
             ]
           },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06,
@@ -1282,9 +2128,16 @@
           "name": "Frostbrood Sapphire Ring (H)",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1296,10 +2149,10 @@
           "rarity": "epic"
         },
         {
-          "name": "Band of the Bone Colossus (H)",
+          "name": "Zarithrian's Offering (H)",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10.5"
           ],
           "t10": {
             "bis": false,
@@ -1307,18 +2160,31 @@
               "recipe": false
             }
           },
-          "source": "Icecrown Citadel (H) (25)",
-          "source_type": "Lord Marrowgar",
-          "drop_chance": 0.07,
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08,
           "rarity": "epic"
         },
         {
           "name": "Rotface's Rupturing Ring (H)",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1333,9 +2199,16 @@
           "name": "Skeleton Lord's Circle (H)",
           "slot": "finger 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1350,9 +2223,16 @@
           "name": "Deathbringer's Will (H)",
           "slot": "trinket 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": true,
             "enchant": {
               "recipe": false
@@ -1364,12 +2244,42 @@
           "rarity": "epic"
         },
         {
+          "name": "Sharpened Twilight Scale (H)",
+          "slot": "trinket 1",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25,
+          "rarity": "epic"
+        },
+        {
           "name": "Deathbringer's Will",
           "slot": "trinket 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1381,13 +2291,43 @@
           "rarity": "epic"
         },
         {
+          "name": "Sharpened Twilight Scale",
+          "slot": "trinket 1",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25,
+          "rarity": "epic"
+        },
+        {
           "name": "Death's Choice (H)",
           "slot": "trinket 1",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1403,9 +2343,16 @@
           "name": "Whispering Fanged Skull (H)",
           "slot": "trinket 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1421,9 +2368,16 @@
           "slot": "trinket 1",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1439,9 +2393,16 @@
           "name": "Whispering Fanged Skull",
           "slot": "trinket 1",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1456,9 +2417,16 @@
           "name": "Deathbringer's Will (H)",
           "slot": "trinket 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1470,12 +2438,42 @@
           "rarity": "epic"
         },
         {
+          "name": "Sharpened Twilight Scale (H)",
+          "slot": "trinket 2",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25,
+          "rarity": "epic"
+        },
+        {
           "name": "Deathbringer's Will",
           "slot": "trinket 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1487,14 +2485,44 @@
           "rarity": "epic"
         },
         {
+          "name": "Sharpened Twilight Scale",
+          "slot": "trinket 2",
+          "phase": [
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25,
+          "rarity": "epic"
+        },
+        {
           "name": "Death's Choice (H)",
           "slot": "trinket 2",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -1509,9 +2537,16 @@
           "name": "Whispering Fanged Skull (H)",
           "slot": "trinket 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1527,9 +2562,16 @@
           "slot": "trinket 2",
           "phase": [
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1545,9 +2587,16 @@
           "name": "Whispering Fanged Skull",
           "slot": "trinket 2",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1562,9 +2611,32 @@
           "name": "Shadowmourne",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": true,
+            "enchant": {
+              "name": "Rune of the Fallen Crusader",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              },
+              {
+                "name": "Fractured Cardinal Ruby",
+                "image": "cardinal-ruby"
+              }
+            ]
+          },
+          "t10.5": {
             "bis": true,
             "enchant": {
               "name": "Rune of the Fallen Crusader",
@@ -1594,9 +2666,16 @@
           "name": "Oathbinder, Charge of the Ranger-General (H)",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1611,9 +2690,16 @@
           "name": "Glorenzelg, High-Blade of the Silver Hand (H)",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1628,9 +2714,16 @@
           "name": "Cryptmaker (H)",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1645,9 +2738,16 @@
           "name": "Warmace of Menethil (H)",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1662,9 +2762,16 @@
           "name": "Bloodfall (H)",
           "slot": "weapon",
           "phase": [
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1676,11 +2783,11 @@
           "rarity": "epic"
         },
         {
-          "name": "Sigil of Virulence",
+          "name": "Sigil of the Hanged Man",
           "slot": "relic",
           "phase": [
-            "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
             "bis": true,
@@ -1688,18 +2795,8 @@
               "recipe": false
             }
           },
-          "source": "Vendor",
-          "source_type": "Emblem of Triumph (25)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Sigil of the Hanged Man",
-          "slot": "relic",
-          "phase": [
-            "T10"
-          ],
-          "t10": {
-            "bis": false,
+          "t10.5": {
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -1709,15 +2806,46 @@
           "rarity": "epic"
         },
         {
+          "name": "Sigil of Virulence",
+          "slot": "relic",
+          "phase": [
+            "T9",
+            "T10",
+            "T10.5"
+          ],
+          "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Vendor",
+          "source_type": "Emblem of Triumph (25)",
+          "rarity": "epic"
+        },
+        {
           "name": "Sigil of Awareness",
           "slot": "relic",
           "phase": [
             "T7",
             "T8",
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1734,9 +2862,16 @@
           "phase": [
             "T8",
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1755,9 +2890,16 @@
             "T7",
             "T8",
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1775,9 +2917,16 @@
             "T7",
             "T8",
             "T9",
-            "T10"
+            "T10",
+            "T10.5"
           ],
           "t10": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t10.5": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1846,6 +2995,17 @@
                 "Parry Chance": 23.31,
                 "Avoidance": 61.6,
                 "Link": "https://eightyupgrades.com/set/hCqGsEGx4Ra3qet9EfRWJQ"
+              },
+              "T10.5": {
+                "Health": 48866,
+                "Hit": 8.02,
+                "Expertise": 31,
+                "Defense": 596,
+                "Resilience": 15,
+                "Dodge Chance": 25.47,
+                "Parry Chance": 23.18,
+                "Avoidance": 61.6,
+                "Link": "https://eightyupgrades.com/set/syJJTZuKCMoUNgZecTNxEB"
               }
             },
             "Info": [
@@ -1869,6 +3029,15 @@
                 "Haste": 6.22,
                 "Armor Penetration": 1210,
                 "Link": "https://eightyupgrades.com/set/rSpUS1CgGwP3KbSnSWyn54"
+              },
+              "T10.5": {
+                "Attack Power": 6123,
+                "Hit": 7.84,
+                "Expertise": 18,
+                "Crit": 41.41,
+                "Haste": 9.12,
+                "Armor Penetration": 1252,
+                "Link": "https://eightyupgrades.com/set/97kmvp3XSNiDzZkqWJN7Vw"
               }
             },
             "Info": [
@@ -1925,6 +3094,15 @@
                 "Haste": 2.81,
                 "Armor Penetration": 1306,
                 "Link": "https://eightyupgrades.com/set/oWT31YN9Krc9K5v3ZvLVmJ"
+              },
+              "T10.5": {
+                "Attack Power": 4825,
+                "Hit": 11.81,
+                "Expertise": 5,
+                "Crit": 34.19,
+                "Haste": 4.72,
+                "Armor Penetration": 1392,
+                "Link": "https://eightyupgrades.com/set/5pJC3bqtdUqyvk2ureCSmH"
               }
             },
             "Info": [
@@ -1982,6 +3160,15 @@
                 "Haste": 10.35,
                 "Armor Penetration": 787,
                 "Link": "https://eightyupgrades.com/set/3fFkft3Vr29Z612MgJ6FQk"
+              },
+              "T10.5": {
+                "Attack Power": 5861,
+                "Hit": 8.91,
+                "Expertise": 5,
+                "Crit": 35.4,
+                "Haste": 9.95,
+                "Armor Penetration": 962,
+                "Link": "https://eightyupgrades.com/set/w2RwZwK6bdEPn9WzstaKu3"
               }
             },
             "Info": [
@@ -2032,10 +3219,18 @@
                 "Crit": 43.69,
                 "Haste": 42.29,
                 "Link": "https://eightyupgrades.com/set/SGLFGsR9hfjUVQLBMiVvu"
+              },
+              "T10.5": {
+                "Spell Power": 3797,
+                "Hit": 13.95,
+                "Crit": 43.52,
+                "Haste": 43.39,
+                "Link": "https://eightyupgrades.com/set/9qZgd8Q1WwysbdmfWxYhfM"
               }
             },
             "Info": [
               "Every Phase: Always use your profession specific bonuses instead of the listed enchants.",
+              "T10: We suggest *{\"wowGear\": \"Gunship Captain's Mittens (H)\"}* over *{\"wowGear\": \"Plaguebringer's Stained Pants (H)\"}*. The DPS difference is less than 1%.",
               "T10: The DPS difference between using *{\"wowGear\": \"Ether-Soaked Bracers (H)\"}*, *{\"wowGear\": \"Bracers of Eternal Dreaming (H)\"}*, *{\"wowGear\": \"Death Surgeon's Sleeves (H)\"}*, and *{\"wowGear\": \"The Lady's Brittle Bracers (H)\"}* is negligible. Grab whichever one you can.",
               "P3: Alliance can use *{\"wowGear\": \"Bindings of the Autumn Willow (H)\"}* instead.",
               "PreRaid: *{\"wowGear\": \"Greensight Gogs\"}* is your bis helmet if you have *{\"wowBoss\": \"Engineering\"}*."
@@ -2091,6 +3286,15 @@
                 "Haste": 7.89,
                 "Armor Penetration": 1356,
                 "Link": "https://eightyupgrades.com/set/8KMKQFT2MX9E6CFnCyTBjs"
+              },
+              "T10.5": {
+                "Attack Power": 11187,
+                "Hit": 7.81,
+                "Expertise": 25,
+                "Crit": 68.4,
+                "Haste": 8.21,
+                "Armor Penetration": 1392,
+                "Link": "https://eightyupgrades.com/set/rtxD4LrzaLax22aaojbHvT"
               }
             },
             "Info": [
@@ -2156,6 +3360,17 @@
                 "Dodge Chance": 46.48,
                 "Avoidance": 53.34,
                 "Link": "https://eightyupgrades.com/set/goit6YxL14FZnHk58nHzHV"
+              },
+              "T10.5": {
+                "Health": 57197,
+                "Hit": 6.56,
+                "Expertise": 35,
+                "Defense": 439,
+                "Resilience": 15,
+                "Block Chance": 0,
+                "Dodge Chance": 46.95,
+                "Avoidance": 53.4,
+                "Link": "https://eightyupgrades.com/set/azeShfJV6yiysxq3TywiAz"
               }
             },
             "Info": [
@@ -2212,6 +3427,15 @@
                 "Spirit": 1436,
                 "MP5": 48,
                 "Link": "https://eightyupgrades.com/set/64vcpy1DBwCUD3Gedo2Avx"
+              },
+              "T10.5": {
+                "Spell Power": 3711,
+                "Crit": 19.68,
+                "Haste": 36.17,
+                "Intellect": 1545,
+                "Spirit": 1436,
+                "MP5": 48,
+                "Link": "https://eightyupgrades.com/set/qSzfAdC8McE8yVmFEYZW8o"
               }
             },
             "Info": [
@@ -2264,6 +3488,14 @@
                 "Haste": 3.81,
                 "Armor Penetration": 1291,
                 "Link": "https://eightyupgrades.com/set/89LEnCF2NAZUeqcZWfZdXF"
+              },
+              "T10.5": {
+                "Attack Power": 5588,
+                "Hit": 8.14,
+                "Crit": 55.51,
+                "Haste": 4.06,
+                "Armor Penetration": 1389,
+                "Link": "https://eightyupgrades.com/set/7dj9sdUoANKxCfgV5SinM3"
               }
             },
             "Info": [
@@ -2316,6 +3548,14 @@
                 "Haste": 1.83,
                 "Armor Penetration": 1359,
                 "Link": "https://eightyupgrades.com/set/bqXnE6gyTfGSKjmSB7GrxV"
+              },
+              "T10.5": {
+                "Attack Power": 5803,
+                "Hit": 8.12,
+                "Crit": 63.06,
+                "Haste": 4.06,
+                "Armor Penetration": 1397,
+                "Link": "https://eightyupgrades.com/set/2KURtxHDNNzm7BstFrMwmn"
               }
             },
             "Info": [
@@ -2370,6 +3610,14 @@
                 "Haste": 3.81,
                 "Armor Penetration": 891,
                 "Link": "https://eightyupgrades.com/set/uoTF3r7B8CogXMKzCfefn1"
+              },
+              "T10.5": {
+                "Attack Power": 6945,
+                "Hit": 8.12,
+                "Crit": 64.2,
+                "Haste": 1.83,
+                "Armor Penetration": 1203,
+                "Link": "https://eightyupgrades.com/set/2Yvtsjgh6m5dBfU9oCpizC"
               }
             },
             "Info": [
@@ -2421,6 +3669,13 @@
                 "Crit": 35.3,
                 "Haste": 44.61,
                 "Link": "https://eightyupgrades.com/set/joVDoqcZc557sxCFFr82oA"
+              },
+              "T10.5": {
+                "Spell Power": 3677,
+                "Hit": 14.27,
+                "Crit": 35.41,
+                "Haste": 52.54,
+                "Link": "https://eightyupgrades.com/set/mA5voQ3RNZWK7BnBmXpwJm"
               }
             },
             "Info": [
@@ -2469,6 +3724,13 @@
                 "Crit": 44.66,
                 "Haste": 29.46,
                 "Link": "https://eightyupgrades.com/set/f5m6gzdrZt5PggfSswVj2F"
+              },
+              "T10.5": {
+                "Spell Power": 3400,
+                "Hit": 13.99,
+                "Crit": 43.39,
+                "Haste": 32.08,
+                "Link": "https://eightyupgrades.com/set/gK1Uh4ggu1kddWAjKmbxHp"
               }
             },
             "Info": [
@@ -2517,6 +3779,13 @@
                 "Crit": 44.09,
                 "Haste": 33.18,
                 "Link": "https://eightyupgrades.com/set/d3UhyLy9YqnFTU9c6NHsop"
+              },
+              "T10.5": {
+                "Spell Power": 3395,
+                "Hit": 13.64,
+                "Crit": 42.61,
+                "Haste": 35.8,
+                "Link": "https://eightyupgrades.com/set/kx3BQUfEoAs4ot6v1AnzFA"
               }
             },
             "Info": [
@@ -2564,6 +3833,13 @@
                 "Crit": 39.74,
                 "Haste": 35.01,
                 "Link": "https://eightyupgrades.com/set/rYhfTGdPqLZWWpmzvJ7S7e"
+              },
+              "T10.5": {
+                "Spell Power": 3395,
+                "Hit": 13.64,
+                "Crit": 39.56,
+                "Haste": 35.8,
+                "Link": "https://eightyupgrades.com/set/hxz2Qbv4yf2xuRywbRm3oH"
               }
             },
             "Info": [
@@ -2618,6 +3894,14 @@
                 "Intellect": 2224,
                 "MP5": 37,
                 "Link": "https://eightyupgrades.com/set/jrr2LaxtmLkKJ4WKF4VxWH"
+              },
+              "T10.5": {
+                "Spell Power": 3321,
+                "Crit": 43.63,
+                "Haste": 34.61,
+                "Intellect": 2234,
+                "MP5": 73,
+                "Link": "https://eightyupgrades.com/set/gH4LYh38PTqU21uUrDZqF9"
               }
             },
             "Info": [
@@ -2694,6 +3978,18 @@
                 "Parry Chance": 22.51,
                 "Avoidance": 75.51,
                 "Link": "https://eightyupgrades.com/set/9H3LyXvoEorDcj2vSNYicz"
+              },
+              "T10.5": {
+                "Health": 48794,
+                "Hit": 8.08,
+                "Expertise": 24,
+                "Defense": 577,
+                "Resilience": 15,
+                "Block Chance": 12.08,
+                "Dodge Chance": 30.23,
+                "Parry Chance": 23.25,
+                "Avoidance": 75.62,
+                "Link": "https://eightyupgrades.com/set/xaPkfq8EErgg24fESsUxm9"
               }
             },
             "Info": [
@@ -2750,8 +4046,17 @@
                 "Expertise": 12,
                 "Crit": 51.75,
                 "Haste": 17.29,
-                "Armor Penetration": 23.57,
+                "Armor Penetration": 330,
                 "Link": "https://eightyupgrades.com/set/jbfKWMvtfWkbbYrhUyDGEq"
+              },
+              "T10.5": {
+                "Attack Power": 5615,
+                "Hit": 8.6,
+                "Expertise": 12,
+                "Crit": 52.32,
+                "Haste": 20.18,
+                "Armor Penetration": 437,
+                "Link": "https://eightyupgrades.com/set/hnnLvu66zM6HZ1pAsbNQKE"
               }
             },
             "Info": [
@@ -2815,6 +4120,15 @@
                 "Spirit": 1073,
                 "MP5": 153,
                 "Link": "https://eightyupgrades.com/set/5LdPxkEWsPrKaVdCSpWjk4"
+              },
+              "T10.5": {
+                "Spell Power": 3739,
+                "Crit": 36.58,
+                "Haste": 15.39,
+                "Intellect": 1880,
+                "Spirit": 1073,
+                "MP5": 123,
+                "Link": "https://eightyupgrades.com/set/oqfNG98iQYw5fTLaDXRWwc"
               }
             },
             "Info": [
@@ -2873,6 +4187,15 @@
                 "Spirit": 1230,
                 "MP5": 32,
                 "Link": "https://eightyupgrades.com/set/qwRDj4aExAgdqfNAq5BkUk"
+              },
+              "T10.5": {
+                "Spell Power": 3813,
+                "Crit": 22.86,
+                "Haste": 29.16,
+                "Intellect": 1661,
+                "Spirit": 1077,
+                "MP5": 68,
+                "Link": "https://eightyupgrades.com/set/vJJCwqMAroHSe4bhhrr18n"
               }
             },
             "Info": [
@@ -2919,6 +4242,13 @@
                 "Crit": 39.03,
                 "Haste": 42.3,
                 "Link": "https://eightyupgrades.com/set/syBxMbyKa24L7Fgs8iMK1Q"
+              },
+              "T10.5": {
+                "Spell Power": 3434,
+                "Hit": 14.32,
+                "Crit": 33.7,
+                "Haste": 50.48,
+                "Link": "https://eightyupgrades.com/set/u4WXMA2aFPGVAFbRnMG1cu"
               }
             },
             "Info": [
@@ -2980,6 +4310,15 @@
                 "Haste": 12.84,
                 "Armor Penetration": 634,
                 "Link": "https://eightyupgrades.com/set/34SbU4vzip6SY8239d954E"
+              },
+              "T10.5": {
+                "Attack Power": 5436,
+                "Hit": 16.34,
+                "Expertise": 25,
+                "Crit": 55.88,
+                "Haste": 12.17,
+                "Armor Penetration": 750,
+                "Link": "https://eightyupgrades.com/set/98zgRfpkCnwv2FUTf4rprM"
               }
             },
             "Info": [
@@ -3037,7 +4376,16 @@
                 "Crit": 53.56,
                 "Haste": 15.55,
                 "Armor Penetration": 1289,
-                "Link": "URL"
+                "Link": "https://eightyupgrades.com/set/sUCz8gtkq4KN2gWMzk7msw"
+              },
+              "T10.5": {
+                "Attack Power": 4941,
+                "Hit": 17.5,
+                "Expertise": 22,
+                "Crit": 51.03,
+                "Haste": 17.78,
+                "Armor Penetration": 1377,
+                "Link": "https://eightyupgrades.com/set/ia91y2kHkfa9moW5Bk9SoT"
               }
             },
             "Info": [
@@ -3089,6 +4437,13 @@
                 "Crit": 48.98,
                 "Haste": 35.68,
                 "Link": "https://eightyupgrades.com/set/e5sPXLqpgj8fhvNPeWA8WT"
+              },
+              "T10.5": {
+                "Spell Power": 3396,
+                "Hit": 14.4,
+                "Crit": 49.29,
+                "Haste": 36.14,
+                "Link": "https://eightyupgrades.com/set/w2n4pj4eK2XLYBfydNAugE"
               }
             },
             "Info": [
@@ -3152,6 +4507,16 @@
                 "Haste": 40.72,
                 "Armor Penetration": 0,
                 "Link": "https://eightyupgrades.com/set/dQbUbH3hYjYkj7F4WWCzRv"
+              },
+              "T10.5": {
+                "Spell Power": 2495,
+                "Attack Power": 4961,
+                "Hit": 20.46,
+                "Expertise": 26,
+                "Crit": 50.13,
+                "Haste": 41.31,
+                "Armor Penetration": 0,
+                "Link": "https://eightyupgrades.com/set/f2vpbse79YcaoYEk32PEku"
               }
             },
             "Info": [
@@ -3206,6 +4571,14 @@
                 "Intellect": 1678,
                 "MP5": 137,
                 "Link": "https://eightyupgrades.com/set/kLNztvLeDn4vY3GXZn9i9r"
+              },
+              "T10.5": {
+                "Spell Power": 3230,
+                "Crit": 42.48,
+                "Haste": 40.29,
+                "Intellect": 1691,
+                "MP5": 100,
+                "Link": "https://eightyupgrades.com/set/4TcDkH9UevDe1UQXt3YFFz"
               }
             },
             "Info": [
@@ -3255,6 +4628,13 @@
                 "Crit": 37.87,
                 "Haste": 38.61,
                 "Link": "https://eightyupgrades.com/set/iEXrdgtbEWNBDYn2WDEgZA"
+              },
+              "T10.5": {
+                "Spell Power": 3428,
+                "Hit": 14.09,
+                "Crit": 36.21,
+                "Haste": 40.97,
+                "Link": "https://eightyupgrades.com/set/sBSaiXtWFauM6WSThJiH1H"
               }
             },
             "Info": [
@@ -3304,6 +4684,13 @@
                 "Crit": 41.72,
                 "Haste": 29.28,
                 "Link": "https://eightyupgrades.com/set/bqC2Wco9xazy8H8MwemBAR"
+              },
+              "T10.5": {
+                "Spell Power": 3421,
+                "Hit": 14.07,
+                "Crit": 43.31,
+                "Haste": 31.9,
+                "Link": "https://eightyupgrades.com/set/3YoNfSG3Ea76TtyTn8ksPj"
               }
             },
             "Info": [
@@ -3353,6 +4740,13 @@
                 "Crit": 39.51,
                 "Haste": 38.55,
                 "Link": "https://eightyupgrades.com/set/etmhpkujAEEekZuGbA4YzE"
+              },
+              "T10.5": {
+                "Spell Power": 3410,
+                "Hit": 14.14,
+                "Crit": 37.85,
+                "Haste": 40.81,
+                "Link": "https://eightyupgrades.com/set/dwVngdLUq8ombnpqAg7m2C"
               }
             },
             "Info": [
@@ -3412,6 +4806,15 @@
                 "Haste": 10,
                 "Armor Penetration": 1250,
                 "Link": "https://eightyupgrades.com/set/wZgrbxfWyjyTNmdW2zyVuN"
+              },
+              "T10.5": {
+                "Attack Power": 5536,
+                "Hit": 7.99,
+                "Expertise": 4,
+                "Crit": 55.09,
+                "Haste": 10,
+                "Armor Penetration": 1252,
+                "Link": "https://eightyupgrades.com/set/wrnhUYQnqBo4gXrE1gMQ4X"
               }
             },
             "Info": [
@@ -3470,6 +4873,15 @@
                 "Haste": 4.09,
                 "Armor Penetration": 1391,
                 "Link": "https://eightyupgrades.com/set/5azuMiPrAr9J7hug1PuU1H"
+              },
+              "T10.5": {
+                "Attack Power": 6469,
+                "Hit": 8.18,
+                "Expertise": 26,
+                "Crit": 52.19,
+                "Haste": 4.48,
+                "Armor Penetration": 1391,
+                "Link": "https://eightyupgrades.com/set/qWXAJgTvtNNMWcpYWHhMuR"
               }
             },
             "Info": [
@@ -3547,6 +4959,18 @@
                 "Parry Chance": 23.26,
                 "Avoidance": 84.14,
                 "Link": "https://eightyupgrades.com/set/9wvH3CCygT1VDkDkprRETP"
+              },
+              "T10.5": {
+                "Health": 50271,
+                "Hit": 7.72,
+                "Expertise": 26,
+                "Defense": 589,
+                "Resilience": 15,
+                "Block Chance": 19.33,
+                "Dodge Chance": 30.51,
+                "Parry Chance": 23.97,
+                "Avoidance": 84.11,
+                "Link": "https://eightyupgrades.com/set/dCpaac1xoU41kr8c3NHXyt"
               }
             },
             "Info": [
@@ -11025,7 +12449,7 @@
             "armor_pen": 106
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -11061,7 +12485,7 @@
             "crit": 114,
             "hit": 106
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood Prince Council",
           "drop_chance": 0.07
@@ -11098,7 +12522,7 @@
             "crit": 122,
             "hit": 98
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood Prince Council",
           "drop_chance": 0.07
@@ -11135,7 +12559,7 @@
             "haste": 92,
             "armor_pen": 100
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Professor Putricide",
           "drop_chance": 0.08
@@ -11175,7 +12599,7 @@
             "armor_pen": 92
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (10H & 25N)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -11211,7 +12635,7 @@
             "crit": 100,
             "hit": 92
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Blood Prince Council",
           "drop_chance": 0.07
@@ -11240,24 +12664,24 @@
             "expertise": 52,
             "armor_pen": 73
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood-Queen Lana'thel",
           "drop_chance": 0.17
         },
         {
-          "name": "Ahn'kahar Onyx Neckguard (H)",
-          "ilvl": 277,
+          "name": "Penumbra Pendant (H)",
+          "ilvl": 284,
           "rarity": "epic",
           "bind": "bop",
           "slot": "neck",
           "primary_stats": {
-            "strength": 108,
-            "stamina": 116
+            "strength": 116,
+            "stamina": 124
           },
           "sockets": {
             "socket_colors": [
-              "blue"
+              "yellow"
             ],
             "sockets": 1,
             "socket_bonus": "4 Strength"
@@ -11266,13 +12690,13 @@
             "min_level": 80
           },
           "secondary_stats": {
-            "crit": 68,
-            "hit": 60
+            "crit": 73,
+            "armor_pen": 65
           },
-          "phase": "T10",
-          "source": "Icecrown Citadel (H) (25)",
-          "source_type": "Lady Deathwhisper",
-          "drop_chance": 0.07
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Sindragosa's Cruel Claw (H)",
@@ -11299,10 +12723,39 @@
             "haste": 60,
             "armor_pen": 68
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Sindragosa",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Ahn'kahar Onyx Neckguard (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 108,
+            "stamina": 116
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Strength"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 68,
+            "hit": 60
+          },
+          "phase": "T10, T10.5",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lady Deathwhisper",
+          "drop_chance": 0.07
         },
         {
           "name": "Lana'thel's Chain of Flagellation",
@@ -11328,10 +12781,39 @@
             "expertise": 45,
             "armor_pen": 65
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Blood-Queen Lana'thel",
           "drop_chance": 0.17
+        },
+        {
+          "name": "Penumbra Pendant",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 110
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Strength"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 64,
+            "armor_pen": 56
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Frigid Strength of Hodir",
@@ -11357,7 +12839,7 @@
             "hit": 45,
             "armor_pen": 54
           },
-          "phase": "T8, T9, T10",
+          "phase": "T8, T9, T10, T10.5",
           "source": "Ulduar (25)",
           "source_type": "Hodir (HM)",
           "drop_chance": 0.2
@@ -11387,7 +12869,7 @@
             "haste": 49,
             "hit": 62
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Festergut",
           "drop_chance": 0.08
@@ -11422,7 +12904,7 @@
             "hit": 60,
             "armor_pen": 83
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Professor Putricide",
           "drop_chance": 0.08
@@ -11457,7 +12939,7 @@
             "crit": 90,
             "hit": 74
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07
@@ -11495,7 +12977,7 @@
             "armor_pen": 82
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -11531,7 +13013,7 @@
             "crit": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.08
@@ -11569,7 +13051,7 @@
             "armor_pen": 72
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (10H & 25N)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -11605,7 +13087,7 @@
             "haste": 74,
             "crit": 90
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07
@@ -11638,7 +13120,7 @@
             "crit": 65,
             "hit": 57
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Tribute Run (50)",
           "drop_chance": 0.2
@@ -11670,7 +13152,7 @@
             "expertise": 45,
             "armor_pen": 65
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Vendor",
           "source_type": "Emblem of Frost (50)"
         },
@@ -11703,7 +13185,7 @@
             "crit": 65,
             "armor_pen": 57
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Tribute Run (50)",
           "drop_chance": 0.2
@@ -11736,7 +13218,7 @@
             "hit": 48,
             "expertise": 63
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Lord Marrowgar",
           "drop_chance": 0.08
@@ -11768,7 +13250,7 @@
             "haste": 60,
             "crit": 68
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07
@@ -11798,7 +13280,7 @@
             "haste": 68,
             "crit": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -11835,7 +13317,7 @@
             "hit": 114,
             "expertise": 106
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -11871,7 +13353,7 @@
             "crit": 114,
             "hit": 106
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lord Marrowgar",
           "drop_chance": 0.07
@@ -11910,7 +13392,7 @@
             "armor_pen": 106
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -11947,7 +13429,7 @@
             "haste": 111,
             "armor_pen": 91
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.08
@@ -11983,7 +13465,7 @@
             "crit": 84,
             "armor_pen": 108
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Vendor",
           "source_type": "Emblem of Frost (95)"
         },
@@ -12021,7 +13503,7 @@
             "armor_pen": 92
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (10H & 25N)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -12055,7 +13537,7 @@
             "crit": 68,
             "hit": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -12090,10 +13572,79 @@
             "crit": 60,
             "armor_pen": 68
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Umbrage Armbands (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 311
+          },
+          "primary_stats": {
+            "agility": 109,
+            "stamina": 109
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "durability": 40,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 113,
+            "haste": 73,
+            "crit": 73
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Bracers of the Heir (H)",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1182
+          },
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 110
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Strength"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 64,
+            "armor_pen": 56
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Scourge Hunter's Vambraces (H)",
@@ -12126,7 +13677,7 @@
             "crit": 68,
             "armor_pen": 46
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -12160,7 +13711,7 @@
             "crit": 60,
             "hit": 52
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -12197,7 +13748,7 @@
             "crit": 57,
             "hit": 49
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Anub'arak",
           "drop_chance": 0.22
@@ -12232,7 +13783,7 @@
             "crit": 52,
             "armor_pen": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
@@ -12268,7 +13819,7 @@
             "haste": 74,
             "armor_pen": 90
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07
@@ -12306,7 +13857,7 @@
             "hit": 82
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -12341,7 +13892,7 @@
             "hit": 80,
             "expertise": 64
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Festergut",
           "drop_chance": 0.08
@@ -12376,7 +13927,7 @@
             "haste": 64,
             "hit": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Blood-Queen Lana'thel",
           "drop_chance": 0.08
@@ -12412,7 +13963,7 @@
             "haste": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Rotface",
           "drop_chance": 0.07
@@ -12447,7 +13998,7 @@
             "haste": 74,
             "crit": 90
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06
@@ -12482,7 +14033,7 @@
             "hit": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Rotface",
           "drop_chance": 0.08
@@ -12517,7 +14068,7 @@
             "crit": 85,
             "armor_pen": 78
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.07
@@ -12553,7 +14104,7 @@
             "crit": 90,
             "armor_pen": 74
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Professor Putricide",
           "drop_chance": 0.2
@@ -12589,7 +14140,7 @@
             "haste": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Vendor",
           "source_type": "Emblem of Frost (60)"
         },
@@ -12625,7 +14176,7 @@
             "crit": 74,
             "armor_pen": 71
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06
@@ -12660,7 +14211,7 @@
             "crit": 75,
             "armor_pen": 68
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.07
@@ -12697,7 +14248,7 @@
             "crit": 122,
             "hit": 98
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06
@@ -12733,7 +14284,7 @@
             "crit": 84,
             "armor_pen": 108
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Sindragosa",
           "drop_chance": 0.08
@@ -12771,7 +14322,7 @@
             "crit": 106,
             "armor_pen": 88
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07
@@ -12807,7 +14358,7 @@
             "haste": 98,
             "crit": 122
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.07
@@ -12846,7 +14397,7 @@
             "expertise": 106
           },
           "set": "Scourgelord's Battlegear",
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang, Professor Putricide, Blood-Queen Lana'thel, Sindragosa",
           "drop_chance": 0.33
@@ -12887,9 +14438,79 @@
             "crit": 100,
             "armor_pen": 92
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Blacksmithing",
           "source_type": "BoP Pattern (450)"
+        },
+        {
+          "name": "Apocalypse's Advance (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1939
+          },
+          "primary_stats": {
+            "strength": 165,
+            "stamina": 165
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Strength"
+          },
+          "other_stats": {
+            "durability": 75,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 97,
+            "hit": 81
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Apocalypse's Advance",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1858
+          },
+          "primary_stats": {
+            "strength": 146,
+            "stamina": 146
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Strength"
+          },
+          "other_stats": {
+            "durability": 75,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 86,
+            "hit": 70
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Blood-Soaked Saronite Stompers (H)",
@@ -12921,7 +14542,7 @@
             "crit": 90,
             "armor_pen": 74
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07
@@ -12957,7 +14578,7 @@
             "crit": 90,
             "armor_pen": 74
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lord Marrowgar",
           "drop_chance": 0.07
@@ -12992,9 +14613,46 @@
             "expertise": 60,
             "armor_pen": 83
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Gunship Battle",
+          "drop_chance": 0.08
+        },
+        {
+          "name": "Returning Footfalls (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1085
+          },
+          "primary_stats": {
+            "agility": 145,
+            "intellect": 76,
+            "stamina": 115
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "6 Agility"
+          },
+          "other_stats": {
+            "durability": 70,
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 162,
+            "crit": 97,
+            "armor_pen": 60
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
           "drop_chance": 0.08
         },
         {
@@ -13027,7 +14685,7 @@
             "crit": 80,
             "armor_pen": 72
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.07
@@ -13068,7 +14726,7 @@
             "crit": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Blacksmithing",
           "source_type": "BoP Pattern (450)"
         },
@@ -13103,7 +14761,7 @@
             "crit": 64,
             "armor_pen": 80
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Blood Prince Council",
           "drop_chance": 0.08
@@ -13135,7 +14793,7 @@
             "hit": 59,
             "equip_1": "Chance on hit to increase your attack power by 480 for 10 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Reputation",
           "source_type": "The Ashen Verdict - Exalted"
         },
@@ -13164,7 +14822,7 @@
             "crit": 68,
             "armor_pen": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06
@@ -13195,10 +14853,41 @@
             "crit": 60,
             "armor_pen": 120
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.07
+        },
+        {
+          "name": "Signet of Twilight (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 109,
+            "stamina": 109
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "crit": 73,
+            "hit": 57
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Band of the Bone Colossus (H)",
@@ -13226,10 +14915,40 @@
             "haste": 65,
             "hit": 62
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Lord Marrowgar",
           "drop_chance": 0.07
+        },
+        {
+          "name": "Zarithrian's Offering (H)",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Strength"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "crit": 64,
+            "armor_pen": 56
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Rotface's Rupturing Ring (H)",
@@ -13256,7 +14975,7 @@
             "expertise": 57,
             "armor_pen": 54
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Rotface",
           "drop_chance": 0.08
@@ -13286,7 +15005,7 @@
             "crit": 68,
             "expertise": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -13318,9 +15037,71 @@
             "hit": 59,
             "equip_1": "Chance on hit to increase your attack power by 480 for 10 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Reputation",
           "source_type": "The Ashen Verdict - Exalted"
+        },
+        {
+          "name": "Band of the Bone Colossus (H)",
+          "ilvl": 277,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 102,
+            "stamina": 102
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 120,
+            "haste": 65,
+            "hit": 62
+          },
+          "phase": "T10, T10.5",
+          "source": "Icecrown Citadel (H) (25)",
+          "source_type": "Lord Marrowgar",
+          "drop_chance": 0.07
+        },
+        {
+          "name": "Signet of Twilight (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 109,
+            "stamina": 109
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "4 Agility"
+          },
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "attack_power": 145,
+            "crit": 73,
+            "hit": 57
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Might of Blight (H)",
@@ -13347,7 +15128,7 @@
             "crit": 68,
             "armor_pen": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Festergut",
           "drop_chance": 0.06
@@ -13378,41 +15159,40 @@
             "crit": 60,
             "armor_pen": 120
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Valithria Dreamwalker",
           "drop_chance": 0.07
         },
         {
-          "name": "Band of the Bone Colossus (H)",
-          "ilvl": 277,
+          "name": "Zarithrian's Offering (H)",
+          "ilvl": 271,
           "rarity": "epic",
           "bind": "bop",
           "slot": "finger",
           "unique": true,
           "primary_stats": {
-            "agility": 102,
+            "strength": 102,
             "stamina": 102
           },
           "sockets": {
             "socket_colors": [
-              "yellow"
+              "red"
             ],
             "sockets": 1,
-            "socket_bonus": "4 Agility"
+            "socket_bonus": "4 Strength"
           },
           "other_stats": {
             "min_level": 80
           },
           "secondary_stats": {
-            "attack_power": 120,
-            "haste": 65,
-            "hit": 62
+            "crit": 64,
+            "armor_pen": 56
           },
-          "phase": "T10",
-          "source": "Icecrown Citadel (H) (25)",
-          "source_type": "Lord Marrowgar",
-          "drop_chance": 0.07
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (10)",
+          "source_type": "Halion",
+          "drop_chance": 0.08
         },
         {
           "name": "Rotface's Rupturing Ring (H)",
@@ -13439,7 +15219,7 @@
             "expertise": 57,
             "armor_pen": 54
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Rotface",
           "drop_chance": 0.08
@@ -13469,7 +15249,7 @@
             "crit": 68,
             "expertise": 60
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Gunship Battle",
           "drop_chance": 0.07
@@ -13488,10 +15268,28 @@
             "armor_pen": 167,
             "equip_1": "Your attacks have a chance to awaken the powers of the races of Northrend, temporarily transforming you and increasing your combat capabilities for 30 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Sharpened Twilight Scale (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "armor_pen": 184,
+            "equip_1": "When you deal damage you have a chance to gain 1472 attack power for 15 sec."
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25
         },
         {
           "name": "Deathbringer's Will",
@@ -13507,10 +15305,28 @@
             "armor_pen": 155,
             "equip_1": "Your attacks have a chance to awaken the powers of the races of Northrend, temporarily transforming you and increasing your combat capabilities for 30 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Sharpened Twilight Scale",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "armor_pen": 163,
+            "equip_1": "When you deal damage you have a chance to gain 1304 attack power for 15 sec."
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25
         },
         {
           "name": "Death's Choice (H)",
@@ -13527,7 +15343,7 @@
             "attack_power": 288,
             "equip_1": "When you deal damage you have a chance to gain Paragon, increasing your Strength or Agility by 510 for 15 sec. Your highest stat is always chosen."
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Twin Val'kyr",
           "drop_chance": 0.1
@@ -13546,7 +15362,7 @@
             "crit": 148,
             "equip_1": "When you deal damage you have a chance to gain 1250 attack power for 15 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.08
@@ -13566,7 +15382,7 @@
             "attack_power": 256,
             "equip_1": "When you deal damage you have a chance to gain Paragon, increasing your Strength or Agility by 450 for 15 sec. Your highest stat is always chosen."
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Crusader (25)",
           "source_type": "Twin Val'kyr",
           "drop_chance": 0.1
@@ -13585,7 +15401,7 @@
             "crit": 131,
             "equip_1": "When you deal damage you have a chance to gain 1100 attack power for 15 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (10)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.08
@@ -13604,10 +15420,28 @@
             "armor_pen": 167,
             "equip_1": "Your attacks have a chance to awaken the powers of the races of Northrend, temporarily transforming you and increasing your combat capabilities for 30 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Sharpened Twilight Scale (H)",
+          "ilvl": 284,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "armor_pen": 184,
+            "equip_1": "When you deal damage you have a chance to gain 1472 attack power for 15 sec."
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (H) (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25
         },
         {
           "name": "Deathbringer's Will",
@@ -13623,10 +15457,28 @@
             "armor_pen": 155,
             "equip_1": "Your attacks have a chance to awaken the powers of the races of Northrend, temporarily transforming you and increasing your combat capabilities for 30 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (25)",
           "source_type": "Deathbringer Saurfang",
           "drop_chance": 0.2
+        },
+        {
+          "name": "Sharpened Twilight Scale",
+          "ilvl": 271,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "armor_pen": 163,
+            "equip_1": "When you deal damage you have a chance to gain 1304 attack power for 15 sec."
+          },
+          "phase": "T10.5",
+          "source": "Ruby Sanctum (25)",
+          "source_type": "Halion",
+          "drop_chance": 0.25
         },
         {
           "name": "Death's Choice (H)",
@@ -13643,7 +15495,7 @@
             "attack_power": 288,
             "equip_1": "When you deal damage you have a chance to gain Paragon, increasing your Strength or Agility by 510 for 15 sec. Your highest stat is always chosen."
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Grand Crusader (25)",
           "source_type": "Twin Val'kyr",
           "drop_chance": 0.1
@@ -13662,7 +15514,7 @@
             "crit": 148,
             "equip_1": "When you deal damage you have a chance to gain 1250 attack power for 15 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.08
@@ -13682,7 +15534,7 @@
             "attack_power": 256,
             "equip_1": "When you deal damage you have a chance to gain Paragon, increasing your Strength or Agility by 450 for 15 sec. Your highest stat is always chosen."
           },
-          "phase": "T9, T10",
+          "phase": "T9, T10, T10.5",
           "source": "Trial of the Crusader (25)",
           "source_type": "Twin Val'kyr",
           "drop_chance": 0.1
@@ -13701,7 +15553,7 @@
             "crit": 131,
             "equip_1": "When you deal damage you have a chance to gain 1100 attack power for 15 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (10)",
           "source_type": "Lady Deathwhisper",
           "drop_chance": 0.08
@@ -13745,7 +15597,7 @@
             "armor_pen": 114,
             "equip_1": "Your melee attacks have a chance to drain a Soul Fragment granting you 30 Strength.  When you have acquired 10 Soul Fragments you will unleash Chaos Bane, dealing 1900 to 2100 Shadow damage split between all enemies within 15 yards and granting you 270 Strength for 10 sec."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Quest Reward",
           "source_type": "Shadowmourne..."
         },
@@ -13784,7 +15636,7 @@
             "armor_pen": 122,
             "lore": "A grotesque skull now rests atop the blade. Etched in blood across the axe head is one word repeated ten times: SUFFER."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "The Lich King",
           "drop_chance": 0.11
@@ -13823,7 +15675,7 @@
             "expertise": 114,
             "lore": "Paragon of the Light, lead our armies against the coming darkness."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "The Lich King",
           "drop_chance": 0.11
@@ -13861,7 +15713,7 @@
             "hit": 99,
             "armor_pen": 115
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood Prince Council",
           "drop_chance": 0.07
@@ -13899,7 +15751,7 @@
             "crit": 103,
             "armor_pen": 103
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (10)",
           "source_type": "The Lich King",
           "drop_chance": 0.11
@@ -13938,27 +15790,10 @@
             "haste": 98,
             "crit": 122
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Blood-Queen Lana'thel",
           "drop_chance": 0.17
-        },
-        {
-          "name": "Sigil of Virulence",
-          "ilvl": 245,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "relic",
-          "type": "sigil",
-          "other_stats": {
-            "min_level": 80
-          },
-          "secondary_stats": {
-            "equip_1": "Each time you use your Death Strike, Obliterate, or Scourge Strike ability, you have a chance to gain 200 Strength for 20 sec."
-          },
-          "phase": "T9, T10",
-          "source": "Vendor",
-          "source_type": "Emblem of Triumph (25)"
         },
         {
           "name": "Sigil of the Hanged Man",
@@ -13973,9 +15808,26 @@
           "secondary_stats": {
             "equip_1": "Your Obliterate, Scourge Strike, and Death Strike abilities grants 73 Strength for 15 sec. Stacks up to 3 times."
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Vendor",
           "source_type": "Emblem of Frost (30)"
+        },
+        {
+          "name": "Sigil of Virulence",
+          "ilvl": 245,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "type": "sigil",
+          "other_stats": {
+            "min_level": 80
+          },
+          "secondary_stats": {
+            "equip_1": "Each time you use your Death Strike, Obliterate, or Scourge Strike ability, you have a chance to gain 200 Strength for 20 sec."
+          },
+          "phase": "T9, T10, T10.5",
+          "source": "Vendor",
+          "source_type": "Emblem of Triumph (25)"
         },
         {
           "name": "Sigil of Awareness",
@@ -13991,7 +15843,7 @@
           "secondary_stats": {
             "equip_1": "Increases the base damage dealt by your Scourge Strike by 189, your Obliterate by 336, and your Death Strike by 315."
           },
-          "phase": "T7, T8, T9, T10",
+          "phase": "T7, T8, T9, T10, T10.5",
           "source": "Multiple",
           "source_type": "Heigan the Unclean, Emblem of Valor (25)",
           "drop_chance": 0.04
@@ -14009,7 +15861,7 @@
           "secondary_stats": {
             "equip_1": "Increases the damage done by your Death Coil ability by 403 and by your Frost Strike ability by 120."
           },
-          "phase": "T8, T9, T10",
+          "phase": "T8, T9, T10, T10.5",
           "source": "Ulduar (25)",
           "source_type": "XT-002 Deconstructor",
           "drop_chance": 0.07
@@ -14028,7 +15880,7 @@
           "secondary_stats": {
             "equip_1": "Your Blood Strike and Heart Strikes have a chance to grant 173 critical strike rating for 10 sec."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Vendor",
           "source_type": "Emblem of Heroism (15)"
         },
@@ -14046,7 +15898,7 @@
           "secondary_stats": {
             "equip_1": "Increases the damage dealt by your Icy Touch ability by 111."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "PvP",
           "source_type": "Venture Coins (30)"
         },
@@ -14091,7 +15943,7 @@
             "defense": 60,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14135,7 +15987,7 @@
             "crit": 72,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14180,7 +16032,7 @@
             "crit": 73,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14224,7 +16076,7 @@
             "crit": 43,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14270,7 +16122,7 @@
             "crit": 44,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14315,7 +16167,7 @@
             "crit": 73,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14360,7 +16212,7 @@
             "crit": 73,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14405,7 +16257,7 @@
             "crit": 73,
             "use_1": "Allows you to look far into the distance."
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Engineering",
           "source_type": "Trainer (440)"
         },
@@ -14439,7 +16291,7 @@
           "secondary_stats": {
             "use_1": "Increases speed by 30% for 6 sec. (3 min cooldown)"
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Jewelcrafting",
           "source_type": "Trainer (400)"
         },
@@ -14473,7 +16325,7 @@
           "secondary_stats": {
             "use_1": "Increases dodge rating by 300 for 10 sec. (1 min cooldown)"
           },
-          "phase": "Pre-Bis, T7, T8, T9, T10",
+          "phase": "Pre-Bis, T7, T8, T9, T10, T10.5",
           "source": "Jewelcrafting",
           "source_type": "Trainer (400)"
         },
@@ -14500,7 +16352,7 @@
             "crit": 53,
             "hit": 58
           },
-          "phase": "T7, T8, T9, T10",
+          "phase": "T7, T8, T9, T10, T10.5",
           "source": "Eye of Eternity (10 & 25)",
           "source_type": "Malygos",
           "drop_chance": 0.05
@@ -14537,7 +16389,7 @@
             "haste": 25,
             "crit": 46
           },
-          "phase": "T8, T9, T10",
+          "phase": "T8, T9, T10, T10.5",
           "source": "Ulduar (10)",
           "source_type": "General Vezax (HM)",
           "drop_chance": 0.2
@@ -14574,7 +16426,7 @@
             "crit": 33,
             "mp5": 27
           },
-          "phase": "T8, T9, T10",
+          "phase": "T8, T9, T10, T10.5",
           "source": "Ulduar (25)",
           "source_type": "Algalon the Observer",
           "drop_chance": 0.06
@@ -14612,7 +16464,7 @@
             "expertise": 29,
             "lore": "Countless notches cover the blade's length."
           },
-          "phase": "T8, T9, T10",
+          "phase": "T8, T9, T10, T10.5",
           "source": "Ulduar (10)",
           "source_type": "Freya (HM)",
           "drop_chance": 0.2
@@ -14642,7 +16494,7 @@
             "haste": 60,
             "armor_pen": 68
           },
-          "phase": "T10",
+          "phase": "T10, T10.5",
           "source": "Icecrown Citadel (H) (25)",
           "source_type": "Sindragosa",
           "drop_chance": 0.2
