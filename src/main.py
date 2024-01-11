@@ -2,7 +2,7 @@ import json
 import os
 import shutil
 
-from src.general import cleaner
+from src.general import cleaner, phases
 from src import dirsAndFiles
 import dataSources
 from src.wh import whSpecs, whSpecDataGatherer
@@ -113,6 +113,7 @@ def process_wowtbc():
 
 
 def process_wh():
+    del phases.phases["T10.5"]
     if data_collection is True:
         collect_wh_specs_bis_data()
     spec_data = collect_wh_sorted_spec_data()
