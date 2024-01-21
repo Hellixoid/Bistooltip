@@ -16,48 +16,10 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a>. While it is unlikely that you will farm every piece, the road there could lead to hundreds of combinations of loot, making it very difficult to predict what slots you end up behind in. Spend your currencies appropriately, upgrading the slots most in need first. A lot of the items listed have equivalent items with or without Hit also, allowing you to pick and mix as needed.<br/>
 <br/>
 <div style="text-align: -webkit-center;">
-<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="priest" data-player-gender="1" data-player-level="80" data-player-race="human" data-player-race-id="1" id="markup-gear-planner-calc-0">
-<div class="gear-planner-grid" data-embed="true" data-layout="small">
-<section class="gear-planner-navigation">
-<section class="gear-planner-navigation-custom">Customize</section>
-<div class="gear-planner-tabs">
-<div class="tabs-container tabs-floating">
-<ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
-<a href="javascript:" rel="np">
-<div>Gear</div>
-<b>Gear</b></a></li>
-<li data-first-in-row="false">
-<a href="javascript:" rel="np">
-<div>Talents &amp; Glyphs</div>
-<b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
-<a href="javascript:" rel="np">
-<div>Summary</div>
-<b>Summary</b></a></li>
-<li class="modelviewer">
-<a href="javascript:" rel="np">
-<div>Model</div>
-<b>Model</b></a></li></ul></div></div>
-<section class="gear-planner-navigation-summary">Summary</section>
-<hr class="gear-planner-navigation-divider"/></section>
-<div class="gear-planner-slots-controls">
-<div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/priest/human/BgFQEwUDIDH_MlAjBRIjAQMjFRMBNR8fMDAxcGM3MTFwYzkyMXhxeDMxcm1zNDFydm01MXJtM4FAsU8A6kIAoUUgnLECILBNAJzYg0Cz9ADqIQCcsSCc2IVAsVMA7RQAnLEgnLEGQLd8AJzFIJyxh0Cz0gDZTwCcsSCc2Iggt_QA1ugAnMWJALhjAO1fikCz3QDW1wCcsSCcsQsgs94AnLEMILG3AJzFDQCxzg4AuE6PILPaANlaAJzYkCCz0wDtKgCcsREAt80SILDuAJyx" style="margin-left:5px;float:right">Link</a>
-<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
-<div class="slider not-editable has-labels" data-track="progress">
-<div class="slider-track">
-<div class="slider-track-handle" style="left: 100%;"></div>
-<div class="slider-track-bar">
-<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
-<div class="slider-labels">
-<span class="slider-labels-title">Level</span>
-<span class="slider-labels-values">
-<span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 45px;">
+<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="5" data-player-gender="1" data-player-level="80" data-player-race-id="1" id="markup-gear-planner-calc-0">
+<div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="5" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -73,7 +35,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/priest">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -1369,7 +1331,7 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_treeoflife.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=65139/tree-of-life"></a></div>
-<div class="iconmedium" data-env="wrath" data-form="28" data-game="wow" data-tree="wrath">
+<div class="iconmedium" data-env="wrath" data-form="28" data-game="wow" data-tree="wrath" style="">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_shadow_shadowform.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-wowhead="level=80&amp;buff&amp;noimage" href="https://www.wowhead.com/wotlk/spell=15473/shadowform"></a></div>
@@ -1389,7 +1351,46 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="true"></div></div></div></div>
+<div class="gear-planner-modelviewer" data-currently-visible="true"></div>
+<section class="gear-planner-navigation">
+<section class="gear-planner-navigation-custom">Customize</section>
+<div class="gear-planner-tabs">
+<div class="tabs-container tabs-floating">
+<ul class="tabs">
+<li class="gear" data-first-in-row="true" data-selected="true">
+<a href="javascript:" rel="np">
+<div>Gear</div>
+<b>Gear</b></a></li>
+<li class="talents" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Talents &amp; Glyphs</div>
+<b>Talents &amp; Glyphs</b></a></li>
+<li class="stats" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Summary</div>
+<b>Summary</b></a></li>
+<li class="modelviewer" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Model</div>
+<b>Model</b></a></li></ul></div></div>
+<section class="gear-planner-navigation-summary">Summary</section>
+<hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
+<div class="gear-planner-slots-controls">
+<div class="gear-planner-slots-controls-buttons">
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/priest/human/BgFQEwUDIDH_MlAjBRIjAQMjFRMBNR8fMDAxcGM3MTFwYzkyMXhxeDMxcm1zNDFydm01MXJtM4FAsU8A6kIAoUUgnLECILBNAJzYg0Cz9ADqIQCcsSCc2IVAsVMA7RQAnLEgnLEGQLd8AJzFIJyxh0Cz0gDZTwCcsSCc2Iggt_QA1ugAnMWJALhjAO1fikCz3QDW1wCcsSCcsQsgs94AnLEMILG3AJzFDQCxzg4AuE6PILPaANlaAJzYkCCz0wDtKgCcsREAt80SILDuAJyx" style="margin-left:5px;float:right">Link</a>
+<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
+<div class="slider not-editable has-labels" data-track="progress">
+<div class="slider-track">
+<div class="slider-track-handle" style="left: 100%;"></div>
+<div class="slider-track-bar">
+<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
+<div class="slider-labels">
+<span class="slider-labels-title">Level</span>
+<span class="slider-labels-values">
+<span class="slider-labels-values-sizer">80</span>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div></div>
 <h2 class="heading-size-2" id="best-in-slot-list">Shadow Priest DPS Best in Slot Gear List - Pre-Raid Phase 4</h2>
 <table class="grid max-width">
 <tbody>

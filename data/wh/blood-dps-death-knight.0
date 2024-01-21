@@ -534,7 +534,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 290.5px;">
@@ -1101,7 +1101,7 @@
 <div class="ctc-main-order" style="display: none;">
 <h2 class="heading-size-5 ctc-main-order-heading">Talent Order<a class="fa fa-angle-up ctc-main-order-toggle ctc-main-order-toggle-open" href="javascript:"></a>
 <a class="fa fa-angle-down ctc-main-order-toggle ctc-main-order-toggle-closed" href="javascript:"></a></h2></div>
-<div class="ctc-glyphs">
+<div class="ctc-glyphs" data-horizontal="1">
 <div class="ctc-glyphs-background"></div>
 <div class="ctc-tree-header">
 <b>Glyphs</b></div>
@@ -1175,7 +1175,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 290.5px;">
@@ -1742,7 +1742,7 @@
 <div class="ctc-main-order" style="display: none;">
 <h2 class="heading-size-5 ctc-main-order-heading">Talent Order<a class="fa fa-angle-up ctc-main-order-toggle ctc-main-order-toggle-open" href="javascript:"></a>
 <a class="fa fa-angle-down ctc-main-order-toggle ctc-main-order-toggle-closed" href="javascript:"></a></h2></div>
-<div class="ctc-glyphs">
+<div class="ctc-glyphs" data-horizontal="1">
 <div class="ctc-glyphs-background"></div>
 <div class="ctc-tree-header">
 <b>Glyphs</b></div>
@@ -1800,48 +1800,10 @@
 <span class="c6">Best in Slot gear for Blood Death Knight DPS in Wrath of the Lich King</span></h2>
 <h3 class="heading-size-3" id="pre-raid">Pre-Raid Blood Death Knight DPS Gear</h3>
 <div style="text-align: -webkit-center;">
-<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="deathknight" data-player-gender="0" data-player-level="80" data-player-race="gnome" data-player-race-id="7" id="markup-gear-planner-calc-0">
-<div class="gear-planner-grid" data-embed="true" data-layout="small">
-<section class="gear-planner-navigation">
-<section class="gear-planner-navigation-custom">Customize</section>
-<div class="gear-planner-tabs">
-<div class="tabs-container tabs-floating">
-<ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
-<a href="javascript:" rel="np">
-<div>Gear</div>
-<b>Gear</b></a></li>
-<li data-first-in-row="false">
-<a href="javascript:" rel="np">
-<div>Talents &amp; Glyphs</div>
-<b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
-<a href="javascript:" rel="np">
-<div>Summary</div>
-<b>Summary</b></a></li>
-<li class="modelviewer">
-<a href="javascript:" rel="np">
-<div>Model</div>
-<b>Model</b></a></li></ul></div></div>
-<section class="gear-planner-navigation-summary">Summary</section>
-<hr class="gear-planner-navigation-divider"/></section>
-<div class="gear-planner-slots-controls">
-<div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHYyMTF4djYyMXN5ODMxc3hkNDF0czg1MXM4Z4FAsR4A6jIAobYgnDwCALDlg0Cz1QDqHgCcZiCcPIVAsRwA7RQAnGYgnDwGYLPZAKSeIJxmQKSeh0CxHwDspgCkniCmzogAno8A1uiJILNAAK4fAJxmiiCxHQDW1wCcPAsAsmsMALO6DQCzaw4Ap-uPQLPQALsaAJw8IJxmkECzLADQYACcPCCcPBIAnQ8" style="margin-left:5px;float:right">Link</a>
-<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
-<div class="slider not-editable has-labels" data-track="progress">
-<div class="slider-track">
-<div class="slider-track-handle" style="left: 100%;"></div>
-<div class="slider-track-bar">
-<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
-<div class="slider-labels">
-<span class="slider-labels-title">Level</span>
-<span class="slider-labels-values">
-<span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 45px;">
+<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="6" data-player-gender="0" data-player-level="80" data-player-race-id="7" id="markup-gear-planner-calc-0">
+<div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -1857,7 +1819,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -3211,7 +3173,46 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="true"></div></div></div></div>
+<div class="gear-planner-modelviewer" data-currently-visible="true"></div>
+<section class="gear-planner-navigation">
+<section class="gear-planner-navigation-custom">Customize</section>
+<div class="gear-planner-tabs">
+<div class="tabs-container tabs-floating">
+<ul class="tabs">
+<li class="gear" data-first-in-row="true" data-selected="true">
+<a href="javascript:" rel="np">
+<div>Gear</div>
+<b>Gear</b></a></li>
+<li class="talents" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Talents &amp; Glyphs</div>
+<b>Talents &amp; Glyphs</b></a></li>
+<li class="stats" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Summary</div>
+<b>Summary</b></a></li>
+<li class="modelviewer" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Model</div>
+<b>Model</b></a></li></ul></div></div>
+<section class="gear-planner-navigation-summary">Summary</section>
+<hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
+<div class="gear-planner-slots-controls">
+<div class="gear-planner-slots-controls-buttons">
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHYyMTF4djYyMXN5ODMxc3hkNDF0czg1MXM4Z4FAsR4A6jIAobYgnDwCALDlg0Cz1QDqHgCcZiCcPIVAsRwA7RQAnGYgnDwGYLPZAKSeIJxmQKSeh0CxHwDspgCkniCmzogAno8A1uiJILNAAK4fAJxmiiCxHQDW1wCcPAsAsmsMALO6DQCzaw4Ap-uPQLPQALsaAJw8IJxmkECzLADQYACcPCCcPBIAnQ8" style="margin-left:5px;float:right">Link</a>
+<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
+<div class="slider not-editable has-labels" data-track="progress">
+<div class="slider-track">
+<div class="slider-track-handle" style="left: 100%;"></div>
+<div class="slider-track-bar">
+<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
+<div class="slider-labels">
+<span class="slider-labels-title">Level</span>
+<span class="slider-labels-values">
+<span class="slider-labels-values-sizer">80</span>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div></div>
 <br/>
 <br/>Most of this gear will not be available for pre-raid until P3, as <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
@@ -3237,48 +3238,10 @@
 <div id="tab-bis-4pc-set" style="">
 <div style="text-align: -webkit-center;">
 <h4 class="heading-size-4 last" id="blood-death-knight-dps-4pc-set">Blood Death Knight DPS - 4pc Set</h4></div>
-<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="deathknight" data-player-gender="0" data-player-level="80" data-player-race="gnome" data-player-race-id="7" id="markup-gear-planner-calc-1">
-<div class="gear-planner-grid" data-embed="true" data-layout="small">
-<section class="gear-planner-navigation">
-<section class="gear-planner-navigation-custom">Customize</section>
-<div class="gear-planner-tabs">
-<div class="tabs-container tabs-floating">
-<ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
-<a href="javascript:" rel="np">
-<div>Gear</div>
-<b>Gear</b></a></li>
-<li data-first-in-row="false">
-<a href="javascript:" rel="np">
-<div>Talents &amp; Glyphs</div>
-<b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
-<a href="javascript:" rel="np">
-<div>Summary</div>
-<b>Summary</b></a></li>
-<li class="modelviewer">
-<a href="javascript:" rel="np">
-<div>Model</div>
-<b>Model</b></a></li></ul></div></div>
-<section class="gear-planner-navigation-summary">Summary</section>
-<hr class="gear-planner-navigation-divider"/></section>
-<div class="gear-planner-slots-controls">
-<div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxc3k4MTF4djIyMXh2NjMxdHM4NDFzeGQ1MXM4Z4FAtCMA6jIAobYgnDwCILGTAJw8gyC0JQDqHgCcPIVAtB8A7RQAnDwgnDwGYLC5AKSeIKSeQKSeh2CwTgDspgCcZiCzJkCcZohAsh8A1ugAnDwgnDyJILJfAK4fAJw8iiC0IQDW1wCcPAsgsd4AnDwMILIoAJw8DQCzaw4Ap-uPQLPQALsaAJw8IJxmkECxzADQYACcPCCcPBIAsMY" style="margin-left:5px;float:right">Link</a>
-<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
-<div class="slider not-editable has-labels" data-track="progress">
-<div class="slider-track">
-<div class="slider-track-handle" style="left: 100%;"></div>
-<div class="slider-track-bar">
-<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
-<div class="slider-labels">
-<span class="slider-labels-title">Level</span>
-<span class="slider-labels-values">
-<span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 45px;">
+<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="6" data-player-gender="0" data-player-level="80" data-player-race-id="7" id="markup-gear-planner-calc-1">
+<div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -3294,7 +3257,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -4635,39 +4598,34 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="true"></div></div></div>
-<div class="clear"></div></div>
-<div id="tab-bis-2pc-set" style="display: none;">
-<div style="text-align: -webkit-center;">
-<h4 class="heading-size-4 last" id="blood-death-knight-dps-2pc-set">Blood Death Knight DPS - 2pc Set</h4></div>
-<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="deathknight" data-player-gender="0" data-player-level="80" data-player-race="gnome" data-player-race-id="7" id="markup-gear-planner-calc-2">
-<div class="gear-planner-grid" data-embed="true" data-layout="tiny">
+<div class="gear-planner-modelviewer" data-currently-visible="true"></div>
 <section class="gear-planner-navigation">
 <section class="gear-planner-navigation-custom">Customize</section>
 <div class="gear-planner-tabs">
 <div class="tabs-container tabs-floating">
 <ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
+<li class="gear" data-first-in-row="true" data-selected="true">
 <a href="javascript:" rel="np">
 <div>Gear</div>
 <b>Gear</b></a></li>
-<li data-first-in-row="true">
+<li class="talents" data-first-in-row="false">
 <a href="javascript:" rel="np">
 <div>Talents &amp; Glyphs</div>
 <b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
+<li class="stats" data-first-in-row="false">
 <a href="javascript:" rel="np">
 <div>Summary</div>
 <b>Summary</b></a></li>
-<li class="modelviewer">
+<li class="modelviewer" data-first-in-row="false">
 <a href="javascript:" rel="np">
 <div>Model</div>
 <b>Model</b></a></li></ul></div></div>
 <section class="gear-planner-navigation-summary">Summary</section>
 <hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
 <div class="gear-planner-slots-controls">
 <div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHYyMTF4djYyMXN5ODMxdHM4NDFzeGQ1MXM4Z4FAsaAA6jIAobYgnGYCILGTAJw8g0Cz1QDqHgCcZiCcPIVAtB8A7RQAnDwgnDwGYLC5AKSeIKSeQKSeh2CwTgDspgCcZiCzJkCmzohAsh8A1ugAnDwgnDyJILJfAK4fAJw8iiC0IQDW1wCcPAsgsd4AnDwMILIoAJw8DQCyKQ4As2uPQLPQALsaAJw8IJxmkECxzADQYACcPCCcPBIAsMY" style="margin-left:5px;float:right">Link</a>
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxc3k4MTF4djIyMXh2NjMxdHM4NDFzeGQ1MXM4Z4FAtCMA6jIAobYgnDwCILGTAJw8gyC0JQDqHgCcPIVAtB8A7RQAnDwgnDwGYLC5AKSeIKSeQKSeh2CwTgDspgCcZiCzJkCcZohAsh8A1ugAnDwgnDyJILJfAK4fAJw8iiC0IQDW1wCcPAsgsd4AnDwMILIoAJw8DQCzaw4Ap-uPQLPQALsaAJw8IJxmkECxzADQYACcPCCcPBIAsMY" style="margin-left:5px;float:right">Link</a>
 <button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
 <div class="slider not-editable has-labels" data-track="progress">
 <div class="slider-track">
@@ -4678,10 +4636,16 @@
 <span class="slider-labels-title">Level</span>
 <span class="slider-labels-values">
 <span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 0px;">
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div>
+<div class="clear"></div></div>
+<div id="tab-bis-2pc-set" style="display: none;">
+<div style="text-align: -webkit-center;">
+<h4 class="heading-size-4 last" id="blood-death-knight-dps-2pc-set">Blood Death Knight DPS - 2pc Set</h4></div>
+<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="6" data-player-gender="0" data-player-level="80" data-player-race-id="7" id="markup-gear-planner-calc-2">
+<div class="gear-planner-grid" data-embed="true" data-layout="tiny" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -4697,7 +4661,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -5313,7 +5277,7 @@
 <a aria-label="Icon" href="javascript:"></a></div>
 <span>Glyph of Blood Tap</span></a></div></div></div></div>
 <div class="gear-planner-slots-group" data-group="0">
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="45472" data-quality="4" data-slot-id="1">
+<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="45472" data-quality="4" data-slot-id="1" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_head" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_helmet_134.jpg");'></ins>
 <del></del>
@@ -5338,7 +5302,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45459" data-quality="4" data-slot-id="2">
+<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45459" data-quality="4" data-slot-id="2" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_neck" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_04.jpg");'></ins>
 <del></del>
@@ -5361,7 +5325,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46037" data-quality="4" data-slot-id="3">
+<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46037" data-quality="4" data-slot-id="3" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_shoulder" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_49.jpg");'></ins>
 <del></del>
@@ -5386,7 +5350,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46032" data-quality="4" data-slot-id="15">
+<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46032" data-quality="4" data-slot-id="15" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_chest" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_14.jpg");'></ins>
 <del></del>
@@ -5411,7 +5375,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46111" data-quality="4" data-slot-id="5">
+<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="46111" data-quality="4" data-slot-id="5" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_chest" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate02.jpg");'></ins>
 <del></del>
@@ -5434,7 +5398,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-quality="0" data-slot-id="4">
+<div class="gear-planner-slots-group-slot" data-quality="0" data-slot-id="4" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_shirt" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_shirt.jpg");'></ins>
 <del></del>
@@ -5457,7 +5421,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-quality="0" data-slot-id="19">
+<div class="gear-planner-slots-group-slot" data-quality="0" data-slot-id="19" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_tabard" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_tabard.jpg");'></ins>
 <del></del>
@@ -5480,7 +5444,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-add-socket="1" data-gem-count="1" data-item-id="45663" data-quality="4" data-slot-id="9">
+<div class="gear-planner-slots-group-slot" data-add-socket="1" data-gem-count="1" data-item-id="45663" data-quality="4" data-slot-id="9" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_wrists" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23a.jpg");'></ins>
 <del></del>
@@ -5506,7 +5470,7 @@
 <a aria-label="Icon" href="javascript:"></a></div>
 <a class="gear-planner-slots-group-slot-add-socket fa fa-plus" href="https://www.wowhead.com/wotlk/spell=55628"></a></div></div></div>
 <div class="gear-planner-slots-group" data-group="1">
-<div class="gear-planner-slots-group-slot" data-add-socket="1" data-gem-count="1" data-item-id="46113" data-quality="4" data-slot-id="10">
+<div class="gear-planner-slots-group-slot" data-add-socket="1" data-gem-count="1" data-item-id="46113" data-quality="4" data-slot-id="10" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_hands" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_28.jpg");'></ins>
 <del></del>
@@ -5530,7 +5494,7 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div>
 <a class="gear-planner-slots-group-slot-add-socket fa fa-plus" href="https://www.wowhead.com/wotlk/spell=55641"></a></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="3" data-item-id="45241" data-quality="4" data-slot-id="6">
+<div class="gear-planner-slots-group-slot" data-gem-count="3" data-item-id="45241" data-quality="4" data-slot-id="6" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_waist" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_belt_49c.jpg");'></ins>
 <del></del>
@@ -5554,7 +5518,7 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=42142/bold-dragons-eye"></a></div>
 <a class="gear-planner-slots-group-slot-add-socket fa fa-plus" href="https://www.wowhead.com/wotlk/spell=55655"></a></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="3" data-item-id="45134" data-quality="4" data-slot-id="7">
+<div class="gear-planner-slots-group-slot" data-gem-count="3" data-item-id="45134" data-quality="4" data-slot-id="7" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_legs" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_25.jpg");'></ins>
 <del></del>
@@ -5580,7 +5544,7 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=42702/enchanted-tear"></a>
 <var></var></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="45599" data-quality="4" data-slot-id="8">
+<div class="gear-planner-slots-group-slot" data-gem-count="2" data-item-id="45599" data-quality="4" data-slot-id="8" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon iconlarge-gold" data-default-texture="inventoryslot_feet" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg");'></ins>
 <del></del>
@@ -5603,7 +5567,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45534" data-quality="4" data-slot-id="11">
+<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45534" data-quality="4" data-slot-id="11" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_finger" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_76.jpg");'></ins>
 <del></del>
@@ -5626,7 +5590,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45608" data-quality="4" data-slot-id="12">
+<div class="gear-planner-slots-group-slot" data-gem-count="1" data-item-id="45608" data-quality="4" data-slot-id="12" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_finger" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_67.jpg");'></ins>
 <del></del>
@@ -5649,7 +5613,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="0" data-item-id="45609" data-quality="4" data-slot-id="13">
+<div class="gear-planner-slots-group-slot" data-gem-count="0" data-item-id="45609" data-quality="4" data-slot-id="13" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_trinket" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/spell_arcane_starfire.jpg");'></ins>
 <del></del>
@@ -5672,7 +5636,7 @@
 <ins></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div>
-<div class="gear-planner-slots-group-slot" data-gem-count="0" data-item-id="45931" data-quality="4" data-slot-id="14">
+<div class="gear-planner-slots-group-slot" data-gem-count="0" data-item-id="45931" data-quality="4" data-slot-id="14" style="flex-basis: 0px;">
 <div class="iconlarge gear-planner-slots-group-slot-icon" data-default-texture="inventoryslot_trinket" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_rune_11.jpg");'></ins>
 <del></del>
@@ -6042,38 +6006,34 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="false"></div></div></div>
-<div class="clear"></div></div></div></div>
-<h3 class="heading-size-3" id="toc-bis">Trial of the Crusader BIS Blood Death Knight DPS Gear</h3>
-<div style="text-align: -webkit-center;">
-<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="deathknight" data-player-gender="0" data-player-level="80" data-player-race="gnome" data-player-race-id="7" id="markup-gear-planner-calc-3">
-<div class="gear-planner-grid" data-embed="true" data-layout="small">
+<div class="gear-planner-modelviewer" data-currently-visible="false"></div>
 <section class="gear-planner-navigation">
 <section class="gear-planner-navigation-custom">Customize</section>
 <div class="gear-planner-tabs">
 <div class="tabs-container tabs-floating">
 <ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
+<li class="gear" data-first-in-row="true" data-selected="true">
 <a href="javascript:" rel="np">
 <div>Gear</div>
 <b>Gear</b></a></li>
-<li data-first-in-row="false">
+<li class="talents" data-first-in-row="true">
 <a href="javascript:" rel="np">
 <div>Talents &amp; Glyphs</div>
 <b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
+<li class="stats" data-first-in-row="true">
 <a href="javascript:" rel="np">
 <div>Summary</div>
 <b>Summary</b></a></li>
-<li class="modelviewer">
+<li class="modelviewer" data-first-in-row="true">
 <a href="javascript:" rel="np">
 <div>Model</div>
 <b>Model</b></a></li></ul></div></div>
 <section class="gear-planner-navigation-summary">Summary</section>
 <hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
 <div class="gear-planner-slots-controls">
 <div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHY2MTF4djIyMXN5ODMxdHM4NDFzeGQ1MXM4Z4FAvW0A6jIAobYgnM4CILgGAJzOgyC9bwDqHgCcr4Vgt-4A7RQAv9YgpJ5AnM4GYLeaAJzOIJzOQJyvh0C9bgDspgCcziCcr4hAsh8A1ugAnK8gnK-JILs_AK4fAKSeiiC9bADW1wCczgtAuzAAnK8gnK8MILd2AJzODQCzaw4AuBuPILm6ALsaAJyvkEC5VgDQYACkniCcrxIAujk" style="margin-left:5px;float:right">Link</a>
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHYyMTF4djYyMXN5ODMxdHM4NDFzeGQ1MXM4Z4FAsaAA6jIAobYgnGYCILGTAJw8g0Cz1QDqHgCcZiCcPIVAtB8A7RQAnDwgnDwGYLC5AKSeIKSeQKSeh2CwTgDspgCcZiCzJkCmzohAsh8A1ugAnDwgnDyJILJfAK4fAJw8iiC0IQDW1wCcPAsgsd4AnDwMILIoAJw8DQCyKQ4As2uPQLPQALsaAJw8IJxmkECxzADQYACcPCCcPBIAsMY" style="margin-left:5px;float:right">Link</a>
 <button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
 <div class="slider not-editable has-labels" data-track="progress">
 <div class="slider-track">
@@ -6084,10 +6044,15 @@
 <span class="slider-labels-title">Level</span>
 <span class="slider-labels-values">
 <span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 45px;">
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div>
+<div class="clear"></div></div></div></div>
+<h3 class="heading-size-3" id="toc-bis">Trial of the Crusader BIS Blood Death Knight DPS Gear</h3>
+<div style="text-align: -webkit-center;">
+<div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="6" data-player-gender="0" data-player-level="80" data-player-race-id="7" id="markup-gear-planner-calc-3">
+<div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -6103,7 +6068,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -7461,7 +7426,46 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="true"></div></div></div></div>
+<div class="gear-planner-modelviewer" data-currently-visible="true"></div>
+<section class="gear-planner-navigation">
+<section class="gear-planner-navigation-custom">Customize</section>
+<div class="gear-planner-tabs">
+<div class="tabs-container tabs-floating">
+<ul class="tabs">
+<li class="gear" data-first-in-row="true" data-selected="true">
+<a href="javascript:" rel="np">
+<div>Gear</div>
+<b>Gear</b></a></li>
+<li class="talents" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Talents &amp; Glyphs</div>
+<b>Talents &amp; Glyphs</b></a></li>
+<li class="stats" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Summary</div>
+<b>Summary</b></a></li>
+<li class="modelviewer" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Model</div>
+<b>Model</b></a></li></ul></div></div>
+<section class="gear-planner-navigation-summary">Summary</section>
+<hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
+<div class="gear-planner-slots-controls">
+<div class="gear-planner-slots-controls-buttons">
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/death-knight/gnome/BgBQFiMFEgUwADMDIxAjABNR_yMCADBQAy8fMDAxeHY2MTF4djIyMXN5ODMxdHM4NDFzeGQ1MXM4Z4FAvW0A6jIAobYgnM4CILgGAJzOgyC9bwDqHgCcr4Vgt-4A7RQAv9YgpJ5AnM4GYLeaAJzOIJzOQJyvh0C9bgDspgCcziCcr4hAsh8A1ugAnK8gnK-JILs_AK4fAKSeiiC9bADW1wCczgtAuzAAnK8gnK8MILd2AJzODQCzaw4AuBuPILm6ALsaAJyvkEC5VgDQYACkniCcrxIAujk" style="margin-left:5px;float:right">Link</a>
+<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
+<div class="slider not-editable has-labels" data-track="progress">
+<div class="slider-track">
+<div class="slider-track-handle" style="left: 100%;"></div>
+<div class="slider-track-bar">
+<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
+<div class="slider-labels">
+<span class="slider-labels-title">Level</span>
+<span class="slider-labels-values">
+<span class="slider-labels-values-sizer">80</span>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div></div>
 <h2 class="heading-size-2" id="ability-usage">Ability usage for Blood Death Knight DPS</h2>
 <h3 class="heading-size-3" id="opener">Opener Blood Death Knight DPS</h3>There are 3 openers currently out there for Blood, we're only going to cover the basic non-double disease opener. <br/>
 <br/>

@@ -11,48 +11,10 @@
 <div data-markup-content-target="1">Critical Strike Rating - Critical Strike Rating will increase your chance to land a critical hit.</div></li>
 <li>
 <div data-markup-content-target="1">Attack Power - Attack Power simply increases the damage done by abilities utilizing attack power in the formula.</div></li></ol>
-<div class="gear-planner" data-data-env-key="wrath" data-faction="2" data-player-class="hunter" data-player-gender="0" data-player-level="80" data-player-race="orc" data-player-race-id="2" id="markup-gear-planner-calc-0">
-<div class="gear-planner-grid" data-embed="true" data-layout="small">
-<section class="gear-planner-navigation">
-<section class="gear-planner-navigation-custom">Customize</section>
-<div class="gear-planner-tabs">
-<div class="tabs-container tabs-floating">
-<ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
-<a href="javascript:" rel="np">
-<div>Gear</div>
-<b>Gear</b></a></li>
-<li data-first-in-row="false">
-<a href="javascript:" rel="np">
-<div>Talents &amp; Glyphs</div>
-<b>Talents &amp; Glyphs</b></a></li>
-<li class="stats">
-<a href="javascript:" rel="np">
-<div>Summary</div>
-<b>Summary</b></a></li>
-<li class="modelviewer">
-<a href="javascript:" rel="np">
-<div>Model</div>
-<b>Model</b></a></li></ul></div></div>
-<section class="gear-planner-navigation-summary">Summary</section>
-<hr class="gear-planner-navigation-divider"/></section>
-<div class="gear-planner-slots-controls">
-<div class="gear-planner-slots-controls-buttons">
-<a class="btn btn-small fa fa-link gear-planner-button-container-link" href="https://www.wowhead.com/wotlk/gear-planner/hunter/orc/BgBQFPAFMFEB9QAAMlAAMzMFMRNTATMfHzAwMXhqdDExeGp3MjF4anYzMXJoZjQxcmhnNTFyZ2EAAKDNgUC8kADqMgChtiCc0wIAuKiDILyOAOoeAKSfhUC8kgDtFACcsCCc0wZAuM8AnNMgpJ-HQLyPAOymAL_WIKSfiCC4wADW6ACc04kAuLEArh-KILyRANbXAJzTCwC4sgwgs-AAnLANALjHDgCs3Y8AuJkA1tqQILjhAO0TAJzTkgC4owDXXw" style="margin-left:5px;float:right">Link</a>
-<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
-<div class="slider not-editable has-labels" data-track="progress">
-<div class="slider-track">
-<div class="slider-track-handle" style="left: 100%;"></div>
-<div class="slider-track-bar">
-<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
-<div class="slider-labels">
-<span class="slider-labels-title">Level</span>
-<span class="slider-labels-values">
-<span class="slider-labels-values-sizer">80</span>
-<input class="slider-labels-values-input" data-field-filled="true" disabled="" type="text"/>
-<span class="slider-labels-values-max">80</span></span></div></div></div>
-<div class="gear-planner-slots" data-currently-visible="true">
-<div class="gear-planner-slots-talents" style="top: 45px;">
+<div class="gear-planner" data-data-env-key="wrath" data-faction="2" data-player-class="3" data-player-gender="0" data-player-level="80" data-player-race-id="2" id="markup-gear-planner-calc-0">
+<div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
+<div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
+<div class="gear-planner-slots-talents">
 <div class="ctc-main" data-class-id="3" data-env="wrath" data-glyphs="1" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
@@ -68,7 +30,7 @@
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/hunter">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>80</b></div>
 <div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0">
+<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -1387,7 +1349,46 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_avatar.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" data-no-buff="1" data-wowhead="level=80&amp;noimage" href="https://www.wowhead.com/wotlk/spell=2458/berserker-stance"></a></div></div></div></div>
-<div class="gear-planner-modelviewer" data-currently-visible="true"></div></div></div>
+<div class="gear-planner-modelviewer" data-currently-visible="true"></div>
+<section class="gear-planner-navigation">
+<section class="gear-planner-navigation-custom">Customize</section>
+<div class="gear-planner-tabs">
+<div class="tabs-container tabs-floating">
+<ul class="tabs">
+<li class="gear" data-first-in-row="true" data-selected="true">
+<a href="javascript:" rel="np">
+<div>Gear</div>
+<b>Gear</b></a></li>
+<li class="talents" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Talents &amp; Glyphs</div>
+<b>Talents &amp; Glyphs</b></a></li>
+<li class="stats" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Summary</div>
+<b>Summary</b></a></li>
+<li class="modelviewer" data-first-in-row="false">
+<a href="javascript:" rel="np">
+<div>Model</div>
+<b>Model</b></a></li></ul></div></div>
+<section class="gear-planner-navigation-summary">Summary</section>
+<hr class="gear-planner-navigation-divider"/></section>
+<section class="gear-planner-customization" data-currently-visible="false"></section>
+<div class="gear-planner-slots-controls">
+<div class="gear-planner-slots-controls-buttons">
+<a class="btn btn-small gear-planner-button-container-link fa fa-link" href="https://www.wowhead.com/wotlk/gear-planner/hunter/orc/BgBQFPAFMFEB9QAAMlAAMzMFMRNTATMfHzAwMXhqdDExeGp3MjF4anYzMXJoZjQxcmhnNTFyZ2EAAKDNgUC8kADqMgChtiCc0wIAuKiDILyOAOoeAKSfhUC8kgDtFACcsCCc0wZAuM8AnNMgpJ-HQLyPAOymAL_WIKSfiCC4wADW6ACc04kAuLEArh-KILyRANbXAJzTCwC4sgwgs-AAnLANALjHDgCs3Y8AuJkA1tqQILjhAO0TAJzTkgC4owDXXw" style="margin-left:5px;float:right">Link</a>
+<button class="btn btn-small fa fa-user gear-planner-button-container-model">Toggle Model</button></div>
+<div class="slider not-editable has-labels" data-track="progress">
+<div class="slider-track">
+<div class="slider-track-handle" style="left: 100%;"></div>
+<div class="slider-track-bar">
+<div class="slider-track-bar-progress" style="width: 100%;"></div></div></div>
+<div class="slider-labels">
+<span class="slider-labels-title">Level</span>
+<span class="slider-labels-values">
+<span class="slider-labels-values-sizer">80</span>
+<input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
+<span class="slider-labels-values-max">80</span></span></div></div></div></div></div>
 <h2 class="heading-size-2" id="best-in-slot-list">Survival Hunter DPS Best in Slot Gear List - Pre-Raid Phase 4</h2>
 <table class="grid max-width">
 <tbody>
