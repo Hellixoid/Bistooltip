@@ -1,10 +1,10 @@
-<div class="guide-styles" data-zaf-dynamic="article" id="guide-body" lang="en">Welcome to Wowhead's Pre-Raid Best in Slot Gear list for Arms Warrior DPS in Wrath of the Lich King Classic for Phase 4. This guide will list the recommended gear for your class and role, containing gear sourced from Heroics, reputation rewards, and the new 10-man Raid loot added to Titan Rune Dungeons.<h2 class="heading-size-2" id="best-in-slot-gear">Arms Warrior DPS Best in Slot Gear, Gems, and Enchants - Pre-Raid Phase 4</h2>
+<div class="guide-styles" data-ay-injected="true" data-zaf-dynamic="article" id="guide-body" lang="en">Welcome to Wowhead's Pre-Raid Best in Slot Gear list for Arms Warrior DPS in Wrath of the Lich King Classic for Phase 4. This guide will list the recommended gear for your class and role, containing gear sourced from Heroics, reputation rewards, and the new 10-man Raid loot added to Titan Rune Dungeons.<h2 class="heading-size-2" id="best-in-slot-gear">Arms Warrior DPS Best in Slot Gear, Gems, and Enchants - Pre-Raid Phase 4</h2>
 <div style="text-align: -webkit-center;">
 <div class="gear-planner" data-data-env-key="wrath" data-faction="1" data-player-class="1" data-player-gender="0" data-player-level="80" data-player-race-id="1" id="markup-gear-planner-calc-0">
 <div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
 <div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
 <div class="gear-planner-slots-talents">
-<div class="ctc-main" data-class-id="1" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="1" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_warrior.jpg"/>
@@ -17,8 +17,7 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/warrior">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
@@ -449,7 +448,7 @@
 <div class="iconmedium" data-env="wrath" data-game="wow" data-tree="wrath">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_warrior_vigilance.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/wotlk/spell=50720/vigilance"></a></div>
+<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/wotlk/spell=50720/vigilance?spellModifier=63326"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="1" data-row="4" data-size="2" data-talent="148" style="z-index: 5;"></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 20 points in Protection Talents" data-max-points="2" data-points="0" data-row="4" style="z-index: 7;">
@@ -1427,7 +1426,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=59954/arcanum-of-torment">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/ability_warrior_rampage.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Arcanum of Torment</span></a></td>
-<td>75 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
+<td>75 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_summonchampion.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Emblem of Triumph</span></span></a> + <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47242/trophy-of-the-crusade">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_trophy_argent.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Trophy of the Crusade</span></a></td></tr>
@@ -1438,7 +1437,7 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_necklace_34.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Charge of the Eredar</span></a></td>
 <td></td>
 <td></td>
-<td>30 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
+<td>30 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a></td></tr>
 <tr>
@@ -1454,7 +1453,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=59934/greater-inscription-of-the-axe">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/trade_engineering.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Greater Inscription of the Axe</span></a></td>
-<td>45 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
+<td>45 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_summonchampion.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Emblem of Triumph</span></span></a> + <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47242/trophy-of-the-crusade">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_trophy_argent.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Trophy of the Crusade</span></a></td></tr>
@@ -1475,7 +1474,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=47898/enchant-cloak-greater-speed">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_enchant_formulagood_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Enchant Cloak - Greater Speed</span></a></td>
-<td>15 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
+<td>15 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelcrafting_icediamond_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sidereal Essence</span></span></a></td></tr>
 <tr>
@@ -1495,7 +1494,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=60692/enchant-chest-powerful-stats">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_enchant_formulagood_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Enchant Chest - Powerful Stats</span></a></td>
-<td>75 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
+<td>75 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_summonchampion.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Emblem of Triumph</span></span></a> + <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47242/trophy-of-the-crusade">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_trophy_argent.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Trophy of the Crusade</span></a></td></tr>
@@ -1526,7 +1525,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=54999/hyperspeed-accelerators">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/trade_engineering.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Hyperspeed Accelerators</span></a></td>
-<td>45 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
+<td>45 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=301/emblem-of-triumph">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_summonchampion.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Emblem of Triumph</span></span></a> + <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=47242/trophy-of-the-crusade">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_trophy_argent.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Trophy of the Crusade</span></a></td></tr>
@@ -1549,7 +1548,7 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=40117"></a></div></td>
 <td></td>
-<td>19 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
+<td>19 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelcrafting_icediamond_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sidereal Essence</span></span></a></td></tr>
 <tr>
@@ -1603,7 +1602,7 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=40117"></a></div></td>
 <td></td>
-<td>19 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
+<td>19 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelcrafting_icediamond_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sidereal Essence</span></span></a></td></tr>
 <tr>
@@ -1613,7 +1612,7 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_ring_65.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Ring of Callous Aggression</span></a></td>
 <td></td>
 <td></td>
-<td>30 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
+<td>30 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a></td></tr>
 <tr>
@@ -1623,7 +1622,7 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Death's Verdict</span></a></td>
 <td></td>
 <td></td>
-<td>38<a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
+<td>38<a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a></td></tr>
 <tr>
@@ -1647,7 +1646,7 @@
 <td>
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=59621/enchant-weapon-berserking">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_enchant_formulasuperior_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Enchant Weapon - Berserking</span></a></td>
-<td>76 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
+<td>76 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2711/defilers-scourgestone">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bone_skull_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Defiler's Scourgestone</span></span></a></td></tr>
 <tr>
@@ -1661,7 +1660,7 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/wotlk/item=40117"></a></div></td>
 <td></td>
-<td>15 <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
+<td>15 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelcrafting_icediamond_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sidereal Essence</span></span></a></td></tr></tbody></table>
 <h2 class="heading-size-2" id="best-bind-on-equip">Best Bind on Equip Items for Arms Warrior DPS - Pre-Raid Phase 4</h2>
@@ -1680,14 +1679,14 @@
 <td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=50180/lanathels-chain-of-flagellation">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_necklace_50.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Lana'thel's Chain of Flagellation</span></a></td>
-<td>Drops from <a href="https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel">
+<td>Drops from <a data-entity="npc" href="https://www.wowhead.com/wotlk/npc=37955/blood-queen-lanathel">
 <span class="tinyicontxt">Blood-Queen Lana'thel</span></a> (25)</td></tr>
 <tr>
 <td>2</td>
 <td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=45107/iron-riveted-war-helm">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_helmet_98.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Iron Riveted War Helm</span></a></td>
-<td>Drops from <a href="https://www.wowhead.com/wotlk/npc=33113/flame-leviathan">
+<td>Drops from <a data-entity="npc" href="https://www.wowhead.com/wotlk/npc=33113/flame-leviathan">
 <span class="tinyicontxt">Flame Leviathan</span></a> (25)</td></tr>
 <tr>
 <td>3</td>
@@ -1708,14 +1707,14 @@
 <td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=45480/nymph-heart-charm">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_necklace_10.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Nymph Heart Charm</span></a></td>
-<td>Drops from <a href="https://www.wowhead.com/wotlk/npc=32906/freya">
+<td>Drops from <a data-entity="npc" href="https://www.wowhead.com/wotlk/npc=32906/freya">
 <span class="tinyicontxt">Freya</span></a> (25)</td></tr>
 <tr>
 <td>6</td>
 <td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=45704/shawl-of-the-shattered-giant">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_18.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Shawl of the Shattered Giant</span></a></td>
-<td>Drops from <a href="https://www.wowhead.com/wotlk/npc=32930/kologarn">
+<td>Drops from <a data-entity="npc" href="https://www.wowhead.com/wotlk/npc=32930/kologarn">
 <span class="tinyicontxt">Kologarn</span></a> (25)</td></tr></tbody></table></div>
 <h2 class="heading-size-2" id="best-gems">Best Gems for Arms Warrior DPS - Pre-Raid Phase 4</h2>
 <ul>

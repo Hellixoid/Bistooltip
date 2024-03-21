@@ -1,7 +1,7 @@
-<div class="guide-styles" data-zaf-dynamic="article" id="guide-body" lang="en">Welcome to the Blood Death Knight DPS Guide!  This guide will cover current everything from opener, rotation, and gearing options. A heavily requested guide, but not able to come into it's own until recently. Blizzard has changed it's viewpoint recently of leaving Classic as it was back in the day and started to address some issues and concerns of classes to improve the gameplay for the players. You see this with a Retribution Paladin and Feral Druid Buff, or with Ignite and Deep Wounds munching. They've also chosen to address some of the scaling issues of the signature Blood talent  <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=49028/dancing-rune-weapon">
+<div class="guide-styles" data-ay-injected="true" data-zaf-dynamic="article" id="guide-body" lang="en">Welcome to the Blood Death Knight DPS Guide!  This guide will cover current everything from opener, rotation, and gearing options. A heavily requested guide, but not able to come into it's own until recently. Blizzard has changed it's viewpoint recently of leaving Classic as it was back in the day and started to address some issues and concerns of classes to improve the gameplay for the players. You see this with a Retribution Paladin and Feral Druid Buff, or with Ignite and Deep Wounds munching. They've also chosen to address some of the scaling issues of the signature Blood talent  <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=49028/dancing-rune-weapon">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_07.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dancing Rune Weapon</span></a>. Resulting in not an exactly 50% damage as the tooltip suggests due to it not inheriting some of the stats your character has, but it's a lot closer than it was. This isn't a massive dps increase for Blood, it's barely any change at all. There's been a lot of interest about Blood, and if you would like more complex answers to questions like the double disease opener then join us at  <a href="https://discord.gg/7hYVEz7aS9" target="_blank">Woims Discord</a> or <a href="https://discord.gg/ebonhold" target="_blank">Ebon Hold (Fonsas') Discord</a>.<h2 class="heading-size-2" id="class-overview">
-<span class="c6">Class Overview for Blood Death Knight DPS in Wrath of the Lich King</span></h2>Often shunned by the community, Blood is coming together as the expansion goes on. With Armor Penetration becoming more prevalent in gear, Blood inches closer to the damage of Frost or Unholy DPS. Not quite there in Ulduar, you see it get a lot closer in <a href="https://www.wowhead.com/wotlk/zone=4722/trial-of-the-crusader">
-<span class="tinyicontxt">Trial of the Crusader</span></a> and <a href="https://www.wowhead.com/wotlk/zone=4812/icecrown-citadel">
+<span class="c6">Class Overview for Blood Death Knight DPS in Wrath of the Lich King</span></h2>Often shunned by the community, Blood is coming together as the expansion goes on. With Armor Penetration becoming more prevalent in gear, Blood inches closer to the damage of Frost or Unholy DPS. Not quite there in Ulduar, you see it get a lot closer in <a data-entity="zone" href="https://www.wowhead.com/wotlk/zone=4722/trial-of-the-crusader">
+<span class="tinyicontxt">Trial of the Crusader</span></a> and <a data-entity="zone" href="https://www.wowhead.com/wotlk/zone=4812/icecrown-citadel">
 <span class="tinyicontxt">Icecrown Citadel</span></a>. My big disclaimer is, Blood is not the best DPS spec for Death Knights - if you can play all the specs at a high level, it would be a raid dps loss to play Blood over Unholy or Frost even in ICC BIS due to the lack of AOE damage. If you're in a casual guild, not speed running, or allowed to play whatever you want and you've wanted to play Blood then do it. Getting acquainted with the spec will help you as you move into the next phases of Classic where Blood starts to get even stronger. Most of Classic has turned into a hyper optimization of the game that has woven itself into even the most casual of guilds, heroic dungeons, and world content. We've seen countless tiers that this is not needed to do a majority of content. This is the only expansion where Blood DPS is a thing, so if you want to relive some fond memories and play something less optimal then do it. <br/>
 <br/>Blood is heavily gear dependent, don't expect to go into a raid with mediocre gear and being in top 5 DPS on a boss. In order for you to justify playing Blood, you need to be able to compete with other classes and not be a hindrance to the raid. It's worth noting that Blood is the easiest of the 3 DPS specs to play for Death Knights and if you have the BIS gear, you might see some higher performance than the other specs if you cannot play them properly and kill times favor you. Blood DPS suffers the same way that Blood tanking does, in that AOE is virtually nonexistent. When comparing the other 2 DPS specs to Blood in this regard, you will not even seen close to equal damage numbers overall. Blood is strictly a Single Target and 2 Target spec, keep this mind when comparing the specs.<div class="pad"></div>
 <hr/>
@@ -15,7 +15,9 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_62.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Death Rune Mastery</span></a> means every time you use <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=49924/death-strike">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_butcher2.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Death Strike</span></a> then those runes spent will come back as Death Runes. These Death Runes will then be used for more <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=55262/heart-strike">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_weapon_shortblade_40.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Heart Strike</span></a>'s. <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=45529/blood-tap">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_bloodtap.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Blood Tap</span></a> allows you to convert a Blood Rune into a Death Rune for 20 seconds, every 1 minute. This essentially breaks down to a 40 second cooldown, as the ability goes on cooldown the moment it is used, and the Blood Tap buff lasts for 20 seconds. This ability does not require you to have a Blood Rune active, and it also grants 10 RP. If you have 2 Blood Runes, both active or both inactive, it will convert one to a Death Rune and activate it.<h5 class="heading-size-5" id="runic-power">Runic Power</h5>Runic Power is considered the 'Spender' resource for Death Knights of all specializations, the baseline being a pool of 100. Your abilities that cost one Rune of any type will provide a baseline of 10 Runic Power, abilities that cost two and three Runes of any type will provide 15 Runic Power.<div class="pad"></div>
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_bloodtap.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Blood Tap</span></a> allows you to convert a Blood Rune into a Death Rune for 20 seconds, every 1 minute. This essentially breaks down to a 40 second cooldown, as the ability goes on cooldown the moment it is used, and the Blood Tap buff lasts for 20 seconds. This ability does not require you to have a Blood Rune active, and it also grants 10 RP. If you have 2 Blood Runes, both active or both inactive, it will convert one to a Death Rune and activate it.<div data-manual-placement-group="guide-body-article-au" style="margin: auto; display: flex; justify-content: center; min-height: 90px;">
+<div id="guide-body-article-au__ayManagerEnv__1"></div></div>
+<h5 class="heading-size-5" id="runic-power">Runic Power</h5>Runic Power is considered the 'Spender' resource for Death Knights of all specializations, the baseline being a pool of 100. Your abilities that cost one Rune of any type will provide a baseline of 10 Runic Power, abilities that cost two and three Runes of any type will provide 15 Runic Power.<div class="pad"></div>
 <hr/>
 <h2 class="heading-size-2" id="strengths-weaknesses">
 <span class="c6">Strengths &amp; Weaknesses for Blood Death Knight DPS in Wrath of the Lich King</span></h2>
@@ -53,39 +55,39 @@
 <td style="width: 15%; max-width: 100%;">
 <b>Race</b></td>
 <td>
-<a class="icontiny c6" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/death-knight">
+<a class="icontiny c6" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/death-knight">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_deathknight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Death Knight</span></a></td>
 <td>
-<a class="icontiny c11" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/druid">
+<a class="icontiny c11" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/druid">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_druid.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Druid</span></a></td>
 <td>
-<a class="icontiny c3" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/hunter">
+<a class="icontiny c3" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/hunter">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_hunter.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Hunter</span></a></td>
 <td>
-<a class="icontiny c8" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/mage">
+<a class="icontiny c8" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/mage">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_mage.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Mage</span></a></td>
 <td>
-<a class="icontiny c2" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/paladin">
+<a class="icontiny c2" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/paladin">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_paladin.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Paladin</span></a></td>
 <td>
-<a class="icontiny c5" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/priest">
+<a class="icontiny c5" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/priest">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_priest.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Priest</span></a></td>
 <td>
-<a class="icontiny c4" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/rogue">
+<a class="icontiny c4" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/rogue">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_rogue.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Rogue</span></a></td>
 <td>
-<a class="icontiny c7" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/shaman">
+<a class="icontiny c7" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/shaman">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_shaman.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Shaman</span></a></td>
 <td>
-<a class="icontiny c9" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/warlock">
+<a class="icontiny c9" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/warlock">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_warlock.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Warlock</span></a></td>
 <td>
-<a class="icontiny c1" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/warrior">
+<a class="icontiny c1" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/wotlk/warrior">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_warrior.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Warrior</span></a></td></tr>
 <tr>
 <td>
 <span class="icon-alliance">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/human">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/human">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_human_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Human</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -107,7 +109,7 @@
 <tr>
 <td>
 <span class="icon-alliance">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/dwarf">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/dwarf">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_dwarf_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dwarf</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -128,7 +130,7 @@
 <tr>
 <td>
 <span class="icon-alliance">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/night-elf">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/night-elf">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_nightelf_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Night Elf</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -149,7 +151,7 @@
 <tr>
 <td>
 <span class="icon-alliance">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/gnome">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/gnome">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_gnome_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Gnome</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -169,7 +171,7 @@
 <tr>
 <td>
 <span class="icon-alliance">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/draenei">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/draenei">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_draenei_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Draenei</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -191,7 +193,7 @@
 <tr>
 <td>
 <span class="icon-horde">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/orc">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/orc">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_orc_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Orc</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -212,7 +214,7 @@
 <tr>
 <td>
 <span class="icon-horde">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/undead">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/undead">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_scourge_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Undead</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -233,7 +235,7 @@
 <tr>
 <td>
 <span class="icon-horde">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/tauren">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/tauren">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_tauren_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Tauren</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -253,7 +255,7 @@
 <tr>
 <td>
 <span class="icon-horde">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/troll">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/troll">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_troll_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Troll</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -275,7 +277,7 @@
 <tr>
 <td>
 <span class="icon-horde">
-<a class="icontiny" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/blood-elf">
+<a class="icontiny" data-entity="race" data-game="wow" data-type="race" href="https://www.wowhead.com/wotlk/blood-elf">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/race_bloodelf_male.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Blood Elf</span></a></span></td>
 <td style="text-align: center;">
 <span class="icon-tick"></span></td>
@@ -327,7 +329,9 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_charm.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Will to Survive</span></a>: Removes all movement impairing effects and all effects which cause loss of control of your character. This effect shares a cooldown with other similar effects.</div></li></ul></div>Human is a decent option for Blood Death Knight DPS, the extra expertise gained from <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=20864/mace-specialization">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_hammer_05.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Mace Specialization</span></a> and <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=20597/sword-specialization">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/ability_meleedamage.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sword Specialization</span></a> when using those weapon types might not heavily influence how you gear, but any benefit is better than none. Maces aren't really shining as the expansion goes on, but there is a great sword option. It's also the best option if you pvp at all due to <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=59752/will-to-survive">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_charm.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Will to Survive</span></a>.<h4 class="heading-size-4" id="dwarf">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_charm.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Will to Survive</span></a>.<div data-manual-placement-group="guide-body-article-au" style="margin: auto; display: flex; justify-content: center; min-height: 90px;">
+<div id="guide-body-article-au__ayManagerEnv__2"></div></div>
+<h4 class="heading-size-4" id="dwarf">
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/race_dwarf_female.gif");'></span>Dwarf</h4>
 <div class="box">
 <ul class="first last">
@@ -427,8 +431,8 @@
 <li>
 <div data-markup-content-target="1">
 <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=20572/blood-fury">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/racial_orc_berserkerstrength.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Blood Fury</span></a> - Increases attack power for 15 sec.</div></li></ul></div>Orcs are a solid option for Blood Death Knight DPS players. With your Best in Slot weapon from <a href="https://www.wowhead.com/wotlk/zone=4722/trial-of-the-crusader">
-<span class="tinyicontxt">Trial of the Crusader</span></a> and <a href="https://www.wowhead.com/wotlk/zone=4812/icecrown-citadel">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/racial_orc_berserkerstrength.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Blood Fury</span></a> - Increases attack power for 15 sec.</div></li></ul></div>Orcs are a solid option for Blood Death Knight DPS players. With your Best in Slot weapon from <a data-entity="zone" href="https://www.wowhead.com/wotlk/zone=4722/trial-of-the-crusader">
+<span class="tinyicontxt">Trial of the Crusader</span></a> and <a data-entity="zone" href="https://www.wowhead.com/wotlk/zone=4812/icecrown-citadel">
 <span class="tinyicontxt">Icecrown Citadel</span></a> both being axes, the expertise from <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=20574/axe-specialization">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_axe_02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Axe Specialization</span></a> is more than enough to justify rolling Orc.<h4 class="heading-size-4" id="troll">
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/race_troll_female.gif");'></span>Troll</h4>
@@ -457,7 +461,9 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_07.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dancing Rune Weapon</span></a> snapshotting similarly to how <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=49206/summon-gargoyle">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/ability_hunter_pet_bat.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Summon Gargoyle</span></a> did previously, <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=26297/berserking">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/racial_troll_berserk.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Berserking</span></a> will lead to better <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/wotlk/spell=49028/dancing-rune-weapon">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_07.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dancing Rune Weapon</span></a> windows.<h4 class="heading-size-4" id="tauren">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_07.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dancing Rune Weapon</span></a> windows.<div data-manual-placement-group="guide-body-article-au" style="margin: auto; display: flex; justify-content: center; min-height: 90px;">
+<div id="guide-body-article-au__ayManagerEnv__3"></div></div>
+<h4 class="heading-size-4" id="tauren">
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/race_tauren_female.gif");'></span>Tauren</h4>
 <div class="box">
 <ul class="first last">
@@ -519,7 +525,7 @@
 <div style="text-align: -webkit-center;">
 <div class="box last">
 <div class="talentcalc-markup-parent">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -532,12 +538,11 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
-<div class="ctc-tree-container" data-no-points-left="1" style="left: 290.5px;">
+<div class="ctc-tree-container" data-no-points-left="1" style="left: 250.5px;">
 <div class="ctc-tree" data-spec-id="398" data-with-points="1">
 <div class="ctc-tree-box">
 <div class="ctc-tree-header">
@@ -1160,7 +1165,7 @@
 <div style="text-align: -webkit-center;">
 <div class="box last">
 <div class="talentcalc-markup-parent">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -1173,12 +1178,11 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
-<div class="ctc-tree-container" data-no-points-left="1" style="left: 290.5px;">
+<div class="ctc-tree-container" data-no-points-left="1" style="left: 250.5px;">
 <div class="ctc-tree" data-spec-id="398" data-with-points="1">
 <div class="ctc-tree-box">
 <div class="ctc-tree-header">
@@ -1796,7 +1800,9 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_sword_07.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Dancing Rune Weapon</span></a> windows, and the 90% reduction of AOE damage ensures it lives through most abilities.<div class="pad"></div>
 <div class="pad"></div>You'll notice that each build has <a class="q1 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=43827/glyph-of-death-strike">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_glyph_majordeathknight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Glyph of Death Strike</span></a>. It's worth noting that this is great for for Single Target fights, but <a class="q1 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/wotlk/item=43546/glyph-of-icy-touch">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_glyph_majordeathknight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Glyph of Icy Touch</span></a> comes ahead of it for longer Cleave fights and AOE.<h2 class="heading-size-2" id="best-in-slot">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_glyph_majordeathknight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Glyph of Icy Touch</span></a> comes ahead of it for longer Cleave fights and AOE.<div data-manual-placement-group="guide-body-article-au" style="margin: auto; display: flex; justify-content: center; min-height: 90px;">
+<div id="guide-body-article-au__ayManagerEnv__4"></div></div>
+<h2 class="heading-size-2" id="best-in-slot">
 <span class="c6">Best in Slot gear for Blood Death Knight DPS in Wrath of the Lich King</span></h2>
 <h3 class="heading-size-3" id="pre-raid">Pre-Raid Blood Death Knight DPS Gear</h3>
 <div style="text-align: -webkit-center;">
@@ -1804,7 +1810,7 @@
 <div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
 <div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
 <div class="gear-planner-slots-talents">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -1817,8 +1823,7 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
@@ -3214,7 +3219,7 @@
 <input class="slider-labels-values-input" data-field-filled="true" disabled="" style="width: 20px;" type="text"/>
 <span class="slider-labels-values-max">80</span></span></div></div></div></div></div></div>
 <br/>
-<br/>Most of this gear will not be available for pre-raid until P3, as <a class="icontiny q1" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
+<br/>Most of this gear will not be available for pre-raid until P3, as <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/wotlk/currency=2589/sidereal-essence">
 <span>
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelcrafting_icediamond_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sidereal Essence</span></span></a> becomes a new currency introduced. Currently you earn 1 per Heroic+ dungeon cleared.<h3 class="heading-size-3" id="ulduar-bis">Ulduar BIS Blood Death Knight DPS Gear</h3>
 <div class="clear"></div>
@@ -3242,7 +3247,7 @@
 <div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
 <div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
 <div class="gear-planner-slots-talents">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -3255,8 +3260,7 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
@@ -4646,7 +4650,7 @@
 <div class="gear-planner-grid" data-embed="true" data-layout="tiny" data-tab="0">
 <div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
 <div class="gear-planner-slots-talents">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -4659,8 +4663,7 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
@@ -6053,7 +6056,7 @@
 <div class="gear-planner-grid" data-embed="true" data-layout="small" data-tab="0">
 <div class="gear-planner-slots" data-currently-visible="true" data-tab="0">
 <div class="gear-planner-slots-talents">
-<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" style="display: block;">
+<div class="ctc-main" data-class-id="6" data-env="wrath" data-glyphs="1" data-tree="wrath" style="display: block;">
 <div class="ctc-main-status">
 <div class="ctc-main-status-class-name">
 <img class="ctc-main-status-class-name-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
@@ -6066,8 +6069,7 @@
 <a class="fa fa-file-invoice" href="javascript:">Embed</a></div>
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/wotlk/spells/abilities/death-knight">Class Abilities</a></div>
-<div class="ctc-main-status-required-level">Required level: <b>80</b></div>
-<div class="ctc-main-status-points-spent">Points left: <b>0</b></div></div>
+<div class="ctc-main-status-required-level">Required level: <b>80</b></div></div>
 <div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
