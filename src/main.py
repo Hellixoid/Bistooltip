@@ -91,7 +91,7 @@ def convert_wh_sorted_spec_to_item_list(sorted_specs):
     item_list_constructor.add_horde_ali_mapping(dirsAndFiles.horde_to_ali_file)
     item_list_constructor.add_tokens(dirsAndFiles.tokens_file)
     item_list_constructor.save_data(dirsAndFiles.Bistooltip_wh_items_data_file, dataSources.wh)
-    item_list_constructor.save_csv(dataSources.wh)
+    # item_list_constructor.save_csv(dataSources.wh)
     shutil.copyfile(
         dirsAndFiles.Bistooltip_wh_items_data_file, dirsAndFiles.addon_Bistooltip_wh_items_data_file)
 
@@ -113,7 +113,6 @@ def process_wowtbc():
 
 
 def process_wh():
-    del phases.phases["T10.5"]
     if data_collection is True:
         collect_wh_specs_bis_data()
     spec_data = collect_wh_sorted_spec_data()
@@ -139,5 +138,5 @@ def build_ali_to_horde_mapping():
 if __name__ == '__main__':
     data_collection = False
     process_wowtbc()
-    # process_wh()
+    process_wh()
     build_ali_to_horde_mapping()

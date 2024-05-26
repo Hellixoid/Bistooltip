@@ -44,7 +44,7 @@ class WhSpecDataParser:
         return sorted_spec
 
     def extract_spec_data(self, doc, phase_id, sorted_spec, spec_id):
-        if phase_id == phases.phases.get("Pre-Bis"):
+        if phase_id == phases.phases.get("Pre-Bis-workaround"):
             tbody_tag = doc.findNext("tbody")
             self.parse_pr_table(tbody_tag, phase_id, sorted_spec, spec_id)
         else:
@@ -184,6 +184,7 @@ class WhSpecDataParser:
             return whSlots.spec_to_slots.get(spec_id).get(slot)
         if slot in whSlots.slot_to_slot_name:
             return whSlots.slot_to_slot_name[slot]
+        print(slot)
         return None
 
     def find_ench(self, tag: bs4.element.Tag, slot_name, phase_id, sorted_spec: SortedSpec, lookup_only_child=False):

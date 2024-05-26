@@ -6,12 +6,15 @@ from selenium import webdriver
 from src.general import phases
 from src.wh import whPhases, whSpecs
 
-URL_PREFIX = 'https://www.wowhead.com/wotlk/guide/classes/'
+URL_PREFIX = 'https://www.wowhead.com/cata/guide/classes/'
 URL_SUFFIX = '-bis-gear-'
 
 
 def collect_specs_data(data_dir):
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument(r"--user-data-dir=C:\Users\User\AppData\Local\Google\Chrome\User Data")
+    options.add_argument(r'--profile-directory=Profile 2')
+    driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(20)
     for spec in whSpecs.specs:
         print("Collecting spec " + spec)

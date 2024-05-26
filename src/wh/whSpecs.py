@@ -19,8 +19,8 @@ specs = [
     "holy-priest",
     "shadow-priest",
     "assassination-rogue",
-    "subtlety-rogue",
     "combat-rogue",
+    "subtlety-rogue",
     "elemental-shaman",
     "enhancement-shaman",
     "restoration-shaman",
@@ -65,3 +65,4 @@ spec_to_url_path = {
     "fury-warrior": "warrior/fury/dps",
     "protection-warrior": "warrior/protection/tank"
 }
+
