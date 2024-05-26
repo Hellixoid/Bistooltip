@@ -31,8 +31,6 @@ class WowtbcSpecDataParser:
                         item_value = 0
                     item_bis_phases = item['phase']
                     for phase in phases:
-                        if spec_id == "blood-dps-death-knight" and phase != "T10" and phase != "T10.5":
-                            continue
                         phase_data = item.get(phase.lower())
                         if phase_data is not None and "bis" in phase_data and phase_data['bis']:
                             i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name)

@@ -72,15 +72,28 @@ def read_specs_enchs(specs_dir):
 def fill_dict_ids(dictionary, collection_file):
     with open(collection_file) as json_file:
         data = json.load(json_file)
+        ilvl_dict = {
+
+        }
         for item in data:
             item_name = item.get('name')
             item_id = item.get('entry')
+            ilvl = item.get('ItemLevel')
             if item_name is not None and item_id is not None and item_name in dictionary:
                 if dictionary[item_name] != 0:
                     print('item duplicate found: "' + str(item_name) + '", id1: ' + str(
                         dictionary[item_name]) + ', id2: ' + str(item_id))
+                    if ilvl is not None:
+                        ilvl2 = ilvl_dict[item_name]
+                        if ilvl2 is not None:
+                            if ilvl > ilvl2:
+                                dictionary[item_name] = item_id
+                                ilvl_dict[item_name] = ilvl
+
                 else:
                     dictionary[item_name] = item_id
+                    if ilvl is not None:
+                        ilvl_dict[item_name] = ilvl
 
 
 def fill_ench_ids(dictionary, collection_file, type):

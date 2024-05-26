@@ -5,7 +5,7 @@ import requests
 
 from src.wowtbc.wowtbcSpecs import specs
 
-URL_PREFIX = 'https://wowtbc.gg/page-data/wotlk/bis-list/'
+URL_PREFIX = 'https://wowtbc.gg/page-data/cata/bis-list/'
 URL_SUFFIX = '/page-data.json'
 
 

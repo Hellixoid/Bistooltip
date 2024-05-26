@@ -17,9 +17,6 @@ def collect_specs_data(data_dir):
         print("Collecting spec " + spec)
         for phase_id in phases.phases.values():
             print("Phase: " + str(phase_id))
-            if spec == "blood-dps-death-knight":
-                if phase_id == 1:
-                    continue
             collected_flag = False
             while collected_flag is not True:
                 try:
@@ -50,7 +47,4 @@ def fix_url(url: str):
 
 
 def get_url(spec_id, phase_id):
-    if spec_id == "blood-dps-death-knight":
-        if phase_id == 0:
-            return URL_PREFIX + whSpecs.spec_to_url_path[spec_id] + "-overview-bis-gear-p3"
     return URL_PREFIX + whSpecs.spec_to_url_path[spec_id] + URL_SUFFIX + whPhases.id_to_url_path[phase_id]

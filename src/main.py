@@ -137,7 +137,7 @@ def build_ali_to_horde_mapping():
 
 
 if __name__ == '__main__':
-    data_collection = True
+    data_collection = False
     process_wowtbc()
-    process_wh()
+    # process_wh()
     build_ali_to_horde_mapping()

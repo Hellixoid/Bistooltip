@@ -8,10 +8,8 @@ from src.general import phases
 from src import dirsAndFiles
 from bs4 import BeautifulSoup
 
-from src.general.slots import bdk_planner_slots
 from src.general.sortedSpec import SortedSpec, Item
 from src.wh import whSlots
-from src.wh.whPhases import bdk_phases
 
 
 class WhSpecDataParser:
@@ -36,56 +34,14 @@ class WhSpecDataParser:
     def parse(self, spec_id):
         sorted_spec = SortedSpec(spec_id)
         for phase_id in phases.phases.values():
-            if spec_id == "blood-dps-death-knight" and phase_id < 2:
-                file_path = os.path.join(dirsAndFiles.wh_spec_data_dir, spec_id + "." + str(0))
-            else:
-                file_path = os.path.join(dirsAndFiles.wh_spec_data_dir, spec_id + "." + str(phase_id))
+            file_path = os.path.join(dirsAndFiles.wh_spec_data_dir, spec_id + "." + str(phase_id))
             with open(file_path, "r", encoding="utf-8") as html_file:
                 soup = BeautifulSoup(html_file.read(), 'html.parser')
                 doc = soup.find("div", {"id": "guide-body"})
-                if spec_id == "blood-dps-death-knight" and phase_id < 2:
-                    self.parse_bdk_dps_data(sorted_spec, doc, phase_id)
-                    continue
 
                 self.extract_spec_data(doc, phase_id, sorted_spec, spec_id)
 
         return sorted_spec
-
-    def parse_bdk_dps_data(self, sorted_spec, doc, phase_id):
-        h3_tags = doc.findChildren(["h3"])
-        for h3_tag in h3_tags:
-            spec_header = h3_tag.text.strip()
-            if bdk_phases[phase_id] in spec_header:
-                planner = h3_tag.findNext("div", {"class": "gear-planner"})
-                slots = planner.findChildren("div", {"class": "gear-planner-slots-group-slot"})
-                for slot in slots:
-                    item_id = None
-                    if "data-item-id" in slot.attrs:
-                        item_id = int(slot.attrs["data-item-id"])
-                    if item_id is None:
-                        continue
-                    if str(item_id) in self.horde_to_ali_dict:
-                        item_id = int(self.horde_to_ali_dict[str(item_id)])
-                    slot_name = bdk_planner_slots[int(slot.attrs["data-slot-id"])]
-                    sorted_spec.add_item(slot_name, phases.id_to_phase[phase_id], Item(item_id, 0, None), False)
-
-                    # enchs:
-                    enchs = slot.findChildren("div", {"class": "gear-planner-slots-group-slot-enchant"})
-                    for ench in enchs:
-                        item_links = ench.findChildren("a", href=True)
-                        self.find_ench_in_tags(item_links, slot_name, phase_id, sorted_spec)
-
-                    # gems
-                    gems = slot.findChildren("div", {"class": "gear-planner-slots-group-slot-gem"})
-
-                    for gem in gems:
-                        item_links = gem.findChildren("a", href=True)
-                        for link in item_links:
-                            if "javascript" in link.attrs["href"]:
-                                continue
-                            gem_id = self.get_item_id(link)
-                            sorted_spec.add_gem(slot_name, phases.id_to_phase[phase_id], gem_id)
-        return
 
     def extract_spec_data(self, doc, phase_id, sorted_spec, spec_id):
         if phase_id == phases.phases.get("Pre-Bis"):
