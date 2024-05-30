@@ -41,7 +41,7 @@ def collect_wowtbc_sorted_spec_data():
                              dirsAndFiles.ench_ids_file, dirsAndFiles.horde_to_ali_file)
     spec_data_parser = WowtbcSpecDataParser(id_resolver)
     for spec in wowtbcSpecs.specs:
-        print(f'Parsing spec {dataSources.wowtbc}: {spec}')
+        print(f'\nParsing spec {dataSources.wowtbc}: {spec}')
         file_path = os.path.join(dirsAndFiles.wowtbc_spec_data_dir, spec + '.json')
         sorted_specs.append(spec_data_parser.parse(file_path))
     return sorted_specs
@@ -79,7 +79,7 @@ def collect_wh_sorted_spec_data():
         dirsAndFiles.ench_spells_collection_file,
         dirsAndFiles.horde_to_ali_file)
     for spec in whSpecs.specs:
-        print(f'Parsing spec {dataSources.wh}: {spec}')
+        print(f'\nParsing spec {dataSources.wh}: {spec}')
         sorted_specs.append(spec_data_parser.parse(spec))
     return sorted_specs
 

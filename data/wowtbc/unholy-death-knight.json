@@ -291,7 +291,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Cloudburst Necklace of the Earthfall",
+          "name": "Caelestrasz's Will",
           "slot": "neck",
           "phase": [
             "T11",
@@ -306,6 +306,56 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Dodge",
+            "reforge_to": "Haste",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Bold Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Sinestra",
+          "rarity": "epic"
+        },
+        {
+          "name": "Cloudburst Necklace of the Earthfall",
+          "slot": "neck",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -330,48 +380,6 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "Al'Akir",
-          "rarity": "epic"
-        },
-        {
-          "name": "Caelestrasz's Will",
-          "slot": "neck",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Sinestra",
           "rarity": "epic"
         },
         {
@@ -3109,6 +3117,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Hit",
             "enchant": {
               "recipe": false
             }
@@ -3435,26 +3445,21 @@
           "rarity": "rare"
         },
         {
-          "name": "Impatience of Youth",
+          "name": "Crushing Weight",
           "slot": "trinket 1",
           "phase": [
-            "Pre-Bis",
             "T11",
             "T12",
             "T13"
           ],
           "pre-bis": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
               "recipe": false
             }
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -3477,8 +3482,93 @@
               "recipe": false
             }
           },
-          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
-          "source_type": "Reputation",
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Ascendant Council",
+          "rarity": "epic"
+        },
+        {
+          "name": "Heart of Solace",
+          "slot": "trinket 1",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Lost City of the Tol'vir (H)",
+          "source_type": "Lockmaw",
+          "rarity": "rare"
+        },
+        {
+          "name": "License to Slay",
+          "slot": "trinket 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -3521,90 +3611,6 @@
           },
           "source": "Blackwing Descent",
           "source_type": "Trash Drop",
-          "rarity": "epic"
-        },
-        {
-          "name": "Crushing Weight",
-          "slot": "trinket 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Ascendant Council",
-          "rarity": "epic"
-        },
-        {
-          "name": "License to Slay",
-          "slot": "trinket 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Valor Points (1650)",
-          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -3867,90 +3873,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Fury of Angerforge",
-          "slot": "trinket 2",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent",
-          "source_type": "Trash Drop",
-          "rarity": "epic"
-        },
-        {
-          "name": "Crushing Weight",
-          "slot": "trinket 2",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Ascendant Council",
-          "rarity": "epic"
-        },
-        {
           "name": "License to Slay",
           "slot": "trinket 2",
           "phase": [
@@ -3993,16 +3915,15 @@
           "rarity": "epic"
         },
         {
-          "name": "Heart of Solace",
+          "name": "Fury of Angerforge",
           "slot": "trinket 2",
           "phase": [
-            "Pre-Bis",
             "T11",
             "T12",
             "T13"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -4031,9 +3952,54 @@
               "recipe": false
             }
           },
-          "source": "Lost City of the Tol'vir (H)",
-          "source_type": "Lockmaw",
-          "rarity": "rare"
+          "source": "Blackwing Descent",
+          "source_type": "Trash Drop",
+          "rarity": "epic"
+        },
+        {
+          "name": "Impatience of Youth",
+          "slot": "trinket 2",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
+          "source_type": "Reputation",
+          "rarity": "epic"
         },
         {
           "name": "Darkmoon Card: Hurricane v2",
@@ -6517,6 +6483,15 @@
             "Dreamcloth"
           ],
           "use": "Permanently embroiders spellthread into pants, increasing Intellect by 95 and Stamina by 80."
+        },
+        {
+          "name": "Bracer - Major Stamina",
+          "rarity": "rare",
+          "reagents": [
+            "Greater Cosmic Essence (4)",
+            "Abyss Crystal"
+          ],
+          "use": "Permanently enchant bracers to increase Stamina by 40.  Requires a level 60 or higher item."
         }
       ],
       "gemsData": [
@@ -12186,28 +12161,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Cloudburst Necklace of the Earthfall",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "neck",
-          "primary_stats": {
-            "strength": 214,
-            "stamina": 321
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "haste": 143,
-            "crit": 143
-          },
-          "source_type": "Al'Akir",
-          "source": "Throne of the Four Winds (H)",
-          "phase": "T11`T12`T13",
-          "hide_loot_table": true
-        },
-        {
           "name": "Caelestrasz's Will",
           "ilvl": 379,
           "rarity": "epic",
@@ -12234,6 +12187,28 @@
           "source_type": "Sinestra",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Cloudburst Necklace of the Earthfall",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 214,
+            "stamina": 321
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 143,
+            "crit": 143
+          },
+          "source_type": "Al'Akir",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Rage of Ages",
@@ -14223,43 +14198,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Impatience of Youth",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "other_stats": {
-            "min_level": 85,
-            "requirement": "Hellscream's Reach/Baradin's Wardens - Exalted"
-          },
-          "secondary_stats": {
-            "mastery": 321,
-            "use_1": "Increases your Strength by 1605 for 20 sec. (2 Min Cooldown)"
-          },
-          "source_type": "Reputation",
-          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
-          "name": "Fury of Angerforge",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "boe",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 321,
-            "equip_1": "Your melee attacks have a chance to capture the Raw Fury of the Blackwing.",
-            "use_1": "Consume 5 stacks of Raw Fury to forge into the form of a Blackwing Dragonkin, granting 1926 Strength for 20 sec."
-          },
-          "source_type": "Trash Drop",
-          "source": "Blackwing Descent",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Crushing Weight",
           "ilvl": 372,
           "rarity": "epic",
@@ -14280,6 +14218,24 @@
           "phase": "T11`T12`T13"
         },
         {
+          "name": "Heart of Solace",
+          "ilvl": 346,
+          "rarity": "rare",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 285,
+            "equip_1": "Your melee attacks have a chance to grant 1710 Strength for 20 sec."
+          },
+          "source_type": "Lockmaw",
+          "source": "Lost City of the Tol'vir (H)",
+          "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
           "name": "License to Slay",
           "ilvl": 359,
           "rarity": "epic",
@@ -14295,6 +14251,25 @@
           },
           "source_type": "Vendor",
           "source": "Valor Points (1650)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Fury of Angerforge",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 321,
+            "equip_1": "Your melee attacks have a chance to capture the Raw Fury of the Blackwing.",
+            "use_1": "Consume 5 stacks of Raw Fury to forge into the form of a Blackwing Dragonkin, granting 1926 Strength for 20 sec."
+          },
+          "source_type": "Trash Drop",
+          "source": "Blackwing Descent",
           "phase": "T11`T12`T13"
         },
         {
@@ -14406,6 +14381,24 @@
           "phase": "T11`T12`T13"
         },
         {
+          "name": "License to Slay",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "hit": 321,
+            "equip_1": "Your melee attacks grant 38 Strength.  Lasts 15 sec, stacking up to 10 times."
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Fury of Angerforge",
           "ilvl": 359,
           "rarity": "epic",
@@ -14425,59 +14418,21 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Crushing Weight",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "strength": 363
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Your melee attacks have a chance to grant 2178 haste rating for 15 sec."
-          },
-          "source_type": "Ascendant Council",
-          "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
-          "name": "License to Slay",
+          "name": "Impatience of Youth",
           "ilvl": 359,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
-          "unique": true,
           "other_stats": {
-            "min_level": 85
+            "min_level": 85,
+            "requirement": "Hellscream's Reach/Baradin's Wardens - Exalted"
           },
           "secondary_stats": {
-            "hit": 321,
-            "equip_1": "Your melee attacks grant 38 Strength.  Lasts 15 sec, stacking up to 10 times."
+            "mastery": 321,
+            "use_1": "Increases your Strength by 1605 for 20 sec. (2 Min Cooldown)"
           },
-          "source_type": "Vendor",
-          "source": "Valor Points (1650)",
-          "phase": "T11`T12`T13"
-        },
-        {
-          "name": "Heart of Solace",
-          "ilvl": 346,
-          "rarity": "rare",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "haste": 285,
-            "equip_1": "Your melee attacks have a chance to grant 1710 Strength for 20 sec."
-          },
-          "source_type": "Lockmaw",
-          "source": "Lost City of the Tol'vir (H)",
+          "source_type": "Reputation",
+          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
@@ -21936,8 +21891,7 @@
           },
           "builds": [
             {
-              "name": "Standard Build",
-              "description": "If you don't want to run Lichborne, you can move the points from it and Icy Reach into Crimson Scourge to help with AoE tanking and Scent of Blood. You would then also run Glyph of Death Strike over Death Coil."
+              "name": "Standard Build"
             }
           ],
           "bestFood": [
@@ -21981,8 +21935,8 @@
             "The rest of the Crafting Professions provide nearly identical benefits."
           ],
           "glyphs": [
-            "Prime: *{\"consume\": \"Heart Strike\"}*, *{\"consume\": \"Rune Strike\"}*, *{\"consume\": \"Death Coil\"}* ( With *{\"skill\": \"Lichborne\"}* )",
-            "Optional: For AoE, replace *{\"consume\": \"Rune Strike\"}* with *{\"consume\": \"Death and Decay\"}*",
+            "Prime: *{\"consume\": \"Heart Strike\"}*, *{\"consume\": \"Rune Strike\"}*, *{\"consume\": \"Death Strike\"}*",
+            "Optional: For AoE, replace *{\"consume\": \"Death Strike\"}* with *{\"consume\": \"Death and Decay\"}*",
             "Major: *{\"consume\": \"Dancing Rune Weapon\"}*",
             "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
@@ -22003,27 +21957,23 @@
             "Cast *{\"skill\": \"Empower Rune Weapon\"}* when all Runes are on cooldown and you won't cap on Runic Power.",
             "Cast *{\"skill\": \"Raise Dead\"}*. Try to snapshot it with your cooldowns and trinket procs.",
             "Maintain *{\"skill\": \"Frost Fever\"}* and *{\"skill\": \"Blood Plague\"}*. *{\"skill\": \"Howling Blast\"}* applies *{\"skill\": \"Frost Fever\"}* thanks to *{\"consume\": \"Glyph of Howling Blast\"}*. *{\"skill\": \"Outbreak\"}* and *{\"skill\": \"Plague Strike\"}* will need to be used to maintain *{\"skill\": \"Blood Plague\"}* .",
-            "Cast *{\"skill\": \"Obliterate\"}* with *{\"skill\": \"Killing Machine\"}* procs or to avoid capping on Runes.",
             "Cast *{\"skill\": \"Frost Strike\"}* to avoid capping on Runic Power.",
-            "Cast *{\"skill\": \"Howling Blast\"}* with *{\"skill\": \"Rime\"}* proc.",
-            "Cast *{\"skill\": \"Obliterate\"}*. During downtime, you can delay your *{\"skill\": \"Obliterate\"}* to line them up with *{\"skill\": \"Killing Machine\"}* procs.",
-            "Cast *{\"skill\": \"Frost Strike\"}*. This may sometimes consume *{\"skill\": \"Killing Machine\"}* procs if *{\"skill\": \"Obliterate\"}* is unavailable.",
-            "Cast *{\"skill\": \"Howling Blast\"}*.",
+            "Cast *{\"skill\": \"Howling Blast\"}*. Keep an eye out for *{\"skill\": \"Rime\"}* procs.",
+            "Cast *{\"skill\": \"Obliterate\"}* to avoid capping on Unholy Runes.",
             "Cast *{\"skill\": \"Horn of Winter\"}*."
           ],
           "aoe": [
-            "Cast *{\"skill\": \"Howling Blast\"}* to avoid capping on *{\"wowBoss\": \"Frost Runes\"}* and *{\"wowBoss\": \"Death Runes\"}*.",
+            "Apply *{\"skill\": \"Frost Fever\"}* and *{\"skill\": \"Blood Plague\"}* with *{\"skill\": \"Howling Blast\"}* and *{\"skill\": \"Outbreak\"}* or *{\"skill\": \"Plague Strike\"}*.",
+            "Spread diseases with *{\"skill\": \"Pestilence\"}*.",
             "Cast *{\"skill\": \"Death and Decay\"}* or *{\"skill\": \"Plague Strike\"}* if it's on cooldown to avoid capping on *{\"wowBoss\": \"Unholy Runes\"}*.",
             "Cast *{\"skill\": \"Frost Strike\"}* to avoid capping on Runic Power.",
             "Cast *{\"skill\": \"Howling Blast\"}*.",
-            "Cast *{\"skill\": \"Death and Decay\"}* or *{\"skill\": \"Plague Strike\"}* if it's on cooldown.",
-            "Cast *{\"skill\": \"Frost Strike\"}*.",
+            "Cast *{\"skill\": \"Obliterate\"}*.",
             "Cast *{\"skill\": \"Horn of Winter\"}*."
           ],
           "builds": [
             {
-              "name": "Standard Build",
-              "description": "If you need Chilblains for kiting, remove the points from either Blood Tap or Epidemic."
+              "name": "Masterfrost Build"
             }
           ],
           "bestFood": [

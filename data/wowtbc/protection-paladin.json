@@ -2566,49 +2566,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Guildmaster's Greaves",
-          "slot": "feet",
-          "phase": [
-            "Pre-Bis",
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Deadmines (H)",
-          "source_type": "Vanessa VanCleef",
-          "rarity": "rare"
-        },
-        {
           "name": "Dargonax's Signet",
           "slot": "finger 1",
           "phase": [
@@ -3389,48 +3346,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Symbiotic Worm",
-          "slot": "trinket 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Magmaw",
-          "rarity": "epic"
-        },
-        {
           "name": "Vial of Stolen Memories",
           "slot": "trinket 1",
           "phase": [
@@ -3731,49 +3646,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Impatience of Youth",
-          "slot": "trinket 2",
-          "phase": [
-            "Pre-Bis",
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
-          "source_type": "Reputation",
-          "rarity": "epic"
-        },
-        {
           "name": "Symbiotic Worm",
           "slot": "trinket 2",
           "phase": [
@@ -3788,7 +3660,7 @@
             }
           },
           "t11": {
-            "bis": false,
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -3855,6 +3727,49 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Theralion and Valiona",
+          "rarity": "epic"
+        },
+        {
+          "name": "Impatience of Youth",
+          "slot": "trinket 2",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
+          "source_type": "Reputation",
           "rarity": "epic"
         },
         {
@@ -6585,6 +6500,15 @@
             "Dreamcloth"
           ],
           "use": "Permanently embroiders spellthread into pants, increasing Intellect by 95 and Stamina by 80."
+        },
+        {
+          "name": "Bracer - Major Stamina",
+          "rarity": "rare",
+          "reagents": [
+            "Greater Cosmic Essence (4)",
+            "Abyss Crystal"
+          ],
+          "use": "Permanently enchant bracers to increase Stamina by 40.  Requires a level 60 or higher item."
         }
       ],
       "gemsData": [
@@ -13821,39 +13745,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Guildmaster's Greaves",
-          "ilvl": 346,
-          "rarity": "rare",
-          "bind": "bop",
-          "slot": "feet",
-          "type": "plate",
-          "special_stats": {
-            "armor": 2268
-          },
-          "primary_stats": {
-            "intellect": 205,
-            "stamina": 337,
-            "spirit": 130
-          },
-          "sockets": {
-            "socket_colors": [
-              "red"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Mastery Rating"
-          },
-          "other_stats": {
-            "durability": 65,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 150
-          },
-          "source_type": "Vanessa VanCleef",
-          "source": "The Deadmines (H)",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Dargonax's Signet",
           "ilvl": 379,
           "rarity": "epic",
@@ -14277,26 +14168,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Symbiotic Worm",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "stamina": 544
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Melee attacks which reduce you below 35% health cause you to gain 1089 mastery rating for 10 sec. Cannot occur more than once every 30 sec."
-          },
-          "source_type": "Magmaw",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Vial of Stolen Memories",
           "ilvl": 372,
           "rarity": "epic",
@@ -14440,24 +14311,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Impatience of Youth",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "other_stats": {
-            "min_level": 85,
-            "requirement": "Hellscream's Reach/Baradin's Wardens - Exalted"
-          },
-          "secondary_stats": {
-            "mastery": 321,
-            "use_1": "Increases your Strength by 1605 for 20 sec. (2 Min Cooldown)"
-          },
-          "source_type": "Reputation",
-          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Symbiotic Worm",
           "ilvl": 372,
           "rarity": "epic",
@@ -14496,6 +14349,24 @@
           "source_type": "Theralion and Valiona",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Impatience of Youth",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "other_stats": {
+            "min_level": 85,
+            "requirement": "Hellscream's Reach/Baradin's Wardens - Exalted"
+          },
+          "secondary_stats": {
+            "mastery": 321,
+            "use_1": "Increases your Strength by 1605 for 20 sec. (2 Min Cooldown)"
+          },
+          "source_type": "Reputation",
+          "source": "Hellscream's Reach/Baradin's Wardens - Exalted",
+          "phase": "Pre-Bis`T11`T12`T13"
         },
         {
           "name": "Heart of Thunder",
@@ -22176,8 +22047,7 @@
           },
           "builds": [
             {
-              "name": "Standard Build",
-              "description": "If you don't want to run Lichborne, you can move the points from it and Icy Reach into Crimson Scourge to help with AoE tanking and Scent of Blood. You would then also run Glyph of Death Strike over Death Coil."
+              "name": "Standard Build"
             }
           ],
           "bestFood": [
@@ -22221,8 +22091,8 @@
             "The rest of the Crafting Professions provide nearly identical benefits."
           ],
           "glyphs": [
-            "Prime: *{\"consume\": \"Heart Strike\"}*, *{\"consume\": \"Rune Strike\"}*, *{\"consume\": \"Death Coil\"}* ( With *{\"skill\": \"Lichborne\"}* )",
-            "Optional: For AoE, replace *{\"consume\": \"Rune Strike\"}* with *{\"consume\": \"Death and Decay\"}*",
+            "Prime: *{\"consume\": \"Heart Strike\"}*, *{\"consume\": \"Rune Strike\"}*, *{\"consume\": \"Death Strike\"}*",
+            "Optional: For AoE, replace *{\"consume\": \"Death Strike\"}* with *{\"consume\": \"Death and Decay\"}*",
             "Major: *{\"consume\": \"Dancing Rune Weapon\"}*",
             "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
@@ -22243,27 +22113,23 @@
             "Cast *{\"skill\": \"Empower Rune Weapon\"}* when all Runes are on cooldown and you won't cap on Runic Power.",
             "Cast *{\"skill\": \"Raise Dead\"}*. Try to snapshot it with your cooldowns and trinket procs.",
             "Maintain *{\"skill\": \"Frost Fever\"}* and *{\"skill\": \"Blood Plague\"}*. *{\"skill\": \"Howling Blast\"}* applies *{\"skill\": \"Frost Fever\"}* thanks to *{\"consume\": \"Glyph of Howling Blast\"}*. *{\"skill\": \"Outbreak\"}* and *{\"skill\": \"Plague Strike\"}* will need to be used to maintain *{\"skill\": \"Blood Plague\"}* .",
-            "Cast *{\"skill\": \"Obliterate\"}* with *{\"skill\": \"Killing Machine\"}* procs or to avoid capping on Runes.",
             "Cast *{\"skill\": \"Frost Strike\"}* to avoid capping on Runic Power.",
-            "Cast *{\"skill\": \"Howling Blast\"}* with *{\"skill\": \"Rime\"}* proc.",
-            "Cast *{\"skill\": \"Obliterate\"}*. During downtime, you can delay your *{\"skill\": \"Obliterate\"}* to line them up with *{\"skill\": \"Killing Machine\"}* procs.",
-            "Cast *{\"skill\": \"Frost Strike\"}*. This may sometimes consume *{\"skill\": \"Killing Machine\"}* procs if *{\"skill\": \"Obliterate\"}* is unavailable.",
-            "Cast *{\"skill\": \"Howling Blast\"}*.",
+            "Cast *{\"skill\": \"Howling Blast\"}*. Keep an eye out for *{\"skill\": \"Rime\"}* procs.",
+            "Cast *{\"skill\": \"Obliterate\"}* to avoid capping on Unholy Runes.",
             "Cast *{\"skill\": \"Horn of Winter\"}*."
           ],
           "aoe": [
-            "Cast *{\"skill\": \"Howling Blast\"}* to avoid capping on *{\"wowBoss\": \"Frost Runes\"}* and *{\"wowBoss\": \"Death Runes\"}*.",
+            "Apply *{\"skill\": \"Frost Fever\"}* and *{\"skill\": \"Blood Plague\"}* with *{\"skill\": \"Howling Blast\"}* and *{\"skill\": \"Outbreak\"}* or *{\"skill\": \"Plague Strike\"}*.",
+            "Spread diseases with *{\"skill\": \"Pestilence\"}*.",
             "Cast *{\"skill\": \"Death and Decay\"}* or *{\"skill\": \"Plague Strike\"}* if it's on cooldown to avoid capping on *{\"wowBoss\": \"Unholy Runes\"}*.",
             "Cast *{\"skill\": \"Frost Strike\"}* to avoid capping on Runic Power.",
             "Cast *{\"skill\": \"Howling Blast\"}*.",
-            "Cast *{\"skill\": \"Death and Decay\"}* or *{\"skill\": \"Plague Strike\"}* if it's on cooldown.",
-            "Cast *{\"skill\": \"Frost Strike\"}*.",
+            "Cast *{\"skill\": \"Obliterate\"}*.",
             "Cast *{\"skill\": \"Horn of Winter\"}*."
           ],
           "builds": [
             {
-              "name": "Standard Build",
-              "description": "If you need Chilblains for kiting, remove the points from either Blood Tap or Epidemic."
+              "name": "Masterfrost Build"
             }
           ],
           "bestFood": [

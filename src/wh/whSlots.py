@@ -123,6 +123,7 @@ spec_to_slots = {
         "main-hand weapons": "Weapon 1H",
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
+        "main-hand & two-handed weapons": "Weapon",
     },
     "fire-mage": {
         "off hand weapons": "Off hand",
@@ -130,6 +131,7 @@ spec_to_slots = {
         "main-hand weapons": "Weapon 1H",
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
+        "main-hand & two-handed weapons": "Weapon",
     },
     "frost-mage": {
         "off hand weapons": "Off hand",
@@ -137,6 +139,7 @@ spec_to_slots = {
         "main-hand weapons": "Weapon 1H",
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
+        "main-hand & two-handed weapons": "Weapon",
     },
     "holy-paladin": {
         "main-hand weapons": "Weapon",
@@ -250,6 +253,7 @@ spec_to_slots = {
         "main-hand weapon": "Weapon 1H",
         "off-hand weapon": "Weapon",
         "one handed weapons": "Weapon 1H",
+        "duel wield weapons": "Weapon 1H",
     },
     "protection-warrior": {
         "shields": "Off hand",
