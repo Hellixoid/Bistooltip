@@ -3,6 +3,7 @@ import traceback
 
 from src.general.idResolver import IdResolver
 from src.general.phases import phases
+from src.general.randomItemSuffixes import find_suffix
 from src.general.sortedSpec import SortedSpec, Item, Slot
 
 
@@ -20,6 +21,9 @@ class WowtbcSpecDataParser:
                 try:
                     try:
                         item_name = item['name']
+                        suffix = find_suffix(item_name)
+                        if suffix[0] is not None:
+                            item_name = item_name[0:len(item_name) - len(suffix[0]) - 1]
                     except Exception as e:
                         print('\tSkipping empty item')
                         continue
@@ -33,7 +37,7 @@ class WowtbcSpecDataParser:
                     for phase in phases:
                         phase_data = item.get(phase.lower())
                         if phase_data is not None and "bis" in phase_data and phase_data['bis']:
-                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name)
+                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name, suffix[1])
                             sorted_spec.add_item(item_slot_name, phase, i, True)
 
                             ench_data = phase_data.get('enchant')
@@ -50,7 +54,7 @@ class WowtbcSpecDataParser:
                                         sorted_spec.add_gem(item_slot_name, phase, self.id_resolver.get_gem_id(name))
 
                         elif phase in item_bis_phases:
-                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name)
+                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name, suffix[1])
                             sorted_spec.add_item(item_slot_name, phase, i, False)
                 except Exception as e:
                     print("failed at: ", spec_id, item_name)

@@ -2,6 +2,7 @@ import json
 import os.path
 
 from src.general.phases import phases
+from src.general.randomItemSuffixes import find_suffix
 from src.wowtbc.wowtbcSpecs import specs
 
 
@@ -18,6 +19,10 @@ def read_specs_items(specs_dir):
             for item in bis_list:
                 name = item.get('name')
                 if name is not None:
+                    if "of the" in name:
+                        suffix = find_suffix(name)
+                        if suffix[0] is not None:
+                            name = name[0:len(name)-len(suffix[0])-1]
                     if items_dict.get(name) is None:
                         items_dict[name] = 0
     return items_dict

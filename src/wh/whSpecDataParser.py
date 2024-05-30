@@ -8,6 +8,7 @@ from src.general import phases
 from src import dirsAndFiles
 from bs4 import BeautifulSoup
 
+from src.general.randomItemSuffixes import find_suffix
 from src.general.sortedSpec import SortedSpec, Item
 from src.wh import whSlots
 
@@ -74,7 +75,12 @@ class WhSpecDataParser:
             for item_link in item_links:
                 try:
                     item_id = self.get_item_id(item_link)
-                    sorted_spec.add_item(slot_name, phases.id_to_phase[phase_id], Item(item_id, 0, None), False)
+                    suffix = find_suffix(item_column.text)
+
+                    sorted_spec.add_item(slot_name,
+                                         phases.id_to_phase[phase_id],
+                                         Item(item_id, 0, None, suffix[1]),
+                                         False)
                 except Exception as e:
                     continue
                 break

@@ -11,7 +11,7 @@ class ItemListConstructor:
         self.source_name = source_name
         self.item_list = {}
 
-    def add_bis_statement(self, item_id, spec_id, slot_name, phase_name, ordinal):
+    def add_bis_statement(self, item_id, item_suffix, spec_id, slot_name, phase_name, ordinal):
         if item_id == -2:
             return
         if ordinal == "-":
@@ -22,7 +22,7 @@ class ItemListConstructor:
         if item is None:
             item = BisItem(item_id, self.source_name)
             self.item_list[item_id] = item
-        item.add_bis_statement(spec_id, slot_name, phase_name, ordinal)
+        item.add_bis_statement(spec_id, item_suffix, slot_name, phase_name, ordinal)
 
     def add_sorted_spec(self, spec: SortedSpec):
         for slot in spec.slots.values():
@@ -32,7 +32,7 @@ class ItemListConstructor:
                     item = phase.items[i]
                     if item.id < 0:
                         print("Item without ID: " + item.name)
-                    self.add_bis_statement(item.id, spec.id, slot.name, phase.name, i + 1)
+                    self.add_bis_statement(item.id, item.suffix, spec.id, slot.name, phase.name, i + 1)
 
     def add_tokens(self, tokens_file_path):
         with open(tokens_file_path) as json_file:

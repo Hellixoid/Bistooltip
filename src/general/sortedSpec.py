@@ -138,7 +138,9 @@ class Phase:
 
 
 class Item:
-    def __init__(self, item_id, value, name):
+    def __init__(self, item_id, value, name, suffix=""):
         self.id = item_id
         self.value = value
         self.name = name
+        self.suffix = suffix
+
