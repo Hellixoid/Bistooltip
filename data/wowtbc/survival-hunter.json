@@ -1830,49 +1830,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Belt of the Dim Forest",
-          "slot": "waist",
-          "phase": [
-            "Pre-Bis",
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Justice Points (1650)",
-          "source_type": "Vendor",
-          "rarity": "rare"
-        },
-        {
           "name": "Corded Viper Belt",
           "slot": "waist",
           "phase": [
@@ -13103,39 +13060,6 @@
           "hide_loot_table": true
         },
         {
-          "name": "Belt of the Dim Forest",
-          "ilvl": 346,
-          "rarity": "rare",
-          "bind": "bop",
-          "slot": "waist",
-          "type": "mail",
-          "special_stats": {
-            "armor": 1306
-          },
-          "primary_stats": {
-            "agility": 205,
-            "stamina": 337
-          },
-          "sockets": {
-            "socket_colors": [
-              "yellow"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Critical Strike Rating"
-          },
-          "other_stats": {
-            "durability": 45,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 150,
-            "hit": 130
-          },
-          "source_type": "Vendor",
-          "source": "Justice Points (1650)",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Corded Viper Belt",
           "ilvl": 359,
           "rarity": "epic",
@@ -14728,7 +14652,7 @@
               "Lightning-Charged Spaulders",
               "Lightning-Charged Legguards",
               "Lightning-Charged Headguard",
-              "Lightning-Charged Gloves",
+              "Lightning-Charged Gloves (N)",
               "Lightning-Charged Tunic"
             ],
             "set_bonus": [
@@ -15704,7 +15628,7 @@
               },
               {
                 "count": 4,
-                "value": "Whenever Eclipse triggers, your critical strike chance with spells is increased by 5% for 8 sec. Each critical strike you achieve reduces that bonus by 5%."
+                "value": "Whenever Eclipse triggers, your critical strike chance with spells is increased by 15% for 8 sec. Each critical strike you achieve reduces that bonus by 5%."
               }
             ]
           }
