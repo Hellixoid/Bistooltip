@@ -883,10 +883,10 @@
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
-<span class="gear-planner-stat-summary-value">68900</span></div>
+<span class="gear-planner-stat-summary-value">118394.28</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mana</span>
-<span class="gear-planner-stat-summary-value">61370</span></div>
+<span class="gear-planner-stat-summary-value">82285</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">4</span></div></div>
@@ -898,19 +898,19 @@
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
-<span class="gear-planner-stat-summary-value">20</span></div>
+<span class="gear-planner-stat-summary-value">124.02000000000001</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Agility</span>
-<span class="gear-planner-stat-summary-value">20</span></div>
+<span class="gear-planner-stat-summary-value">111</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Stamina</span>
-<span class="gear-planner-stat-summary-value">4940</span></div>
+<span class="gear-planner-stat-summary-value">5651.52</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Intellect</span>
-<span class="gear-planner-stat-summary-value">4110</span></div>
+<span class="gear-planner-stat-summary-value">4262</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spirit</span>
-<span class="gear-planner-stat-summary-value">1378</span></div></div>
+<span class="gear-planner-stat-summary-value">1552</span></div></div>
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
@@ -919,22 +919,45 @@
 <span class="icon-label-text">Spell</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>
-<span class="gear-planner-stat-summary-value">6065</span></div>
+<span class="gear-planner-stat-summary-value">6217</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Healing</span>
-<span class="gear-planner-stat-summary-value">6065</span></div>
+<span class="gear-planner-stat-summary-value">6217</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Crit</span>
-<span class="gear-planner-stat-summary-value">2460 (13.73%)</span></div>
+<span class="gear-planner-stat-summary-value">608 (15.64%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Hit</span>
-<span class="gear-planner-stat-summary-value">1742 (17.00%)</span></div>
+<span class="gear-planner-stat-summary-value">364 (18.70%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Haste</span>
 <span class="gear-planner-stat-summary-value">1464 (11.43%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Pen</span>
-<span class="gear-planner-stat-summary-value">0</span></div></div></div></section></div></div>
+<span class="gear-planner-stat-summary-value">0</span></div></div>
+<div class="gear-planner-shapeshift-panel">
+<div class="gear-planner-shapeshift-label">Shapeshifting</div>
+<div class="gear-planner-shapeshift-forms">
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_wispsplode.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="javascript:"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_catform.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=768/cat-form"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_bearform.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=5487/bear-form"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_forceofnature.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=24858/moonkin-form"></a></div></div></div></div></div></section></div></div>
 <br/>
 <br/>General priority is making sure you have 1742 hit and that you wear leather in every slot. The latter is because of a passive that increases our intellect by 5% when we are only wearing leather. Beyond this you want to always make sure you use the highest possible ilvl in every slot, except for pvp gear which is notably weaker in pve. Trinkets are also a bit different, check trinket section for recommendations. Every item listed can be substituted for the normal version of the same item, but you might have to reforge for more hit.<h3 class="heading-size-3" id="reforging">Reforging for Balance Druid DPS</h3>A new addition in Cataclysm is the ability to reforge. You can change some of one secondary stat to another, for example changing some hit into haste if you are over the hit cap. You can not change to a stat that is already on the item, for example an item with hit and haste can not have its hit changed to haste, but it can be  changed to mastery or crit. The easiest way to do reforging will be to download the addon Reforgelite Classic and input the stat weights 4.1 on hit, 2.1 on haste, 1.95 on mastery and 1.9 on crit, with hit cap of 1742. Leave spirit at 0 as default settings convert spirit to hit. This will calculate and auto reforge your gear in a way that gets you as close to your hit cap as possible and then maximizes your haste, and  then mastery. If you want to do it without addon just follow the same rules, get hit as close to 1742 as you can then maximize haste and then mastery.<h3 class="heading-size-3" id="haste-breakpoints">Haste Breakpoints</h3>
 <b>Note: Regardless of haste breakpoints, haste is always stronger than mastery and crit.</b>
@@ -981,15 +1004,16 @@
 <td>3101</td>
 <td>4954</td>
 <td>2637</td></tr></tbody></table>
-<h3 class="heading-size-3" id="gear-before-raid-release">Gear you can aim for before raid release</h3>There are certain gear pieces that generally do not fit into this guide as they aren't truly considered pre-bis. However since there are 10 days before raid releases, they will be listed here so you know what you can farm to put yourself ahead of pre-bis in the time before raid release. This section will be deleted 30th may with raid release.<br/>
-<br/>
-<a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
+<h3 class="heading-size-3" id="gear-before-raiding">Gear you can aim for before raiding</h3>There are certain gear pieces that generally do not fit into this guide as they aren't truly considered pre-bis as they require <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
 <span>
-<img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a> will be able to be farmed before raid release. You can farm all 1600 every week from doing 7 heroics, and you can do them in a single day. Therefore you can have access to 3200 valor points before raid release. As a balance druid, this choice becomes rather straight forward, you want to get <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=60283/stormriders-leggings">
+<img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a>. However it is possible to get them from weekly heroic dungeons as well, so this section will be dedicated to them.<br/>
+<br/>You can gain 1600 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
+<span>
+<img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a> every week from doing 7 heroics, and you can do them in a single day. As a balance druid, you will want to get <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=60283/stormriders-leggings">
 <img alt="Stormrider's Leggings" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_pants_leather_raiddruid_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Stormrider's Leggings</span></a>.  In addition <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=58484/fading-violet-sandals">
-<img alt="Fading Violet Sandals" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_boots_leather_raiddruid_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Fading Violet Sandals</span></a> are BoE boots that are sold for 1650 valor, having an alt farm you the required valor for these boots or buying them off the auction house is also an upgrade that should be considered if you want to maximize your gear before raid release. Last you should also grab a relic with your legs. <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=64672/relic-of-norgannon">
+<img alt="Fading Violet Sandals" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_boots_leather_raiddruid_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Fading Violet Sandals</span></a> are BoE boots that are sold for 1650 valor, having an alt farm you the required valor for these boots or buying them off the auction house is also an upgrade that should be considered if you want to maximize your gear before raids. Last you should also grab a relic with your legs. <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=64672/relic-of-norgannon">
 <img alt="Relic of Norgannon" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_stonetablet_02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Relic of Norgannon</span></a> is recommended but <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=64673/relic-of-eonar">
-<img alt="Relic of Eonar" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_elemental_mote_life01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Relic of Eonar</span></a> can be bought if you are really desperate for hit.<h3 class="heading-size-3" id="body-armor">Body Armor for Balance Druid DPS</h3>
+<img alt="Relic of Eonar" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_elemental_mote_life01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Relic of Eonar</span></a> can be bought if you are really desperate for hit. It is worth trying to do Baradin Hold first before buying any tier legs or gloves as they can drop there as well.<h3 class="heading-size-3" id="body-armor">Body Armor for Balance Druid DPS</h3>
 <h4 class="heading-size-4" id="head-for-balance-druid-dps">Head for Balance Druid DPS</h4>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=59453/camouflage-bio-optic-killshades">
 <img alt="Camouflage Bio-Optic Killshades" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_gizmo_newgoggles.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Camouflage Bio-Optic Killshades</span></a> requires engineering but is an incredibly good item you will keep until you can get tier head. For non-engineers you will want <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=58150/cluster-of-stars">

@@ -34,7 +34,7 @@
                 "image": "shadowspirit-diamond"
               },
               {
-                "name": "Artful Ember Topaz",
+                "name": "Reckless Ember Topaz",
                 "image": "ember-topaz"
               }
             ]
@@ -129,7 +129,7 @@
                 "image": "cogwheel"
               },
               {
-                "name": "Fractured Cogwheel",
+                "name": "Quick Cogwheel",
                 "image": "cogwheel"
               }
             ]
@@ -564,6 +564,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Greater Inscription of Charged Lodestone",
               "rarity": "special",
@@ -571,7 +573,7 @@
             },
             "gems": [
               {
-                "name": "Artful Ember Topaz",
+                "name": "Reckless Ember Topaz",
                 "image": "ember-topaz"
               }
             ]
@@ -651,6 +653,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Greater Inscription of Charged Lodestone",
               "rarity": "special",
@@ -1001,8 +1005,6 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "name": "Cloak - Greater Intellect",
               "rarity": "common",
@@ -1376,6 +1378,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Bracer - Mighty Intellect",
               "rarity": "rare",
@@ -1415,8 +1419,6 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "name": "Bracer - Mighty Intellect",
               "rarity": "rare",
@@ -1510,8 +1512,6 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "name": "Gloves - Greater Mastery",
               "rarity": "uncommon",
@@ -1599,8 +1599,6 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "name": "Gloves - Greater Mastery",
               "rarity": "uncommon",
@@ -1608,7 +1606,7 @@
             },
             "gems": [
               {
-                "name": "Artful Ember Topaz",
+                "name": "Reckless Ember Topaz",
                 "image": "ember-topaz"
               }
             ]
@@ -1685,7 +1683,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Waistguard of Hatred",
+          "name": "Lightning Well Belt of the Wavecrest",
           "slot": "waist",
           "phase": [
             "T11",
@@ -1700,15 +1698,13 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Purified Demonseye",
+                "image": "demonseye"
               },
               {
                 "name": "Brilliant Inferno Ruby",
@@ -1734,12 +1730,12 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Theralion and Valiona",
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "The Conclave of Wind",
           "rarity": "epic"
         },
         {
-          "name": "Lightning Well Belt of the Wavecrest",
+          "name": "Waistguard of Hatred",
           "slot": "waist",
           "phase": [
             "T11",
@@ -1776,8 +1772,8 @@
               "recipe": false
             }
           },
-          "source": "Throne of the Four Winds (H)",
-          "source_type": "The Conclave of Wind",
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Theralion and Valiona",
           "rarity": "epic"
         },
         {
@@ -2197,8 +2193,6 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "name": "Powerful Ghostly Spellthread",
               "rarity": "epic",
@@ -2354,7 +2348,7 @@
             },
             "gems": [
               {
-                "name": "Artful Ember Topaz",
+                "name": "Reckless Ember Topaz",
                 "image": "ember-topaz"
               },
               {
@@ -2439,7 +2433,7 @@
           "pre-bis": {
             "bis": true,
             "reforge_from": "Critical Strike",
-            "reforge_to": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Boots - Mastery",
               "rarity": "common",
@@ -2566,50 +2560,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Security Measure Alpha",
-          "slot": "finger 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Haste",
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Omnotron Defense System",
-          "rarity": "epic"
-        },
-        {
           "name": "Signet of the Fifth Circle",
           "slot": "finger 1",
           "phase": [
@@ -2624,7 +2574,9 @@
             }
           },
           "t11": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
               "recipe": false
             }
@@ -2649,6 +2601,48 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
+          "name": "Security Measure Alpha",
+          "slot": "finger 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Omnotron Defense System",
           "rarity": "epic"
         },
         {
@@ -2704,7 +2698,7 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
+            "reforge_from": "Mastery",
             "reforge_to": "Spirit",
             "enchant": {
               "recipe": false
@@ -2995,7 +2989,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Signet of the Fifth Circle",
+          "name": "Security Measure Alpha",
           "slot": "finger 2",
           "phase": [
             "T11",
@@ -3032,8 +3026,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Omnotron Defense System",
           "rarity": "epic"
         },
         {
@@ -3131,6 +3125,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -4075,6 +4071,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Weapon - Heartsong",
               "rarity": "common",
@@ -4849,7 +4847,7 @@
           "t11": {
             "bis": true,
             "reforge_from": "Critical Strike",
-            "reforge_to": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             },
@@ -4893,8 +4891,6 @@
           ],
           "pre-bis": {
             "bis": true,
-            "reforge_from": "Haste",
-            "reforge_to": "Mastery",
             "enchant": {
               "recipe": false
             },
@@ -13031,39 +13027,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Waistguard of Hatred",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "waist",
-          "type": "mail",
-          "special_stats": {
-            "armor": 1433
-          },
-          "primary_stats": {
-            "intellect": 266,
-            "stamina": 429,
-            "spirit": 191
-          },
-          "sockets": {
-            "socket_colors": [
-              "blue"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Spirit"
-          },
-          "other_stats": {
-            "durability": 55,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 171
-          },
-          "source_type": "Theralion and Valiona",
-          "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Lightning Well Belt of the Wavecrest",
           "ilvl": 372,
           "rarity": "epic",
@@ -13096,6 +13059,39 @@
           "source": "Throne of the Four Winds (H)",
           "phase": "T11`T12`T13",
           "hide_loot_table": true
+        },
+        {
+          "name": "Waistguard of Hatred",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1433
+          },
+          "primary_stats": {
+            "intellect": 266,
+            "stamina": 429,
+            "spirit": 191
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Spirit"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 171
+          },
+          "source_type": "Theralion and Valiona",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
         },
         {
           "name": "Lifecycle Waistguard",
@@ -13677,28 +13673,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Security Measure Alpha",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "finger",
-          "unique": true,
-          "primary_stats": {
-            "intellect": 215,
-            "stamina": 322,
-            "spirit": 143
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 143
-          },
-          "source_type": "Omnotron Defense System",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Signet of the Fifth Circle",
           "ilvl": 372,
           "rarity": "epic",
@@ -13718,6 +13692,28 @@
           },
           "source_type": "Cho'gall",
           "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Security Measure Alpha",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 215,
+            "stamina": 322,
+            "spirit": 143
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 143
+          },
+          "source_type": "Omnotron Defense System",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -13904,7 +13900,7 @@
           "hide_loot_table": true
         },
         {
-          "name": "Signet of the Fifth Circle",
+          "name": "Security Measure Alpha",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
@@ -13912,17 +13908,17 @@
           "unique": true,
           "primary_stats": {
             "intellect": 215,
-            "stamina": 322
+            "stamina": 322,
+            "spirit": 143
           },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "haste": 143,
-            "mastery": 143
+            "crit": 143
           },
-          "source_type": "Cho'gall",
-          "source": "The Bastion of Twilight (H)",
+          "source_type": "Omnotron Defense System",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -21510,7 +21506,7 @@
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],
-          "stats": "Int > Spi* > Haste (916) > Mastery > Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery > Haste > Crit"
         },
         {
           "spec": "affliction-warlock",
@@ -21876,7 +21872,7 @@
           "general": "*{\"wowClass\": \"Fury Warriors\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Rampage\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
           "intro": "*{\"wowClass\": \"Fury Warriors\"}* have a simple priority rotation, but as with any class that uses Rage or Energy, managing your resources properly will be critical to performing well. There are some nuances like delaying a *{\"skill\": \"Colossus Smash\"}* cast by a couple seconds to ensure you get 3 special attacks within the 6 second debuff window.",
           "single": [
-            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned to it.",
+            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if\" assigned to it.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
             "Use *{\"skill\": \"Berserker Rage\"}* if you need to be *{\"wowBoss\": \"Enraged\"}* for *{\"skill\": \"Raging Blow\"}*.",
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",

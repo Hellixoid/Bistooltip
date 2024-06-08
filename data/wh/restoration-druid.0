@@ -897,10 +897,10 @@
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
-<span class="gear-planner-stat-summary-value">71168</span></div>
+<span class="gear-planner-stat-summary-value">120934.44000000002</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mana</span>
-<span class="gear-planner-stat-summary-value">72849</span></div>
+<span class="gear-planner-stat-summary-value">94809.75</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">3</span></div></div>
@@ -912,19 +912,19 @@
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
-<span class="gear-planner-stat-summary-value">20</span></div>
+<span class="gear-planner-stat-summary-value">124.02000000000001</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Agility</span>
-<span class="gear-planner-stat-summary-value">20</span></div>
+<span class="gear-planner-stat-summary-value">111</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Stamina</span>
-<span class="gear-planner-stat-summary-value">5102</span></div>
+<span class="gear-planner-stat-summary-value">5832.960000000001</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Intellect</span>
-<span class="gear-planner-stat-summary-value">4644</span></div>
+<span class="gear-planner-stat-summary-value">4796</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spirit</span>
-<span class="gear-planner-stat-summary-value">1360</span></div></div>
+<span class="gear-planner-stat-summary-value">1534</span></div></div>
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
@@ -933,13 +933,13 @@
 <span class="icon-label-text">Spell</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>
-<span class="gear-planner-stat-summary-value">6599</span></div>
+<span class="gear-planner-stat-summary-value">6751</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Healing</span>
-<span class="gear-planner-stat-summary-value">6599</span></div>
+<span class="gear-planner-stat-summary-value">6751</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Crit</span>
-<span class="gear-planner-stat-summary-value">2671 (14.90%)</span></div>
+<span class="gear-planner-stat-summary-value">671 (16.79%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Hit</span>
 <span class="gear-planner-stat-summary-value">0 (0.00%)</span></div>
@@ -948,7 +948,30 @@
 <span class="gear-planner-stat-summary-value">2005 (15.66%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Pen</span>
-<span class="gear-planner-stat-summary-value">0</span></div></div></div></section></div></div>
+<span class="gear-planner-stat-summary-value">0</span></div></div>
+<div class="gear-planner-shapeshift-panel">
+<div class="gear-planner-shapeshift-label">Shapeshifting</div>
+<div class="gear-planner-shapeshift-forms">
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_wispsplode.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="javascript:"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_catform.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=768/cat-form"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_bearform.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=5487/bear-form"></a></div></div>
+<div class="gear-planner-shapeshift-form">
+<div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_treeoflife.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=33891/tree-of-life"></a></div></div></div></div></div></section></div></div>
 <br/>
 <br/>Most top-end preraid setups revolve around hitting the 2005 haste breakpoint. This is fairly easily possible with a healthy mix of 359s and some 346 gear; if you're in mostly 346 gear with few 359s, you should opt for the 916 haste breakpoint instead. Regardless, you should look to maximize Spirit and Haste on gear wherever possible (though in general, all four secondaries are fairly close to each other, especially if you have lots of 359 gear and can comfortably hit 2005 haste).<br/>
 <br/>Due to reforging, most items are functionally very equivalent to each other as long as they're the same item level. Additionally, at the gear level of Tier 11/<wbr/>Phase 1 of Cataclysm, our overall stats are low enough that Intellect itself is extremely powerful compared to any secondary stat, meaning that differences between same-ilvl gear are very very minute.<br/>
