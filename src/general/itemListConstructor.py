@@ -49,7 +49,7 @@ class ItemListConstructor:
                             slot = spec.slots[slot_name]
                             for i in range(len(phases.phases.keys())):
                                 self.add_bis_statement(
-                                    int(tokenId), None, spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
+                                    int(tokenId), "", spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
 
     def add_horde_ali_mapping(self, horde_to_ali_file_path):
         with open(horde_to_ali_file_path) as json_file:
@@ -65,7 +65,7 @@ class ItemListConstructor:
                         slot = spec.slots[slot_name]
                         for i in range(len(phases.phases.keys())):
                             self.add_bis_statement(
-                                int(hordeId), None, spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
+                                int(hordeId), "", spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
 
     def save_data(self, addon_data_file, source_name):
         with open(addon_data_file, 'w') as file:
