@@ -28,7 +28,7 @@
             },
             "gems": [
               {
-                "name": "Burning Shadowspirit Diamond",
+                "name": "Ember Shadowspirit Diamond",
                 "image": "shadowspirit-diamond"
               },
               {
@@ -119,7 +119,7 @@
             },
             "gems": [
               {
-                "name": "Burning Shadowspirit Diamond",
+                "name": "Ember Shadowspirit Diamond",
                 "image": "shadowspirit-diamond"
               },
               {
@@ -604,7 +604,7 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Spirit",
+            "reforge_from": "Mastery",
             "reforge_to": "Haste",
             "enchant": {
               "name": "Greater Inscription of Charged Lodestone",
@@ -1510,14 +1510,14 @@
           "t11": {
             "bis": true,
             "enchant": {
-              "name": "Gloves - Greater Mastery",
-              "rarity": "uncommon",
+              "name": "Gloves - Haste",
+              "rarity": "common",
               "recipe": true
             },
             "gems": [
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
               }
             ]
           },
@@ -1597,14 +1597,14 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "name": "Gloves - Greater Mastery",
-              "rarity": "uncommon",
+              "name": "Gloves - Haste",
+              "rarity": "common",
               "recipe": true
             },
             "gems": [
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Purified Demonseye",
+                "image": "demonseye"
               }
             ]
           },
@@ -1836,8 +1836,8 @@
                 "image": "ember-topaz"
               },
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
               }
             ]
           },
@@ -3246,6 +3246,48 @@
           "rarity": "epic"
         },
         {
+          "name": "Fall of Mortality",
+          "slot": "trinket 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
           "name": "Darkmoon Card: Tsunami",
           "slot": "trinket 1",
           "phase": [
@@ -3289,7 +3331,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Fall of Mortality",
+          "name": "Jar of Ancient Remedies",
           "slot": "trinket 1",
           "phase": [
             "T11",
@@ -3326,50 +3368,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
-          "rarity": "epic"
-        },
-        {
-          "name": "Core of Ripeness",
-          "slot": "trinket 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Valor Points (1650)",
-          "source_type": "Vendor",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -3416,7 +3416,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Jar of Ancient Remedies",
+          "name": "Core of Ripeness",
           "slot": "trinket 1",
           "phase": [
             "T11",
@@ -3453,12 +3453,12 @@
               "recipe": false
             }
           },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Maloriak",
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
-          "name": "Gale of Shadows",
+          "name": "Tear of Blood",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -3496,8 +3496,8 @@
               "recipe": false
             }
           },
-          "source": "Grim Batol (H)",
-          "source_type": "Erudax, the Duke of Below",
+          "source": "The Stonecore (H)",
+          "source_type": "High Priestess Azil",
           "rarity": "rare"
         },
         {
@@ -3544,7 +3544,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Tear of Blood",
+          "name": "Gale of Shadows",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -3582,8 +3582,8 @@
               "recipe": false
             }
           },
-          "source": "The Stonecore (H)",
-          "source_type": "High Priestess Azil",
+          "source": "Grim Batol (H)",
+          "source_type": "Erudax, the Duke of Below",
           "rarity": "rare"
         },
         {
@@ -3672,7 +3672,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Core of Ripeness",
+          "name": "Jar of Ancient Remedies",
           "slot": "trinket 2",
           "phase": [
             "T11",
@@ -3709,8 +3709,8 @@
               "recipe": false
             }
           },
-          "source": "Valor Points (1650)",
-          "source_type": "Vendor",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -3757,7 +3757,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Jar of Ancient Remedies",
+          "name": "Core of Ripeness",
           "slot": "trinket 2",
           "phase": [
             "T11",
@@ -3794,12 +3794,12 @@
               "recipe": false
             }
           },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Maloriak",
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
-          "name": "Gale of Shadows",
+          "name": "Tear of Blood",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -3837,8 +3837,8 @@
               "recipe": false
             }
           },
-          "source": "Grim Batol (H)",
-          "source_type": "Erudax, the Duke of Below",
+          "source": "The Stonecore (H)",
+          "source_type": "High Priestess Azil",
           "rarity": "rare"
         },
         {
@@ -3885,7 +3885,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Tear of Blood",
+          "name": "Gale of Shadows",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -3923,8 +3923,8 @@
               "recipe": false
             }
           },
-          "source": "The Stonecore (H)",
-          "source_type": "High Priestess Azil",
+          "source": "Grim Batol (H)",
+          "source_type": "Erudax, the Duke of Below",
           "rarity": "rare"
         },
         {
@@ -3946,8 +3946,8 @@
             "reforge_from": "Mastery",
             "reforge_to": "Spirit",
             "enchant": {
-              "name": "Weapon - Heartsong",
-              "rarity": "common",
+              "name": "Weapon - Power Torrent",
+              "rarity": "rare",
               "recipe": true
             }
           },
@@ -4155,8 +4155,8 @@
             "reforge_from": "Critical Strike",
             "reforge_to": "Spirit",
             "enchant": {
-              "name": "Weapon - Heartsong",
-              "rarity": "common",
+              "name": "Weapon - Power Torrent",
+              "rarity": "rare",
               "recipe": true
             }
           },
@@ -13968,26 +13968,6 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Darkmoon Card: Tsunami",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "boe",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "intellect": 321
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Your healing spells have a chance to increase your Spirit by 80 for 20 sec. This effect can stack up to 5 times."
-          },
-          "source_type": "Vendor",
-          "source": "Darmoon Tsunami Deck",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Fall of Mortality",
           "ilvl": 372,
           "rarity": "epic",
@@ -14008,10 +13988,10 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Core of Ripeness",
+          "name": "Darkmoon Card: Tsunami",
           "ilvl": 359,
           "rarity": "epic",
-          "bind": "bop",
+          "bind": "boe",
           "slot": "trinket",
           "unique": true,
           "primary_stats": {
@@ -14021,10 +14001,28 @@
             "min_level": 85
           },
           "secondary_stats": {
-            "use_1": "Increases your Spirit by 1926 for 20 sec. (2 min cooldown)"
+            "equip_1": "Your healing spells have a chance to increase your Spirit by 80 for 20 sec. This effect can stack up to 5 times."
           },
           "source_type": "Vendor",
-          "source": "Valor Points (1650)",
+          "source": "Darmoon Tsunami Deck",
+          "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Jar of Ancient Remedies",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
+            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
+          },
+          "source_type": "Maloriak",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -14057,39 +14055,43 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Jar of Ancient Remedies",
-          "ilvl": 372,
+          "name": "Core of Ripeness",
+          "ilvl": 359,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 321
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
-            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
+            "use_1": "Increases your Spirit by 1926 for 20 sec. (2 min cooldown)"
           },
-          "source_type": "Maloriak",
-          "source": "Blackwing Descent (H)",
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Gale of Shadows",
+          "name": "Tear of Blood",
           "ilvl": 346,
           "rarity": "rare",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 285
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "haste": 285,
-            "equip_1": "Your healing and damage periodic spells grant 17 spell power each time they heal or deal damage. Lasts 15 sec, stacking up to 20 times."
+            "equip_1": "Your healing spell critical strikes have a chance to grant 1710 spirit for 15 sec."
           },
-          "source_type": "Erudax, the Duke of Below",
-          "source": "Grim Batol (H)",
+          "source_type": "High Priestess Azil",
+          "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
@@ -14113,23 +14115,21 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Tear of Blood",
+          "name": "Gale of Shadows",
           "ilvl": 346,
           "rarity": "rare",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 285
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spell critical strikes have a chance to grant 1710 spirit for 15 sec."
+            "haste": 285,
+            "equip_1": "Your healing and damage periodic spells grant 17 spell power each time they heal or deal damage. Lasts 15 sec, stacking up to 20 times."
           },
-          "source_type": "High Priestess Azil",
-          "source": "The Stonecore (H)",
+          "source_type": "Erudax, the Duke of Below",
+          "source": "Grim Batol (H)",
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
@@ -14174,23 +14174,21 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Core of Ripeness",
-          "ilvl": 359,
+          "name": "Jar of Ancient Remedies",
+          "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 321
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "use_1": "Increases your Spirit by 1926 for 20 sec. (2 min cooldown)"
+            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
+            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
           },
-          "source_type": "Vendor",
-          "source": "Valor Points (1650)",
+          "source_type": "Maloriak",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -14223,39 +14221,43 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Jar of Ancient Remedies",
-          "ilvl": 372,
+          "name": "Core of Ripeness",
+          "ilvl": 359,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 321
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
-            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
+            "use_1": "Increases your Spirit by 1926 for 20 sec. (2 min cooldown)"
           },
-          "source_type": "Maloriak",
-          "source": "Blackwing Descent (H)",
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Gale of Shadows",
+          "name": "Tear of Blood",
           "ilvl": 346,
           "rarity": "rare",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 285
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "haste": 285,
-            "equip_1": "Your healing and damage periodic spells grant 17 spell power each time they heal or deal damage. Lasts 15 sec, stacking up to 20 times."
+            "equip_1": "Your healing spell critical strikes have a chance to grant 1710 spirit for 15 sec."
           },
-          "source_type": "Erudax, the Duke of Below",
-          "source": "Grim Batol (H)",
+          "source_type": "High Priestess Azil",
+          "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
@@ -14279,23 +14281,21 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Tear of Blood",
+          "name": "Gale of Shadows",
           "ilvl": 346,
           "rarity": "rare",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 285
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spell critical strikes have a chance to grant 1710 spirit for 15 sec."
+            "haste": 285,
+            "equip_1": "Your healing and damage periodic spells grant 17 spell power each time they heal or deal damage. Lasts 15 sec, stacking up to 20 times."
           },
-          "source_type": "High Priestess Azil",
-          "source": "The Stonecore (H)",
+          "source_type": "Erudax, the Duke of Below",
+          "source": "Grim Batol (H)",
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
@@ -20731,7 +20731,7 @@
             "Major: *{\"consume\": \"Divine Accuracy-cata\"}*, *{\"consume\": \"Smite\"}*, *{\"consume\": \"Prayer of Mending\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste = Mastery = Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "holy-priest",
@@ -20804,7 +20804,7 @@
             "Major: *{\"consume\": \"Circle of Healing\"}*, *{\"consume\": \"Prayer of Mending\"}*, *{\"consume\": \"Mass Dispel\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste (516) > Mastery = Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "shadow-priest",
@@ -21322,7 +21322,7 @@
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],
-          "stats": "Int > Spi* > Haste > Mastery > Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery > Crit"
         },
         {
           "spec": "affliction-warlock",
@@ -21605,7 +21605,7 @@
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
             "Minor: *{\"consume\": \"Drain Soul\"}*"
           ],
-          "stats": "Int > Hit > Haste (2681) > Crit = Mastery > Haste"
+          "stats": "Int > Hit > Haste (2589) > Crit = Mastery > Haste"
         },
         {
           "spec": "arms-warrior",
@@ -21688,7 +21688,7 @@
           "general": "*{\"wowClass\": \"Fury Warriors\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Rampage\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
           "intro": "*{\"wowClass\": \"Fury Warriors\"}* have a simple priority rotation, but as with any class that uses Rage or Energy, managing your resources properly will be critical to performing well. There are some nuances like delaying a *{\"skill\": \"Colossus Smash\"}* cast by a couple seconds to ensure you get 3 special attacks within the 6 second debuff window.",
           "single": [
-            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if\" assigned to it.",
+            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned to it.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
             "Use *{\"skill\": \"Berserker Rage\"}* if you need to be *{\"wowBoss\": \"Enraged\"}* for *{\"skill\": \"Raging Blow\"}*.",
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",
@@ -22003,7 +22003,7 @@
             "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Hungering Cold-cata\"}*, *{\"consume\": \"Death Grip\"}*",
             "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Str > Hit (601) > Haste > Hit (820) > Mastery > Exp (781) > Crit"
+          "stats": "Str > Hit (820) > Mastery > Haste > Exp (781) > Crit"
         },
         {
           "spec": "unholy-death-knight",

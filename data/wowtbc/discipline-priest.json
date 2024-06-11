@@ -391,6 +391,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -741,8 +743,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -863,6 +865,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Greater Inscription of Charged Lodestone",
               "rarity": "special",
@@ -870,8 +874,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Purified Demonseye",
+                "image": "demonseye"
               }
             ]
           },
@@ -1349,6 +1353,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Chest - Peerless Stats",
               "rarity": "uncommon",
@@ -1360,8 +1366,8 @@
                 "image": "inferno-ruby"
               },
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -1525,6 +1531,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Chest - Peerless Stats",
               "rarity": "uncommon",
@@ -1532,12 +1540,12 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Purified Demonseye",
+                "image": "demonseye"
               },
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -1671,6 +1679,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Bracer - Mighty Intellect",
               "rarity": "rare",
@@ -1678,8 +1688,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -1800,6 +1810,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Bracer - Mighty Intellect",
               "rarity": "rare",
@@ -1893,9 +1905,11 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
-              "name": "Gloves - Greater Mastery",
-              "rarity": "uncommon",
+              "name": "Gloves - Haste",
+              "rarity": "common",
               "recipe": true
             },
             "gems": [
@@ -2025,8 +2039,8 @@
             "reforge_from": "Mastery",
             "reforge_to": "Spirit",
             "enchant": {
-              "name": "Gloves - Greater Mastery",
-              "rarity": "uncommon",
+              "name": "Gloves - Haste",
+              "rarity": "common",
               "recipe": true
             },
             "gems": [
@@ -2426,6 +2440,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             },
@@ -2613,6 +2629,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Powerful Ghostly Spellthread",
               "rarity": "epic",
@@ -2933,6 +2951,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Boots - Lavawalker",
               "rarity": "uncommon",
@@ -2940,8 +2960,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -3062,6 +3082,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Boots - Lavawalker",
               "rarity": "uncommon",
@@ -3069,8 +3091,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -3546,6 +3568,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -3709,6 +3733,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -3999,7 +4025,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Fall of Mortality",
+          "name": "Jar of Ancient Remedies",
           "slot": "trinket 1",
           "phase": [
             "T11",
@@ -4036,8 +4062,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -4123,48 +4149,6 @@
           },
           "source": "Alchemy",
           "source_type": "Trainer (510)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Jar of Ancient Remedies",
-          "slot": "trinket 1",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -4297,6 +4281,48 @@
           "rarity": "rare"
         },
         {
+          "name": "Fall of Mortality",
+          "slot": "trinket 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
           "name": "Tyrande's Favorite Doll",
           "slot": "trinket 2",
           "phase": [
@@ -4312,7 +4338,7 @@
             }
           },
           "t11": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -4340,7 +4366,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Fall of Mortality",
+          "name": "Jar of Ancient Remedies",
           "slot": "trinket 2",
           "phase": [
             "T11",
@@ -4377,8 +4403,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -4464,48 +4490,6 @@
           },
           "source": "Alchemy",
           "source_type": "Trainer (510)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Jar of Ancient Remedies",
-          "slot": "trinket 2",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -4653,6 +4637,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Weapon - Power Torrent",
               "rarity": "rare",
@@ -4808,48 +4794,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Chelley's Staff of Dark Mending",
-          "slot": "weapon",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight",
-          "source_type": "Trash Drop",
-          "rarity": "epic"
-        },
-        {
           "name": "Staff of Ammunae",
           "slot": "weapon",
           "phase": [
@@ -4860,6 +4804,8 @@
           ],
           "pre-bis": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Weapon - Power Torrent",
               "rarity": "rare",
@@ -5125,6 +5071,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "name": "Off-Hand - Superior Intellect",
               "rarity": "common",
@@ -5380,6 +5328,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -14942,23 +14892,21 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Fall of Mortality",
+          "name": "Jar of Ancient Remedies",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 363
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spells have a chance to grant 2178 Spirit for 15 sec."
+            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
+            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
           },
-          "source_type": "Cho'gall",
-          "source": "The Bastion of Twilight (H)",
+          "source_type": "Maloriak",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -15009,24 +14957,6 @@
           "source_type": "Trainer (510)",
           "source": "Alchemy",
           "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
-          "name": "Jar of Ancient Remedies",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
-            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
-          },
-          "source_type": "Maloriak",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
         },
         {
           "name": "Tear of Blood",
@@ -15087,6 +15017,26 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Fall of Mortality",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 363
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your healing spells have a chance to grant 2178 Spirit for 15 sec."
+          },
+          "source_type": "Cho'gall",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Tyrande's Favorite Doll",
           "ilvl": 359,
           "rarity": "epic",
@@ -15108,23 +15058,21 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Fall of Mortality",
+          "name": "Jar of Ancient Remedies",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 363
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your healing spells have a chance to grant 2178 Spirit for 15 sec."
+            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
+            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
           },
-          "source_type": "Cho'gall",
-          "source": "The Bastion of Twilight (H)",
+          "source_type": "Maloriak",
+          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -15175,24 +15123,6 @@
           "source_type": "Trainer (510)",
           "source": "Alchemy",
           "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
-          "name": "Jar of Ancient Remedies",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Your healing spells grant Inner Eye, increasing spirit by 116 for 15 sec and stacking up to 5 times.",
-            "use_1": "Grants 7260 mana, but consumes all applications of Inner Eye and prevents Inner Eye from being triggered for 30 sec. (2 min cooldown)"
-          },
-          "source_type": "Maloriak",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
         },
         {
           "name": "Tear of Blood",
@@ -15365,35 +15295,6 @@
           },
           "source_type": "Cho'gall",
           "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
-          "name": "Chelley's Staff of Dark Mending",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "boe",
-          "slot": "two-hand",
-          "type": "staff",
-          "special_stats": {
-            "weapon_damage": "1196 - 1795 Damage",
-            "weapon_speed": 2.4,
-            "weapon_dps": 623.1
-          },
-          "primary_stats": {
-            "intellect": 341,
-            "stamina": 512,
-            "spirit": 228
-          },
-          "other_stats": {
-            "durability": 120,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "spell_power": 1955,
-            "mastery": 228
-          },
-          "source_type": "Trash Drop",
-          "source": "The Bastion of Twilight",
           "phase": "T11`T12`T13"
         },
         {
@@ -21672,7 +21573,7 @@
             "Major: *{\"consume\": \"Divine Accuracy-cata\"}*, *{\"consume\": \"Smite\"}*, *{\"consume\": \"Prayer of Mending\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste = Mastery = Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "holy-priest",
@@ -21745,7 +21646,7 @@
             "Major: *{\"consume\": \"Circle of Healing\"}*, *{\"consume\": \"Prayer of Mending\"}*, *{\"consume\": \"Mass Dispel\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste (516) > Mastery = Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "shadow-priest",
@@ -22263,7 +22164,7 @@
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],
-          "stats": "Int > Spi* > Haste > Mastery > Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery > Crit"
         },
         {
           "spec": "affliction-warlock",
@@ -22546,7 +22447,7 @@
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
             "Minor: *{\"consume\": \"Drain Soul\"}*"
           ],
-          "stats": "Int > Hit > Haste (2681) > Crit = Mastery > Haste"
+          "stats": "Int > Hit > Haste (2589) > Crit = Mastery > Haste"
         },
         {
           "spec": "arms-warrior",
@@ -22629,7 +22530,7 @@
           "general": "*{\"wowClass\": \"Fury Warriors\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Rampage\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
           "intro": "*{\"wowClass\": \"Fury Warriors\"}* have a simple priority rotation, but as with any class that uses Rage or Energy, managing your resources properly will be critical to performing well. There are some nuances like delaying a *{\"skill\": \"Colossus Smash\"}* cast by a couple seconds to ensure you get 3 special attacks within the 6 second debuff window.",
           "single": [
-            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if\" assigned to it.",
+            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned to it.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
             "Use *{\"skill\": \"Berserker Rage\"}* if you need to be *{\"wowBoss\": \"Enraged\"}* for *{\"skill\": \"Raging Blow\"}*.",
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",
@@ -22944,7 +22845,7 @@
             "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Hungering Cold-cata\"}*, *{\"consume\": \"Death Grip\"}*",
             "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Str > Hit (601) > Haste > Hit (820) > Mastery > Exp (781) > Crit"
+          "stats": "Str > Hit (820) > Mastery > Haste > Exp (781) > Crit"
         },
         {
           "spec": "unholy-death-knight",

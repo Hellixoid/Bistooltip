@@ -20374,7 +20374,7 @@
             "Major: *{\"consume\": \"Divine Accuracy-cata\"}*, *{\"consume\": \"Smite\"}*, *{\"consume\": \"Prayer of Mending\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste = Mastery = Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "holy-priest",
@@ -20447,7 +20447,7 @@
             "Major: *{\"consume\": \"Circle of Healing\"}*, *{\"consume\": \"Prayer of Mending\"}*, *{\"consume\": \"Mass Dispel\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste (516) > Mastery = Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "shadow-priest",
@@ -20965,7 +20965,7 @@
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],
-          "stats": "Int > Spi* > Haste > Mastery > Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery > Crit"
         },
         {
           "spec": "affliction-warlock",
@@ -21248,7 +21248,7 @@
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
             "Minor: *{\"consume\": \"Drain Soul\"}*"
           ],
-          "stats": "Int > Hit > Haste (2681) > Crit = Mastery > Haste"
+          "stats": "Int > Hit > Haste (2589) > Crit = Mastery > Haste"
         },
         {
           "spec": "arms-warrior",
@@ -21331,7 +21331,7 @@
           "general": "*{\"wowClass\": \"Fury Warriors\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Rampage\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
           "intro": "*{\"wowClass\": \"Fury Warriors\"}* have a simple priority rotation, but as with any class that uses Rage or Energy, managing your resources properly will be critical to performing well. There are some nuances like delaying a *{\"skill\": \"Colossus Smash\"}* cast by a couple seconds to ensure you get 3 special attacks within the 6 second debuff window.",
           "single": [
-            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if\" assigned to it.",
+            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned to it.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
             "Use *{\"skill\": \"Berserker Rage\"}* if you need to be *{\"wowBoss\": \"Enraged\"}* for *{\"skill\": \"Raging Blow\"}*.",
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",
@@ -21646,7 +21646,7 @@
             "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Hungering Cold-cata\"}*, *{\"consume\": \"Death Grip\"}*",
             "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Str > Hit (601) > Haste > Hit (820) > Mastery > Exp (781) > Crit"
+          "stats": "Str > Hit (820) > Mastery > Haste > Exp (781) > Crit"
         },
         {
           "spec": "unholy-death-knight",

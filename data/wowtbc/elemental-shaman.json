@@ -264,6 +264,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Spirit",
+            "reforge_to": "Mastery",
             "enchant": {
               "recipe": false
             }
@@ -549,6 +551,58 @@
           "rarity": "rare"
         },
         {
+          "name": "Mantle of the Raging Elements",
+          "slot": "shoulder",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": true,
+            "reforge_from": "Spirit",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Greater Inscription of Charged Lodestone",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
           "name": "Feludius' Mantle",
           "slot": "shoulder",
           "phase": [
@@ -605,20 +659,10 @@
             }
           },
           "t11": {
-            "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Greater Inscription of Charged Lodestone",
-              "rarity": "special",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              }
-            ]
+            }
           },
           "zg/za": {
             "bis": false,
@@ -797,6 +841,8 @@
           },
           "t11": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
               "name": "Cloak - Greater Intellect",
               "rarity": "common",
@@ -1146,24 +1192,10 @@
             }
           },
           "t11": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Chest - Peerless Stats",
-              "rarity": "uncommon",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              },
-              {
-                "name": "Veiled Demonseye",
-                "image": "demonseye"
-              }
-            ]
+              "recipe": false
+            }
           },
           "zg/za": {
             "bis": false,
@@ -1202,10 +1234,24 @@
             }
           },
           "t11": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Spirit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Chest - Peerless Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              },
+              {
+                "name": "Veiled Demonseye",
+                "image": "demonseye"
+              }
+            ]
           },
           "zg/za": {
             "bis": false,
@@ -1992,12 +2038,12 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               },
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Purified Demonseye",
+                "image": "demonseye"
               }
             ]
           },
@@ -3013,8 +3059,6 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Spirit",
             "enchant": {
               "recipe": false
             }
@@ -3439,7 +3483,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Bell of Enraging Resonance",
+          "name": "Theralion's Mirror",
           "slot": "trinket 1",
           "phase": [
             "T11",
@@ -3476,8 +3520,8 @@
               "recipe": false
             }
           },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Atramedes",
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Theralion and Valiona",
           "rarity": "epic"
         },
         {
@@ -3738,48 +3782,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Theralion's Mirror",
-          "slot": "trinket 2",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Theralion and Valiona",
-          "rarity": "epic"
-        },
-        {
           "name": "Bell of Enraging Resonance",
           "slot": "trinket 2",
           "phase": [
@@ -3794,7 +3796,9 @@
             }
           },
           "t11": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -3819,6 +3823,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Atramedes",
+          "rarity": "epic"
+        },
+        {
+          "name": "Theralion's Mirror",
+          "slot": "trinket 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Theralion and Valiona",
           "rarity": "epic"
         },
         {
@@ -4996,7 +5042,7 @@
           "t11": {
             "bis": true,
             "reforge_from": "Critical Strike",
-            "reforge_to": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
               "recipe": false
             },
@@ -12304,6 +12350,44 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Mantle of the Raging Elements",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1911
+          },
+          "primary_stats": {
+            "intellect": 266,
+            "stamina": 429,
+            "spirit": 191
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "mastery": 171
+          },
+          "set": "Vestments of the Raging Elements",
+          "source_type": "Cho'gall",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
+        },
+        {
           "name": "Feludius' Mantle",
           "ilvl": 372,
           "rarity": "epic",
@@ -14159,21 +14243,23 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Bell of Enraging Resonance",
+          "name": "Theralion's Mirror",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 363
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "crit": 321,
-            "equip_1": "Your harmful spells have a chance to grant 1926 spell power for 20 sec."
+            "equip_1": "Your harmful spells have a chance to grant 2178 mastery rating for 20 sec."
           },
-          "source_type": "Atramedes",
-          "source": "Blackwing Descent (H)",
+          "source_type": "Theralion and Valiona",
+          "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -14288,6 +14374,24 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Bell of Enraging Resonance",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 321,
+            "equip_1": "Your harmful spells have a chance to grant 1926 spell power for 20 sec."
+          },
+          "source_type": "Atramedes",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Theralion's Mirror",
           "ilvl": 372,
           "rarity": "epic",
@@ -14305,24 +14409,6 @@
           },
           "source_type": "Theralion and Valiona",
           "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
-          "name": "Bell of Enraging Resonance",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 321,
-            "equip_1": "Your harmful spells have a chance to grant 1926 spell power for 20 sec."
-          },
-          "source_type": "Atramedes",
-          "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -20956,7 +21042,7 @@
             "Major: *{\"consume\": \"Divine Accuracy-cata\"}*, *{\"consume\": \"Smite\"}*, *{\"consume\": \"Prayer of Mending\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste = Mastery = Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "holy-priest",
@@ -21029,7 +21115,7 @@
             "Major: *{\"consume\": \"Circle of Healing\"}*, *{\"consume\": \"Prayer of Mending\"}*, *{\"consume\": \"Mass Dispel\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
-          "stats": "Int > Spi* > Haste (516) > Mastery = Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery = Crit"
         },
         {
           "spec": "shadow-priest",
@@ -21547,7 +21633,7 @@
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],
-          "stats": "Int > Spi* > Haste > Mastery > Haste > Crit"
+          "stats": "Int > Spi* > Haste > Mastery > Crit"
         },
         {
           "spec": "affliction-warlock",
@@ -21830,7 +21916,7 @@
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
             "Minor: *{\"consume\": \"Drain Soul\"}*"
           ],
-          "stats": "Int > Hit > Haste (2681) > Crit = Mastery > Haste"
+          "stats": "Int > Hit > Haste (2589) > Crit = Mastery > Haste"
         },
         {
           "spec": "arms-warrior",
@@ -21913,7 +21999,7 @@
           "general": "*{\"wowClass\": \"Fury Warriors\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Rampage\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
           "intro": "*{\"wowClass\": \"Fury Warriors\"}* have a simple priority rotation, but as with any class that uses Rage or Energy, managing your resources properly will be critical to performing well. There are some nuances like delaying a *{\"skill\": \"Colossus Smash\"}* cast by a couple seconds to ensure you get 3 special attacks within the 6 second debuff window.",
           "single": [
-            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if\" assigned to it.",
+            "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned to it.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
             "Use *{\"skill\": \"Berserker Rage\"}* if you need to be *{\"wowBoss\": \"Enraged\"}* for *{\"skill\": \"Raging Blow\"}*.",
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",
@@ -22228,7 +22314,7 @@
             "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Hungering Cold-cata\"}*, *{\"consume\": \"Death Grip\"}*",
             "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Str > Hit (601) > Haste > Hit (820) > Mastery > Exp (781) > Crit"
+          "stats": "Str > Hit (820) > Mastery > Haste > Exp (781) > Crit"
         },
         {
           "spec": "unholy-death-knight",
