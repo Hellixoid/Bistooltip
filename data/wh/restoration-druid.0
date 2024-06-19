@@ -1,17 +1,24 @@
 <div class="guide-styles" data-zaf-dynamic="article" id="guide-body" lang="en">Welcome to Wowhead's Best in Slot Gear list for Restoration Druid Healer in Cataclysm Classic Pre-Raid. Gear in this guide is primarily obtained from dungeons, reputations, and professions. This guide will list the recommended gear for your class and role, containing gear sourced from raids, dungeons, PvP, professions, Bind on Equip drops, and reputations.<h2 class="heading-size-2" id="best-in-slot">
-<span class="c4">Best in Slot Gear for Restoration Druid Healer in Pre-Raid</span></h2>Resto Druids see a few major changes to itemization in Cataclysm: all HoTs can now crit, and MP5 is no longer a stat (being replaced by Spirit instead). The latter doesn't really matter as very little of our gear had MP5 to begin with, but it does change some items.<br/>However, most importantly, Cataclysm brings armor specialization - which means that wearing all leather grants us 5% extra Int (which is also SP in Cata!) That means it's time to throw all of that gross cloth, leather's in fashion.<br/>
-<br/>Overall, our primary gearing goals will be to focus haste breakpoints, then balance our mana regen with spirit. Afterwards, mastery tends to be slightly stronger than crit.<br/>Due to the stats available in pre-raid, as long as you have several 359s, hitting the 2005 haste breakpoint is fairly straightforward. If you mostly only have 346s though, it will be fairly hard to get there and may be better to stick to the 916 haste breakpoint instead.<ol>
+<span class="c4">Best in Slot Gear for Restoration Druid Healer in Pre-Raid</span></h2>Resto Druids see a few major changes to itemization in Cataclysm: all HoTs can now crit, Haste affects all HoTs tick rate, and MP5 is no longer a stat (replaced by Spirit). The latter doesn't really matter as very little of our gear had MP5 to begin with, but it does change some items.<br/>
+<br/>However, most importantly, Cataclysm brings armor specialization - which means that wearing all Leather grants us 5% extra Intellect (which is also Spell Power in Cataclysm). That means it's time to throw all of that gross Cloth, Leather is in back in fashion.<br/>
+<br/>Overall, our primary gearing goal will be to pinpoint our Haste breakpoints (916 or 2005) while accumulating as much Intellect as possible. Then, balance our mana regen with Spirit. Afterwards, Mastery tends to be slightly stronger than Crit Rating point for point. Due to the stat totals available in Phase 1, as long as you have several 359 ilvl pieces, hitting the 2005 haste breakpoint should be manageable. If you mostly only have 346 ilvl gear though, it will be fairly hard to get there and may be better to stick to the 916 haste breakpoint instead. In full raid BiS, it's expected that your setup should always be at the 2005 haste breakpoint.<br/>
+<br/>The biggest change in gear options is that the Cataclysm "healer only" stat, Spirit, is much better than the Wrath "healer only" stat, MP5, and is also much more widely available. For this minor tradeoff, we need to compete with select hybrid DPS for Spirit gear: Shadow Priest, Elemental Shaman, and Balance Druid. But, that's a small price to pay for having way more gear availability. In general, it should be much easier to gear up as a healer in Cataclysm than any previous classic expansion.<ol>
 <li>
-<div data-markup-content-target="1">Int - This stat now gives spellpower by itself, on top of the mana and crit that it continued to provide in WotLK. We now gem Int (it's a red gem now, just like SP was), unless you're trying to hit a specific Haste breakpoint.</div></li>
+<div data-markup-content-target="1">
+<b>Intellect </b>- Now gives Spell Power by itself on top of the Mana and Crit Rating that it provided in Wrath. We now gem for Intellect (it's a red gem now), unless you're trying to hit a specific Haste breakpoint.</div></li>
 <li>
-<div data-markup-content-target="1">Spirit - Our core regeneration stat. The 5 second rule is completely gone in Cataclysm, there's only "in combat" and "out of combat" regen.</div></li>
+<div data-markup-content-target="1">
+<b>Spirit </b>- Our core regeneration stat. The 5 second rule is completely gone in Cataclysm, there's only "in combat" and "out of combat" regen.</div></li>
 <li>
-<div data-markup-content-target="1">Haste - Haste now always affects all of our HoTs, even <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/cata/spell=33763/lifebloom">
-<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_herb_felblossom.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Lifebloom</span></a> - though at specific breakpoints, you GAIN an entire tick. This means that between breakpoints, Haste is a mana-negative, healing-positive stat, while every breakpoint adds a significant amount of mana efficiency.</div></li>
+<div data-markup-content-target="1">
+<b>Haste </b>- Now affects all of our HoT tick rates by default. At specific breakpoints, you gain extra ticks with different HoTs, and is the primary focus of Haste for Resto Druids in Cataclysm. The breakpoints we want to focus on are 916 and 2005. Between breakpoints, Haste is a mana-negative, healing-positive stat, but will find just as many situations where you lose value as you gain value by quickening the tick rate. It is recommended to tailor gear to have just enough Haste, and reforge or gem for more throughput stats.</div></li>
 <li>
-<div data-markup-content-target="1">Critical Strike - All of our HoTs can now crit, making this no longer a dead stat! Critical healing also does 200% healing in Cata, up from 150% in previous expansions. However, since the stat budget of critical strike rating on gear is pretty expensive, it's less effective for healing throughput increases than Mastery.</div></li>
+<div data-markup-content-target="1">
+<b>Mastery </b>- A new stat that buffs all of our direct healing. Additionally <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/cata/spell=77495/harmony">
+<img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/classic_spell_nature_healingway.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Harmony</span></a> also buffs all HoTs an equal amount as long as you cast enough direct heals to keep the buff active. For healing throughput exclusively, this is a great stat.</div></li>
 <li>
-<div data-markup-content-target="1">Mastery - This is a new stat that buffs all of our direct healing. Additionally as long as you cast one direct heal every 10s, it also buffs all HoTs an equal amount. For exclusively healing throughput, this is a great stat.</div></li></ol>
+<div data-markup-content-target="1">
+<b>Critical Strike</b> - All of our HoTs can now crit, making this no longer a dead stat. Critical healing also now does 200% healing in Cataclysm, up from 150% in previous expansions. Since the stat budget of critical strike rating on gear is pretty expensive, it's less effective for healing throughput increases than Mastery.</div></li></ol>
 <div style="text-align: -webkit-center;">
 <h4 class="heading-size-4" id="absolute-pre-raid-bis">Absolute Pre-Raid BiS</h4>This is the best possible setup you could have before stepping into a single raid in Phase 1. However, this setup is obviously incredibly unrealistic as it not only requires two extremely rare world drops, it also requires 8000 Valor to put together (not including the boots!) While this is an aspirational setup, it is not very realistic and is here solely as an informative display of what can be achieved with only non-raid gear.<br/>
 <div id="markup-gear-planner-calc-0">
@@ -897,10 +904,10 @@
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
-<span class="gear-planner-stat-summary-value">120934.44000000002</span></div>
+<span class="gear-planner-stat-summary-value">91433</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mana</span>
-<span class="gear-planner-stat-summary-value">94809.75</span></div>
+<span class="gear-planner-stat-summary-value">99341.97000000002</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">3</span></div></div>
@@ -912,16 +919,16 @@
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
-<span class="gear-planner-stat-summary-value">124.02000000000001</span></div>
+<span class="gear-planner-stat-summary-value">117</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Agility</span>
 <span class="gear-planner-stat-summary-value">111</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Stamina</span>
-<span class="gear-planner-stat-summary-value">5832.960000000001</span></div>
+<span class="gear-planner-stat-summary-value">5208</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Intellect</span>
-<span class="gear-planner-stat-summary-value">4796</span></div>
+<span class="gear-planner-stat-summary-value">5083.76</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spirit</span>
 <span class="gear-planner-stat-summary-value">1534</span></div></div>
@@ -933,13 +940,13 @@
 <span class="icon-label-text">Spell</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>
-<span class="gear-planner-stat-summary-value">6751</span></div>
+<span class="gear-planner-stat-summary-value">7326.52</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Healing</span>
-<span class="gear-planner-stat-summary-value">6751</span></div>
+<span class="gear-planner-stat-summary-value">7608.0704000000005</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Crit</span>
-<span class="gear-planner-stat-summary-value">671 (16.79%)</span></div>
+<span class="gear-planner-stat-summary-value">671 (17.22%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Hit</span>
 <span class="gear-planner-stat-summary-value">0 (0.00%)</span></div>
@@ -978,9 +985,9 @@
 <br/>Overall, this means that for our gearing strategy, there isn't necessarily a single "best option" per item level if multiple items at the same ilvl exist. <b>For this reason, we have chosen to show all 346s in this list in no particular order; instead, wherever listed, we have listed the secondary stats on the item so you can make a personal decision.</b> As a simple reference, all "Best" items are 359 (with the exception of shoulder/<wbr/>wrists which have no 359 option), and all "Good" items are 346.<h3 class="heading-size-3" id="justice-points">Justice Points for Restoration Druid Healer Pre-Raid</h3>
 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
 <span>
-<img alt="Justice Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-justice.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Justice Points</span></span></a>s are one of the two new PvE currencies in Cataclysm (<a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
+<img alt="Justice Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-justice.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Justice Points</span></span></a> are one of the two new PvE currencies in Cataclysm (<a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
 <span>
-<img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a>s being the other one). They have a hard cap of 4,000 and can never go over it, but unlike the Valor Points, there is no weekly limit on how much you can earn. In theory, dedicated players can go from 0 to 4,000 in a single day. It is worth noting that whenever a new raid phase is released, all of the Valor Points a player has get converted into JPs, but never over the cap. Additionally, previous Valor Point gear will be converted to costing Justice Points instead and new sets of Valor Point gear will be added.<br/>
+<img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a> being the other one). They have a hard cap of 4,000 and can never go over it, but unlike the Valor Points, there is no weekly limit on how much you can earn. In theory, dedicated players can go from 0 to 4,000 in a single day. It is worth noting that whenever a new raid phase is released, all of the Valor Points a player has get converted into JPs, but never over the cap. Additionally, previous Valor Point gear will be converted to costing Justice Points instead and new sets of Valor Point gear will be added.<br/>
 <br/>In effect, Justice Points are the "catchup mechanism" for new 85s, being used to purchase catch-up pre-raid gear. In Phase 1, all Justice Point gear is ilvl 346, which means any of these purchases is fairly low-impact - however, it is a good way to shore up any slots where you've been unlucky from dungeon drops.<br/>
 <br/>All of these options are listed in no particular order, and are not individually priority to purchase. If you don't have a 346 item in a particular slot and the Justice Point vendor sells an item for that slot, you should buy it.<br/>
 <br/>

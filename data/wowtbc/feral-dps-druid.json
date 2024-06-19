@@ -20492,8 +20492,7 @@
           "intro": "*{\"wowClass\": \"Assassination Rogues\"}* are all about proper *{\"wowBoss\": \"Combo Points\"}* and Energy management. They have a handful talents that increase their Energy or Energy Regeneration such as *{\"skill\": \"Relentless Strikes\"}*, *{\"skill\": \"Overkill\"}*, *{\"skill\": \"Venomous Wounds\"}*, and *{\"skill\": \"Murderous Intent\"}* for targets below 35% HP. They also have talents that generate additional *{\"wowBoss\": \"Combo Points\"}* with *{\"skill\": \"Ruthlessness\"}* and *{\"skill\": \"Seal Fate-cata\"}*. Your goal is to not cap on Energy, and not waste *{\"wowBoss\": \"Combo Points\"}*, so you need to pay close attention during high Energy Regeneration windows, and when your *{\"skill\": \"Mutilate\"}* and *{\"skill\": \"Backstab\"}* critically strike.",
           "opener": [
             "Use *{\"skill\": \"Tricks of the Trade\"}* pre-pull.",
-            "If you can start close to the boss, pre-pot *{\"consume\": \"Potion of the Tol'vir\"}*, go into *{\"skill\": \"Stealth\"}*, and open with *{\"skill\": \"Garrote\"}*.",
-            "If you can't get close to the boss, start in *{\"skill\": \"Stealth\"}*, use *{\"skill\": \"Sprint\"}*, pre-pot *{\"consume\": \"Potion of the Tol'vir\"}* (breaks *{\"skill\": \"Stealth\"}* ), and open with *{\"skill\": \"Mutilate\"}*.",
+            "Pre-pot *{\"consume\": \"Potion of the Tol'vir\"}*, go into *{\"skill\": \"Stealth\"}*, and open with *{\"skill\": \"Garrote\"}*.",
             "Use *{\"skill\": \"Slice and Dice\"}*.",
             "Use *{\"skill\": \"Mutilate\"}*.",
             "Use *{\"skill\": \"Rupture\"}*.",
@@ -20567,17 +20566,25 @@
           "spec": "combat-rogue",
           "general": "*{\"wowClass\": \"Combat Rogues\"}* bring 4% Physical Damage taken with *{\"skill\": \"Savage Combat\"}* to raids, and can also bring an Armor debuff with *{\"skill\": \"Expose Armor\"}* if required to.",
           "intro": "*{\"wowClass\": \"Combat Rogues\"}* have a simple rotation, and can even remove *{\"skill\": \"Rupture\"}* from the rotation entirely and still do slightly less DPS for an even simpler rotation. Proper *{\"wowBoss\": \"Combo Points\"}* and Energy management is still the name of the game. Using *{\"skill\": \"Adrenaline Rush\"}* and *{\"skill\": \"Killing Spree\"}* optimially will be important for maximizing DPS. Both of these cooldowns will be up more often thanks to *{\"skill\": \"Restless Blades\"}*.",
+          "opener": [
+            "Use *{\"skill\": \"Tricks of the Trade\"}* pre-pull.",
+            "Use *{\"skill\": \"Stealth\"}* to get near the boss and pre-pot *{\"consume\": \"Potion of the Tol'vir\"}*.",
+            "Use *{\"skill\": \"Sinister Strike\"}*.",
+            "Use *{\"skill\": \"Slice and Dice\"}*.",
+            "Use *{\"skill\": \"Adrenaline Rush\"}*.",
+            "Use *{\"skill\": \"Revealing Strike\"}*.",
+            "Use *{\"skill\": \"Killing Spree\"}* right before *{\"skill\": \"Adrenaline Rush\"}* ends.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"skill\": \"Instant Poison\"}* on Main-hand, *{\"skill\": \"Deadly Poison\"}* on Off-hand,  and *{\"skill\": \"Wound Poison\"}* on Thrown weapon.",
             "Maintain *{\"skill\": \"Slice and Dice\"}*.",
-            "Maintain *{\"skill\": \"Rupture\"}* at 5 *{\"wowBoss\": \"Combo Points\"}*.",
             "Use *{\"skill\": \"Killing Spree\"}* at low Energy and 30% *{\"skill\": \"Bandit's Guile\"}* unless delaying it would result in less casts throughout the fight.",
             "Use *{\"skill\": \"Adrenaline Rush\"}* as long as you wont cap on Energy.",
             "Use *{\"skill\": \"Tricks of the Trade\"}*.",
-            "Use *{\"skill\": \"Revealing Strike\"}* if it's not active and you will *{\"skill\": \"Rupture\"}* or *{\"skill\": \"Eviscerate\"}* within 15 seconds.",
-            "Use *{\"skill\": \"Gouge\"}* if you are at 4 *{\"wowBoss\": \"Combo Points\"}* and *{\"skill\": \"Revealing Strike\"}* is already active.",
-            "Use *{\"skill\": \"Eviscerate\"}* at 5 *{\"wowBoss\": \"Combo Points\"}*. Make sure doing this does not reduce uptime on *{\"skill\": \"Slice and Dice\"}* and *{\"skill\": \"Rupture\"}*.",
-            "Use *{\"skill\": \"Eviscerate\"}* if the target will die before a 5 *{\"wowBoss\": \"Combo Point\"}* *{\"skill\": \"Rupture\"}* runs for its full duration.",
+            "Use *{\"skill\": \"Revealing Strike\"}* if it's not active and you will *{\"skill\": \"Eviscerate\"}* within 15 seconds.",
+            "Use *{\"skill\": \"Gouge\"}* if you are at 4 *{\"wowBoss\": \"Combo Points\"}*, *{\"skill\": \"Revealing Strike\"}* is already active, and *{\"skill\": \"Adrenaline Rush\"}* is not active.",
+            "Use *{\"skill\": \"Eviscerate\"}* at 5 *{\"wowBoss\": \"Combo Points\"}*. Make sure doing this does not reduce uptime on *{\"skill\": \"Slice and Dice\"}*.",
             "Use *{\"skill\": \"Sinister Strike\"}* to generate *{\"wowBoss\": \"Combo Points\"}*."
           ],
           "aoe": [
@@ -20625,7 +20632,7 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Adrenaline Rush\"}*, *{\"consume\": \"Slice and Dice\"}*, *{\"consume\": \"Sinister Strike\"}*",
-            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Blade Flurry\"}*, *{\"consume\": \"Feint\"}*",
+            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Blade Flurry\"}*, *{\"consume\": \"Gouge\"}*",
             "Minor: *{\"consume\": \"Safe Fall\"}*, *{\"consume\": \"Blurred Speed\"}*, *{\"consume\": \"Poisons\"}*"
           ],
           "stats": "Agi > Hit (241) > Exp (781) > Haste > Hit (1127) > Mastery > Hit (2523) > Crit"
