@@ -10331,6 +10331,14 @@
           "description": "Summons an elemental totem that calls forth a greater fire elemental to rain destruction on the caster's enemies. Lasts 2 min."
         },
         {
+          "name": "Earth Elemental Totem",
+          "cost": "23% of base mana",
+          "time": "Instant",
+          "cd": "10 min",
+          "requirement": "Earth Totem",
+          "description": "Summons an elemental totem that calls forth a Greater Earth Elemental to protect the caster and his allies. Lasts 2 min."
+        },
+        {
           "name": "Elemental Mastery",
           "time": "Instant",
           "cd": "3 min",
@@ -18354,6 +18362,16 @@
           "use": "Your Beacon of Light costs no mana."
         },
         {
+          "name": "Consecration",
+          "class": "paladin",
+          "type": "major",
+          "reagents": [
+            "Celestial Ink (3)",
+            "Resilient Parchment"
+          ],
+          "use": "Increases the duration and cooldown of Consecration by 20%."
+        },
+        {
           "name": "Cleansing-cata",
           "class": "paladin",
           "type": "major",
@@ -19424,7 +19442,7 @@
           "use": "While your Elemental Mastery ability is active, you take 20% less damage from all sources."
         },
         {
-          "name": "Fire Nova",
+          "name": "Fire Nova-cata",
           "class": "shaman",
           "type": "major",
           "reagents": [
@@ -20746,6 +20764,17 @@
           "spec": "survival-hunter",
           "general": "*{\"wowClass\": \"Survival Hunters\"}* bring a Melee Attack Speed buff to raids with *{\"skill\": \"Hunting Party\"}*. All *{\"wowClass\": \"Hunters\"}* also have access to pets that can bring other raid buffs such as 5% Crit and Agility/Strength buff.",
           "intro": "*{\"wowClass\": \"Hunters\"}* now have Focus instead of Mana, which works similar to Energy but with a slower regen rate. This means you will need to do your best not to cap your Focus, as well as making sure you have enough Focus when you need to cast your high priority abilities. *{\"wowClass\": \"Survival Hunters\"}* need to maintain an important buff in *{\"skill\": \"Sniper Training\"}* and always make sure they have enough Focus when *{\"skill\": \"Explosive Shot\"}* and *{\"skill\": \"Black Arrow\"}* come off cooldown. They also have an important proc with *{\"skill\": \"Lock and Load\"}* that gives them free *{\"skill\": \"Explosive Shot\"}* casts.",
+          "opener": [
+            "Apply *{\"skill\": \"Hunter's Mark\"}* if assigned.",
+            "Use *{\"skill\": \"Misdirection\"}* on the tank if assigned.",
+            "Pre-pot *{\"consume\": \"Potion of the Tol'vir\"}*.",
+            "Use *{\"skill\": \"Serpent Sting\"}*.",
+            "Use *{\"skill\": \"Explosive Shot\"}*.",
+            "Use *{\"skill\": \"Black Arrow\"}*.",
+            "Use *{\"skill\": \"Rapid Fire\"}* and *{\"skill\": \"Call of the Wild\"}*.",
+            "Use *{\"skill\": \"Cobra Shot\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"skill\": \"Aspect of the Hawk\"}*.",
             "Maintain *{\"skill\": \"Hunter's Mark\"}* if assigned.",
@@ -20819,6 +20848,17 @@
           "spec": "arcane-mage",
           "general": "*{\"wowClass\": \"Arcane Mages\"}* are 1 of 3 specializations to bring an All Damage increase with *{\"skill\": \"Arcane Tactics\"}*. *{\"wowClass\": \"Mages\"}* now have their own version of *{\"skill\": \"Bloodlust\"}* with *{\"skill\": \"Time Warp\"}*, and bring a 6% Spell Power and Max Mana buff with *{\"skill\": \"Arcane Brilliance\"}*.",
           "intro": "*{\"wowClass\": \"Arcane Mages\"}* are all about managing their Mana properly, and making the most out of their Burn Phase with *{\"skill\": \"Arcane Power\"}* and staying at high Mana during their Preserve Phase because of *{\"skill\": \"Mastery: Mana Adept\"}*.",
+          "opener": [
+            "Pre-cast *{\"skill\": \"Mirror Image\"}*.",
+            "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
+            "Pre-cast *{\"skill\": \"Arcane Blast\"}*.",
+            "Cast *{\"skill\": \"Flame Orb\"}*.",
+            "Pre-cast *{\"skill\": \"Arcane Blast\"}*.",
+            "Pre-cast *{\"skill\": \"Arcane Blast\"}*.",
+            "Pre-cast *{\"skill\": \"Arcane Blast\"}*.",
+            "Cast *{\"skill\": \"Arcane Power\"}* and *{\"consume\": \"Mana Gem\"}*.",
+            "Proceed with single target rotation (Burn Phase)."
+          ],
           "single": [
             "Use *{\"skill\": \"Mage Armor\"}*.",
             "Proceed with Burn Phase or Preserve Phase."
@@ -20896,6 +20936,15 @@
           "spec": "fire-mage",
           "general": "*{\"wowClass\": \"Fire Mages\"}* bring 5% Critical Strike Chance for spells with *{\"skill\": \"Critical Mass\"}*. *{\"wowClass\": \"Mages\"}* now have their own version of *{\"skill\": \"Bloodlust\"}* with *{\"skill\": \"Time Warp\"}*, and bring a 6% Spell Power and Max Mana buff with *{\"skill\": \"Arcane Brilliance\"}*.",
           "intro": "*{\"wowClass\": \"Fire Mages\"}* deal additional damage to targets below 35% health because of *{\"skill\": \"Molten Fury\"}*. Managing your *{\"skill\": \"Hot Streak\"}* procs correctly, as well as correct usage of *{\"skill\": \"Combustion\"}* will be extremely important to maximize your DPS.",
+          "opener": [
+            "Pre-cast *{\"skill\": \"Mirror Image\"}*.",
+            "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
+            "Pre-cast *{\"skill\": \"Pyroblast\"}*.",
+            "Cast *{\"skill\": \"Living Bomb\"}*.",
+            "Cast *{\"skill\": \"Flame Orb\"}*.",
+            "Cast *{\"skill\": \"Fireball\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"skill\": \"Molten Armor\"}*.",
             "Maintain *{\"skill\": \"Critical Mass\"}* This will happen automatically with your *{\"skill\": \"Pyroblast\"}* casts, but you should open the fight with a *{\"skill\": \"Scorch\"}* if you are the only one providing the debuff.",
@@ -21177,11 +21226,10 @@
             "*{\"consume\": \"Seafood Magnifique Feast\"}*"
           ],
           "bestFlask": [
-            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*",
-            "+ *{\"consume\": \"Elixir of the Master\"}*"
+            "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "flask": [
-            "*{\"consume\": \"Flask of Steelskin\"}*"
+            "\"*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*\""
           ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
@@ -21217,6 +21265,21 @@
           "spec": "retribution-paladin",
           "general": "*{\"wowClass\": \"Retribution Paladins\"}* are 1 of 3 specializaitons to bring an All Damage increase with *{\"skill\": \"Communion\"}*, as well as Mana Replenishment with the same talent. All *{\"wowClass\": \"Paladins\"}* still bring *{\"skill\": \"Blessing of Might-cata\"}* and *{\"skill\": \"Blessing of Kings\"}* for Attack Power, MP5, and Base Stat buffs. They also bring an Armor buff with *{\"skill\": \"Devotion Aura\"}*, and Spell Pushback reduction with *{\"skill\": \"Concentration Aura\"}*.",
           "intro": "*{\"wowClass\": \"Paladins\"}* gain a new mechanic Holy Power which can be used to cast spells *{\"skill\": \"Inquisition\"}* and *{\"skill\": \"Templar's Verdict\"}*. *{\"wowClass\": \"Retribution Paladins\"}* have a handful of DPS cooldowns, as well as a couple of important high priority procs with *{\"skill\": \"Divine Purpose\"}* and *{\"skill\": \"The Art of War\"}*.",
+          "opener": [
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast *{\"skill\": \"Judgement\"}*.",
+            "Cast *{\"skill\": \"Guardian of Ancient Kings (Retribution)\"}*.",
+            "Cast *{\"skill\": \"Crusader Strike\"}*.",
+            "Cast *{\"skill\": \"Holy Wrath-cata\"}* or *{\"skill\": \"Exorcism\"}* with *{\"skill\": \"The Art of War\"}* proc.",
+            "Cast *{\"skill\": \"Crusader Strike\"}*.",
+            "Cast *{\"skill\": \"Consecration\"}* or *{\"skill\": \"Exorcism\"}* with *{\"skill\": \"The Art of War\"}* proc.",
+            "Cast *{\"skill\": \"Crusader Strike\"}*.",
+            "Cast *{\"skill\": \"Inquisition\"}*.",
+            "Cast *{\"skill\": \"Avenging Wrath\"}* and *{\"skill\": \"Zealotry\"}*.",
+            "Cast *{\"skill\": \"Crusader Strike\"}*.",
+            "Cast *{\"skill\": \"Templar's Verdict\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Maintain your assigned Aura.",
             "Use *{\"skill\": \"Seal of Truth\"}*.",
@@ -21272,7 +21335,7 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Seal of Truth\"}*, *{\"consume\": \"Templar's Verdict\"}*, *{\"consume\": \"Exorcism\"}*",
-            "Major: *{\"consume\": \"Ascetic Crusader\"}*, *{\"consume\": \"Hammer of Wrath-cata\"}*, *{\"consume\": \"Divine Protection-cata\"}*",
+            "Major: *{\"consume\": \"Ascetic Crusader\"}*, *{\"consume\": \"Hammer of Wrath-cata\"}*, *{\"consume\": \"Consecration\"}*",
             "Minor: *{\"consume\": \"Truth\"}*, *{\"consume\": \"Righteousness\"}*",
             "Optional:  *{\"consume\": \"Blessing of Might-cata\"}* or  *{\"consume\": \"Blessing of Kings\"}*"
           ],
@@ -21748,12 +21811,23 @@
           "spec": "elemental-shaman",
           "general": "*{\"wowClass\": \"Elemental Shamans\"}* bring 5% Critical Strike Chance with *{\"skill\": \"Elemental Oath\"}* and 10% Spell Power with *{\"skill\": \"Totemic Wrath\"}* to raids. All *{\"wowClass\": \"Shamans\"}* have access to some other important raid buffs such as *{\"skill\": \"Windfury Totem\"}* for 10% Attack Speed, *{\"skill\": \"Wrath of Air Totem\"}* for 5% Spell Haste, *{\"skill\": \"Strength of Earth Totem\"}* for Strength and Agility, and of course *{\"skill\": \"Bloodlust\"}* or *{\"skill\": \"Heroism\"}*.",
           "intro": "*{\"wowClass\": \"Elemental Shaman\"}* have a simple rotation. They have a couple things to watch out for, one being *{\"skill\": \"Lava Surge\"}* procs, which resets your *{\"skill\": \"Lava Burst\"}* cooldown, as well as their *{\"skill\": \"Lightning Shield\"}* stacks which go up to 9 stacks because of *{\"skill\": \"Rolling Thunder\"}* and *{\"skill\": \"Earth Shock\"}* is now used in the rotation because of *{\"skill\": \"Fulmination\"}*. Similiar to Wrath of the Lich King, you will be looking to snapshot your *{\"skill\": \"Fire Elemental Totem\"}*, and you will be able to get more *{\"skill\": \"Elemental Mastery\"}* casts off during a fight because of *{\"skill\": \"Feedback\"}*.",
+          "opener": [
+            "Whenever all or most of your procs align in your opener, cast *{\"skill\": \"Fire Elemental Totem\"}*. When appropriate, you can also drop *{\"skill\": \"Earth Elemental Totem\"}* with it by placing them in the same totem group. Make sure to drop *{\"skill\": \"Searing Totem\"}* once it expires.",
+            "Place down your totems.",
+            "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
+            "Pre-cast *{\"skill\": \"Lightning Bolt\"}*.",
+            "Cast *{\"skill\": \"Flame Shock\"}*.",
+            "Cast *{\"skill\": \"Elemental Mastery\"}*.",
+            "Cast *{\"skill\": \"Lava Burst\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"skill\": \"Flametongue Weapon-cata\"}*.",
             "Use *{\"skill\": \"Lightning Shield\"}*.",
             "Maintain *{\"skill\": \"Searing Totem\"}*, *{\"skill\": \"Healing Stream Totem\"}*, *{\"skill\": \"Wrath of Air Totem\"}*, and  *{\"skill\": \"Stoneskin Totem\"}*. This is just a baseline, totems might change depending on raid composition.",
             "Maintain *{\"skill\": \"Flame Shock\"}*. Refresh in between the second to last and last tick.",
             "Cast *{\"skill\": \"Fire Elemental Totem\"}*. Try your best to snapshot it with your Spellpower/Intellect trinket procs.",
+            "Cast *{\"skill\": \"Earth Elemental Totem\"}* on fights it won't interfere with adds.",
             "Use *{\"skill\": \"Elemental Mastery\"}* with *{\"skill\": \"Lightning Bolt\"}*.",
             "Cast *{\"skill\": \"Lava Burst\"}* if the target is afflicted by *{\"skill\": \"Flame Shock\"}*. Watch out for *{\"skill\": \"Lava Surge\"}* procs.",
             "Cast *{\"skill\": \"Earth Shock\"}* when you have 7-9 *{\"skill\": \"Lightning Shield\"}* charges.",
@@ -21776,7 +21850,7 @@
           "builds": [
             {
               "name": "Standard Build",
-              "description": "For a pure single target build, you can take the point out of *{\"skill\": \"Earthquake\"}* and put it into *{\"skill\": \"Improved Shields R1\"}*."
+              "description": "You can take the point out of *{\"skill\": \"Improved Shields R1\"}* and put it into *{\"skill\": \"Earthquake\"}* if needed."
             }
           ],
           "bestFood": [
@@ -21809,8 +21883,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Flame Shock\"}*, *{\"consume\": \"Lava Burst\"}*, *{\"consume\": \"Unleashed Lightning\"}*",
             "Optional: If the fight has little to no movement, you can replace *{\"consume\": \"Unleashed Lightning\"}* with *{\"consume\": \"Lightning Bolt\"}*.",
-            "Major: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Chain Lightning\"}*, *{\"consume\": \"Healing Stream Totem\"}*",
-            "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Thunder\"}* or *{\"consume\": \"Stoneclaw Totem\"}* instead",
+            "Major: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Healing Stream Totem\"}*",
+            "Optional: For AoE fights, use *{\"consume\": \"Chain Lightning\"}*",
             "Minor: *{\"consume\": \"Thunderstorm\"}*, *{\"consume\": \"Renewed Life-cata\"}*"
           ],
           "stats": "Int > Spi = Hit (1742) > Haste > Mastery > Crit"
@@ -22238,7 +22312,21 @@
         {
           "spec": "arms-warrior",
           "general": "*{\"wowClass\": \"Arms Warriors\"}* bring increased Bleed Damage and 4% Physical Damage taken with *{\"wowClass\": \"Blood Frenzy\"}* to raids. All *{\"wowClass\": \"Warriors\"}* also bring a Strength and Agility buff with *{\"skill\": \"Battle Shout\"}*, Stamina buff with *{\"skill\": \"Commanding Shout\"}*, and Armor Reduction with *{\"skill\": \"Sunder Armor\"}*.",
-          "intro": "*{\"wowClass\": \"Arms Warriors\"}* have a simple priority system, but as with any class that uses Rage or Energy, managing your resources properly will be critical to perform well. Making sure you make the most out of your *{\"skill\": \"Colossus Smash\"}* windows, and proper usage of *{\"skill\": \"Inner Rage\"}* and *{\"skill\": \"Deadly Calm\"}* will make a huge impact on your DPS. Another complexity of the *{\"wowClass\": \"Arms Warriors\"}* rotation is *{\"wowBoss\": \"Stance Dancing\"}*. Performed correctly, *{\"wowBoss\": \"Stance Dancing\"}* will result in a small DPS increase, but if done incorrectly, it will result in a DPS loss compared to just staying in *{\"skill\": \"Battle Stance\"}* 100% of the time. The talent *{\"skill\": \"Tactical Mastery\"}* allows for an additional 50 Rage to be retained when switching stances, which is what allows this technique to be possible. The abilities you need to be in *{\"skill\": \"Battle Stance\"}* for are *{\"skill\": \"Rend\"}* and *{\"skill\": \"Overpower\"}*.  In most single target scenarios, you will only be using 1 *{\"skill\": \"Rend\"}*, so the main problem here is *{\"skill\": \"Overpower\"}*. Like we mention in the rotation section, *{\"skill\": \"Overpower\"}* is only used when *{\"skill\": \"Taste for Blood\"}* procs, which can only occur once every 5 seconds so you dont have to use it immediately once it procs. To maximize your time in *{\"skill\": \"Berserker Stance\"}*, you should wait to until the end of the 5 second window, switch to *{\"skill\": \"Battle Stance\"}*, use *{\"skill\": \"Overpower\"}*, *{\"skill\": \"Taste for Blood\"}* will proc again right after, use *{\"skill\": \"Overpower\"}* a second time, and then switch back to *{\"skill\": \"Berserker Stance\"}*. You will be in *{\"skill\": \"Berserker Stance\"}* for about 10 seconds, since the next *{\"skill\": \"Taste for Blood\"}* proc won't happen for 5 seconds, and you won't use that proc for about 4 seconds. It is recommended to make a macro for each of your skills with it's corresponding stance.",
+          "intro": "*{\"wowClass\": \"Arms Warriors\"}* have a simple priority system, but as with any class that uses Rage or Energy, managing your resources properly will be critical to perform well. Making sure you make the most out of your *{\"skill\": \"Colossus Smash\"}* windows (3 yellow hits during the debuff), and proper usage of *{\"skill\": \"Inner Rage\"}* and *{\"skill\": \"Deadly Calm\"}* will make a huge impact on your DPS. Another complexity of the *{\"wowClass\": \"Arms Warriors\"}* rotation is *{\"wowBoss\": \"Stance Dancing\"}* but this can be simplified by macroing together the abilities and their corresponding stances.",
+          "opener": [
+            "Pre-cast *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}*.",
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast *{\"skill\": \"Charge\"}*.",
+            "Cast *{\"skill\": \"Rend\"}*.",
+            "Cast *{\"skill\": \"Mortal Strike\"}* and *{\"skill\": \"Heroic Strike\"}*.",
+            "Cast *{\"skill\": \"Deadly Calm\"}*. Use *{\"skill\": \"Heroic Strike\"}* on cooldown during the buff.",
+            "Cast *{\"skill\": \"Colossus Smash\"}*.",
+            "Cast *{\"skill\": \"Heroic Leap\"}* (Off GCD).",
+            "Cast *{\"skill\": \"Overpower\"}*.",
+            "Cast *{\"skill\": \"Mortal Strike\"}*.",
+            "Cast *{\"skill\": \"Overpower\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use and maintain 3 stacks of *{\"skill\": \"Sunder Armor\"}* if assigned.",
             "Maintain *{\"skill\": \"Battle Shout\"}* or *{\"skill\": \"Commanding Shout\"}* if assigned.",
@@ -22247,10 +22335,9 @@
             "Use *{\"skill\": \"Inner Rage\"}* when high on Rage.",
             "Use *{\"skill\": \"Deadly Calm\"}* when low on Rage.",
             "Use *{\"skill\": \"Recklessness\"}*.",
+            "Use *{\"skill\": \"Colossus Smash\"}* as long as the target doesn't currently have the *{\"skill\": \"Colossus Smash\"}* debuff. Watch out for *{\"skill\": \"Sudden Death\"}* procs.",
             "Use *{\"skill\": \"Mortal Strike\"}*.",
-            "Use *{\"skill\": \"Colossus Smash\"}* from *{\"skill\": \"Sudden Death\"}* procs as long as the target doesn't currently have the *{\"skill\": \"Colossus Smash\"}* debuff.",
-            "Use *{\"skill\": \"Colossus Smash\"}*. Ideally have a *{\"skill\": \"Taste for Blood\"}* proc before casting so you can fit in 2 *{\"skill\": \"Overpower\"}* casts inside the debuff window.",
-            "When *{\"skill\": \"Taste for Blood\"}* procs, wait 4 seconds and use *{\"skill\": \"Battle Stance\"}* and *{\"skill\": \"Overpower\"}*. Wait for another *{\"skill\": \"Taste for Blood\"}* proc and use *{\"skill\": \"Overpower\"}* again before switching back to *{\"skill\": \"Berserker Stance\"}*.",
+            "Use *{\"skill\": \"Overpower\"}* with *{\"skill\": \"Taste for Blood\"}* procs.",
             "Use *{\"skill\": \"Heroic Strike\"}* with *{\"skill\": \"Battle Trance\"}* proc or if you have excess Rage.",
             "Use *{\"skill\": \"Execute\"}* to dump Rage for targets below 20% HP.",
             "Use *{\"skill\": \"Slam\"}* to dump Rage.",
@@ -22430,11 +22517,10 @@
             "*{\"consume\": \"Seafood Magnifique Feast\"}*"
           ],
           "bestFlask": [
-            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*",
-            "+ *{\"consume\": \"Elixir of the Master\"}*"
+            "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "flask": [
-            "*{\"consume\": \"Flask of Steelskin\"}*"
+            "\"*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*\""
           ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
@@ -22559,18 +22645,29 @@
             "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Mastery > Stam > Dodge = Parry > Exp (781) > Hit (961)"
+          "stats": "Stam > Mastery > Exp (781) = Hit (961) > Dodge = Parry"
         },
         {
           "spec": "frost-death-knight",
           "general": "*{\"wowClass\": \"Frost Death Knights\"}* are a dual-wield plate DPS class that bring a 4% Physical Damage with *{\"skill\": \"Brittle Bones\"}* and a Melee Attack Speed debuff with *{\"skill\": \"Improved Icy Talons\"}*. All *{\"wowClass\": \"Death Knights\"}* also bring a Strength and Agility buff with *{\"skill\": \"Horn of Winter\"}* and a Combat Resurrection with *{\"skill\": \"Raise Ally\"}*.",
           "intro": "*{\"wowClass\": \"Frost Death Knights\"}* gain 2 permanent *{\"wowBoss\": \"Death Runes\"}* thanks to *{\"skill\": \"Blood of the North\"}*. Their rotation includes two DoT effects that need to be maintained, as well as two important procs to watch out for in *{\"skill\": \"Killing Machine\"}* and *{\"skill\": \"Rime\"}*. As with any *{\"wowClass\": \"Death Knight\"}* specialization, proper Rune and Runic Power management will be critical for optimal DPS and using *{\"skill\": \"Frost Strike\"}* at the correct times to benefit from *{\"skill\": \"Runic Empowerment\"}* will also be extremely important.",
+          "opener": [
+            "Whenever all or most of your procs align in your opener, cast *{\"skill\": \"Raise Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Army of the Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Horn of Winter\"}*.",
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast *{\"skill\": \"Pillar of Frost\"}*.",
+            "Cast *{\"skill\": \"Outbreak\"}*.",
+            "Cast *{\"skill\": \"Howling Blast\"}*.",
+            "Cast *{\"skill\": \"Obliterate\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"consume\": \"Rune of Razorice\"}* on Main-hand and *{\"consume\": \"Rune of the Fallen Crusader\"}* on Off-hand.",
             "Be in *{\"skill\": \"Unholy Presence\"}*.",
             "Maintain *{\"skill\": \"Horn of Winter\"}* if assigned.",
             "Cast *{\"skill\": \"Army of the Dead\"}*. Best used before pull, or during non combat phases in encounters.",
-            "Cast *{\"skill\": \"Blood Tap\"}* to refresh a Rune.",
+            "Cast *{\"skill\": \"Blood Tap\"}* to refresh a Rune recently consumed.",
             "Cast *{\"skill\": \"Pillar of Frost\"}*.",
             "Cast *{\"skill\": \"Empower Rune Weapon\"}* when all Runes are on cooldown and you won't cap on Runic Power.",
             "Cast *{\"skill\": \"Raise Dead\"}*. Try to snapshot it with your cooldowns and trinket procs.",
@@ -22581,13 +22678,8 @@
             "Cast *{\"skill\": \"Horn of Winter\"}*."
           ],
           "aoe": [
-            "Apply *{\"skill\": \"Frost Fever\"}* and *{\"skill\": \"Blood Plague\"}* with *{\"skill\": \"Howling Blast\"}* and *{\"skill\": \"Outbreak\"}* or *{\"skill\": \"Plague Strike\"}*.",
-            "Spread diseases with *{\"skill\": \"Pestilence\"}*.",
-            "Cast *{\"skill\": \"Death and Decay\"}* or *{\"skill\": \"Plague Strike\"}* if it's on cooldown to avoid capping on *{\"wowBoss\": \"Unholy Runes\"}*.",
-            "Cast *{\"skill\": \"Frost Strike\"}* to avoid capping on Runic Power.",
-            "Cast *{\"skill\": \"Howling Blast\"}*.",
-            "Cast *{\"skill\": \"Obliterate\"}*.",
-            "Cast *{\"skill\": \"Horn of Winter\"}*."
+            "Cast *{\"skill\": \"Death and Decay\"}*.",
+            "Proceed with single target rotation."
           ],
           "builds": [
             {
@@ -22627,16 +22719,40 @@
             "The rest of the professions are very close in power, with *{\"wowBoss\": \"Blacksmithing\"}* becoming better with epic gems in T13."
           ],
           "glyphs": [
-            "Prime: *{\"consume\": \"Obliterate\"}*, *{\"consume\": \"Frost Strike\"}*, *{\"consume\": \"Howling Blast\"}*",
-            "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Hungering Cold-cata\"}*, *{\"consume\": \"Death Grip\"}*",
-            "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Resilient Grip\"}*"
+            "Prime: *{\"consume\": \"Frost Strike\"}*, *{\"consume\": \"Howling Blast\"}*",
+            "Optional: *{\"consume\": \"Obliterate\"}* or *{\"consume\": \"Raise Dead\"}*",
+            "Major: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Death Grip\"}*",
+            "Minor: *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Blood Tap\"}*"
           ],
-          "stats": "Str > Hit (820) > Mastery > Haste > Exp (781) > Crit"
+          "stats": "Str > Hit (820) > Mastery > Haste > Crit > Exp (781)"
         },
         {
           "spec": "unholy-death-knight",
           "general": "*{\"wowClass\": \"Unholy Death Knights\"}* are a 2-handed plate DPS class that bring an 8% Magic Damage debuff to raids with *{\"skill\": \"Ebon Plaguebringer\"}*. All *{\"wowClass\": \"Death Knights\"}* also bring a Strength and Agility buff with *{\"skill\": \"Horn of Winter\"}* and a Combat Resurrection with *{\"skill\": \"Raise Ally\"}*.",
           "intro": "*{\"wowClass\": \"Unholy Death Knights\"}* gain *{\"wowBoss\": \"Death Runes\"}* when using *{\"skill\": \"Festering Strike\"}* thanks to their *{\"skill\": \"Reaping\"}* passive. A high uptime on *{\"skill\": \"Dark Transformation\"}* will be crucial for optimal DPS. When your Ghoul is transformed, it won't gain stacks of  *{\"skill\": \"Shadow Infusion\"}*, so having your Runic Power close to cap once *{\"skill\": \"Dark Transformation\"}* expires will critical for getting to 5 stacks quickly, and casting *{\"skill\": \"Dark Transformation\"}* again. As with any *{\"wowClass\": \"Death Knight\"}* specialization, proper Rune and Runic Power management and using *{\"skill\": \"Death Coil\"}* at the correct times to benefit from *{\"skill\": \"Runic Empowerment\"}* (altered to *{\"skill\": \"Runic Corruption\"}* )  will also be extremely important.",
+          "opener": [
+            "Pre-cast *{\"skill\": \"Army of the Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Horn of Winter\"}*.",
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast *{\"skill\": \"Death Coil\"}* whenever you have enough Runic Power until 5 stacks.",
+            "Cast *{\"skill\": \"Dark Transformation\"}* with all your cooldowns as soon as possible.",
+            "Cast *{\"skill\": \"Icy Touch\"}*.",
+            "Cast *{\"skill\": \"Plague Strike\"}*.",
+            "Cast *{\"skill\": \"Death and Decay\"}*.",
+            "Cast *{\"skill\": \"Festering Strike\"}*.",
+            "Cast *{\"skill\": \"Blood Tap\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Empowered Rune Weapon\"}*.",
+            "Cast *{\"skill\": \"Festering Strike\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Scourge Strike\"}*.",
+            "Cast *{\"skill\": \"Summon Gargoyle\"}*.",
+            "Cast *{\"skill\": \"Outbreak\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"consume\": \"Rune of the Fallen Crusader\"}*.",
             "Be in *{\"skill\": \"Unholy Presence\"}*.",
