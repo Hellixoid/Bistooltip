@@ -14,7 +14,7 @@
 <div data-markup-content-target="1">
 <b>Soft Haste Cap</b> are different haste levels at which different of our damage over time abilities gain an extra tick of damage. It can be worthwhile to reach said caps if you are close to them and reforge any leftover haste. See the Attribute guide for the specific haste caps depending on spell and race.</div></li></ol></ul>
 <div class="pad"></div>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <table class="grid" style="width: 75%; max-width: 100%;">
 <tbody>
 <tr>
@@ -40,7 +40,7 @@
 <td>615</td>
 <td>512</td>
 <td>410</td></tr></tbody></table></div></div>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <ul class="last">
 <li class="fa fa-warning">
 <div data-markup-content-target="1">
@@ -109,7 +109,7 @@
 <b>Destruction Warlock DPS Stat Priority and Attributes</b></a> guide for more details on Destruction <a class="icontiny c9" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/cata/class=9/warlock">
 <img alt="Warlock" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_warlock.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Warlock</span></a> Stat Priority and Attributes.</div></li></ul>
 <h5 class="heading-size-5" id="realistic-pre-raid-best-in-slot-example">
-<div style="text-align: -webkit-center;">Realistic Pre-Raid Best in Slot Example</div></h5>This example setup does not include any Archaeology rewards, World Drop Bind on Equip items, or items that cost <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
+<div class="wh-center" style="text-align: -webkit-center;">Realistic Pre-Raid Best in Slot Example</div></h5>This example setup does not include any Archaeology rewards, World Drop Bind on Equip items, or items that cost <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
 <span>
 <img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a>. It does include crafted and reputation gear.<br/>
 <br/>
@@ -125,19 +125,22 @@
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option c9" tabindex="0">
-<div class="icon-label">
-<img alt="Warlock" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_warlock.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Warlock" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg"/>
 <span class="icon-label-text">Warlock</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Orc" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/race_orc_male.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Orc" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_orc_male.jpg"/>
 <span class="icon-label-text">Orc</span></div></div></div>
-<div class="select-drop-down" data-active="false"></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pocketwatch_01.jpg"/>
+<div class="icon-label" data-size="small">
+<span class="icon-label-text">Select</span></div></div></div>
+<div class="select-drop-down" data-active="false">
+<div class="select-drop-down-option" tabindex="0">
+<div class="icon-label" data-size="small">
+<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
 <span class="icon-label-text">All Phases</span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
@@ -945,8 +948,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/petbattle_health.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
@@ -960,8 +963,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_strength.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
@@ -981,8 +984,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_fire_firebolt.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_fire_firebolt.jpg"/>
 <span class="icon-label-text">Spell</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>

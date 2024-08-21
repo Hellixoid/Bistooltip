@@ -23186,6 +23186,28 @@
           "spec": "blood-tank-death-knight",
           "general": "*{\"wowClass\": \"Blood Death Knights\"}* bring a 10% Attack Power buff with *{\"skill\": \"Abomination's Might\"}* and 10% Physical Damage debuff with *{\"skill\": \"Scarlet Fever\"}*. All *{\"wowClass\": \"Death Knights\"}* also bring a Strength and Agility buff with *{\"skill\": \"Horn of Winter\"}* and a Combat Resurrection with *{\"skill\": \"Raise Ally\"}*.",
           "intro": "*{\"wowClass\": \"Blood Death Knights\"}* are considered the best Tank in Cataclysm. The changes to *{\"skill\": \"Death Strike\"}* healing, as well as their *{\"skill\": \"Mastery: Blood Shield\"}* gives them insane self healing and damage prevention. They have an abundance of defensive cooldowns, so they have an answer for every situation. Another big quality of life change that all *{\"wowClass\": \"Blood Death Knights\"}* got is *{\"skill\": \"Outbreak\"}* now has a 30 sec cooldown, which means you can use this exclusively to keep your *{\"skill\": \"Blood Plague\"}* and *{\"skill\": \"Frost Fever\"}* on enemies, and you no longer need to *{\"skill\": \"Icy Touch\"}* and *{\"skill\": \"Plague Strike\"}*.",
+          "opener": [
+            "Whenever all or most of your procs align in your opener, cast *{\"skill\": \"Raise Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Army of the Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Horn of Winter\"}*.",
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast Taunt.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Dancing Rune Weapon\"}* along with any other on-use cooldowns.",
+            "Cast *{\"skill\": \"Outbreak\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Empowered Rune Weapon\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Rune Strike\"}*.",
+            "If *{\"skill\": \"Runic Empowerment\"}* procced, cast *{\"skill\": \"Blood Tap\"}* and  *{\"skill\": \"Death Strike\"}*, otherwise cast *{\"skill\": \"Heart Strike\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"consume\": \"Rune of the Stoneskin Gargoyle\"}*.",
             "Be in *{\"skill\": \"Blood Presence\"}*.",
@@ -23226,11 +23248,12 @@
             }
           ],
           "bestFood": [
-            "*{\"consume\": \"Lavascale Minestrone\"}*"
+            "*{\"consume\": \"Seafood Magnifique Feast\"}*,",
+            "*{\"consume\": \"Beer-Basted Crocolisk\"}*,",
+            "*{\"consume\": \"Fortune Cookie\"}*"
           ],
           "food": [
-            "*{\"consume\": \"Salted Eye\"}*,",
-            "*{\"consume\": \"Seafood Magnifique Feast\"}*"
+            "*{\"consume\": \"Lavascale Minestrone\"}*"
           ],
           "bestFlask": [
             "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*",
@@ -23240,9 +23263,6 @@
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "bestPotion": [
-            "*{\"consume\": \"Earthen Potion\"}*"
-          ],
-          "potion": [
             "*{\"consume\": \"Golemblood Potion\"}*"
           ],
           "alliance_races": [
@@ -23272,7 +23292,7 @@
             "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Stam > Mastery > Exp (781) = Hit (961) > Dodge = Parry"
+          "stats": "Stam > Exp (601) = Hit (961) > Haste (1421) > Mastery > Haste > Dodge = Parry"
         },
         {
           "spec": "frost-death-knight",

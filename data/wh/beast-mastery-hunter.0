@@ -12,7 +12,7 @@
 <div data-markup-content-target="1">Critical Strike Rating - Crit Rating comes next after Haste Rating and Agility.</div></li>
 <li>
 <div data-markup-content-target="1">Mastery - Mastery is the lowest priority secondary stat for Beast Mastery Hunters.</div></li></ol>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <div id="markup-gear-planner-calc-0">
 <section class="gear-planner" data-display="medium" data-embedded="true" data-gender="0" data-race="8" data-tab="gear">
 <div class="gear-planner-top-controls">
@@ -25,23 +25,23 @@
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option c3" tabindex="0">
-<div class="icon-label">
-<img alt="Hunter" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_hunter.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Hunter" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_hunter.jpg"/>
 <span class="icon-label-text">Hunter</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Troll" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/race_troll_male.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Troll" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg"/>
 <span class="icon-label-text">Troll</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ui-charactercreate-body-1.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
 <span class="icon-label-text">Body 1</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pocketwatch_01.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
 <span class="icon-label-text">All Phases</span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
@@ -861,8 +861,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/petbattle_health.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
@@ -876,8 +876,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_strength.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
@@ -897,8 +897,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Ranged" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_weapon_bow_07.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Ranged" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_weapon_bow_07.jpg"/>
 <span class="icon-label-text">Ranged</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Damage</span>

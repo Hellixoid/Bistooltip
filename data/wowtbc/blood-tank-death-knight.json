@@ -6,7 +6,7 @@
       "spec": "blood-tank-death-knight",
       "bisList": [
         {
-          "name": "Dragon Bone Warhelm",
+          "name": "Magma Plated Helmet",
           "slot": "head",
           "phase": [
             "T11",
@@ -22,7 +22,7 @@
           "t11": {
             "bis": true,
             "reforge_from": "Expertise",
-            "reforge_to": "Hit",
+            "reforge_to": "Mastery",
             "enchant": {
               "name": "Arcanum of the Earthen Ring",
               "rarity": "special",
@@ -34,8 +34,8 @@
                 "image": "shadowspirit-diamond"
               },
               {
-                "name": "Guardian's Demonseye",
-                "image": "demonseye"
+                "name": "Forceful Dream Emerald",
+                "image": "dream-emerald"
               }
             ]
           },
@@ -58,11 +58,11 @@
             }
           },
           "source": "Blackwing Descent (H)",
-          "source_type": "Maloriak",
+          "source_type": "Nefarian",
           "rarity": "epic"
         },
         {
-          "name": "Daybreaker Helm",
+          "name": "Dragon Bone Warhelm",
           "slot": "head",
           "phase": [
             "T11",
@@ -99,8 +99,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Theralion and Valiona",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Maloriak",
           "rarity": "epic"
         },
         {
@@ -143,6 +143,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Nefarian",
+          "rarity": "epic"
+        },
+        {
+          "name": "Daybreaker Helm",
+          "slot": "head",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Theralion and Valiona",
           "rarity": "epic"
         },
         {
@@ -313,7 +355,7 @@
             },
             "gems": [
               {
-                "name": "Puissant Dream Emerald",
+                "name": "Forceful Dream Emerald",
                 "image": "dream-emerald"
               }
             ]
@@ -338,48 +380,6 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Sinestra",
-          "rarity": "epic"
-        },
-        {
-          "name": "Permafrost Choker of the Rockslab",
-          "slot": "neck",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Throne of the Four Winds (H)",
-          "source_type": "Al'Akir",
           "rarity": "epic"
         },
         {
@@ -422,6 +422,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Nefarian",
+          "rarity": "epic"
+        },
+        {
+          "name": "Permafrost Choker of the Rockslab",
+          "slot": "neck",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "Al'Akir",
           "rarity": "epic"
         },
         {
@@ -598,7 +640,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Pauldrons of the Great Ettin",
+          "name": "Magma Plated Pauldrons",
           "slot": "shoulder",
           "phase": [
             "T11",
@@ -613,8 +655,6 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Hit",
             "enchant": {
               "name": "Greater Inscription of Unbreakable Quartz",
               "rarity": "special",
@@ -622,10 +662,52 @@
             },
             "gems": [
               {
-                "name": "Solid Ocean Sapphire",
-                "image": "ocean-sapphire"
+                "name": "Guardian's Demonseye",
+                "image": "demonseye"
               }
             ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
+          "name": "Pauldrons of the Great Ettin",
+          "slot": "shoulder",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
           },
           "zg/za": {
             "bis": false,
@@ -914,7 +996,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Permafrost Cape of the Rockslab",
+          "name": "Cloudburst Cloak of the Faultline",
           "slot": "back",
           "phase": [
             "T11",
@@ -929,7 +1011,7 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Dodge",
+            "reforge_from": "Haste",
             "reforge_to": "Hit",
             "enchant": {
               "name": "Cloak - Protection",
@@ -957,6 +1039,90 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "Al'Akir",
+          "rarity": "epic"
+        },
+        {
+          "name": "Permafrost Cape of the Rockslab",
+          "slot": "back",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "Al'Akir",
+          "rarity": "epic"
+        },
+        {
+          "name": "Floating Web",
+          "slot": "back",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -1135,7 +1301,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Magma Plated Chestguard",
+          "name": "Battleplate of Ancient Kings",
           "slot": "chest",
           "phase": [
             "T11",
@@ -1150,8 +1316,8 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Parry",
-            "reforge_to": "Hit",
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
             "enchant": {
               "name": "Chest - Greater Stamina",
               "rarity": "uncommon",
@@ -1159,8 +1325,8 @@
             },
             "gems": [
               {
-                "name": "Guardian's Demonseye",
-                "image": "demonseye"
+                "name": "Solid Ocean Sapphire",
+                "image": "ocean-sapphire"
               },
               {
                 "name": "Solid Ocean Sapphire",
@@ -1186,8 +1352,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Halfus Wyrmbreaker",
+          "source": "Blackwing Descent (H)",
+          "source_type": "Atramedes",
           "rarity": "epic"
         },
         {
@@ -1230,6 +1396,90 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
+          "name": "Magma Plated Chestguard",
+          "slot": "chest",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Halfus Wyrmbreaker",
+          "rarity": "epic"
+        },
+        {
+          "name": "Magma Plated Battleplate",
+          "slot": "chest",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Halfus Wyrmbreaker",
           "rarity": "epic"
         },
         {
@@ -1372,7 +1622,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Bracers of Impossible Strength",
+          "name": "Bracers of the Mat'redor",
           "slot": "wrist",
           "phase": [
             "T11",
@@ -1387,12 +1637,102 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Parry",
+            "reforge_from": "Critical Strike",
             "reforge_to": "Hit",
             "enchant": {
               "name": "Bracer - Major Stamina",
               "rarity": "rare",
               "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Forceful Dream Emerald",
+                "image": "dream-emerald"
+              }
+            ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Sinestra",
+          "rarity": "epic"
+        },
+        {
+          "name": "Electron Inductor Coils",
+          "slot": "wrist",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Omnotron Defense System",
+          "rarity": "epic"
+        },
+        {
+          "name": "Bracers of Impossible Strength",
+          "slot": "wrist",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
             }
           },
           "zg/za": {
@@ -1415,48 +1755,6 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Halfus Wyrmbreaker",
-          "rarity": "epic"
-        },
-        {
-          "name": "Bracers of the Mat'redor",
-          "slot": "wrist",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Sinestra",
           "rarity": "epic"
         },
         {
@@ -1597,7 +1895,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Gravitational Pull",
+          "name": "Magma Plated Gauntlets",
           "slot": "hands",
           "phase": [
             "T11",
@@ -1612,7 +1910,7 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Expertise",
+            "reforge_from": "Haste",
             "reforge_to": "Hit",
             "enchant": {
               "name": "Gloves - Greater Mastery",
@@ -1621,10 +1919,52 @@
             },
             "gems": [
               {
-                "name": "Puissant Dream Emerald",
-                "image": "dream-emerald"
+                "name": "Solid Ocean Sapphire",
+                "image": "ocean-sapphire"
               }
             ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Magmaw",
+          "rarity": "epic"
+        },
+        {
+          "name": "Gravitational Pull",
+          "slot": "hands",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
           },
           "zg/za": {
             "bis": false,
@@ -1830,7 +2170,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Jumbotron Power Belt",
+          "name": "Sky Strider Belt of the Faultline",
           "slot": "waist",
           "phase": [
             "T11",
@@ -1845,14 +2185,14 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Dodge",
+            "reforge_from": "Mastery",
             "reforge_to": "Hit",
             "enchant": {
               "recipe": false
             },
             "gems": [
               {
-                "name": "Puissant Dream Emerald",
+                "name": "Forceful Dream Emerald",
                 "image": "dream-emerald"
               },
               {
@@ -1879,8 +2219,8 @@
               "recipe": false
             }
           },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Omnotron Defense System",
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "The Conclave of Wind",
           "rarity": "epic"
         },
         {
@@ -1923,6 +2263,48 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "The Conclave of Wind",
+          "rarity": "epic"
+        },
+        {
+          "name": "Jumbotron Power Belt",
+          "slot": "waist",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Omnotron Defense System",
           "rarity": "epic"
         },
         {
@@ -2110,6 +2492,48 @@
           "rarity": "rare"
         },
         {
+          "name": "Terrastra's Legguards",
+          "slot": "legs",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Ascendant Council",
+          "rarity": "epic"
+        },
+        {
           "name": "Magma Plated Legplates",
           "slot": "legs",
           "phase": [
@@ -2161,6 +2585,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Maloriak",
+          "rarity": "epic"
+        },
+        {
+          "name": "Sky Strider Greaves of the Faultline",
+          "slot": "legs",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "Al'Akir",
           "rarity": "epic"
         },
         {
@@ -2449,7 +2915,7 @@
           "t11": {
             "bis": true,
             "reforge_from": "Dodge",
-            "reforge_to": "Mastery",
+            "reforge_to": "Hit",
             "enchant": {
               "name": "Boots - Lavawalker",
               "rarity": "uncommon",
@@ -2486,48 +2952,6 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Sinestra",
-          "rarity": "epic"
-        },
-        {
-          "name": "Molten Tantrum Boots",
-          "slot": "feet",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blackwing Descent (H)",
-          "source_type": "Magmaw",
           "rarity": "epic"
         },
         {
@@ -2570,6 +2994,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Chimaeron",
+          "rarity": "epic"
+        },
+        {
+          "name": "Molten Tantrum Boots",
+          "slot": "feet",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Magmaw",
           "rarity": "epic"
         },
         {
@@ -2669,7 +3135,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Dargonax's Signet",
+          "name": "Ring of Rivalry",
           "slot": "finger 1",
           "phase": [
             "T11",
@@ -2684,17 +3150,11 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Hit",
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
             "enchant": {
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Solid Ocean Sapphire",
-                "image": "ocean-sapphire"
-              }
-            ]
+            }
           },
           "zg/za": {
             "bis": false,
@@ -2715,7 +3175,49 @@
             }
           },
           "source": "The Bastion of Twilight (H)",
-          "source_type": "Sinestra",
+          "source_type": "Theralion and Valiona",
+          "rarity": "epic"
+        },
+        {
+          "name": "Cloudburst Ring of the Faultline",
+          "slot": "finger 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "Al'Akir",
           "rarity": "epic"
         },
         {
@@ -3018,7 +3520,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Permafrost Signet of the Rockslab",
+          "name": "Dargonax's Signet",
           "slot": "finger 2",
           "phase": [
             "T11",
@@ -3033,8 +3535,56 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Dodge",
+            "reforge_from": "Critical Strike",
             "reforge_to": "Hit",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Forceful Dream Emerald",
+                "image": "dream-emerald"
+              }
+            ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Sinestra",
+          "rarity": "epic"
+        },
+        {
+          "name": "Permafrost Signet of the Rockslab",
+          "slot": "finger 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -3059,6 +3609,48 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "The Conclave of Wind",
+          "rarity": "epic"
+        },
+        {
+          "name": "Cloudburst Ring of the Faultline",
+          "slot": "finger 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Throne of the Four Winds (H)",
+          "source_type": "Al'Akir",
           "rarity": "epic"
         },
         {
@@ -3363,49 +3955,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Lifebound Alchemist Stone",
-          "slot": "trinket 1",
-          "phase": [
-            "Pre-Bis",
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Alchemy",
-          "source_type": "Trainer (510)",
-          "rarity": "epic"
-        },
-        {
           "name": "Mirror of Broken Images",
           "slot": "trinket 1",
           "phase": [
@@ -3488,6 +4037,133 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Theralion and Valiona",
+          "rarity": "epic"
+        },
+        {
+          "name": "Heart of Rage",
+          "slot": "trinket 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Chimaeron",
+          "rarity": "epic"
+        },
+        {
+          "name": "Crushing Weight",
+          "slot": "trinket 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Ascendant Council",
+          "rarity": "epic"
+        },
+        {
+          "name": "Lifebound Alchemist Stone",
+          "slot": "trinket 1",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Alchemy",
+          "source_type": "Trainer (510)",
           "rarity": "epic"
         },
         {
@@ -3749,49 +4425,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Lifebound Alchemist Stone",
-          "slot": "trinket 2",
-          "phase": [
-            "Pre-Bis",
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Alchemy",
-          "source_type": "Trainer (510)",
-          "rarity": "epic"
-        },
-        {
           "name": "Symbiotic Worm",
           "slot": "trinket 2",
           "phase": [
@@ -3873,6 +4506,133 @@
           },
           "source": "The Bastion of Twilight (H)",
           "source_type": "Theralion and Valiona",
+          "rarity": "epic"
+        },
+        {
+          "name": "Heart of Rage",
+          "slot": "trinket 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackwing Descent (H)",
+          "source_type": "Chimaeron",
+          "rarity": "epic"
+        },
+        {
+          "name": "Crushing Weight",
+          "slot": "trinket 2",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Ascendant Council",
+          "rarity": "epic"
+        },
+        {
+          "name": "Lifebound Alchemist Stone",
+          "slot": "trinket 2",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Alchemy",
+          "source_type": "Trainer (510)",
           "rarity": "epic"
         },
         {
@@ -4180,48 +4940,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Shalug'doom, the Axe of Unmaking",
-          "slot": "weapon",
-          "phase": [
-            "T11",
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
-          "rarity": "epic"
-        },
-        {
           "name": "Reclaimed Ashkandi, Greatsword of the Brotherhood",
           "slot": "weapon",
           "phase": [
@@ -4261,6 +4979,48 @@
           },
           "source": "Blackwing Descent (H)",
           "source_type": "Nefarian",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shalug'doom, the Axe of Unmaking",
+          "slot": "weapon",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
           "rarity": "epic"
         },
         {
@@ -4440,7 +5200,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Relic of Khaz'goroth",
+          "name": "Relic of Aggramar",
           "slot": "relic",
           "phase": [
             "T11",
@@ -4455,7 +5215,7 @@
           },
           "t11": {
             "bis": true,
-            "reforge_from": "Dodge",
+            "reforge_from": "Critical Strike",
             "reforge_to": "Hit",
             "enchant": {
               "recipe": false
@@ -4466,6 +5226,48 @@
                 "image": "ocean-sapphire"
               }
             ]
+          },
+          "zg/za": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (700)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Relic of Khaz'goroth",
+          "slot": "relic",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
           },
           "zg/za": {
             "bis": false,
@@ -13889,6 +14691,46 @@
       ],
       "gearData": [
         {
+          "name": "Magma Plated Helmet",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2891
+          },
+          "primary_stats": {
+            "strength": 325,
+            "stamina": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Strength"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85,
+            "classes": [
+              "Death Knight"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 257,
+            "expertise": 197
+          },
+          "set": "Magma Plated Battlegear",
+          "source_type": "Nefarian",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
+        },
+        {
           "name": "Dragon Bone Warhelm",
           "ilvl": 372,
           "rarity": "epic",
@@ -13921,41 +14763,6 @@
           },
           "source_type": "Maloriak",
           "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
-          "name": "Daybreaker Helm",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "head",
-          "type": "plate",
-          "special_stats": {
-            "armor": 2891
-          },
-          "primary_stats": {
-            "strength": 325,
-            "agility": 578
-          },
-          "sockets": {
-            "socket_colors": [
-              "meta",
-              "yellow"
-            ],
-            "meta": 1,
-            "sockets": 1,
-            "socket_bonus": "30 Mastery Rating"
-          },
-          "other_stats": {
-            "durability": 95,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 197,
-            "parry": 257
-          },
-          "source_type": "Theralion and Valiona",
-          "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -13995,6 +14802,41 @@
           "set": "Magma Plated Battlearmor",
           "source_type": "Nefarian",
           "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Daybreaker Helm",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2891
+          },
+          "primary_stats": {
+            "strength": 325,
+            "agility": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "yellow"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Mastery Rating"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 197,
+            "parry": 257
+          },
+          "source_type": "Theralion and Valiona",
+          "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -14129,6 +14971,27 @@
           "phase": "T11`T12`T13"
         },
         {
+          "name": "Rage of Ages",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "strength": 215,
+            "stamina": 322
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "hit": 143,
+            "mastery": 143
+          },
+          "source_type": "Nefarian",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Permafrost Choker of the Rockslab",
           "ilvl": 372,
           "rarity": "epic",
@@ -14149,27 +15012,6 @@
           "source": "Throne of the Four Winds (H)",
           "phase": "T11`T12`T13",
           "hide_loot_table": true
-        },
-        {
-          "name": "Rage of Ages",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "neck",
-          "primary_stats": {
-            "strength": 215,
-            "stamina": 322
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "hit": 143,
-            "mastery": 143
-          },
-          "source_type": "Nefarian",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
         },
         {
           "name": "Ironstar Amulet",
@@ -14254,6 +15096,44 @@
           "source_type": "Vendor",
           "source": "Justice Points (1250)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Magma Plated Pauldrons",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2669
+          },
+          "primary_stats": {
+            "strength": 266,
+            "stamina": 429
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Haste Rating"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85,
+            "classes": [
+              "Death Knight"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 191,
+            "hit": 171
+          },
+          "set": "Magma Plated Battlegear",
+          "source_type": "Cho'gall",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Pauldrons of the Great Ettin",
@@ -14492,6 +15372,31 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Cloudburst Cloak of the Faultline",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 673
+          },
+          "primary_stats": {
+            "strength": 214,
+            "stamina": 321
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 143,
+            "mastery": 143
+          },
+          "source_type": "Al'Akir",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
+        },
+        {
           "name": "Permafrost Cape of the Rockslab",
           "ilvl": 372,
           "rarity": "epic",
@@ -14515,6 +15420,30 @@
           "source": "Throne of the Four Winds (H)",
           "phase": "T11`T12`T13",
           "hide_loot_table": true
+        },
+        {
+          "name": "Floating Web",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 625
+          },
+          "primary_stats": {
+            "strength": 190,
+            "stamina": 286
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 127,
+            "mastery": 127
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T11`T12`T13"
         },
         {
           "name": "Wrap of the Great Turtle",
@@ -14621,6 +15550,74 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Battleplate of Ancient Kings",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3559
+          },
+          "primary_stats": {
+            "strength": 345,
+            "stamina": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Haste Rating"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 257,
+            "expertise": 217
+          },
+          "source_type": "Atramedes",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Battleplate of the Apocalypse",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3559
+          },
+          "primary_stats": {
+            "strength": 273,
+            "stamina": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Parry Rating"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "hit": 195,
+            "parry": 325
+          },
+          "source_type": "Cho'gall",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Magma Plated Chestguard",
           "ilvl": 372,
           "rarity": "epic",
@@ -14660,7 +15657,7 @@
           "hide_loot_table": true
         },
         {
-          "name": "Battleplate of the Apocalypse",
+          "name": "Magma Plated Battleplate",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
@@ -14670,28 +15667,33 @@
             "armor": 3559
           },
           "primary_stats": {
-            "strength": 273,
+            "strength": 345,
             "stamina": 578
           },
           "sockets": {
             "socket_colors": [
-              "yellow",
-              "yellow"
+              "red",
+              "blue"
             ],
             "sockets": 2,
-            "socket_bonus": "20 Parry Rating"
+            "socket_bonus": "20 Strength"
           },
           "other_stats": {
             "durability": 160,
-            "min_level": 85
+            "min_level": 85,
+            "classes": [
+              "Death Knight"
+            ]
           },
           "secondary_stats": {
-            "hit": 195,
-            "parry": 325
+            "haste": 217,
+            "crit": 257
           },
-          "source_type": "Cho'gall",
+          "set": "Magma Plated Battlegear",
+          "source_type": "Halfus Wyrmbreaker",
           "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Elementium Deathplate",
@@ -14795,32 +15797,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Bracers of Impossible Strength",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "wrist",
-          "type": "plate",
-          "special_stats": {
-            "armor": 1557
-          },
-          "primary_stats": {
-            "strength": 215,
-            "stamina": 322
-          },
-          "other_stats": {
-            "durability": 55,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 143,
-            "parry": 143
-          },
-          "source_type": "Halfus Wyrmbreaker",
-          "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Bracers of the Mat'redor",
           "ilvl": 379,
           "rarity": "epic",
@@ -14850,6 +15826,58 @@
             "crit": 153
           },
           "source_type": "Sinestra",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Electron Inductor Coils",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1557
+          },
+          "primary_stats": {
+            "strength": 215,
+            "stamina": 322
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 143,
+            "hit": 143
+          },
+          "source_type": "Omnotron Defense System",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Bracers of Impossible Strength",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1557
+          },
+          "primary_stats": {
+            "strength": 215,
+            "stamina": 322
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 143,
+            "parry": 143
+          },
+          "source_type": "Halfus Wyrmbreaker",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
         },
@@ -14938,6 +15966,44 @@
           "source_type": "Lord Godfrey",
           "source": "Shadowfang Keep (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Magma Plated Gauntlets",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2224
+          },
+          "primary_stats": {
+            "strength": 266,
+            "stamina": 429
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Strength"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85,
+            "classes": [
+              "Death Knight"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 191,
+            "mastery": 171
+          },
+          "set": "Magma Plated Battlegear",
+          "source_type": "Magmaw",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Gravitational Pull",
@@ -15107,7 +16173,7 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Jumbotron Power Belt",
+          "name": "Sky Strider Belt of the Faultline",
           "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
@@ -15117,27 +16183,28 @@
             "armor": 2002
           },
           "primary_stats": {
-            "strength": 286,
-            "stamina": 429
+            "strength": 232,
+            "stamina": 380
           },
           "sockets": {
             "socket_colors": [
               "yellow"
             ],
             "sockets": 1,
-            "socket_bonus": "15 Stamina"
+            "socket_bonus": "10 Strength"
           },
           "other_stats": {
             "durability": 55,
             "min_level": 85
           },
           "secondary_stats": {
-            "mastery": 181,
-            "dodge": 161
+            "haste": 160,
+            "mastery": 160
           },
-          "source_type": "Omnotron Defense System",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
+          "source_type": "The Conclave of Wind",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Thunder Wall Belt of the Rockslab",
@@ -15172,6 +16239,39 @@
           "source": "Throne of the Four Winds (H)",
           "phase": "T11`T12`T13",
           "hide_loot_table": true
+        },
+        {
+          "name": "Jumbotron Power Belt",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2002
+          },
+          "primary_stats": {
+            "strength": 286,
+            "stamina": 429
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "15 Stamina"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 181,
+            "dodge": 161
+          },
+          "source_type": "Omnotron Defense System",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
         },
         {
           "name": "Hardened Elementium Girdle",
@@ -15307,6 +16407,40 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Terrastra's Legguards",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3114
+          },
+          "primary_stats": {
+            "strength": 345,
+            "stamina": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Haste Rating"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 257,
+            "hit": 217
+          },
+          "source_type": "Ascendant Council",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Magma Plated Legplates",
           "ilvl": 372,
           "rarity": "epic",
@@ -15343,6 +16477,41 @@
           "source_type": "Maloriak",
           "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Sky Strider Greaves of the Faultline",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3114
+          },
+          "primary_stats": {
+            "strength": 345,
+            "stamina": 578
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Strength"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 238,
+            "mastery": 238
+          },
+          "source_type": "Al'Akir",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Thunder Wall Greaves of the Rockslab",
@@ -15585,39 +16754,6 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Molten Tantrum Boots",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "feet",
-          "type": "plate",
-          "special_stats": {
-            "armor": 2447
-          },
-          "primary_stats": {
-            "strength": 286,
-            "stamina": 429
-          },
-          "sockets": {
-            "socket_colors": [
-              "yellow"
-            ],
-            "sockets": 1,
-            "socket_bonus": "15 Stamina"
-          },
-          "other_stats": {
-            "durability": 75,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 147,
-            "dodge": 185
-          },
-          "source_type": "Magmaw",
-          "source": "Blackwing Descent (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Massacre Treads",
           "ilvl": 372,
           "rarity": "epic",
@@ -15647,6 +16783,39 @@
             "mastery": 191
           },
           "source_type": "Chimaeron",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Molten Tantrum Boots",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2447
+          },
+          "primary_stats": {
+            "strength": 286,
+            "stamina": 429
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "15 Stamina"
+          },
+          "other_stats": {
+            "durability": 75,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 147,
+            "dodge": 185
+          },
+          "source_type": "Magmaw",
           "source": "Blackwing Descent (H)",
           "phase": "T11`T12`T13"
         },
@@ -15718,33 +16887,48 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Dargonax's Signet",
-          "ilvl": 379,
+          "name": "Ring of Rivalry",
+          "ilvl": 372,
           "rarity": "epic",
           "bind": "bop",
           "slot": "finger",
-          "unique": true,
           "primary_stats": {
-            "strength": 229,
-            "stamina": 344
-          },
-          "sockets": {
-            "socket_colors": [
-              "yellow"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Strength"
+            "strength": 215,
+            "stamina": 322
           },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "crit": 113,
-            "mastery": 153
+            "haste": 143,
+            "expertise": 143
           },
-          "source_type": "Sinestra",
+          "source_type": "Theralion and Valiona",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Cloudburst Ring of the Faultline",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 214,
+            "stamina": 321
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 143,
+            "mastery": 143
+          },
+          "source_type": "Al'Akir",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Bile-O-Tron Nut",
@@ -15909,6 +17093,35 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Dargonax's Signet",
+          "ilvl": 379,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 229,
+            "stamina": 344
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Strength"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 113,
+            "mastery": 153
+          },
+          "source_type": "Sinestra",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
           "name": "Permafrost Signet of the Rockslab",
           "ilvl": 372,
           "rarity": "epic",
@@ -15926,6 +17139,29 @@
             "dodge": 143
           },
           "source_type": "The Conclave of Wind",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Cloudburst Ring of the Faultline",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "strength": 214,
+            "stamina": 321
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 143,
+            "mastery": 143
+          },
+          "source_type": "Al'Akir",
           "source": "Throne of the Four Winds (H)",
           "phase": "T11`T12`T13",
           "hide_loot_table": true
@@ -16094,35 +17330,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Lifebound Alchemist Stone",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "stamina": 380
-          },
-          "sockets": {
-            "socket_colors": [
-              "blue"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Critical Strike Rating"
-          },
-          "other_stats": {
-            "min_level": 85,
-            "requirement": "Alchemy (500)"
-          },
-          "secondary_stats": {
-            "mastery": 213,
-            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
-          },
-          "source_type": "Trainer (510)",
-          "source": "Alchemy",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Mirror of Broken Images",
           "ilvl": 359,
           "rarity": "epic",
@@ -16159,6 +17366,73 @@
           "source_type": "Theralion and Valiona",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Heart of Rage",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 363,
+            "equip_1": "Your melee attacks have a chance to grant 2178 Strength for 20 sec."
+          },
+          "source_type": "Chimaeron",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Crushing Weight",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "strength": 363
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your melee attacks have a chance to grant 2178 haste rating for 15 sec."
+          },
+          "source_type": "Ascendant Council",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Lifebound Alchemist Stone",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 380
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Critical Strike Rating"
+          },
+          "other_stats": {
+            "min_level": 85,
+            "requirement": "Alchemy (500)"
+          },
+          "secondary_stats": {
+            "mastery": 213,
+            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
+          },
+          "source_type": "Trainer (510)",
+          "source": "Alchemy",
+          "phase": "Pre-Bis`T11`T12`T13"
         },
         {
           "name": "Leaden Despair",
@@ -16273,35 +17547,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Lifebound Alchemist Stone",
-          "ilvl": 359,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "stamina": 380
-          },
-          "sockets": {
-            "socket_colors": [
-              "blue"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Critical Strike Rating"
-          },
-          "other_stats": {
-            "min_level": 85,
-            "requirement": "Alchemy (500)"
-          },
-          "secondary_stats": {
-            "mastery": 213,
-            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
-          },
-          "source_type": "Trainer (510)",
-          "source": "Alchemy",
-          "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
           "name": "Symbiotic Worm",
           "ilvl": 372,
           "rarity": "epic",
@@ -16340,6 +17585,73 @@
           "source_type": "Theralion and Valiona",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Heart of Rage",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 363,
+            "equip_1": "Your melee attacks have a chance to grant 2178 Strength for 20 sec."
+          },
+          "source_type": "Chimaeron",
+          "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Crushing Weight",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "strength": 363
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your melee attacks have a chance to grant 2178 haste rating for 15 sec."
+          },
+          "source_type": "Ascendant Council",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Lifebound Alchemist Stone",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "stamina": 380
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Critical Strike Rating"
+          },
+          "other_stats": {
+            "min_level": 85,
+            "requirement": "Alchemy (500)"
+          },
+          "secondary_stats": {
+            "mastery": 213,
+            "equip_1": "Increases the effect that healing and mana potions have on the wearer by 40%. This effect does not stack."
+          },
+          "source_type": "Trainer (510)",
+          "source": "Alchemy",
+          "phase": "Pre-Bis`T11`T12`T13"
         },
         {
           "name": "Leaden Despair",
@@ -16482,34 +17794,6 @@
           "phase": "T11`T12`T13"
         },
         {
-          "name": "Shalug'doom, the Axe of Unmaking",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "two-hand",
-          "type": "axe",
-          "special_stats": {
-            "weapon_damage": "2026 - 3040 Damage",
-            "weapon_speed": 3.6,
-            "weapon_dps": 703.7
-          },
-          "primary_stats": {
-            "strength": 385,
-            "stamina": 578
-          },
-          "other_stats": {
-            "durability": 120,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 257,
-            "expertise": 257
-          },
-          "source_type": "Cho'gall",
-          "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
-        },
-        {
           "name": "Reclaimed Ashkandi, Greatsword of the Brotherhood",
           "ilvl": 372,
           "rarity": "epic",
@@ -16535,6 +17819,34 @@
           },
           "source_type": "Nefarian",
           "source": "Blackwing Descent (H)",
+          "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Shalug'doom, the Axe of Unmaking",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "axe",
+          "special_stats": {
+            "weapon_damage": "2026 - 3040 Damage",
+            "weapon_speed": 3.6,
+            "weapon_dps": 703.7
+          },
+          "primary_stats": {
+            "strength": 385,
+            "stamina": 578
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 257,
+            "expertise": 257
+          },
+          "source_type": "Cho'gall",
+          "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
         },
         {
@@ -16648,6 +17960,34 @@
           "source_type": "Admiral Ripsnarl",
           "source": "The Deadmines (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Relic of Aggramar",
+          "ilvl": 359,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "unique": true,
+          "primary_stats": {
+            "strength": 107,
+            "stamina": 161
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ],
+            "sockets": 1
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 72,
+            "expertise": 72
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (700)",
+          "phase": "T11`T12`T13"
         },
         {
           "name": "Relic of Khaz'goroth",
@@ -23867,6 +25207,28 @@
           "spec": "blood-tank-death-knight",
           "general": "*{\"wowClass\": \"Blood Death Knights\"}* bring a 10% Attack Power buff with *{\"skill\": \"Abomination's Might\"}* and 10% Physical Damage debuff with *{\"skill\": \"Scarlet Fever\"}*. All *{\"wowClass\": \"Death Knights\"}* also bring a Strength and Agility buff with *{\"skill\": \"Horn of Winter\"}* and a Combat Resurrection with *{\"skill\": \"Raise Ally\"}*.",
           "intro": "*{\"wowClass\": \"Blood Death Knights\"}* are considered the best Tank in Cataclysm. The changes to *{\"skill\": \"Death Strike\"}* healing, as well as their *{\"skill\": \"Mastery: Blood Shield\"}* gives them insane self healing and damage prevention. They have an abundance of defensive cooldowns, so they have an answer for every situation. Another big quality of life change that all *{\"wowClass\": \"Blood Death Knights\"}* got is *{\"skill\": \"Outbreak\"}* now has a 30 sec cooldown, which means you can use this exclusively to keep your *{\"skill\": \"Blood Plague\"}* and *{\"skill\": \"Frost Fever\"}* on enemies, and you no longer need to *{\"skill\": \"Icy Touch\"}* and *{\"skill\": \"Plague Strike\"}*.",
+          "opener": [
+            "Whenever all or most of your procs align in your opener, cast *{\"skill\": \"Raise Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Army of the Dead\"}*.",
+            "Pre-cast *{\"skill\": \"Horn of Winter\"}*.",
+            "Pre-pot *{\"consume\": \"Golemblood Potion\"}*.",
+            "Cast Taunt.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Dancing Rune Weapon\"}* along with any other on-use cooldowns.",
+            "Cast *{\"skill\": \"Outbreak\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Empowered Rune Weapon\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Heart Strike\"}*.",
+            "Cast *{\"skill\": \"Death Strike\"}*.",
+            "Cast *{\"skill\": \"Rune Strike\"}*.",
+            "If *{\"skill\": \"Runic Empowerment\"}* procced, cast *{\"skill\": \"Blood Tap\"}* and  *{\"skill\": \"Death Strike\"}*, otherwise cast *{\"skill\": \"Heart Strike\"}*.",
+            "Proceed with single target rotation."
+          ],
           "single": [
             "Use *{\"consume\": \"Rune of the Stoneskin Gargoyle\"}*.",
             "Be in *{\"skill\": \"Blood Presence\"}*.",
@@ -23907,11 +25269,12 @@
             }
           ],
           "bestFood": [
-            "*{\"consume\": \"Lavascale Minestrone\"}*"
+            "*{\"consume\": \"Seafood Magnifique Feast\"}*,",
+            "*{\"consume\": \"Beer-Basted Crocolisk\"}*,",
+            "*{\"consume\": \"Fortune Cookie\"}*"
           ],
           "food": [
-            "*{\"consume\": \"Salted Eye\"}*,",
-            "*{\"consume\": \"Seafood Magnifique Feast\"}*"
+            "*{\"consume\": \"Lavascale Minestrone\"}*"
           ],
           "bestFlask": [
             "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*",
@@ -23921,9 +25284,6 @@
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "bestPotion": [
-            "*{\"consume\": \"Earthen Potion\"}*"
-          ],
-          "potion": [
             "*{\"consume\": \"Golemblood Potion\"}*"
           ],
           "alliance_races": [
@@ -23953,7 +25313,7 @@
             "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
-          "stats": "Stam > Mastery > Exp (781) = Hit (961) > Dodge = Parry"
+          "stats": "Stam > Exp (601) = Hit (961) > Haste (1421) > Mastery > Haste > Dodge = Parry"
         },
         {
           "spec": "frost-death-knight",

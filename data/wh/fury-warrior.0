@@ -12,7 +12,7 @@
 <div data-markup-content-target="1">Critical Strike - Our most desired Secondary stat.</div></li>
 <li>
 <div data-markup-content-target="1">Mastery - Our second most desired Secondary stat.</div></li></ol>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <div id="markup-gear-planner-calc-0">
 <section class="gear-planner" data-display="medium" data-embedded="true" data-gender="1" data-race="4" data-tab="gear">
 <div class="gear-planner-top-controls">
@@ -25,23 +25,23 @@
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option c1" tabindex="0">
-<div class="icon-label">
-<img alt="Warrior" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_warrior.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Warrior" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_warrior.jpg"/>
 <span class="icon-label-text">Warrior</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Night Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/race_nightelf_female.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Night Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_nightelf_female.jpg"/>
 <span class="icon-label-text">Night Elf</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Body 2" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ui-charactercreate-body-2.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Body 2" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-2.jpg"/>
 <span class="icon-label-text">Body 2</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pocketwatch_01.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
 <span class="icon-label-text">All Phases</span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
@@ -862,8 +862,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/petbattle_health.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
@@ -877,8 +877,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_strength.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
@@ -898,8 +898,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ability_dualwield.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
 <span class="icon-label-text">Melee</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Damage</span>
@@ -1073,6 +1073,22 @@
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/side_alliance.gif");'>
 <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a></span></span></td></tr>
+<tr>
+<td>Best</td>
+<td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69582/skullpiercer-pauldrons">
+<img alt="Skullpiercer Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_81.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Skullpiercer Pauldrons</span></a></td>
+<td>
+<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52206"></a></div></td>
+<td>
+<a data-entity="npc" href="https://www.wowhead.com/cata/npc=23863/daakara">
+<span class="tinyicontxt">Daakara</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=3805/zulaman">
+<span class="tinyicontxt">Zul'Aman</span></a> <span class="icon-heroic"></span></td></tr>
 <tr>
 <td>Best</td>
 <td>
@@ -1263,6 +1279,19 @@
 <b>Source</b></td>
 <td data-background="c1" style="width: 22%; max-width: 100%;">
 <b>Location</b></td></tr>
+<tr>
+<td>Optional</td>
+<td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69608/deathcharged-wristguards">
+<img alt="Deathcharged Wristguards" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_bracer_04.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Deathcharged Wristguards</span></a></td>
+<td>
+<span class="fa fa-minus fa-color-gray"></span></td>
+<td>
+<a data-entity="npc" href="https://www.wowhead.com/cata/npc=52151/bloodlord-mandokir">
+<span class="tinyicontxt">Bloodlord Mandokir</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=1977/zulgurub">
+<span class="tinyicontxt">Zul'Gurub</span></a> <span class="icon-heroic"></span></td></tr>
 <tr>
 <td>Optional</td>
 <td>
@@ -1746,6 +1775,17 @@
 <tr>
 <td>Best</td>
 <td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69802/band-of-the-gurubashi-berserker">
+<img alt="Band of the Gurubashi Berserker" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_ring_04.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Band of the Gurubashi Berserker</span></a></td>
+<td>
+<span class="fa fa-minus fa-color-gray"></span></td>
+<td>Trash Drop</td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=1977/zulgurub">
+<span class="tinyicontxt">Zul'Gurub</span></a> <span class="icon-heroic"></span></td></tr>
+<tr>
+<td>Best</td>
+<td>
 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56415/nova-band">
 <img alt="Nova Band" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_jewelry_ring_51naxxramas.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Nova Band</span></a></td>
 <td>
@@ -1933,6 +1973,17 @@
 <td>Rare solve from Archeology</td>
 <td>Archeology Rare Solve</td></tr>
 <tr>
+<td>Best</td>
+<td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69592/reforged-trollbane">
+<img alt="Reforged Trollbane" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_axe_85.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Reforged Trollbane</span></a></td>
+<td>
+<span class="fa fa-minus fa-color-gray"></span></td>
+<td>Third Timed Chest</td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=3805/zulaman">
+<span class="tinyicontxt">Zul'Aman</span></a></td></tr>
+<tr>
 <td>Optional</td>
 <td>
 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56342/sword-of-the-bottomless-pit">
@@ -2027,6 +2078,19 @@
 <b>Source</b></td>
 <td data-background="c1" style="width: 22%; max-width: 100%;">
 <b>Location</b></td></tr>
+<tr>
+<td>Best</td>
+<td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69596/voodoo-hunting-bow">
+<img alt="Voodoo Hunting Bow" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_waepon_bow_zulgrub_d_02.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Voodoo Hunting Bow</span></a></td>
+<td>
+<span class="fa fa-minus fa-color-gray"></span></td>
+<td>
+<a class="icontiny" data-entity="quest" data-game="wow" data-type="quest" href="https://www.wowhead.com/cata/quest=29186/the-hex-lords-fetish">
+<img alt="The Hex Lord's Fetish" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/quest-start.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">The Hex Lord's Fetish</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=3805/zulaman">
+<span class="tinyicontxt">Zul'Aman</span></a></td></tr>
 <tr>
 <td>Best</td>
 <td>

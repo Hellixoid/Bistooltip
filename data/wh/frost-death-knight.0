@@ -21,7 +21,7 @@
 <img alt="Woe Breeder's Boots" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_boots_raidwarrior_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Woe Breeder's Boots</span></a> on said character and send them to your <a class="icontiny c6" data-entity="class" data-game="wow" data-type="class" href="https://www.wowhead.com/cata/class=6/death-knight">
 <img alt="Death Knight" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/class_deathknight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Death Knight</span></a>, as they are BoE.<br/>
 <br/>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <table border="0" cellpadding="3" cellspacing="3" class="grid clean-markup-table-borders" style="width: 75%; max-width: 100%;">
 <tbody>
 <tr>
@@ -73,7 +73,7 @@
 <img alt="Valor Points" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/pvecurrency-valor.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Valor Points</span></span></a></td></tr></tbody></table></div>
 <br/>
 <br/>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <div id="markup-gear-planner-calc-0">
 <section class="gear-planner" data-display="medium" data-embedded="true" data-gender="0" data-race="2" data-tab="gear">
 <div class="gear-planner-top-controls">
@@ -86,23 +86,23 @@
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option c6" tabindex="0">
-<div class="icon-label">
-<img alt="Death Knight" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_deathknight.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Death Knight" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_deathknight.jpg"/>
 <span class="icon-label-text">Death Knight</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Orc" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/race_orc_male.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Orc" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_orc_male.jpg"/>
 <span class="icon-label-text">Orc</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ui-charactercreate-body-1.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
 <span class="icon-label-text">Body 1</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pocketwatch_01.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
 <span class="icon-label-text">All Phases</span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
@@ -937,8 +937,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/petbattle_health.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
@@ -952,8 +952,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_strength.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
@@ -973,8 +973,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ability_dualwield.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
 <span class="icon-label-text">Melee</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Damage</span>

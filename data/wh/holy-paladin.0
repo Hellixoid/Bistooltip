@@ -14,7 +14,7 @@
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/ability_paladin_beaconoflight.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Beacon of Light</span></a> healing, meaning that the 50% Beacon healing transfer is in actuality even lower due to no Mastery shield. Luckily in 4.2, Mastery shields were made able to fully stack and refresh themselves, so we have an ultra powerful version.</div></li>
 <li>
 <div data-markup-content-target="1">Critical Strike - Crit continues to be a lackluster stat, specifically due to how much stat rating 1% critical strike costs on gear.</div></li></ol>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <h4 class="heading-size-4" id="absolute-pre-raid-bis">Absolute Pre-Raid BiS</h4>This is the best possible setup you could have before stepping into a single raid in Phase 1. However, this setup is obviously incredibly unrealistic as it not only requires two extremely rare world drops, it also requires a lot of Valor to put together (not including the boots!) While this is an aspirational setup, it is not very realistic and is here solely as an informative display of what can be achieved with only non-raid gear.<br/>
 <br/>
 <div id="markup-gear-planner-calc-0">
@@ -29,23 +29,23 @@
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option c2" tabindex="0">
-<div class="icon-label">
-<img alt="Paladin" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/class_paladin.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Paladin" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_paladin.jpg"/>
 <span class="icon-label-text">Paladin</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Blood Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/race_bloodelf_male.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Blood Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_bloodelf_male.jpg"/>
 <span class="icon-label-text">Blood Elf</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/ui-charactercreate-body-1.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
 <span class="icon-label-text">Body 1</span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pocketwatch_01.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
 <span class="icon-label-text">All Phases</span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
@@ -874,8 +874,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/petbattle_health.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
@@ -889,8 +889,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_strength.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
@@ -910,8 +910,8 @@
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
-<div class="icon-label">
-<img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/medium/spell_fire_firebolt.jpg"/>
+<div class="icon-label" data-size="small">
+<img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_fire_firebolt.jpg"/>
 <span class="icon-label-text">Spell</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>
@@ -943,7 +943,7 @@
 <br/>In effect, Justice Points are the "catchup mechanism" for new 85s, being used to purchase catch-up pre-raid gear. In Phase 1, all Justice Point gear is ilvl 346, which means any of these purchases is fairly low-impact - however, it is a good way to shore up any slots where you've been unlucky from dungeon drops.<br/>
 <br/>All of these options are listed in no particular order, and are not individually priority to purchase. If you don't have a 346 item in a particular slot and the Justice Point vendor sells an item for that slot, you should buy it.<br/>
 <br/>
-<div style="text-align: -webkit-center;">
+<div class="wh-center" style="text-align: -webkit-center;">
 <table border="0" cellpadding="3" cellspacing="3" class="grid clean-markup-table-borders" style="width: 75%; max-width: 100%;">
 <tbody>
 <tr>
