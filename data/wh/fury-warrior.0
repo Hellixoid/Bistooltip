@@ -23,22 +23,22 @@
 <button aria-label="Talents &amp; Glyphs" class="tab gear-planner-tab-header-tab" data-selected="false">Talents &amp; Glyphs</button>
 <button aria-label="Stats" class="tab gear-planner-tab-header-tab" data-selected="false">Stats</button></div></div>
 <section class="gear-planner-customization">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option c1" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Warrior" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_warrior.jpg"/>
 <span class="icon-label-text">Warrior</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Night Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_nightelf_female.jpg"/>
 <span class="icon-label-text">Night Elf</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Body 2" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-2.jpg"/>
 <span class="icon-label-text">Body 2</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
@@ -860,7 +860,7 @@
 <span>Glyph of Berserker Rage</span></a></div></div></div></div>
 <div class="gear-planner-stat-summary">
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
@@ -875,7 +875,7 @@
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">1</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
@@ -896,7 +896,7 @@
 <span class="gear-planner-stat-summary-label">Spirit</span>
 <span class="gear-planner-stat-summary-value">83</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
@@ -906,7 +906,7 @@
 <span class="gear-planner-stat-summary-value">745 - 1384</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">DPS</span>
-<span class="gear-planner-stat-summary-value">409.42 / 233.96</span></div>
+<span class="gear-planner-stat-summary-value">409.42 / 204.71</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Attack Power</span>
 <span class="gear-planner-stat-summary-value">8569</span></div>
@@ -915,7 +915,7 @@
 <span class="gear-planner-stat-summary-value">565 (4.70 / 1.18%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Crit</span>
-<span class="gear-planner-stat-summary-value">2069 (19.58%)</span></div>
+<span class="gear-planner-stat-summary-value">2069 (12.58%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Hit</span>
 <span class="gear-planner-stat-summary-value">1209 (10.07%)</span></div>

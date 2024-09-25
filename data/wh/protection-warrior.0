@@ -62,22 +62,22 @@
 <button aria-label="Talents &amp; Glyphs" class="tab gear-planner-tab-header-tab" data-selected="false">Talents &amp; Glyphs</button>
 <button aria-label="Stats" class="tab gear-planner-tab-header-tab" data-selected="false">Stats</button></div></div>
 <section class="gear-planner-customization">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option c1" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Warrior" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_warrior.jpg"/>
 <span class="icon-label-text">Warrior</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Night Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_nightelf_female.jpg"/>
 <span class="icon-label-text">Night Elf</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Body 2" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-2.jpg"/>
 <span class="icon-label-text">Body 2</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
@@ -114,24 +114,24 @@
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=86931/arcanum-of-the-earthen-ring"></a></div></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="2">
-<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=69635/amulet-of-protection" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_13.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="forg=156" href="https://www.wowhead.com/cata/item=70107/fireheart-necklace" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_neck_hyjaldaily_04.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=69635/amulet-of-protection" target="_blank">Amulet of Protection</a>
+<a class="wow-gear-slot-name" data-wowhead="forg=156" href="https://www.wowhead.com/cata/item=70107/fireheart-necklace" target="_blank">Fireheart Necklace</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="3">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4198&amp;gems=52242&amp;forg=128" href="https://www.wowhead.com/cata/item=69573/pauldrons-of-sacrifice" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_84.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4198&amp;gems=52242&amp;forg=128" href="https://www.wowhead.com/cata/item=67144/pauldrons-of-edward-the-odd" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_plate_raidpaladin_i_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4198&amp;gems=52242&amp;forg=128" href="https://www.wowhead.com/cata/item=69573/pauldrons-of-sacrifice" target="_blank">Pauldrons of Sacrifice</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4198&amp;gems=52242&amp;forg=128" href="https://www.wowhead.com/cata/item=67144/pauldrons-of-edward-the-odd" target="_blank">Pauldrons of Edward the Odd</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
+<div class="wow-gear-slot-socket" data-socket-type="4">
+<div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
@@ -183,9 +183,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="6">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4223&amp;gems=52242:52242&amp;forg=121" href="https://www.wowhead.com/cata/item=55059/hardened-elementium-girdle" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_raidwarrior_i_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4223&amp;gems=52242:52242" href="https://www.wowhead.com/cata/item=55059/hardened-elementium-girdle" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_raidwarrior_i_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4223&amp;gems=52242:52242&amp;forg=121" href="https://www.wowhead.com/cata/item=55059/hardened-elementium-girdle" target="_blank">Hardened Elementium Girdle</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4223&amp;gems=52242:52242" href="https://www.wowhead.com/cata/item=55059/hardened-elementium-girdle" target="_blank">Hardened Elementium Girdle</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="4">
@@ -208,7 +208,7 @@
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=55016/nitro-boosts"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="7">
@@ -241,9 +241,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="8">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4104&amp;gems=52242" href="https://www.wowhead.com/cata/item=62432/gryphon-riders-boots" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_boots_raidwarrior_i_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4104&amp;gems=52242&amp;forg=133" href="https://www.wowhead.com/cata/item=70108/pyrelord-greaves" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_boots_mail_02.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4104&amp;gems=52242" href="https://www.wowhead.com/cata/item=62432/gryphon-riders-boots" target="_blank">Gryphon Rider's Boots</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4104&amp;gems=52242&amp;forg=133" href="https://www.wowhead.com/cata/item=70108/pyrelord-greaves" target="_blank">Pyrelord Greaves</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="3">
@@ -260,21 +260,15 @@
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74253/enchant-boots-lavawalker"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="3" data-slot-id="9">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4189&amp;gems=52242&amp;forg=135" href="https://www.wowhead.com/cata/item=57870/alpha-bracers" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_bracer_plate_dungeonplate_c_03.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-quality="4" data-slot-id="9">
+<a class="wow-gear-slot-icon" data-wowhead="ench=4189&amp;forg=128" href="https://www.wowhead.com/cata/item=70121/rickets-gun-show" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_bracer_53.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4189&amp;gems=52242&amp;forg=135" href="https://www.wowhead.com/cata/item=57870/alpha-bracers" target="_blank">Alpha Bracers</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4189&amp;forg=128" href="https://www.wowhead.com/cata/item=70121/rickets-gun-show" target="_blank">Ricket's Gun Show</a>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="3">
-<div class="iconsmall iconsmall-socket-yellow" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
-<del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
@@ -287,9 +281,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="10">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4107&amp;gems=52242&amp;pcs=60329:60330:60332" href="https://www.wowhead.com/cata/item=60332/earthen-handguards" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_plate_raidwarrior_i_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4107&amp;gems=52242&amp;pcs=60329:60330:60332&amp;forg=128" href="https://www.wowhead.com/cata/item=60332/earthen-handguards" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_plate_raidwarrior_i_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4107&amp;gems=52242&amp;pcs=60329:60330:60332" href="https://www.wowhead.com/cata/item=60332/earthen-handguards" target="_blank">Earthen Handguards</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4107&amp;gems=52242&amp;pcs=60329:60330:60332&amp;forg=128" href="https://www.wowhead.com/cata/item=60332/earthen-handguards" target="_blank">Earthen Handguards</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="4">
@@ -306,66 +300,49 @@
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74255/enchant-gloves-greater-mastery"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="3" data-slot-id="11">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52242" href="https://www.wowhead.com/cata/item=52320/elementium-moebius-band" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_69.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-quality="4" data-slot-id="11">
+<a class="wow-gear-slot-icon" data-wowhead="forg=128" href="https://www.wowhead.com/cata/item=70127/lylagar-horn-ring" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52242" href="https://www.wowhead.com/cata/item=52320/elementium-moebius-band" target="_blank">Elementium Moebius Band</a>
+<a class="wow-gear-slot-name" data-wowhead="forg=128" href="https://www.wowhead.com/cata/item=70127/lylagar-horn-ring" target="_blank">Lylagar Horn Ring</a>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
+<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-enchants"></div>
+<div class="wow-gear-slot-reforge">
+<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
-<var></var></div></div></div>
+<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
+<div class="wow-gear-slot" data-quality="4" data-slot-id="12">
+<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=58187/ring-of-the-battle-anthem" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_82.jpg");' target="_blank"></a>
+<div class="wow-gear-slot-details">
+<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=58187/ring-of-the-battle-anthem" target="_blank">Ring of the Battle Anthem</a>
+<div class="wow-gear-slot-enhancements">
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants"></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="3" data-slot-id="12">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52242" href="https://www.wowhead.com/cata/item=52320/elementium-moebius-band" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_69.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-quality="4" data-slot-id="13">
+<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=70143/moonwell-phial" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_alchemy_imbuedvial.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52242" href="https://www.wowhead.com/cata/item=52320/elementium-moebius-band" target="_blank">Elementium Moebius Band</a>
+<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=70143/moonwell-phial" target="_blank">Moonwell Phial</a>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
-<del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
-<var></var></div></div></div>
-<div class="wow-gear-slot-enchants"></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="3" data-slot-id="13">
+<div class="wow-gear-slot-sockets"></div></div></div></div>
+<div class="wow-gear-slot" data-quality="3" data-slot-id="14">
 <a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=56347/leaden-despair" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/quest_12252_icon.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
 <a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=56347/leaden-despair" target="_blank">Leaden Despair</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="14">
-<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=62471/mirror-of-broken-images" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_platnumdisks.jpg");' target="_blank"></a>
-<div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=62471/mirror-of-broken-images" target="_blank">Mirror of Broken Images</a>
-<div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets"></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="15">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4090" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_cataclysm_tank_d_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4090:3605" href="https://www.wowhead.com/cata/item=71270/mantle-of-patience" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_cape_firelands_fireset_d_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4090" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle" target="_blank">Wrap of the Great Turtle</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4090:3605" href="https://www.wowhead.com/cata/item=71270/mantle-of-patience" target="_blank">Mantle of Patience</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
@@ -373,16 +350,21 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74234/enchant-cloak-protection"></a></div></div></div>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74234/enchant-cloak-protection"></a></div></div>
+<div class="wow-gear-slot-enchant">
+<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_22.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=55002/flexweave-underlay"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="16">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4098&amp;forg=133" href="https://www.wowhead.com/cata/item=69609/bloodlords-protector" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_sword_54.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4098&amp;forg=128" href="https://www.wowhead.com/cata/item=70163/unbreakable-guardian" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_sword_1h_cataclysm_c_04.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4098&amp;forg=133" href="https://www.wowhead.com/cata/item=69609/bloodlords-protector" target="_blank">Bloodlord's Protector</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4098&amp;forg=128" href="https://www.wowhead.com/cata/item=70163/unbreakable-guardian" target="_blank">Unbreakable Guardian</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
@@ -397,11 +379,17 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="17">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4085" href="https://www.wowhead.com/cata/item=69764/extinct-turtle-shell" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shield_18.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4085&amp;gems=52242&amp;forg=135" href="https://www.wowhead.com/cata/item=55069/elementium-earthguard" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shield_grimbatolraid_d_02.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4085" href="https://www.wowhead.com/cata/item=69764/extinct-turtle-shell" target="_blank">Extinct Turtle Shell</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4085&amp;gems=52242&amp;forg=135" href="https://www.wowhead.com/cata/item=55069/elementium-earthguard" target="_blank">Elementium Earthguard</a>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-sockets">
+<div class="wow-gear-slot-socket" data-socket-type="4">
+<div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
+<var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
@@ -410,15 +398,21 @@
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74226/enchant-shield-mastery"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="18">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4176" href="https://www.wowhead.com/cata/item=69637/gurubashi-destroyer" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_firearm_2h_rifle_zulgurub_d_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4176&amp;gems=52242&amp;forg=142" href="https://www.wowhead.com/cata/item=71077/extreme-impact-hole-puncher" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_44.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4176" href="https://www.wowhead.com/cata/item=69637/gurubashi-destroyer" target="_blank">Gurubashi Destroyer</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4176&amp;gems=52242&amp;forg=142" href="https://www.wowhead.com/cata/item=71077/extreme-impact-hole-puncher" target="_blank">Extreme-Impact Hole Puncher</a>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-sockets">
+<div class="wow-gear-slot-socket" data-socket-type="3">
+<div class="iconsmall iconsmall-socket-yellow" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a>
+<var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
@@ -427,7 +421,7 @@
 <a aria-label="Icon" href="https://www.wowhead.com/cata/spell=81933/r19-threatfinder"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-slot-id="19">
@@ -932,35 +926,35 @@
 <span>Glyph of Demoralizing Shout</span></a></div></div></div></div>
 <div class="gear-planner-stat-summary">
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
 <span class="icon-label-text">General</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
-<span class="gear-planner-stat-summary-value">112245</span></div>
+<span class="gear-planner-stat-summary-value">119375</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mana</span>
 <span class="gear-planner-stat-summary-value">0</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
-<span class="gear-planner-stat-summary-value">12</span></div></div>
+<span class="gear-planner-stat-summary-value">11</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
 <span class="icon-label-text">Attributes</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
-<span class="gear-planner-stat-summary-value">3329</span></div>
+<span class="gear-planner-stat-summary-value">3433</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Agility</span>
-<span class="gear-planner-stat-summary-value">127</span></div>
+<span class="gear-planner-stat-summary-value">201</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Stamina</span>
-<span class="gear-planner-stat-summary-value">6914</span></div>
+<span class="gear-planner-stat-summary-value">7627</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Intellect</span>
 <span class="gear-planner-stat-summary-value">37</span></div>
@@ -968,29 +962,29 @@
 <span class="gear-planner-stat-summary-label">Spirit</span>
 <span class="gear-planner-stat-summary-value">63</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
 <span class="icon-label-text">Melee</span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Damage</span>
-<span class="gear-planner-stat-summary-value">795 - 1478</span></div>
+<span class="gear-planner-stat-summary-value">889 - 1652</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">DPS</span>
-<span class="gear-planner-stat-summary-value">437.12 / 0.00</span></div>
+<span class="gear-planner-stat-summary-value">488.65 / 0.00</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Attack Power</span>
-<span class="gear-planner-stat-summary-value">6893</span></div>
+<span class="gear-planner-stat-summary-value">7101</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Expertise</span>
-<span class="gear-planner-stat-summary-value">0 (0.00 / 0.00%)</span></div>
+<span class="gear-planner-stat-summary-value">82 (0.68 / 0.17%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Crit</span>
-<span class="gear-planner-stat-summary-value">0 (0.52%)</span></div>
+<span class="gear-planner-stat-summary-value">35 (1.02%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Hit</span>
-<span class="gear-planner-stat-summary-value">56 (0.47%)</span></div>
+<span class="gear-planner-stat-summary-value">71 (0.59%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Haste</span>
 <span class="gear-planner-stat-summary-value">0 (0.00%)</span></div></div></div></section></div>
@@ -1176,11 +1170,11 @@
 <span class="tinyicontxt">The Vortex Pinnacle</span></a> <span class="icon-heroic"></span></td></tr></tbody></table>
 <div class="pad"></div>
 <h4 class="heading-size-4" id="shoulders-for-protection-warrior-tank">Shoulders for Protection Warrior Tank</h4>The epic <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=67144/pauldrons-of-edward-the-odd">
-<img alt="Pauldrons of Edward the Odd" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_raidpaladin_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Pauldrons of Edward the Odd</span></a> are naturally the best pre-raid shoulders as the only ilvl 359 item available, but since they are a World Drop BoE they will most likely be rare and expensive. <br/>
+<img alt="Pauldrons of Edward the Odd" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_raidpaladin_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Pauldrons of Edward the Odd</span></a> are naturally the best pre-raid shoulders as the only ilvl 359 item available, but since they are a World Drop BoE they may be too expensive for your wallet. <br/>
 <br/>The <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69573/pauldrons-of-sacrifice">
-<img alt="Pauldrons of Sacrifice" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_84.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Pauldrons of Sacrifice</span></a> added with Phase 2 is a close second thanks to great tank stats only with a slightly lower item level. The <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69582/skullpiercer-pauldrons">
-<img alt="Skullpiercer Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_81.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Skullpiercer Pauldrons</span></a>, although itemized more towards DPS with critical strike, are still an upgrade to the blue ilvl 346 alternatives.<br/>
-<br/>A more reliable pair of shoulders to farm before stepping into T11 raids are the 346 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56452/earthshape-pauldrons">
+<img alt="Pauldrons of Sacrifice" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_84.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Pauldrons of Sacrifice</span></a> added with Phase 2 are a close second thanks to great tank stats only with a slightly lower item level. The <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69582/skullpiercer-pauldrons">
+<img alt="Skullpiercer Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_81.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Skullpiercer Pauldrons</span></a> are merely a sidegrade compared to blue ilvl 346 alternatives despite their higher item level due to undesirable DPS-oriented stats.<br/>
+<br/>An easier pair of shoulders to farm before stepping into T11 raids are the 346 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56452/earthshape-pauldrons">
 <img alt="Earthshape Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Earthshape Pauldrons</span></a>, with a perfect stats distribution for a tank. Other 346 shoulders <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56318/razs-pauldrons">
 <img alt="Raz's Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Raz's Pauldrons</span></a> and <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=63470/missing-diplomats-pauldrons">
 <img alt="Missing Diplomat's Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Missing Diplomat's Pauldrons</span></a> are good alternatives with baseline mastery, albeit with a less valuable secondary stat to reforge.<br/>
@@ -1232,6 +1226,22 @@
 <tr>
 <td>Great</td>
 <td>
+<a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56452/earthshape-pauldrons">
+<img alt="Earthshape Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Earthshape Pauldrons</span></a></td>
+<td>
+<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a></div></td>
+<td>
+<a data-entity="npc" href="https://www.wowhead.com/cata/npc=40319/drahga-shadowburner">
+<span class="tinyicontxt">Drahga Shadowburner</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=4950/grim-batol">
+<span class="tinyicontxt">Grim Batol</span></a> <span class="icon-heroic"></span></td></tr>
+<tr>
+<td>Great</td>
+<td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=69582/skullpiercer-pauldrons">
 <img alt="Skullpiercer Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_81.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Skullpiercer Pauldrons</span></a></td>
 <td>
@@ -1264,22 +1274,6 @@
 <tr>
 <td>Good</td>
 <td>
-<a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=63470/missing-diplomats-pauldrons">
-<img alt="Missing Diplomat's Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Missing Diplomat's Pauldrons</span></a></td>
-<td>
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
-<del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a></div></td>
-<td>
-<a data-entity="npc" href="https://www.wowhead.com/cata/npc=47162/glubtok">
-<span class="tinyicontxt">Glubtok</span></a></td>
-<td>
-<a data-entity="zone" href="https://www.wowhead.com/cata/zone=1581/the-deadmines">
-<span class="tinyicontxt">The Deadmines</span></a> <span class="icon-heroic"></span></td></tr>
-<tr>
-<td>Good</td>
-<td>
 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=58104/sunburnt-pauldrons">
 <img alt="Sunburnt Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_04.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Sunburnt Pauldrons</span></a></td>
 <td>
@@ -1297,6 +1291,22 @@
 <img alt="" class="no-border" loading="lazy" src="https://wow.zamimg.com/images/icons/horde.png"/> <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a></td></tr>
 <tr>
+<td>Good</td>
+<td>
+<a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=63470/missing-diplomats-pauldrons">
+<img alt="Missing Diplomat's Pauldrons" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_shoulder_plate_dungeonplate_c_03.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Missing Diplomat's Pauldrons</span></a></td>
+<td>
+<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior2.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52242"></a></div></td>
+<td>
+<a data-entity="npc" href="https://www.wowhead.com/cata/npc=47162/glubtok">
+<span class="tinyicontxt">Glubtok</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=1581/the-deadmines">
+<span class="tinyicontxt">The Deadmines</span></a> <span class="icon-heroic"></span></td></tr>
+<tr>
 <td>Easy-to-get</td>
 <td>
 <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=65831/pharoahs-burial-spaulders">
@@ -1310,8 +1320,13 @@
 <a data-entity="zone" href="https://www.wowhead.com/cata/zone=5034/uldum">
 <span class="tinyicontxt">Uldum</span></a></td></tr></tbody></table>
 <div class="pad"></div>
-<h4 class="heading-size-4" id="back-for-protection-warrior-tank">Back for Protection Warrior Tank</h4>The <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle">
-<img alt="Wrap of the Great Turtle" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_tank_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Wrap of the Great Turtle</span></a> is the best cloak for Phase 1 of Cataclysm, including raid drops, and it's a guaranteed reward once you reach an Exalted reputation with the <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1158/guardians-of-hyjal">
+<h4 class="heading-size-4" id="back-for-protection-warrior-tank">Back for Protection Warrior Tank</h4>The <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=71270/mantle-of-patience">
+<img alt="Mantle of Patience" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_cape_firelands_fireset_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Mantle of Patience</span></a>, introduced in Phase 3 with the <a data-entity="zone" href="https://www.wowhead.com/cata/zone=5733/molten-front">
+<span class="tinyicontxt">Molten Front</span></a>, is the first upgrade to the trusty <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle">
+<img alt="Wrap of the Great Turtle" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_tank_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Wrap of the Great Turtle</span></a>. You can pick this cloak as a reward for completing the <a class="icontiny" data-entity="quest" data-game="wow" data-type="quest" href="https://www.wowhead.com/cata/quest=29331/elemental-bonds-the-vow">
+<img alt="Elemental Bonds: The Vow" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/quest-start.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Elemental Bonds: The Vow</span></a> questline which becomes available at the same time as the <a data-entity="zone" href="https://www.wowhead.com/cata/zone=5733/molten-front">
+<span class="tinyicontxt">Molten Front</span></a> zone.<ul></ul>In the meantime, the <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle">
+<img alt="Wrap of the Great Turtle" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_tank_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Wrap of the Great Turtle</span></a> is still a great cloak since Phase 1, better than T11 raid drops, and it's a guaranteed reward once you reach an Exalted reputation with the <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1158/guardians-of-hyjal">
 <span class="tinyicontxt">Guardians of Hyjal</span></a>. It's easy to get and comes with perfect stats for a tank so it's a real no-brainer. <br/>That being said, the <a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56549/twilight-dragonscale-cloak">
 <img alt="Twilight Dragonscale Cloak" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_caster_b_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Twilight Dragonscale Cloak</span></a> is almost its equal and a great alternative, with marginally less mitigation but more EHP thanks to its gem socket totalling 41 more stamina than the epic. If you have the gold to craft this cloak, you could delay grinding your <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1158/guardians-of-hyjal">
 <span class="tinyicontxt">Guardians of Hyjal</span></a> reputation to last.<br/>
@@ -1334,6 +1349,19 @@
 <b>Location</b></td></tr>
 <tr>
 <td>Best</td>
+<td>
+<a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=71270/mantle-of-patience">
+<img alt="Mantle of Patience" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_cape_firelands_fireset_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Mantle of Patience</span></a></td>
+<td>
+<span class="fa fa-minus fa-color-gray"></span></td>
+<td>
+<a class="icontiny" data-entity="quest" data-game="wow" data-type="quest" href="https://www.wowhead.com/cata/quest=29331/elemental-bonds-the-vow">
+<img alt="Elemental Bonds: The Vow" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/quest-start.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Elemental Bonds: The Vow</span></a></td>
+<td>
+<a data-entity="zone" href="https://www.wowhead.com/cata/zone=616/mount-hyjal">
+<span class="tinyicontxt">Mount Hyjal</span></a></td></tr>
+<tr>
+<td>Great</td>
 <td>
 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=62383/wrap-of-the-great-turtle">
 <img alt="Wrap of the Great Turtle" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_tank_d_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Wrap of the Great Turtle</span></a></td>
@@ -1411,20 +1439,7 @@
 <span class="tinyicontxt">Hex Lord Malacrass</span></a></td>
 <td>
 <a data-entity="zone" href="https://www.wowhead.com/cata/zone=3805/zulaman">
-<span class="tinyicontxt">Zul'Aman</span></a> <span class="icon-heroic"></span></td></tr>
-<tr>
-<td>Good</td>
-<td>
-<a class="q3 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=56304/burned-gatherings">
-<img alt="Burned Gatherings" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_cape_cataclysm_tank_c_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Burned Gatherings</span></a></td>
-<td>
-<span class="fa fa-minus fa-color-gray"></span></td>
-<td>
-<a data-entity="npc" href="https://www.wowhead.com/cata/npc=39698/karsh-steelbender">
-<span class="tinyicontxt">Karsh Steelbender</span></a></td>
-<td>
-<a data-entity="zone" href="https://www.wowhead.com/cata/zone=4926/blackrock-caverns">
-<span class="tinyicontxt">Blackrock Caverns</span></a> <span class="icon-heroic"></span></td></tr></tbody></table>
+<span class="tinyicontxt">Zul'Aman</span></a> <span class="icon-heroic"></span></td></tr></tbody></table>
 <div class="pad"></div>
 <h4 class="heading-size-4" id="chest-for-protection-warrior-tank">Chest for Protection Warrior Tank</h4>The T11 <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=60329/earthen-chestguard">
 <img alt="Earthen Chestguard" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_chest_plate_raidwarrior_i_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Earthen Chestguard</span></a> is the best chest piece available outside of raids and the first item you should purchase with your <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">

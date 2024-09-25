@@ -6,10 +6,9 @@
       "spec": "holy-paladin",
       "bisList": [
         {
-          "name": "Glaciated Helm",
+          "name": "Immolation Headguard",
           "slot": "head",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -25,7 +24,84 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "name": "Arcanum of Hyjal",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Ember Shadowspirit Diamond",
+                "image": "shadowspirit-diamond"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Ragnaros",
+          "rarity": "epic"
+        },
+        {
+          "name": "Casque of Flame",
+          "slot": "head",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Baleroc, the Gatekeeper",
+          "rarity": "epic"
+        },
+        {
+          "name": "Glaciated Helm",
+          "slot": "head",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -81,12 +157,6 @@
               }
             ]
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -140,12 +210,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -178,12 +242,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -226,7 +284,36 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Shadowfang Keep (H)",
+          "source_type": "Lord Godfrey",
+          "rarity": "rare"
+        },
+        {
+          "name": "Flowform Choker",
+          "slot": "neck",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -244,9 +331,81 @@
               "recipe": false
             }
           },
-          "source": "Shadowfang Keep (H)",
-          "source_type": "Lord Godfrey",
-          "rarity": "rare"
+          "source": "Firelands (H)",
+          "source_type": "Majordomo Staghelm",
+          "rarity": "epic"
+        },
+        {
+          "name": "Heartstone of Rhyolith",
+          "slot": "neck",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Lord Rhyolith",
+          "rarity": "epic"
+        },
+        {
+          "name": "Firemind Pendant",
+          "slot": "neck",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Planetary Amulet of the Undertow",
@@ -266,12 +425,6 @@
             "bis": true,
             "reforge_from": "Critical Strike",
             "reforge_to": "Haste",
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -307,12 +460,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -354,12 +501,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -392,12 +533,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -442,12 +577,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -480,12 +609,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -528,12 +651,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -551,10 +668,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Burden of Mortality",
+          "name": "Spaulders of Manifold Eyes",
           "slot": "shoulder",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -570,7 +686,82 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Beth'tilac",
+          "rarity": "epic"
+        },
+        {
+          "name": "Immolation Mantle",
+          "slot": "shoulder",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Greater Inscription of Charged Lodestone",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Majordomo Staghelm",
+          "rarity": "epic"
+        },
+        {
+          "name": "Burden of Mortality",
+          "slot": "shoulder",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -622,12 +813,6 @@
               }
             ]
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -673,12 +858,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -711,12 +890,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -759,12 +932,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -782,10 +949,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Shroud of Endless Grief",
+          "name": "Wings of Flame",
           "slot": "back",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -801,7 +967,37 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shroud of Endless Grief",
+          "slot": "back",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -824,6 +1020,45 @@
           "rarity": "epic"
         },
         {
+          "name": "Flowing Flamewrath Cape",
+          "slot": "back",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Avengers of Hyjal - Friendly",
+          "source_type": "Reputation",
+          "rarity": "epic"
+        },
+        {
           "name": "Drape of the Twins",
           "slot": "back",
           "phase": [
@@ -843,12 +1078,6 @@
               "name": "Cloak - Greater Intellect",
               "rarity": "common",
               "recipe": true
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
             }
           },
           "t12": {
@@ -887,12 +1116,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -924,12 +1147,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -972,12 +1189,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1006,16 +1217,12 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "recipe": false
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1058,12 +1265,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1101,12 +1302,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1124,10 +1319,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Breastplate of Avenging Flame",
+          "name": "Clutch of the Firemother",
           "slot": "chest",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -1143,7 +1337,84 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "name": "Chest - Peerless Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              },
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Immolation Breastplate",
+          "slot": "chest",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Breastplate of Avenging Flame",
+          "slot": "chest",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1199,12 +1470,6 @@
               }
             ]
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1252,12 +1517,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1290,12 +1549,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1338,12 +1591,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1359,6 +1606,45 @@
           "source": "Halls of Origination (H)",
           "source_type": "Anraphet",
           "rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Dread Hunter",
+          "slot": "wrist",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Bracer - Mighty Intellect",
+              "rarity": "rare",
+              "recipe": true
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
+          "rarity": "epic"
         },
         {
           "name": "Bindings of Bleak Betrayal",
@@ -1388,12 +1674,6 @@
               }
             ]
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1411,10 +1691,9 @@
           "rarity": "epic"
         },
         {
-          "name": "Shackles of the End of Days",
+          "name": "Bracers of Imperious Truths",
           "slot": "wrist",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -1430,7 +1709,37 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shackles of the End of Days",
+          "slot": "wrist",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1477,12 +1786,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1520,12 +1823,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1543,10 +1840,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Flash Freeze Gauntlets",
+          "name": "Grips of the Raging Giant",
           "slot": "hands",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -1562,7 +1858,82 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Lord Rhyolith",
+          "rarity": "epic"
+        },
+        {
+          "name": "Immolation Gloves",
+          "slot": "hands",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Spirit",
+            "enchant": {
+              "name": "Gloves - Haste",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Baleroc, the Gatekeeper",
+          "rarity": "epic"
+        },
+        {
+          "name": "Flash Freeze Gauntlets",
+          "slot": "hands",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1614,12 +1985,6 @@
               }
             ]
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1667,12 +2032,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1705,12 +2064,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1753,12 +2106,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1774,6 +2121,53 @@
           "source": "Blackrock Caverns (H)",
           "source_type": "Ascendant Lord Obsidius",
           "rarity": "rare"
+        },
+        {
+          "name": "Belt of the Seven Seals",
+          "slot": "waist",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Spirit",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Avengers of Hyjal - Honored",
+          "source_type": "Reputation",
+          "rarity": "epic"
         },
         {
           "name": "Tempest Keeper Belt of the Undertow",
@@ -1804,12 +2198,6 @@
                 "image": "inferno-ruby"
               }
             ]
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
           },
           "t12": {
             "bis": false,
@@ -1842,12 +2230,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1900,12 +2282,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -1938,12 +2314,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -1986,12 +2356,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2029,7 +2393,83 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Stonecore (H)",
+          "source_type": "Ozruk",
+          "rarity": "rare"
+        },
+        {
+          "name": "Immolation Greaves",
+          "slot": "legs",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "name": "Powerful Ghostly Spellthread",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              },
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
+          "rarity": "epic"
+        },
+        {
+          "name": "Legplates of Absolute Control",
+          "slot": "legs",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2047,9 +2487,9 @@
               "recipe": false
             }
           },
-          "source": "The Stonecore (H)",
-          "source_type": "Ozruk",
-          "rarity": "rare"
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
+          "rarity": "epic"
         },
         {
           "name": "Tempest Keeper Leggings of the Undertow",
@@ -2082,12 +2522,6 @@
                 "image": "demonseye"
               }
             ]
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
           },
           "t12": {
             "bis": false,
@@ -2125,12 +2559,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2162,12 +2590,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2222,12 +2644,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2260,12 +2676,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2308,7 +2718,81 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Halls of Origination (H)",
+          "source_type": "Rajh, Construct of Sun",
+          "rarity": "rare"
+        },
+        {
+          "name": "Treads of the Penitent Man",
+          "slot": "feet",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Boots - Haste",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Majordomo Staghelm",
+          "rarity": "epic"
+        },
+        {
+          "name": "Emberforged Elementium Boots",
+          "slot": "feet",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2326,9 +2810,9 @@
               "recipe": false
             }
           },
-          "source": "Halls of Origination (H)",
-          "source_type": "Rajh, Construct of Sun",
-          "rarity": "rare"
+          "source": "Blacksmithing",
+          "source_type": "BoE Pattern (525)",
+          "rarity": "epic"
         },
         {
           "name": "Life Force Chargers",
@@ -2359,12 +2843,6 @@
                 "image": "demonseye"
               }
             ]
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
           },
           "t12": {
             "bis": false,
@@ -2397,12 +2875,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2455,12 +2927,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2498,12 +2964,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2521,6 +2981,84 @@
           "rarity": "rare"
         },
         {
+          "name": "Quicksilver Signet of the Avengers",
+          "slot": "finger 1",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Avengers of Hyjal - Exalted",
+          "source_type": "Reputation",
+          "rarity": "epic"
+        },
+        {
+          "name": "Soothing Brimstone Circle",
+          "slot": "finger 1",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Planetary Band of the Undertow",
           "slot": "finger 1",
           "phase": [
@@ -2536,12 +3074,6 @@
           },
           "t11": {
             "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -2582,12 +3114,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2619,12 +3145,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2669,12 +3189,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2707,12 +3221,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2755,12 +3263,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2793,12 +3295,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2841,7 +3337,73 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Therazane - Revered",
+          "source_type": "Reputation",
+          "rarity": "rare"
+        },
+        {
+          "name": "Crystal Prison Band",
+          "slot": "finger 2",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Spirit",
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
+          "rarity": "epic"
+        },
+        {
+          "name": "Soothing Brimstone Circle",
+          "slot": "finger 2",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -2859,9 +3421,9 @@
               "recipe": false
             }
           },
-          "source": "Therazane - Revered",
-          "source_type": "Reputation",
-          "rarity": "rare"
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Security Measure Alpha",
@@ -2881,12 +3443,6 @@
             "bis": true,
             "reforge_from": "Critical Strike",
             "reforge_to": "Haste",
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
-            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -2927,12 +3483,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -2964,12 +3514,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3014,12 +3558,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3052,12 +3590,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3100,12 +3632,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3138,12 +3664,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3186,12 +3706,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3228,7 +3742,36 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Sinestra",
+          "rarity": "epic"
+        },
+        {
+          "name": "Eye of Blazing Power",
+          "slot": "trinket 1",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3246,8 +3789,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Sinestra",
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
           "rarity": "epic"
         },
         {
@@ -3266,12 +3809,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3313,12 +3850,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3356,12 +3887,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3393,12 +3918,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3441,12 +3960,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3484,12 +3997,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3505,6 +4012,41 @@
           "source": "The Stonecore (H)",
           "source_type": "High Priestess Azil",
           "rarity": "rare"
+        },
+        {
+          "name": "Jaws of Defeat",
+          "slot": "trinket 2",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Majordomo Staghelm",
+          "rarity": "epic"
         },
         {
           "name": "Fall of Mortality",
@@ -3526,7 +4068,36 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Cho'gall",
+          "rarity": "epic"
+        },
+        {
+          "name": "Eye of Blazing Power",
+          "slot": "trinket 2",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3544,8 +4115,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Cho'gall",
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
           "rarity": "epic"
         },
         {
@@ -3564,12 +4135,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3611,12 +4176,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3654,12 +4213,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3691,12 +4244,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3739,12 +4286,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3782,7 +4323,73 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Stonecore (H)",
+          "source_type": "High Priestess Azil",
+          "rarity": "rare"
+        },
+        {
+          "name": "Ko'gun, Hammer of the Firelord",
+          "slot": "weapon",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "name": "Weapon - Power Torrent",
+              "rarity": "rare",
+              "recipe": true
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Ragnaros",
+          "rarity": "epic"
+        },
+        {
+          "name": "Eye of Purification",
+          "slot": "weapon",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3800,9 +4407,44 @@
               "recipe": false
             }
           },
-          "source": "The Stonecore (H)",
-          "source_type": "High Priestess Azil",
-          "rarity": "rare"
+          "source": "Firelands (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Volcanospike",
+          "slot": "weapon",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Lord Rhyolith",
+          "rarity": "epic"
         },
         {
           "name": "Stormwake, the Tempest's Reach of the Undertow",
@@ -3824,12 +4466,6 @@
               "name": "Weapon - Power Torrent",
               "rarity": "rare",
               "recipe": true
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
             }
           },
           "t12": {
@@ -3868,12 +4504,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3905,12 +4535,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -3955,12 +4579,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -3993,12 +4611,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4041,12 +4653,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4079,12 +4685,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4127,12 +4727,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4150,10 +4744,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Scepter of Ice",
+          "name": "Ward of the Red Widow",
           "slot": "off hand",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -4169,7 +4762,74 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "name": "Off-Hand - Superior Intellect",
+              "rarity": "common",
+              "recipe": true
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Beth'tilac",
+          "rarity": "epic"
+        },
+        {
+          "name": "Goblet of Anger",
+          "slot": "off hand",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
+          "rarity": "epic"
+        },
+        {
+          "name": "Scepter of Ice",
+          "slot": "off hand",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4213,12 +4873,6 @@
               "name": "Off-Hand - Superior Intellect",
               "rarity": "common",
               "recipe": true
-            }
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
             }
           },
           "t12": {
@@ -4266,12 +4920,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4304,12 +4952,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4352,12 +4994,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4390,12 +5026,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4438,7 +5068,77 @@
               "recipe": false
             }
           },
-          "zg/za": {
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blackrock Caverns (H)",
+          "source_type": "Ascendant Lord Obsidius",
+          "rarity": "rare"
+        },
+        {
+          "name": "Singed Plume of Aviana",
+          "slot": "relic",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (700)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Soulflame Vial",
+          "slot": "relic",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -4456,9 +5156,44 @@
               "recipe": false
             }
           },
-          "source": "Blackrock Caverns (H)",
-          "source_type": "Ascendant Lord Obsidius",
-          "rarity": "rare"
+          "source": "Valor Points (700)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Relic of Elune's Light",
+          "slot": "relic",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ayla Shadowstorm",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Relic of Eonar",
@@ -4487,12 +5222,6 @@
                 "image": "inferno-ruby"
               }
             ]
-          },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
           },
           "t12": {
             "bis": false,
@@ -4537,12 +5266,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4580,12 +5303,6 @@
               "recipe": false
             }
           },
-          "zg/za": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
           "t12": {
             "bis": false,
             "enchant": {
@@ -4618,12 +5335,6 @@
             }
           },
           "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "zg/za": {
             "bis": false,
             "enchant": {
               "recipe": false
@@ -11476,6 +12187,81 @@
       ],
       "gearData": [
         {
+          "name": "Immolation Headguard",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3057
+          },
+          "primary_stats": {
+            "intellect": 400,
+            "stamina": 689,
+            "spirit": 273
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 279
+          },
+          "set": "Regalia of Immolation",
+          "source_type": "Ragnaros",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Casque of Flame",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3057
+          },
+          "primary_stats": {
+            "intellect": 400,
+            "stamina": 689,
+            "spirit": 296
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 242
+          },
+          "source_type": "Baleroc, the Gatekeeper",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Glaciated Helm",
           "ilvl": 372,
           "rarity": "epic",
@@ -11654,6 +12440,77 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Flowform Choker",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 163,
+            "mastery": 133
+          },
+          "source_type": "Majordomo Staghelm",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Heartstone of Rhyolith",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384,
+            "spirit": 183
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 150
+          },
+          "source_type": "Lord Rhyolith",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Firemind Pendant",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "intellect": 227,
+            "stamina": 341,
+            "spirit": 144
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 156
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Planetary Amulet of the Undertow",
           "ilvl": 372,
           "rarity": "epic",
@@ -11801,6 +12658,77 @@
           "source_type": "Vendor",
           "source": "Justice Points (1250)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Spaulders of Manifold Eyes",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2822
+          },
+          "primary_stats": {
+            "intellect": 322,
+            "stamina": 513,
+            "spirit": 241
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 185
+          },
+          "source_type": "Beth'tilac",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Immolation Mantle",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2822
+          },
+          "primary_stats": {
+            "intellect": 322,
+            "stamina": 513,
+            "spirit": 259
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 95,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "crit": 154
+          },
+          "set": "Regalia of Immolation",
+          "source_type": "Majordomo Staghelm",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Burden of Mortality",
@@ -11973,6 +12901,30 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Wings of Flame",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 745
+          },
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 162,
+            "mastery": 176
+          },
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Shroud of Endless Grief",
           "ilvl": 379,
           "rarity": "epic",
@@ -12002,6 +12954,32 @@
           "source_type": "Sinestra",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Flowing Flamewrath Cape",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 695
+          },
+          "primary_stats": {
+            "intellect": 227,
+            "stamina": 341,
+            "spirit": 160
+          },
+          "other_stats": {
+            "min_level": 85,
+            "requirement": "Avengers of Hyjal - Friendly"
+          },
+          "secondary_stats": {
+            "mastery": 137
+          },
+          "source_type": "Reputation",
+          "source": "Avengers of Hyjal - Friendly",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Drape of the Twins",
@@ -12181,6 +13159,79 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Clutch of the Firemother",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3762
+          },
+          "primary_stats": {
+            "intellect": 420,
+            "stamina": 689,
+            "spirit": 306
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 266
+          },
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Immolation Breastplate",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3762
+          },
+          "primary_stats": {
+            "intellect": 420,
+            "stamina": 689,
+            "spirit": 311
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "crit": 259
+          },
+          "set": "Regalia of Immolation",
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
+        },
+        {
           "name": "Breastplate of Avenging Flame",
           "ilvl": 372,
           "rarity": "epic",
@@ -12355,6 +13406,32 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Bracers of the Dread Hunter",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1646
+          },
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384,
+            "spirit": 166
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 173
+          },
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Bindings of Bleak Betrayal",
           "ilvl": 379,
           "rarity": "epic",
@@ -12386,6 +13463,33 @@
           "source_type": "Sinestra",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Bracers of Imperious Truths",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 1584
+          },
+          "primary_stats": {
+            "intellect": 227,
+            "stamina": 341,
+            "spirit": 156
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 144
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Shackles of the End of Days",
@@ -12464,6 +13568,77 @@
           "source_type": "Helix Gearbreaker",
           "source": "The Deadmines (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Grips of the Raging Giant",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "cloth",
+          "special_stats": {
+            "armor": 2351
+          },
+          "primary_stats": {
+            "intellect": 322,
+            "stamina": 513,
+            "spirit": 231
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 202
+          },
+          "source_type": "Lord Rhyolith",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Immolation Gloves",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2351
+          },
+          "primary_stats": {
+            "intellect": 322,
+            "stamina": 513
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 231,
+            "crit": 201
+          },
+          "set": "Regalia of Immolation",
+          "source_type": "Baleroc, the Gatekeeper",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Flash Freeze Gauntlets",
@@ -12633,6 +13808,41 @@
           "source_type": "Ascendant Lord Obsidius",
           "source": "Blackrock Caverns (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Belt of the Seven Seals",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2037
+          },
+          "primary_stats": {
+            "intellect": 282,
+            "stamina": 454
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85,
+            "requirement": "Avengers of Hyjal - Honored"
+          },
+          "secondary_stats": {
+            "haste": 172,
+            "crit": 208
+          },
+          "source_type": "Reputation",
+          "source": "Avengers of Hyjal - Honored",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Tempest Keeper Belt of the Undertow",
@@ -12830,6 +14040,79 @@
           "source_type": "Ozruk",
           "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Immolation Greaves",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2392
+          },
+          "primary_stats": {
+            "intellect": 420,
+            "stamina": 689,
+            "spirit": 305
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 267
+          },
+          "set": "Regalia of Immolation",
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Legplates of Absolute Control",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3292
+          },
+          "primary_stats": {
+            "intellect": 420,
+            "stamina": 689,
+            "spirit": 337
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 214
+          },
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Tempest Keeper Leggings of the Undertow",
@@ -13033,6 +14316,72 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Treads of the Penitent Man",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2586
+          },
+          "primary_stats": {
+            "intellect": 322,
+            "stamina": 513,
+            "spirit": 233
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 75,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 196
+          },
+          "source_type": "Majordomo Staghelm",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Emberforged Elementium Boots",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "feet",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2490
+          },
+          "primary_stats": {
+            "intellect": 282,
+            "stamina": 454,
+            "spirit": 187
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 75,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 197
+          },
+          "source_type": "BoE Pattern (525)",
+          "source": "Blacksmithing",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Life Force Chargers",
           "ilvl": 372,
           "rarity": "epic",
@@ -13163,6 +14512,60 @@
           "source_type": "High Prophet Barim",
           "source": "Lost City of the Tol'vir (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Quicksilver Signet of the Avengers",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 236,
+            "stamina": 384,
+            "spirit": 185
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85,
+            "requirement": "Avengers of Hyjal - Exalted"
+          },
+          "secondary_stats": {
+            "mastery": 127
+          },
+          "source_type": "Reputation",
+          "source": "Avengers of Hyjal - Exalted",
+          "phase": "T12`T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Soothing Brimstone Circle",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 227,
+            "stamina": 341,
+            "spirit": 156
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 144
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Planetary Band of the Undertow",
@@ -13342,6 +14745,51 @@
           "source_type": "Reputation",
           "source": "Therazane - Revered",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Crystal Prison Band",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 150,
+            "mastery": 183
+          },
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Soothing Brimstone Circle",
+          "ilvl": 378,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 227,
+            "stamina": 341,
+            "spirit": 156
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 144
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Security Measure Alpha",
@@ -13540,6 +14988,26 @@
           "phase": "T11`T12`T13"
         },
         {
+          "name": "Eye of Blazing Power",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 433
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your healing spells have a chance to instantly heal the most injured nearby party member for 15809 to 18373."
+          },
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Darkmoon Card: Tsunami",
           "ilvl": 359,
           "rarity": "epic",
@@ -13667,6 +15135,26 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Jaws of Defeat",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 433
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "use_1": "Your next 10 spells cast within 20 sec will reduce the cost of your holy and nature spells by 125, stacking up to 10 times. (2 min cooldown)"
+          },
+          "source_type": "Majordomo Staghelm",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Fall of Mortality",
           "ilvl": 372,
           "rarity": "epic",
@@ -13685,6 +15173,26 @@
           "source_type": "Cho'gall",
           "source": "The Bastion of Twilight (H)",
           "phase": "T11`T12`T13"
+        },
+        {
+          "name": "Eye of Blazing Power",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 433
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your healing spells have a chance to instantly heal the most injured nearby party member for 15809 to 18373."
+          },
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Tyrande's Favorite Doll",
@@ -13813,6 +15321,93 @@
           "source_type": "High Priestess Azil",
           "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Ko'gun, Hammer of the Firelord",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "mace",
+          "special_stats": {
+            "weapon_damage": "484 - 899 Damage",
+            "weapon_speed": 2.1,
+            "weapon_dps": 329.3
+          },
+          "primary_stats": {
+            "intellect": 208,
+            "stamina": 312,
+            "spirit": 151
+          },
+          "other_stats": {
+            "durability": 105,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 2783,
+            "haste": 118
+          },
+          "source_type": "Ragnaros",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Eye of Purification",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "axe",
+          "special_stats": {
+            "weapon_damage": "523 - 972 Damage",
+            "weapon_speed": 2.4,
+            "weapon_dps": 311.5
+          },
+          "primary_stats": {
+            "intellect": 197,
+            "stamina": 296,
+            "spirit": 148
+          },
+          "other_stats": {
+            "durability": 105,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 2636,
+            "haste": 103
+          },
+          "source_type": "All Bosses",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Volcanospike",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "sword",
+          "special_stats": {
+            "weapon_damage": "348 - 648 Damage",
+            "weapon_speed": 1.6,
+            "weapon_dps": 311.3
+          },
+          "primary_stats": {
+            "intellect": 197,
+            "stamina": 296
+          },
+          "other_stats": {
+            "durability": 105,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 2636,
+            "haste": 139,
+            "hit": 119
+          },
+          "source_type": "Lord Rhyolith",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Stormwake, the Tempest's Reach of the Undertow",
@@ -14048,6 +15643,60 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Ward of the Red Widow",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "off hand",
+          "type": "shield",
+          "special_stats": {
+            "armor": 12421
+          },
+          "primary_stats": {
+            "intellect": 236,
+            "stamina": 384,
+            "spirit": 173
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 146
+          },
+          "source_type": "Beth'tilac",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
+          "name": "Goblet of Anger",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "held in off-hand",
+          "primary_stats": {
+            "intellect": 256,
+            "stamina": 384,
+            "spirit": 154
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 181
+          },
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Scepter of Ice",
           "ilvl": 372,
           "rarity": "epic",
@@ -14215,6 +15864,90 @@
           "source_type": "Ascendant Lord Obsidius",
           "source": "Blackrock Caverns (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Singed Plume of Aviana",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "primary_stats": {
+            "intellect": 145,
+            "stamina": 217,
+            "spirit": 105
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ],
+            "sockets": 1
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 82
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (700)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Soulflame Vial",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "primary_stats": {
+            "intellect": 145,
+            "stamina": 217
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ],
+            "sockets": 1
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 89,
+            "mastery": 101
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (700)",
+          "phase": "T12`T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Relic of Elune's Light",
+          "ilvl": 365,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "primary_stats": {
+            "intellect": 113,
+            "stamina": 170
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ],
+            "sockets": 1
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 76,
+            "mastery": 76
+          },
+          "source_type": "Vendor",
+          "source": "Ayla Shadowstorm",
+          "phase": "T12`T13",
+          "hide_loot_table": false
         },
         {
           "name": "Relic of Eonar",
@@ -20821,8 +22554,8 @@
             "The rest of the professions are very close in power, with *{\"wowBoss\": \"Blacksmithing\"}* becoming better with epic gems in T13."
           ],
           "glyphs": [
-            "Prime: *{\"consume\": \"Lava Lash\"}*, *{\"consume\": \"Stormstrike-cata\"}*, *{\"consume\": \"Windfury Weapon-cata\"}*",
-            "Major: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Fire Nova-cata\"}*, *{\"consume\": \"Chain Lightning\"}*",
+            "Prime: *{\"consume\": \"Lava Lash\"}*, *{\"consume\": \"Stormstrike-cata\"}*",
+            "Optional: *{\"consume\": \"Windfury Weapon-cata\"}* or *{\"consume\": \"Feral Spirit\"}*\nMajor: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Fire Nova-cata\"}*, *{\"consume\": \"Chain Lightning\"}*",
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
             "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
           ],

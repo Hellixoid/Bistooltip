@@ -31,22 +31,22 @@
 <button aria-label="Talents &amp; Glyphs" class="tab gear-planner-tab-header-tab" data-selected="false">Talents &amp; Glyphs</button>
 <button aria-label="Stats" class="tab gear-planner-tab-header-tab" data-selected="false">Stats</button></div></div>
 <section class="gear-planner-customization">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option c4" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Rogue" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_rogue.jpg"/>
 <span class="icon-label-text">Rogue</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Troll" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg"/>
 <span class="icon-label-text">Troll</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
 <span class="icon-label-text">Body 1</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
@@ -94,9 +94,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="3">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4204&amp;gems=52212" href="https://www.wowhead.com/cata/item=60462/vicious-gladiators-leather-spaulders" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_152.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4204&amp;gems=52212&amp;pcs=60462:60461" href="https://www.wowhead.com/cata/item=60462/vicious-gladiators-leather-spaulders" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_152.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4204&amp;gems=52212" href="https://www.wowhead.com/cata/item=60462/vicious-gladiators-leather-spaulders" target="_blank">Vicious Gladiator's Leather Spaulders</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4204&amp;gems=52212&amp;pcs=60462:60461" href="https://www.wowhead.com/cata/item=60462/vicious-gladiators-leather-spaulders" target="_blank">Vicious Gladiator's Leather Spaulders</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="3">
@@ -123,9 +123,9 @@
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="5">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4102&amp;gems=52212:52220&amp;forg=154" href="https://www.wowhead.com/cata/item=60301/wind-dancers-tunic" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_chest_leatherraidrogue_i_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4102&amp;gems=52212:52220&amp;pcs=60301:60298&amp;forg=154" href="https://www.wowhead.com/cata/item=60301/wind-dancers-tunic" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_chest_leatherraidrogue_i_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4102&amp;gems=52212:52220&amp;forg=154" href="https://www.wowhead.com/cata/item=60301/wind-dancers-tunic" target="_blank">Wind Dancer's Tunic</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4102&amp;gems=52212:52220&amp;pcs=60301:60298&amp;forg=154" href="https://www.wowhead.com/cata/item=60301/wind-dancers-tunic" target="_blank">Wind Dancer's Tunic</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="2">
@@ -162,6 +162,12 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
 <a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a>
+<var></var></div></div>
+<div class="wow-gear-slot-socket" data-socket-type="7">
+<div class="iconsmall iconsmall-socket-prismatic" data-env="cata" data-game="wow" data-tree="cata">
+<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
+<del></del>
+<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
@@ -175,9 +181,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="7">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4126&amp;gems=52212:52212" href="https://www.wowhead.com/cata/item=60461/vicious-gladiators-leather-legguards" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_pvprogue_c_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4126&amp;gems=52212:52212&amp;pcs=60462:60461" href="https://www.wowhead.com/cata/item=60461/vicious-gladiators-leather-legguards" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_pvprogue_c_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4126&amp;gems=52212:52212" href="https://www.wowhead.com/cata/item=60461/vicious-gladiators-leather-legguards" target="_blank">Vicious Gladiator's Leather Legguards</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4126&amp;gems=52212:52212&amp;pcs=60462:60461" href="https://www.wowhead.com/cata/item=60461/vicious-gladiators-leather-legguards" target="_blank">Vicious Gladiator's Leather Legguards</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="2">
@@ -244,9 +250,9 @@
 <del></del>
 <a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
 <div class="wow-gear-slot" data-quality="4" data-slot-id="10">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4107:4179&amp;gems=52212" href="https://www.wowhead.com/cata/item=60298/wind-dancers-gloves" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_glove_leatherraidrogue_i_01.jpg");' target="_blank"></a>
+<a class="wow-gear-slot-icon" data-wowhead="ench=4107:4179&amp;gems=52212&amp;pcs=60301:60298" href="https://www.wowhead.com/cata/item=60298/wind-dancers-gloves" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_glove_leatherraidrogue_i_01.jpg");' target="_blank"></a>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4107:4179&amp;gems=52212" href="https://www.wowhead.com/cata/item=60298/wind-dancers-gloves" target="_blank">Wind Dancer's Gloves</a>
+<a class="wow-gear-slot-name" data-wowhead="ench=4107:4179&amp;gems=52212&amp;pcs=60301:60298" href="https://www.wowhead.com/cata/item=60298/wind-dancers-gloves" target="_blank">Wind Dancer's Gloves</a>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets">
 <div class="wow-gear-slot-socket" data-socket-type="2">
@@ -873,7 +879,7 @@
 <span>Glyph of Distract</span></a></div></div></div></div>
 <div class="gear-planner-stat-summary">
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
@@ -888,7 +894,7 @@
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">7</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
@@ -909,7 +915,7 @@
 <span class="gear-planner-stat-summary-label">Spirit</span>
 <span class="gear-planner-stat-summary-value">92</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
@@ -919,10 +925,10 @@
 <span class="gear-planner-stat-summary-value">841 - 1563</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">DPS</span>
-<span class="gear-planner-stat-summary-value">462.31 / 231.07</span></div>
+<span class="gear-planner-stat-summary-value">462.31 / 369.71</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Attack Power</span>
-<span class="gear-planner-stat-summary-value">4599</span></div>
+<span class="gear-planner-stat-summary-value">4874.9400000000005</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Expertise</span>
 <span class="gear-planner-stat-summary-value">785 (6.54 / 1.63%)</span></div>
@@ -931,10 +937,10 @@
 <span class="gear-planner-stat-summary-value">261 (13.92%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Hit</span>
-<span class="gear-planner-stat-summary-value">974 (8.11%)</span></div>
+<span class="gear-planner-stat-summary-value">974 (14.11%)</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Melee Haste</span>
-<span class="gear-planner-stat-summary-value">1400 (10.93%)</span></div></div></div></section></div></div>
+<span class="gear-planner-stat-summary-value">1400 (16.93%)</span></div></div></div></section></div></div>
 <br/>
 <br/>With the removal of AP and increase in value to Agility, you'll find that most of the Pre-BiS pieces will be focused around the highest item level you can gather and then looking for favorable secondary stats.<h3 class="heading-size-3" id="body-armor">
 <span class="c4">Body Armor for Combat Rogue DPS</span></h3>

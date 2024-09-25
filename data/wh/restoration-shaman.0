@@ -33,22 +33,22 @@
 <button aria-label="Talents &amp; Glyphs" class="tab gear-planner-tab-header-tab" data-selected="false">Talents &amp; Glyphs</button>
 <button aria-label="Stats" class="tab gear-planner-tab-header-tab" data-selected="false">Stats</button></div></div>
 <section class="gear-planner-customization">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option c7" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Shaman" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg"/>
 <span class="icon-label-text">Shaman</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Troll" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg"/>
 <span class="icon-label-text">Troll</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
 <span class="icon-label-text">Body 1</span></div></div></div>
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
@@ -862,7 +862,7 @@
 <span>Glyph of Water Breathing</span></a></div></div></div></div>
 <div class="gear-planner-stat-summary">
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
@@ -877,7 +877,7 @@
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
 <span class="gear-planner-stat-summary-value">3</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
@@ -898,7 +898,7 @@
 <span class="gear-planner-stat-summary-label">Spirit</span>
 <span class="gear-planner-stat-summary-value">1921</span></div></div>
 <div class="gear-planner-stat-summary-group">
-<div class="select-drop-down" data-active="false">
+<div class="select-drop-down" data-active="false" data-icon="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_fire_firebolt.jpg"/>
