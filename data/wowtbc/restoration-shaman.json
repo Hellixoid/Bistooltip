@@ -969,10 +969,20 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -1039,13 +1049,9 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Cloak - Greater Intellect",
-              "rarity": "common",
-              "recipe": true
+              "recipe": false
             }
           },
           "t13": {
@@ -2073,6 +2079,53 @@
           "rarity": "rare"
         },
         {
+          "name": "Firemend Cinch",
+          "slot": "waist",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Spirit",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Purified Demonseye",
+                "image": "demonseye"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Avengers of Hyjal - Honored",
+          "source_type": "Reputation",
+          "rarity": "epic"
+        },
+        {
           "name": "Lightning Well Belt of the Wavecrest",
           "slot": "waist",
           "phase": [
@@ -2103,20 +2156,10 @@
             ]
           },
           "t12": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Purified Demonseye",
-                "image": "demonseye"
-              },
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              }
-            ]
+            }
           },
           "t13": {
             "bis": false,
@@ -2126,41 +2169,6 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "The Conclave of Wind",
-          "rarity": "epic"
-        },
-        {
-          "name": "Firemend Cinch",
-          "slot": "waist",
-          "phase": [
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Avengers of Hyjal - Honored",
-          "source_type": "Reputation",
           "rarity": "epic"
         },
         {
@@ -14240,40 +14248,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Lightning Well Belt of the Wavecrest",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "waist",
-          "type": "mail",
-          "special_stats": {
-            "armor": 1433
-          },
-          "primary_stats": {
-            "intellect": 266,
-            "stamina": 429,
-            "spirit": 180
-          },
-          "sockets": {
-            "socket_colors": [
-              "blue"
-            ],
-            "sockets": 1,
-            "socket_bonus": "10 Intellect"
-          },
-          "other_stats": {
-            "durability": 55,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "mastery": 180
-          },
-          "source_type": "The Conclave of Wind",
-          "source": "Throne of the Four Winds (H)",
-          "phase": "T11`T12`T13",
-          "hide_loot_table": true
-        },
-        {
           "name": "Firemend Cinch",
           "ilvl": 378,
           "rarity": "epic",
@@ -14307,6 +14281,40 @@
           "source": "Avengers of Hyjal - Honored",
           "phase": "T12`T13",
           "hide_loot_table": false
+        },
+        {
+          "name": "Lightning Well Belt of the Wavecrest",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1433
+          },
+          "primary_stats": {
+            "intellect": 266,
+            "stamina": 429,
+            "spirit": 180
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 180
+          },
+          "source_type": "The Conclave of Wind",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Waistguard of Hatred",

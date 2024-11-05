@@ -1004,10 +1004,20 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -1039,13 +1049,9 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Cloak - Greater Intellect",
-              "rarity": "common",
-              "recipe": true
+              "recipe": false
             }
           },
           "t13": {
@@ -3024,7 +3030,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Soothing Brimstone Circle",
+          "name": "Crystal Prison Band",
           "slot": "finger 1",
           "phase": [
             "T12",
@@ -3054,8 +3060,8 @@
               "recipe": false
             }
           },
-          "source": "Valor Points (1250)",
-          "source_type": "Vendor",
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
           "rarity": "epic"
         },
         {
@@ -3373,9 +3379,7 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Spirit",
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -3410,7 +3414,9 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -3723,10 +3729,9 @@
           "rarity": "rare"
         },
         {
-          "name": "Shard of Woe",
+          "name": "Jaws of Defeat",
           "slot": "trinket 1",
           "phase": [
-            "T11",
             "T12",
             "T13"
           ],
@@ -3737,7 +3742,7 @@
             }
           },
           "t11": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -3754,8 +3759,8 @@
               "recipe": false
             }
           },
-          "source": "The Bastion of Twilight (H)",
-          "source_type": "Sinestra",
+          "source": "Firelands (H)",
+          "source_type": "Majordomo Staghelm",
           "rarity": "epic"
         },
         {
@@ -3791,6 +3796,42 @@
           },
           "source": "Firelands (H)",
           "source_type": "Alysrazor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shard of Woe",
+          "slot": "trinket 1",
+          "phase": [
+            "T11",
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Bastion of Twilight (H)",
+          "source_type": "Sinestra",
           "rarity": "epic"
         },
         {
@@ -4014,41 +4055,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Jaws of Defeat",
-          "slot": "trinket 2",
-          "phase": [
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Firelands (H)",
-          "source_type": "Majordomo Staghelm",
-          "rarity": "epic"
-        },
-        {
           "name": "Fall of Mortality",
           "slot": "trinket 2",
           "phase": [
@@ -4069,7 +4075,7 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -14545,27 +14551,26 @@
           "hide_loot_table": false
         },
         {
-          "name": "Soothing Brimstone Circle",
-          "ilvl": 378,
+          "name": "Crystal Prison Band",
+          "ilvl": 391,
           "rarity": "epic",
           "bind": "bop",
           "slot": "finger",
           "unique": true,
           "primary_stats": {
-            "intellect": 227,
-            "stamina": 341,
-            "spirit": 156
+            "intellect": 256,
+            "stamina": 384
           },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "crit": 144
+            "crit": 150,
+            "mastery": 183
           },
-          "source_type": "Vendor",
-          "source": "Valor Points (1250)",
-          "phase": "T12`T13",
-          "hide_loot_table": false
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Planetary Band of the Undertow",
@@ -14970,22 +14975,24 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Shard of Woe",
-          "ilvl": 379,
+          "name": "Jaws of Defeat",
+          "ilvl": 391,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
+          "primary_stats": {
+            "intellect": 433
+          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Reduces the base mana cost of your spells by 205.",
-            "use_1": "Increases your haste rating by 1935 for 10 sec."
+            "use_1": "Your next 10 spells cast within 20 sec will reduce the cost of your holy and nature spells by 125, stacking up to 10 times. (2 min cooldown)"
           },
-          "source_type": "Sinestra",
-          "source": "The Bastion of Twilight (H)",
-          "phase": "T11`T12`T13"
+          "source_type": "Majordomo Staghelm",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Eye of Blazing Power",
@@ -15006,6 +15013,24 @@
           "source_type": "Alysrazor",
           "source": "Firelands (H)",
           "phase": "T12`T13"
+        },
+        {
+          "name": "Shard of Woe",
+          "ilvl": 379,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Reduces the base mana cost of your spells by 205.",
+            "use_1": "Increases your haste rating by 1935 for 10 sec."
+          },
+          "source_type": "Sinestra",
+          "source": "The Bastion of Twilight (H)",
+          "phase": "T11`T12`T13"
         },
         {
           "name": "Darkmoon Card: Tsunami",
@@ -15133,26 +15158,6 @@
           "source_type": "High Priestess Azil",
           "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
-        },
-        {
-          "name": "Jaws of Defeat",
-          "ilvl": 391,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "primary_stats": {
-            "intellect": 433
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "use_1": "Your next 10 spells cast within 20 sec will reduce the cost of your holy and nature spells by 125, stacking up to 10 times. (2 min cooldown)"
-          },
-          "source_type": "Majordomo Staghelm",
-          "source": "Firelands (H)",
-          "phase": "T12`T13"
         },
         {
           "name": "Fall of Mortality",

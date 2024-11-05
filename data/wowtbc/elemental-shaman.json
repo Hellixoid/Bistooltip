@@ -2200,7 +2200,7 @@
           "t12": {
             "bis": true,
             "reforge_from": "Critical Strike",
-            "reforge_to": "Spirit",
+            "reforge_to": "Mastery",
             "enchant": {
               "name": "Gloves - Greater Mastery",
               "rarity": "uncommon",
@@ -2208,8 +2208,8 @@
             },
             "gems": [
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
               }
             ]
           },
@@ -2480,7 +2480,7 @@
           "t12": {
             "bis": true,
             "reforge_from": "Critical Strike",
-            "reforge_to": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
               "recipe": false
             },
@@ -2809,6 +2809,8 @@
           },
           "t12": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
               "name": "Powerful Ghostly Spellthread",
               "rarity": "epic",
@@ -5534,7 +5536,21 @@
               "name": "Weapon - Power Torrent",
               "rarity": "rare",
               "recipe": true
-            }
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -6733,7 +6749,7 @@
           }
         },
         {
-          "name": "Singed Plume of Aviana",
+          "name": "Soulflame Vial",
           "slot": "relic",
           "phase": [
             "T12",
@@ -6963,7 +6979,14 @@
           "rarity": "rare"
         },
         {
-          "name": "Tattooed Eyeball",
+          "name": "Tattooed Eyeball (N)",
+          "slot": "relic",
+          "phase": [
+            "Pre-Bis",
+            "T11",
+            "T12",
+            "T13"
+          ],
           "pre-bis": {
             "bis": false,
             "enchant": {
@@ -6993,7 +7016,10 @@
             "enchant": {
               "recipe": false
             }
-          }
+          },
+          "source": "Inscription",
+          "source_type": "Trainer (525)",
+          "rarity": "rare"
         }
       ],
       "enchantsData": [
@@ -17992,15 +18018,14 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Singed Plume of Aviana",
+          "name": "Soulflame Vial",
           "ilvl": 391,
           "rarity": "epic",
           "bind": "bop",
           "slot": "relic",
           "primary_stats": {
             "intellect": 145,
-            "stamina": 217,
-            "spirit": 105
+            "stamina": 217
           },
           "sockets": {
             "socket_colors": [
@@ -18012,7 +18037,8 @@
             "min_level": 85
           },
           "secondary_stats": {
-            "haste": 82
+            "haste": 89,
+            "mastery": 101
           },
           "source_type": "Vendor",
           "source": "Valor Points (700)",
@@ -18125,6 +18151,32 @@
           },
           "source_type": "Vanessa VanCleef",
           "source": "The Deadmines (H)",
+          "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Tattooed Eyeball (N)",
+          "ilvl": 346,
+          "rarity": "rare",
+          "bind": "boe",
+          "slot": "relic",
+          "primary_stats": {
+            "intellect": 95,
+            "stamina": 143
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ]
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 48,
+            "crit": 72
+          },
+          "source_type": "Trainer (525)",
+          "source": "Inscription",
           "phase": "Pre-Bis`T11`T12`T13"
         }
       ],

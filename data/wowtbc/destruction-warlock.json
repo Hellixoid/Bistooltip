@@ -85,7 +85,7 @@
               "recipe": false
             }
           },
-          "source": "Firelands",
+          "source": "Firelands (H)",
           "source_type": "Lord Rhyolith",
           "rarity": "epic"
         },
@@ -740,8 +740,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -1048,7 +1048,7 @@
           },
           "t12": {
             "bis": true,
-            "reforge_from": "Mastery",
+            "reforge_from": "Critical Strike",
             "reforge_to": "Hit",
             "enchant": {
               "name": "Cloak - Greater Intellect",
@@ -1435,12 +1435,12 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               },
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Veiled Demonseye",
+                "image": "demonseye"
               }
             ]
           },
@@ -2093,10 +2093,20 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Hit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Gloves - Haste",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -2128,18 +2138,10 @@
             }
           },
           "t12": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Gloves - Haste",
-              "rarity": "common",
-              "recipe": true
-            },
-            "gems": [
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              }
-            ]
+              "recipe": false
+            }
           },
           "t13": {
             "bis": false,
@@ -2807,24 +2809,10 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Hit",
+            "bis": false,
             "enchant": {
-              "name": "Powerful Enchanted Spellthread",
-              "rarity": "epic",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              },
-              {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
-              }
-            ]
+            }
           },
           "t13": {
             "bis": false,
@@ -2856,10 +2844,24 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Hit",
             "enchant": {
+              "name": "Powerful Enchanted Spellthread",
+              "rarity": "epic",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              },
+              {
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -3133,6 +3135,8 @@
           },
           "t12": {
             "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Hit",
             "enchant": {
               "name": "Boots - Lavawalker",
               "rarity": "uncommon",
@@ -3140,8 +3144,8 @@
             },
             "gems": [
               {
-                "name": "Brilliant Inferno Ruby",
-                "image": "inferno-ruby"
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
               }
             ]
           },
@@ -5675,6 +5679,8 @@
           },
           "t12": {
             "bis": true,
+            "reforge_from": "Hit",
+            "reforge_to": "Critical Strike",
             "enchant": {
               "recipe": false
             }
@@ -13097,7 +13103,7 @@
             "hit": 276
           },
           "source_type": "Lord Rhyolith",
-          "source": "Firelands",
+          "source": "Firelands (H)",
           "phase": "T12`T13",
           "hide_loot_table": true
         },

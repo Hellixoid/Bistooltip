@@ -11,12 +11,13 @@ slots = {
     "Feet": 9,
     "Finger": 10,
     "Trinket": 11,
-    "Weapon": 12,
-    "Weapon 1H": 13,
-    "Off hand": 14,
-    "Weapon 2H": 15,
-    "Ranged": 16,
-    "Relic": 17
+    "Trinket Off": 12,
+    "Weapon": 13,
+    "Weapon 1H": 14,
+    "Off hand": 15,
+    "Weapon 2H": 16,
+    "Ranged": 17,
+    "Relic": 18
 }
 
 bdk_planner_slots = {

@@ -56,6 +56,8 @@ spec_to_slots = {
         "weapon": "Weapon",
         "2-handed weapons": "Weapon 2H",
         "1-hand weapons": "Weapon 1H",
+        "defensive trinkets": "Trinket",
+        "offensive trinkets": "Trinket Off",
     },
     "frost-death-knight": {
         "off hand weapons": "Off hand",
@@ -82,10 +84,14 @@ spec_to_slots = {
     "feral-tank-druid": {
         "weapons": "Weapon",
         "two handed weapons": "Weapon",
+        "two-handed weapons": "Weapon",
         "weapon": "Weapon",
+        "defensive trinkets": "Trinket",
+        "offensive trinkets": "Trinket Off",
     },
     "feral-dps-druid": {
         "two handed weapons": "Weapon",
+        "two-handed weapons": "Weapon",
         "weapons": "Weapon",
         "weapon": "Weapon",
     },
@@ -124,6 +130,7 @@ spec_to_slots = {
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
         "main-hand & two-handed weapons": "Weapon",
+        "main-hand and two-handed weapons": "Weapon",
     },
     "fire-mage": {
         "off hand weapons": "Off hand",
@@ -132,6 +139,7 @@ spec_to_slots = {
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
         "main-hand & two-handed weapons": "Weapon",
+        "main-hand and two-handed weapons": "Weapon",
     },
     "frost-mage": {
         "off hand weapons": "Off hand",
@@ -140,6 +148,7 @@ spec_to_slots = {
         "two-handed weapons": "Weapon 2H",
         "two-handed  weapons": "Weapon 2H",
         "main-hand & two-handed weapons": "Weapon",
+        "main-hand and two-handed weapons": "Weapon",
     },
     "holy-paladin": {
         "main-hand weapons": "Weapon",
@@ -147,6 +156,7 @@ spec_to_slots = {
         "main-hand weapon": "Weapon",
         "shield": "Off hand",
         "off hands and shields": "Off hand",
+        "off-hands and shields": "Off hand",
         "main hand weapons": "Weapon",
     },
     "protection-paladin": {

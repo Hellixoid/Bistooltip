@@ -54,6 +54,7 @@ class WhSpecDataParser:
                 tag_text = h4_tag.text.strip()
                 slot_name = self.normalize_slot_name(self.parse_slot(tag_text), spec_id)
                 if slot_name is not None:
+                    print(slot_name)
                     notable = self.check_no_table_in_block(h4_tag)
                     if not notable:
                         tbody_tag = h4_tag.findNext("tbody")
@@ -149,12 +150,18 @@ class WhSpecDataParser:
         next_node = block
         while True:
             next_node = next_node.nextSibling
+            if next_node is None:
+                return notable
             tag_name = next_node.name
             if tag_name == "h4" or tag_name == "h3":
                 break
             elif tag_name == "table":
                 notable = False
                 break
+            elif tag_name == "div":
+                if "markup-table-wrapper" in next_node.attrs['class']:
+                    notable = False
+                    break
         return notable
 
     def rs_to_list(self, result_set):

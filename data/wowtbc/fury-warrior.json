@@ -359,8 +359,6 @@
           },
           "t12": {
             "bis": true,
-            "reforge_from": "Hit",
-            "reforge_to": "Expertise",
             "enchant": {
               "recipe": false
             }
@@ -725,7 +723,7 @@
           "t12": {
             "bis": true,
             "reforge_from": "Haste",
-            "reforge_to": "Hit",
+            "reforge_to": "Expertise",
             "enchant": {
               "name": "Greater Inscription of Jagged Stone",
               "rarity": "special",
@@ -952,6 +950,45 @@
           "rarity": "rare"
         },
         {
+          "name": "Bladed Flamewrath Cover",
+          "slot": "back",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Critical Strike",
+            "enchant": {
+              "name": "Cloak - Greater Critical Strike",
+              "rarity": "uncommon",
+              "recipe": true
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Avengers of Hyjal - Friendly",
+          "source_type": "Reputation",
+          "rarity": "epic"
+        },
+        {
           "name": "Cloudburst Cloak of the Earthshaker",
           "slot": "back",
           "phase": [
@@ -976,11 +1013,9 @@
             }
           },
           "t12": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Cloak - Greater Critical Strike",
-              "rarity": "uncommon",
-              "recipe": true
+              "recipe": false
             }
           },
           "t13": {
@@ -991,41 +1026,6 @@
           },
           "source": "Throne of the Four Winds (H)",
           "source_type": "Al'Akir",
-          "rarity": "epic"
-        },
-        {
-          "name": "Bladed Flamewrath Cover",
-          "slot": "back",
-          "phase": [
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Avengers of Hyjal - Friendly",
-          "source_type": "Reputation",
           "rarity": "epic"
         },
         {
@@ -1308,8 +1308,6 @@
           },
           "t12": {
             "bis": true,
-            "reforge_from": "Hit",
-            "reforge_to": "Expertise",
             "enchant": {
               "name": "Chest - Peerless Stats",
               "rarity": "uncommon",
@@ -1637,7 +1635,7 @@
           "t12": {
             "bis": true,
             "reforge_from": "Haste",
-            "reforge_to": "Expertise",
+            "reforge_to": "Hit",
             "enchant": {
               "name": "Bracer - Major Strength",
               "rarity": "rare",
@@ -2204,7 +2202,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Cinch of the Flaming Ember",
+          "name": "Uncrushable Belt of Fury",
           "slot": "waist",
           "phase": [
             "T12",
@@ -2224,6 +2222,8 @@
           },
           "t12": {
             "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Critical Strike",
             "enchant": {
               "recipe": false
             },
@@ -2244,12 +2244,12 @@
               "recipe": false
             }
           },
-          "source": "Avengers of Hyjal - Honored",
-          "source_type": "Reputation",
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
           "rarity": "epic"
         },
         {
-          "name": "Uncrushable Belt of Fury",
+          "name": "Cinch of the Flaming Ember",
           "slot": "waist",
           "phase": [
             "T12",
@@ -2279,8 +2279,8 @@
               "recipe": false
             }
           },
-          "source": "Firelands (H)",
-          "source_type": "Shannox",
+          "source": "Avengers of Hyjal - Honored",
+          "source_type": "Reputation",
           "rarity": "epic"
         },
         {
@@ -3193,6 +3193,8 @@
           },
           "t12": {
             "bis": true,
+            "reforge_from": "Hit",
+            "reforge_to": "Expertise",
             "enchant": {
               "recipe": false
             },
@@ -3616,7 +3618,7 @@
           },
           "t12": {
             "bis": true,
-            "reforge_from": "Haste",
+            "reforge_from": "Expertise",
             "reforge_to": "Critical Strike",
             "enchant": {
               "recipe": false
@@ -4838,7 +4840,7 @@
           "t12": {
             "bis": true,
             "reforge_from": "Mastery",
-            "reforge_to": "Expertise",
+            "reforge_to": "Hit",
             "enchant": {
               "name": "Weapon - Landslide",
               "rarity": "rare",
@@ -13771,31 +13773,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Cloudburst Cloak of the Earthshaker",
-          "ilvl": 372,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "back",
-          "special_stats": {
-            "armor": 673
-          },
-          "primary_stats": {
-            "strength": 214,
-            "stamina": 321
-          },
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "crit": 143,
-            "hit": 143
-          },
-          "source_type": "Al'Akir",
-          "source": "Throne of the Four Winds (H)",
-          "phase": "T11`T12`T13",
-          "hide_loot_table": true
-        },
-        {
           "name": "Bladed Flamewrath Cover",
           "ilvl": 378,
           "rarity": "epic",
@@ -13820,6 +13797,31 @@
           "source": "Avengers of Hyjal - Friendly",
           "phase": "T12`T13",
           "hide_loot_table": false
+        },
+        {
+          "name": "Cloudburst Cloak of the Earthshaker",
+          "ilvl": 372,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "special_stats": {
+            "armor": 673
+          },
+          "primary_stats": {
+            "strength": 214,
+            "stamina": 321
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 143,
+            "hit": 143
+          },
+          "source_type": "Al'Akir",
+          "source": "Throne of the Four Winds (H)",
+          "phase": "T11`T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Glittering Epidermis",
@@ -14758,6 +14760,39 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Uncrushable Belt of Fury",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "plate",
+          "special_stats": {
+            "armor": 2166
+          },
+          "primary_stats": {
+            "strength": 240,
+            "stamina": 513
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "15 Stamina"
+          },
+          "other_stats": {
+            "durability": 55,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 153,
+            "mastery": 342
+          },
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
+        },
+        {
           "name": "Cinch of the Flaming Ember",
           "ilvl": 378,
           "rarity": "epic",
@@ -14791,39 +14826,6 @@
           "source": "Avengers of Hyjal - Honored",
           "phase": "T12`T13",
           "hide_loot_table": false
-        },
-        {
-          "name": "Uncrushable Belt of Fury",
-          "ilvl": 391,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "waist",
-          "type": "plate",
-          "special_stats": {
-            "armor": 2166
-          },
-          "primary_stats": {
-            "strength": 240,
-            "stamina": 513
-          },
-          "sockets": {
-            "socket_colors": [
-              "yellow"
-            ],
-            "sockets": 1,
-            "socket_bonus": "15 Stamina"
-          },
-          "other_stats": {
-            "durability": 55,
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "expertise": 153,
-            "mastery": 342
-          },
-          "source_type": "Shannox",
-          "source": "Firelands (H)",
-          "phase": "T12`T13"
         },
         {
           "name": "Belt of Absolute Zero",

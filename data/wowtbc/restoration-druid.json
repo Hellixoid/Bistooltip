@@ -356,8 +356,6 @@
           },
           "t12": {
             "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -1001,10 +999,20 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -1036,13 +1044,9 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Cloak - Greater Intellect",
-              "rarity": "common",
-              "recipe": true
+              "recipe": false
             }
           },
           "t13": {
@@ -1779,14 +1783,14 @@
           "t12": {
             "bis": true,
             "enchant": {
-              "name": "Gloves - Haste",
-              "rarity": "common",
+              "name": "Gloves - Greater Mastery",
+              "rarity": "uncommon",
               "recipe": true
             },
             "gems": [
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
               }
             ]
           },
@@ -2141,8 +2145,8 @@
             },
             "gems": [
               {
-                "name": "Reckless Ember Topaz",
-                "image": "ember-topaz"
+                "name": "Brilliant Inferno Ruby",
+                "image": "inferno-ruby"
               },
               {
                 "name": "Brilliant Inferno Ruby",
@@ -2976,7 +2980,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Soothing Brimstone Circle",
+          "name": "Crystal Prison Band",
           "slot": "finger 1",
           "phase": [
             "T12",
@@ -3006,8 +3010,8 @@
               "recipe": false
             }
           },
-          "source": "Valor Points (1250)",
-          "source_type": "Vendor",
+          "source": "Firelands (H)",
+          "source_type": "Shannox",
           "rarity": "epic"
         },
         {
@@ -3361,9 +3365,7 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Critical Strike",
-            "reforge_to": "Spirit",
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -3398,7 +3400,9 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
             "enchant": {
               "recipe": false
             }
@@ -15003,27 +15007,26 @@
           "hide_loot_table": false
         },
         {
-          "name": "Soothing Brimstone Circle",
-          "ilvl": 378,
+          "name": "Crystal Prison Band",
+          "ilvl": 391,
           "rarity": "epic",
           "bind": "bop",
           "slot": "finger",
           "unique": true,
           "primary_stats": {
-            "intellect": 227,
-            "stamina": 341,
-            "spirit": 156
+            "intellect": 256,
+            "stamina": 384
           },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "crit": 144
+            "crit": 150,
+            "mastery": 183
           },
-          "source_type": "Vendor",
-          "source": "Valor Points (1250)",
-          "phase": "T12`T13",
-          "hide_loot_table": false
+          "source_type": "Shannox",
+          "source": "Firelands (H)",
+          "phase": "T12`T13"
         },
         {
           "name": "Planetary Band of the Undertow",

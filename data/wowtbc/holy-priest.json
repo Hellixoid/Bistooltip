@@ -1184,10 +1184,20 @@
             }
           },
           "t12": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
             "enchant": {
-              "recipe": false
-            }
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Reckless Ember Topaz",
+                "image": "ember-topaz"
+              }
+            ]
           },
           "t13": {
             "bis": false,
@@ -1219,13 +1229,9 @@
             }
           },
           "t12": {
-            "bis": true,
-            "reforge_from": "Mastery",
-            "reforge_to": "Haste",
+            "bis": false,
             "enchant": {
-              "name": "Cloak - Greater Intellect",
-              "rarity": "common",
-              "recipe": true
+              "recipe": false
             }
           },
           "t13": {
@@ -12963,7 +12969,7 @@
             "haste": 276
           },
           "source_type": "Lord Rhyolith",
-          "source": "Firelands",
+          "source": "Firelands (H)",
           "phase": "T12`T13",
           "hide_loot_table": true
         },

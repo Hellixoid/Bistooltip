@@ -1369,41 +1369,6 @@
           "rarity": "rare"
         },
         {
-          "name": "Immolation Breastplate",
-          "slot": "chest",
-          "phase": [
-            "T12",
-            "T13"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Firelands (H)",
-          "source_type": "Alysrazor",
-          "rarity": "epic"
-        },
-        {
           "name": "Breastplate of Shifting Visions",
           "slot": "chest",
           "phase": [
@@ -1450,6 +1415,41 @@
           },
           "source": "Firelands (H)",
           "source_type": "Majordomo Staghelm",
+          "rarity": "epic"
+        },
+        {
+          "name": "Immolation Battleplate",
+          "slot": "chest",
+          "phase": [
+            "T12",
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Firelands (H)",
+          "source_type": "Alysrazor",
           "rarity": "epic"
         },
         {
@@ -13896,45 +13896,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Immolation Breastplate",
-          "ilvl": 391,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "chest",
-          "type": "plate",
-          "special_stats": {
-            "armor": 3762
-          },
-          "primary_stats": {
-            "intellect": 420,
-            "stamina": 689,
-            "spirit": 311
-          },
-          "sockets": {
-            "socket_colors": [
-              "blue",
-              "blue"
-            ],
-            "sockets": 2,
-            "socket_bonus": "20 Intellect"
-          },
-          "other_stats": {
-            "durability": 160,
-            "min_level": 85,
-            "classes": [
-              "Paladin"
-            ]
-          },
-          "secondary_stats": {
-            "crit": 259
-          },
-          "set": "Regalia of Immolation",
-          "source_type": "Alysrazor",
-          "source": "Firelands (H)",
-          "phase": "T12`T13",
-          "hide_loot_table": true
-        },
-        {
           "name": "Breastplate of Shifting Visions",
           "ilvl": 391,
           "rarity": "epic",
@@ -13967,6 +13928,45 @@
           "source_type": "Majordomo Staghelm",
           "source": "Firelands (H)",
           "phase": "T12`T13"
+        },
+        {
+          "name": "Immolation Battleplate",
+          "ilvl": 391,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "plate",
+          "special_stats": {
+            "armor": 3762
+          },
+          "primary_stats": {
+            "strength": 420,
+            "stamina": 689
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Strength"
+          },
+          "other_stats": {
+            "durability": 160,
+            "min_level": 85,
+            "classes": [
+              "Paladin"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 269,
+            "expertise": 303
+          },
+          "set": "Battleplate of Immolation",
+          "source_type": "Alysrazor",
+          "source": "Firelands (H)",
+          "phase": "T12`T13",
+          "hide_loot_table": true
         },
         {
           "name": "Battleplate of Ancient Kings",
