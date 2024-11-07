@@ -23041,21 +23041,22 @@
           "opener": [
             "Pre-cast *{\"skill\": \"Wild Mushroom\"}* 3 times.",
             "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
-            "Pre-cast *{\"skill\": \"Starsurge\"}*. If you get a *{\"skill\": \"Shooting Stars\"}* proc afterwards, save it until you first enter *{\"skill\": \"Solar Eclipse-boomy\"}*.",
-            "Cast *{\"skill\": \"Insect Swarm\"}* and *{\"skill\": \"Moonfire\"}*.",
+            "Pre-cast *{\"skill\": \"Starfire\"}*. If you get a *{\"skill\": \"Shooting Stars\"}* proc, save it until you first enter *{\"skill\": \"Solar Eclipse-boomy\"}*.",
+            "Cast *{\"skill\": \"Moonfire\"}*.",
             "Cast *{\"skill\": \"Force of Nature\"}* before *{\"skill\": \"Bloodlust\"}* is used.",
             "Cast *{\"skill\": \"Starfall\"}*.",
             "Cast *{\"skill\": \"Starfire\"}* until you enter *{\"skill\": \"Solar Eclipse-boomy\"}*.",
-            "Cast *{\"skill\": \"Wrath-cata\"}*.",
+            "Cast *{\"skill\": \"Insect Swarm\"}* with a slight delay and *{\"skill\": \"Moonfire\"}*.",
             "Cast *{\"skill\": \"Wild Mushroom: Detonate\"}* (Off GCD).",
-            "Refresh *{\"skill\": \"Insect Swarm\"}* and *{\"skill\": \"Sunfire\"}* on their last tick or after they expire.",
+            "Cast *{\"skill\": \"Starsurge\"}*.",
+            "Cast *{\"skill\": \"Wrath-cata\"}*.",
             "Cast *{\"skill\": \"Wrath-cata\"}* and *{\"skill\": \"Starsurge\"}* until you enter *{\"skill\": \"Lunar Eclipse\"}*.",
             "Proceed with single target rotation."
           ],
           "single": [
             "Cast *{\"skill\": \"Force of Nature\"}*.",
             "Cast *{\"skill\": \"Starfall\"}*. You can delay briefly to use at the start of a *{\"skill\": \"Lunar Eclipse\"}*.",
-            "Maintain *{\"skill\": \"Insect Swarm\"}* and *{\"skill\": \"Moonfire\"}*. Re-apply on their last tick or after they expire. You can delay briefly to use at the start of an eclipse.",
+            "Maintain *{\"skill\": \"Insect Swarm\"}* and *{\"skill\": \"Moonfire\"}* within Eclipses. You can delay briefly to use at the start of an eclipse.",
             "Cast *{\"skill\": \"Starsurge\"}*. This will be an instant cast with *{\"skill\": \"Shooting Stars\"}* procs. You can delay briefly to use at the start of an Eclipse.",
             "Cast *{\"skill\": \"Wrath-cata\"}* during *{\"skill\": \"Solar Eclipse-boomy\"}* and cast *{\"skill\": \"Starfire\"}* during *{\"skill\": \"Lunar Eclipse\"}*.",
             "Cast *{\"skill\": \"Wrath-cata\"}* after leaving *{\"skill\": \"Solar Eclipse-boomy\"}* and cast *{\"skill\": \"Starfire\"}* after leaving a *{\"skill\": \"Lunar Eclipse\"}*.",
@@ -23511,7 +23512,7 @@
             "Maintain *{\"skill\": \"Sniper Training\"}* buff by standing still.",
             "Use *{\"skill\": \"Rapid Fire\"}* and *{\"skill\": \"Call of the Wild\"}*.",
             "Maintain *{\"skill\": \"Serpent Sting\"}*. *{\"skill\": \"Cobra Shot\"}* will do this for you.",
-            "During *{\"skill\": \"Lock and Load\"}*, cast *{\"skill\": \"Explosive Shot\"}* with a filler ability between each one.",
+            "During *{\"skill\": \"Lock and Load\"}*, cast *{\"skill\": \"Explosive Shot\"}*. You no longer need a filler ability between each one.",
             "Use *{\"skill\": \"Explosive Shot\"}*.",
             "Use *{\"skill\": \"Kill Shot\"}* on targets 20% health or below.",
             "Use *{\"skill\": \"Black Arrow\"}*.",
@@ -23959,7 +23960,7 @@
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "flask": [
-            "\"*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*\""
+            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*"
           ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
@@ -25250,7 +25251,7 @@
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "flask": [
-            "\"*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*\""
+            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*"
           ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
