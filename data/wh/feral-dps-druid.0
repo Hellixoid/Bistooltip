@@ -116,22 +116,34 @@
 <div class="select-drop-down-option c11" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Druid" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_druid.jpg"/>
-<span class="icon-label-text">Druid</span></div></div></div>
+<span class="icon-label-text">Druid</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Troll" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg"/>
-<span class="icon-label-text">Troll</span></div></div></div>
+<span class="icon-label-text">Troll</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Body 1" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-1.jpg"/>
-<span class="icon-label-text">Body 1</span></div></div></div>
+<span class="icon-label-text">Body 1</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
-<span class="icon-label-text">All Phases</span></div></div></div></section>
+<span class="icon-label-text">All Phases</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div></section>
 <div class="gear-planner-slots">
 <div class="wow-gear-slot" data-quality="4" data-slot-id="1">
 <a class="wow-gear-slot-icon" data-wowhead="ench=4209&amp;gems=68778:52220&amp;pcs=60286:60289&amp;forg=147" href="https://www.wowhead.com/cata/item=60286/stormriders-headpiece" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_helmet_leather_raiddruid_i_01.jpg");' target="_blank"></a>
@@ -143,20 +155,20 @@
 <div class="iconsmall iconsmall-socket-meta" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a>
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a>
 <var></var></div></div>
 <div class="wow-gear-slot-socket" data-socket-type="4">
 <div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/spell_fire_masterofelements.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=86934/arcanum-of-the-ramkahen"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=86934/arcanum-of-the-ramkahen" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -183,14 +195,14 @@
 <div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_gem_goldendraenite_01.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=86907/greater-inscription-of-shattered-crystal"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=86907/greater-inscription-of-shattered-crystal" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -212,20 +224,20 @@
 <div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_dragonseye05.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52258"></a>
+<a href="https://www.wowhead.com/cata/item=52258" tabindex="-1"></a>
 <var></var></div></div>
 <div class="wow-gear-slot-socket" data-socket-type="2">
 <div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_dragonseye05.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52258"></a>
+<a href="https://www.wowhead.com/cata/item=52258" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74250/enchant-chest-peerless-stats"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=74250/enchant-chest-peerless-stats" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -241,26 +253,26 @@
 <div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a>
 <var></var></div></div>
 <div class="wow-gear-slot-socket" data-socket-type="2">
 <div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div>
 <div class="wow-gear-slot-socket" data-socket-type="7">
 <div class="iconsmall iconsmall-socket-prismatic" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_gizmo_rocketbootextreme.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=55016/nitro-boosts"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=55016/nitro-boosts" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -276,20 +288,20 @@
 <div class="iconsmall iconsmall-socket-yellow" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div>
 <div class="wow-gear-slot-socket" data-socket-type="3">
 <div class="iconsmall iconsmall-socket-yellow" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_monsterscales_14.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=78171/dragonscale-leg-armor"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=78171/dragonscale-leg-armor" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
@@ -305,14 +317,14 @@
 <div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=74213/enchant-boots-major-agility"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=74213/enchant-boots-major-agility" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -329,7 +341,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=96264/enchant-bracer-agility"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=96264/enchant-bracer-agility" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -345,19 +357,19 @@
 <div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby"></a>
+<a href="https://www.wowhead.com/cata/item=52212/delicate-inferno-ruby" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=44529/enchant-gloves-major-agility"></a></div></div>
+<a href="https://www.wowhead.com/cata/spell=44529/enchant-gloves-major-agility" tabindex="-1"></a></div></div>
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/trade_engineering.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=82175/synapse-springs"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=82175/synapse-springs" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -415,12 +427,12 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=60663/enchant-cloak-major-agility"></a></div></div>
+<a href="https://www.wowhead.com/cata/spell=60663/enchant-cloak-major-agility" tabindex="-1"></a></div></div>
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_22.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=55002/flexweave-underlay"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=55002/flexweave-underlay" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -437,7 +449,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=95471/enchant-2h-weapon-mighty-agility"></a></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=95471/enchant-2h-weapon-mighty-agility" tabindex="-1"></a></div></div></div>
 <div class="wow-gear-slot-reforge">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
@@ -459,7 +471,7 @@
 <div class="iconsmall iconsmall-socket-prismatic" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_jewelcrafting_dragonseye05.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52258"></a>
+<a href="https://www.wowhead.com/cata/item=52258" tabindex="-1"></a>
 <var></var></div></div></div>
 <div class="wow-gear-slot-enchants"></div>
 <div class="wow-gear-slot-reforge">
@@ -505,126 +517,126 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_abolishmagic.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16814/starlight-wrath"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16814/starlight-wrath" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 5 points in Balance Talents" data-max-points="3" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_sentinal.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16845/moonglow"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16845/moonglow" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="0" data-max-points="3" data-points="0" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_naturesblessing.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16880/natures-grace"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16880/natures-grace" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 15 points in Balance Talents" data-max-points="1" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_vehicle_sonicshockwave.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78675/solar-beam"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78675/solar-beam" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 15 points in Balance Talents&lt;br&gt;Requires 1 point in Typhoon" data-max-points="2" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_galewinds.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48488/gale-winds"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48488/gale-winds" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="2" data-row="2" data-size="1" data-talent="8379" style="z-index: 4;"></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 10 points in Balance Talents" data-max-points="2" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_mage_arcanebarrage.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=93398/shooting-stars"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=93398/shooting-stars" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 5 points in Balance Talents" data-max-points="2" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_balanceofpower.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33592/balance-of-power"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33592/balance-of-power" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 10 points in Balance Talents" data-max-points="2" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/achievement_boss_valithradreamwalker.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=81061/euphoria"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=81061/euphoria" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 15 points in Balance Talents&lt;br&gt;Requires 1 point in Moonkin Form" data-max-points="3" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_owlkinfrenzy.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48389/owlkin-frenzy"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48389/owlkin-frenzy" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="1" data-row="2" data-size="1" data-talent="8391" style="z-index: 4;"></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 25 points in Balance Talents&lt;br&gt;Requires 1 point in Sunfire" data-max-points="3" data-points="0" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/achievement_worldevent_lunar.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33603/lunar-shower"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33603/lunar-shower" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="2" data-row="4" data-size="1" data-talent="8393" style="z-index: 2;"></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 20 points in Balance Talents" data-max-points="1" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_forceofnature.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33831/force-of-nature"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33831/force-of-nature" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 25 points in Balance Talents&lt;br&gt;Requires 1 point in Force of Nature" data-max-points="2" data-points="0" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/creature_sporemushroom.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78788/fungal-growth"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78788/fungal-growth" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="1" data-row="4" data-size="1" data-talent="8403" style="z-index: 2;"></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 30 points in Balance Talents" data-max-points="1" data-points="0" data-row="6" style="z-index: 1;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_starfall.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48505/starfall"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48505/starfall" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 20 points in Balance Talents" data-max-points="1" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_earthandsky.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48506/earth-and-moon"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48506/earth-and-moon" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 10 points in Balance Talents" data-max-points="1" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_forceofnature.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=24858/moonkin-form"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=24858/moonkin-form" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="2" data-max-points="2" data-points="0" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/inv_staff_01.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=35363/natures-majesty"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=35363/natures-majesty" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 10 points in Balance Talents" data-max-points="1" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_typhoon.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=50516/typhoon"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=50516/typhoon" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 5 points in Balance Talents" data-max-points="3" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_arcane_arcane03.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=57810/genesis"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=57810/genesis" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 20 points in Balance Talents&lt;br&gt;Requires 2 points in Euphoria" data-max-points="2" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_dreamstate.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33597/dreamstate"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33597/dreamstate" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="0" data-row="2" data-size="2" data-talent="12149" style="z-index: 3;"></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 20 points in Balance Talents" data-max-points="1" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_mage_firestarter.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=93401/sunfire"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=93401/sunfire" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div></div></div></div>
 <div class="ctc-tree" data-spec-id="750" data-with-points="1">
 <div class="ctc-tree-box">
@@ -638,136 +650,136 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/inv_misc_pelt_bear_03.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16929/thick-hide"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16929/thick-hide" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="0" data-enabled="1" data-max-points="2" data-points="2" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_spiritwolf.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=24866/feral-swiftness"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=24866/feral-swiftness" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="1" data-points="1" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_hunter_pet_bear.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=49377/feral-charge"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=49377/feral-charge" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/1</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="2" data-enabled="1" data-max-points="2" data-points="2" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_druid_feralchargecat.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78893/stampede"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78893/stampede" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-right" data-col="1" data-lit="1" data-row="2" data-size="1" data-talent="8301" style="z-index: 5;"></div>
 <div class="ctc-tree-talent" data-col="3" data-enabled="1" data-max-points="2" data-points="1" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_healinginstincts.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33872/nurturing-instinct"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33872/nurturing-instinct" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="3" data-points="3" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_mangle-tga.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80553/fury-swipes"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80553/fury-swipes" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">3/3</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="2" data-enabled="1" data-max-points="2" data-points="2" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_bash.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16941/brutal-impact"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16941/brutal-impact" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="1" data-points="1" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_tigersroar.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=61336/survival-instincts"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=61336/survival-instincts" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/1</span></div>
 <div class="ctc-tree-talent" data-col="2" data-max-points="1" data-points="0" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_smash.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80313/pulverize"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80313/pulverize" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-right" data-col="1" data-row="5" data-size="1" data-talent="8319" style="z-index: 2;"></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="0" data-enabled="1" data-max-points="3" data-points="3" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_kingofthejungle.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48495/king-of-the-jungle"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48495/king-of-the-jungle" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">3/3</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="1" data-points="1" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_unyeildingstamina.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17007/leader-of-the-pack"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17007/leader-of-the-pack" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/1</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="0" data-enabled="1" data-max-points="2" data-points="2" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_mount_jungletiger.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80317/primal-madness"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80317/primal-madness" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="0" data-lit="1" data-row="2" data-size="2" data-talent="8335" style="z-index: 3;"></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="0" data-enabled="1" data-max-points="2" data-points="2" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/inv_misc_food_134_meat.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80319/blood-in-the-water"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80319/blood-in-the-water" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="3" data-points="3" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_primalagression.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48434/rend-and-tear"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48434/rend-and-tear" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">3/3</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="1" data-points="1" data-row="6" style="z-index: 1;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_berserk.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=50334/berserk"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=50334/berserk" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/1</span></div>
 <div class="ctc-tree-talent" data-col="3" data-max-points="2" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_bullrush.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=57878/natural-reaction"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=57878/natural-reaction" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="2" data-enabled="1" data-max-points="2" data-points="2" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_deathknight_bloodboil.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80315/endless-carnage"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=80315/endless-carnage" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent" data-col="0" data-max-points="2" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_infectedwound.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48483/infected-wounds"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48483/infected-wounds" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="2" data-enabled="1" data-max-points="2" data-points="2" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_cannibalize.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=37117/primal-fury"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=37117/primal-fury" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="2" data-enabled="1" data-max-points="2" data-points="2" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_hunter_pet_cat.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16974/predatory-strikes"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16974/predatory-strikes" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="3" data-enabled="1" data-max-points="2" data-points="2" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/classic_ability_druid_demoralizingroar.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16859/feral-aggression"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16859/feral-aggression" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="3" data-points="3" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_holy_blessingofstamina.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17059/furor"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17059/furor" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">3/3</span></div></div></div></div>
 <div class="ctc-tree" data-spec-id="748" data-with-points="1">
 <div class="ctc-tree-box">
@@ -781,129 +793,129 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_shaman_spiritlink.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78784/blessing-of-the-grove"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78784/blessing-of-the-grove" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="2" data-points="2" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_wispsplode.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16834/natural-shapeshifter"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=16834/natural-shapeshifter" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">2/2</span></div>
 <div class="ctc-tree-talent" data-col="2" data-max-points="3" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_rejuvenation.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17111/improved-rejuvenation"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17111/improved-rejuvenation" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 10 points in Restoration Talents" data-max-points="1" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_ravenform.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17116/natures-swiftness"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17116/natures-swiftness" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 10 points in Restoration Talents" data-max-points="3" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_giftoftheearthmother.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48496/living-seed"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48496/living-seed" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 15 points in Restoration Talents" data-max-points="3" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_resistnature.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17074/natures-bounty"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17074/natures-bounty" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 20 points in Restoration Talents" data-max-points="3" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/inv_misc_herb_talandrasrose.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=34151/efflorescence"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=34151/efflorescence" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 25 points in Restoration Talents" data-max-points="1" data-points="0" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_empoweredrejuvination.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33886/swift-rejuvenation"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33886/swift-rejuvenation" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 20 points in Restoration Talents" data-max-points="2" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_naturalperfection.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33881/natures-ward"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33881/natures-ward" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 10 points in Restoration Talents" data-max-points="2" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_replenish.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48539/revitalize"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48539/revitalize" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 30 points in Restoration Talents&lt;br&gt;Requires 1 point in Wild Growth" data-max-points="1" data-points="0" data-row="6" style="z-index: 1;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_treeoflife.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33891/tree-of-life"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33891/tree-of-life" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="1" data-row="4" data-size="2" data-talent="8271" style="z-index: 1;"></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="1" data-enabled="1" data-max-points="1" data-points="1" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_mastershapeshifter.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48411/master-shapeshifter"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48411/master-shapeshifter" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">1/1</span></div>
 <div class="ctc-tree-talent-arrow ctc-tree-talent-arrow-down" data-col="1" data-lit="1" data-row="0" data-size="1" data-talent="8277" style="z-index: 6;"></div>
 <div class="ctc-tree-talent" data-col="1" data-error-message="Requires 20 points in Restoration Talents" data-max-points="1" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_flourish.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48438/wild-growth"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=48438/wild-growth" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 15 points in Restoration Talents" data-max-points="2" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_empoweredtouch.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33879/empowered-touch"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=33879/empowered-touch" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="2" data-error-message="Requires 20 points in Restoration Talents" data-max-points="1" data-points="0" data-row="4" style="z-index: 3;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_shaman_cleansespirit.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=88423/natures-cure"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=88423/natures-cure" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/1</span></div>
 <div class="ctc-tree-talent" data-col="0" data-max-points="3" data-points="0" data-row="1" style="z-index: 6;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/achievement_zone_darnassus.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78734/perseverance"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=78734/perseverance" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="0" data-error-message="Requires 25 points in Restoration Talents" data-max-points="3" data-points="0" data-row="5" style="z-index: 2;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_manatree.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=51179/gift-of-the-earthmother"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=51179/gift-of-the-earthmother" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/3</span></div>
 <div class="ctc-tree-talent" data-col="2" data-max-points="2" data-points="0" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_healingtouch.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17069/naturalist"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17069/naturalist" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 10 points in Restoration Talents" data-max-points="2" data-points="0" data-row="2" style="z-index: 5;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/inv_staff_90.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17104/fury-of-stormrage"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17104/fury-of-stormrage" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div>
 <div class="ctc-tree-talent ctc-at-max" data-col="3" data-enabled="1" data-max-points="3" data-points="3" data-row="0" style="z-index: 7;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_holy_blessingofagility.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17005/heart-of-the-wild"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=17005/heart-of-the-wild" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">3/3</span></div>
 <div class="ctc-tree-talent" data-col="3" data-error-message="Requires 15 points in Restoration Talents" data-max-points="2" data-points="0" data-row="3" style="z-index: 4;">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_shaman_giftearthmother.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=92363/malfurions-gift"></a></div>
+<a data-no-touch-lightbox="1" data-wowhead="noimage" href="https://www.wowhead.com/cata/spell=92363/malfurions-gift" tabindex="-1"></a></div>
 <span class="ctc-tree-talent-points" style="pointer-events: none;">0/2</span></div></div></div></div></div></div>
 <div class="ctc-main-order" style="display: none;">
 <h2 class="heading-size-5 ctc-main-order-heading">Talent Order<a class="fa fa-angle-up ctc-main-order-toggle ctc-main-order-toggle-open" href="javascript:"></a>
@@ -920,19 +932,19 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_berserk.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Berserk</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="1" data-tooltip-mode="icon" data-wowhead="ignore-url spell=54815" href="https://www.wowhead.com/cata/item=40901/glyph-of-bloodletting">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_shadow_vampiricaura.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Bloodletting</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="2" data-tooltip-mode="icon" data-wowhead="ignore-url spell=54818" href="https://www.wowhead.com/cata/item=40902/glyph-of-rip">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_ghoulfrenzy.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Rip</span></a></div>
 <div class="ctc-glyphs-group" data-type="major">
 <div class="ctc-glyphs-group-title">
@@ -942,19 +954,19 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_thorns.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Thorns</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="4" data-tooltip-mode="icon" data-wowhead="ignore-url spell=54811" href="https://www.wowhead.com/cata/item=40897/glyph-of-maul">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_maul.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Maul</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="5" data-tooltip-mode="icon" data-wowhead="ignore-url spell=54733" href="https://www.wowhead.com/cata/item=40909/glyph-of-rebirth">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_reincarnation.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Rebirth</span></a></div>
 <div class="ctc-glyphs-group" data-type="minor">
 <div class="ctc-glyphs-group-title">
@@ -964,19 +976,19 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_dash.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Dash</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="7" data-tooltip-mode="icon" data-wowhead="ignore-url spell=57857" href="https://www.wowhead.com/cata/item=43331/glyph-of-unburdened-rebirth">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_wispsplodegreen.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Unburdened Rebirth</span></a>
 <a class="ctc-glyphs-group-slot" data-filled="1" data-glyph-slot="8" data-tooltip-mode="icon" data-wowhead="ignore-url spell=57858" href="https://www.wowhead.com/cata/item=43334/glyph-of-challenging-roar">
 <div class="iconmedium" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_challangingroar.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div>
+<a href="javascript:" tabindex="-1"></a></div>
 <span>Glyph of Challenging Roar</span></a></div></div></div></div>
 <div class="gear-planner-stat-summary">
 <div class="gear-planner-stat-summary-group">
@@ -984,7 +996,10 @@
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="General" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/petbattle_health.jpg"/>
-<span class="icon-label-text">General</span></div></div></div>
+<span class="icon-label-text">General</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
 <span class="gear-planner-stat-summary-value">99413</span></div>
@@ -999,7 +1014,10 @@
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Attributes" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_nature_strength.jpg"/>
-<span class="icon-label-text">Attributes</span></div></div></div>
+<span class="icon-label-text">Attributes</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
 <span class="gear-planner-stat-summary-value">117</span></div>
@@ -1020,7 +1038,10 @@
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
 <img alt="Spell" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/spell_fire_firebolt.jpg"/>
-<span class="icon-label-text">Spell</span></div></div></div>
+<span class="icon-label-text">Spell</span>
+<span class="select-drop-down-caret">
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spell Damage</span>
 <span class="gear-planner-stat-summary-value">192.64000000000004</span></div>
@@ -1046,17 +1067,17 @@
 <div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/spell_nature_wispsplode.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div>
+<a href="javascript:" tabindex="-1"></a></div></div>
 <div class="gear-planner-shapeshift-form">
 <div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_druid_catform.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=768/cat-form"></a></div></div>
+<a href="https://www.wowhead.com/cata/spell=768/cat-form" tabindex="-1"></a></div></div>
 <div class="gear-planner-shapeshift-form">
 <div class="iconmedium" data-env="cata" data-game="wow" data-kind="simple" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/medium/ability_racial_bearform.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/spell=5487/bear-form"></a></div></div></div></div></div></section></div></div>
+<a href="https://www.wowhead.com/cata/spell=5487/bear-form" tabindex="-1"></a></div></div></div></div></div></section></div></div>
 <br/>
 <br/>In the pre-raid Best in Slot gear for Feral Druid DPS you're going to be wearing items from various sources. A lot of it is "Binds when equipped" which means you can get it from the Auction House, but it might cost you a good amount of gold. Item level is by far the most important thing for Feral Druid DPS, so if you see any of the alternative items down below having a close item level but more affordable for you or farmable then do not feel bad about saving gold.<br/>For Feral Druid DPS all your stats are extremely close to each other in value, except for Agility which is far ahead. Meaning that you always want to prioritize high item-level items with Agility on them.<h3 class="heading-size-3" id="body-armor">Body Armor for Feral Druid DPS</h3>
 <h4 class="heading-size-4" id="head-for-feral-druid-dps">Head for Feral Druid DPS</h4>
@@ -1091,10 +1112,10 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=234135/kyanite-stonetender">
 <span class="tinyicontxt">Kyanite Stonetender</span></a> for 32 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=3148/fissure-stone-fragment">
 <span>
@@ -1109,14 +1130,14 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enggizmos_30.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=59480"></a></div>
+<a href="https://www.wowhead.com/cata/item=59480" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enggizmos_30.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=59493"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=59493" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=202/engineering">
 <img alt="Engineering" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/trade_engineering.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Engineering</span></a></td>
 <td></td></tr>
@@ -1129,10 +1150,10 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=23577/halazzi">
 <span class="tinyicontxt">Halazzi</span></a></td>
 <td>
@@ -1147,10 +1168,10 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=42333/high-priestess-azil">
 <span class="tinyicontxt">High Priestess Azil</span></a></td>
 <td>
@@ -1165,10 +1186,10 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=68778"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
+<a href="https://www.wowhead.com/cata/item=68778" tabindex="-1"></a></div> <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1208,7 +1229,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=234135/kyanite-stonetender">
 <span class="tinyicontxt">Kyanite Stonetender</span></a> for 32 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=3148/fissure-stone-fragment">
 <span>
@@ -1223,7 +1244,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=23863/daakara">
 <span class="tinyicontxt">Daakara</span></a></td>
 <td>
@@ -1238,7 +1259,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1254,7 +1275,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=40765/commander-ulthok">
 <span class="tinyicontxt">Commander Ulthok</span></a></td>
 <td>
@@ -1378,11 +1399,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46556/jamusvaz">
 <span class="tinyicontxt">Jamus'Vaz</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44245/faldren-tillsdale">
 <span class="tinyicontxt">Faldren Tillsdale</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
@@ -1398,11 +1419,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1418,7 +1439,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="spell" data-entity-has-icon="true" href="https://www.wowhead.com/cata/spell=10662/leatherworking">
 <img loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_armorkit_17.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Leatherworking</span></a></td>
 <td></td></tr>
@@ -1431,11 +1452,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=24239/hex-lord-malacrass">
 <span class="tinyicontxt">Hex Lord Malacrass</span></a></td>
 <td>
@@ -1450,11 +1471,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1571,7 +1592,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=165/leatherworking">
 <img alt="Leatherworking" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_armorkit_17.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Leatherworking</span></a></td>
 <td></td></tr>
@@ -1584,7 +1605,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46556/jamusvaz">
 <span class="tinyicontxt">Jamus'Vaz</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44245/faldren-tillsdale">
 <span class="tinyicontxt">Faldren Tillsdale</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
@@ -1600,7 +1621,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 1650 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1618,7 +1639,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Exalted with <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1172/dragonmaw-clan">
 <span class="tinyicontxt">Dragonmaw Clan</span></a>/<wbr/>
 <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1174/wildhammer-clan">
@@ -1646,7 +1667,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=43875/asaad">
 <span class="tinyicontxt">Asaad</span></a></td>
 <td>
@@ -1688,11 +1709,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=234135/kyanite-stonetender">
 <span class="tinyicontxt">Kyanite Stonetender</span></a> for 80 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=3148/fissure-stone-fragment">
 <span>
@@ -1707,7 +1728,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=165/leatherworking">
 <img alt="Leatherworking" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_armorkit_17.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Leatherworking</span></a></td>
 <td></td></tr>
@@ -1720,7 +1741,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=52155/high-priest-venoxis">
 <span class="tinyicontxt">High Priest Venoxis</span></a></td>
 <td>
@@ -1735,7 +1756,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=39378/rajh">
 <span class="tinyicontxt">Rajh</span></a></td>
 <td>
@@ -1750,7 +1771,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Requires <a data-entity="faction" href="https://www.wowhead.com/cata/faction=1173/ramkahen">
 <span class="tinyicontxt">Ramkahen</span></a> Revered</td>
 <td></td></tr></tbody></table></div>
@@ -1788,11 +1809,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46556/jamusvaz">
 <span class="tinyicontxt">Jamus'Vaz</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44245/faldren-tillsdale">
 <span class="tinyicontxt">Faldren Tillsdale</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
@@ -1808,11 +1829,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52220"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52220" tabindex="-1"></a></div></td>
 <td>Cotained in <a class="q4 icontiny" data-entity="item" data-entity-has-icon="true" data-game="wow" data-type="item" href="https://www.wowhead.com/cata/item=232974/satchel-of-the-wind-stalker-leggings">
 <img alt="Satchel of the Wind Stalker Leggings" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_bag_15.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Satchel of the Wind Stalker Leggings</span></a> which is sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=234135/kyanite-stonetender">
 <span class="tinyicontxt">Kyanite Stonetender</span></a> for 21 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=3148/fissure-stone-fragment">
@@ -1828,11 +1849,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 2200 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1848,11 +1869,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Contained in Timed Reward Chest</td>
 <td>
 <a data-entity="zone" href="https://www.wowhead.com/cata/zone=3805/zulaman">
@@ -1866,11 +1887,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div>
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=39700/beauty">
 <span class="tinyicontxt">Beauty</span></a></td>
 <td>
@@ -1912,7 +1933,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=165/leatherworking">
 <img alt="Leatherworking" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_armorkit_17.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Leatherworking</span></a></td>
 <td></td></tr>
@@ -1925,7 +1946,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 1650 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -1941,7 +1962,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=52258/grilek">
 <span class="tinyicontxt">Gri'lek</span></a></td>
 <td>
@@ -1956,7 +1977,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46962/baron-ashbury">
 <span class="tinyicontxt">Baron Ashbury</span></a></td>
 <td>
@@ -2043,7 +2064,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=755/jewelcrafting">
 <img alt="Jewelcrafting" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_gem_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Jewelcrafting</span></a></td>
 <td></td></tr></tbody></table></div>
@@ -2167,7 +2188,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=755/jewelcrafting">
 <img alt="Jewelcrafting" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_gem_01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Jewelcrafting</span></a></td>
 <td></td></tr></tbody></table></div>
@@ -2423,7 +2444,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46556/jamusvaz">
 <span class="tinyicontxt">Jamus'Vaz</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44245/faldren-tillsdale">
 <span class="tinyicontxt">Faldren Tillsdale</span></a> for 700 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=396/valor-points">
@@ -2439,7 +2460,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=53881/ayla-shadowstorm">
 <span class="tinyicontxt">Ayla Shadowstorm</span></a></td>
 <td>
@@ -2454,7 +2475,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Sold by <a data-entity="npc" href="https://www.wowhead.com/cata/npc=46555/gunra">
 <span class="tinyicontxt">Gunra</span></a> and <a data-entity="npc" href="https://www.wowhead.com/cata/npc=44246/magatha-silverton">
 <span class="tinyicontxt">Magatha Silverton</span></a> for 700 <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=395/justice-points">
@@ -2470,7 +2491,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Drops from <a data-entity="npc" href="https://www.wowhead.com/cata/npc=39705/ascendant-lord-obsidius">
 <span class="tinyicontxt">Ascendant Lord Obsidius</span></a></td>
 <td>
@@ -2485,7 +2506,7 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
 <del></del>
-<a aria-label="Icon" href="https://www.wowhead.com/cata/item=52212"></a></div></td>
+<a href="https://www.wowhead.com/cata/item=52212" tabindex="-1"></a></div></td>
 <td>Crafted with <a class="icontiny" data-entity="skill" data-game="wow" data-type="skill" href="https://www.wowhead.com/cata/skill=773/inscription">
 <img alt="Inscription" loading="lazy" src="https://wow.zamimg.com/images/wow/icons/tiny/inv_inscription_tradeskill01.gif" style="vertical-align: middle;"/> <span class="tinyicontxt">Inscription</span></a></td>
 <td></td></tr></tbody></table></div></div>

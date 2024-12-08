@@ -20937,8 +20937,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Moonfire\"}*, *{\"consume\": \"Insect Swarm\"}*, *{\"consume\": \"Wrath-cata\"}*.",
             "Optional: For AoE fights, replace *{\"consume\": \"Wrath-cata\"}* with *{\"consume\": \"Starsurge\"}*.",
-            "Major: *{\"consume\": \"Starfall\"}*, *{\"consume\": \"Rebirth\"}*.",
-            "Optional: If you can be within 20yds of the target, *{\"consume\": \"Focus-cata\"}* is your best third major glyph. If there are multiple mobs constantly hitting a tank, you can also use *{\"consume\": \"Thorns\"}*.",
+            "Major: *{\"consume\": \"Starfall\"}*, *{\"consume\": \"Rebirth\"}*, *{\"consume\": \"Monsoon\"}*.",
+            "Optional: If you can be within 20yds of the target, *{\"consume\": \"Focus-cata\"}* is your best third major glyph.",
             "Minor: *{\"consume\": \"Typhoon\"}* if you don't need the knockback, *{\"consume\": \"Dash\"}*, *{\"consume\": \"Unburdened Rebirth-cata\"}*."
           ],
           "stats": "Int > Spi = Hit (1742) > Haste > Mastery > Crit"
@@ -21230,7 +21230,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Kill Command\"}*, *{\"consume\": \"Arcane Shot\"}*, *{\"consume\": \"Kill Shot\"}*",
-            "Major: *{\"consume\": \"Bestial Wrath\"}*, *{\"consume\": \"Trap Launcher\"}*, *{\"consume\": \"Disengage\"}*",
+            "Major: *{\"consume\": \"Bestial Wrath\"}*, *{\"consume\": \"Trap Launcher\"}*",
+            "Optional: *{\"consume\": \"Disengage\"}*, *{\"consume\": \"Raptor Strike\"}*, *{\"consume\": \"Mending\"}*",
             "Minor: *{\"consume\": \"Feign Death\"}*, *{\"consume\": \"Revive Pet\"}*, *{\"consume\": \"Aspect of the Pack\"}*"
           ],
           "stats": "Agi > Hit (961) > Crit > Haste > Mastery"
@@ -21317,7 +21318,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Steady Shot\"}*, *{\"consume\": \"Rapid Fire\"}*, *{\"consume\": \"Arcane Shot\"}*",
-            "Major: *{\"consume\": \"Trap Launcher\"}*, *{\"consume\": \"Disengage\"}*, *{\"consume\": \"Mending\"}*",
+            "Major: *{\"consume\": \"Trap Launcher\"}*",
+            "Optional: *{\"consume\": \"Disengage\"}*, *{\"consume\": \"Raptor Strike\"}*, *{\"consume\": \"Mending\"}*",
             "Minor: *{\"consume\": \"Feign Death\"}*, *{\"consume\": \"Revive Pet\"}*, *{\"consume\": \"Aspect of the Pack\"}*"
           ],
           "stats": "Agi > Hit (961) > Crit > Haste > Mastery"
@@ -21401,7 +21403,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Explosive Shot\"}*, *{\"consume\": \"Arcane Shot\"}*, *{\"consume\": \"Kill Shot\"}*",
-            "Major: *{\"consume\": \"Trap Launcher\"}*, *{\"consume\": \"Disengage\"}*, *{\"consume\": \"Mending\"}*",
+            "Major: *{\"consume\": \"Trap Launcher\"}*",
+            "Optional: *{\"consume\": \"Disengage\"}*, *{\"consume\": \"Raptor Strike\"}*, *{\"consume\": \"Mending\"}*",
             "Minor: *{\"consume\": \"Feign Death\"}*, *{\"consume\": \"Revive Pet\"}*, *{\"consume\": \"Aspect of the Pack\"}*"
           ],
           "stats": "Agi > Hit (961) > Crit > Haste = Mastery"
@@ -21490,6 +21493,7 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Arcane Blast\"}*, *{\"consume\": \"Arcane Missiles\"}*, *{\"consume\": \"Mage Armor\"}*",
             "Major: *{\"consume\": \"Arcane Power\"}*, *{\"consume\": \"Evocation\"}*, *{\"consume\": \"Blink\"}*",
+            "Optional: *{\"consume\": \"Mana Shield\"}*",
             "Minor: *{\"consume\": \"Conjuring-cata\"}*, *{\"consume\": \"Arcane Brilliance\"}*, *{\"consume\": \"Mirror Image\"}*"
           ],
           "stats": "Int > Hit (1742) > Haste (1767 or 857 w/ 4pT11) > Mastery > Crit > Haste"
@@ -21574,8 +21578,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Pyroblast\"}*, *{\"consume\": \"Fireball\"}*, *{\"consume\": \"Molten Armor\"}*",
-            "Optional: For AoE replace *{\"consume\": \"Fireball\"}* with *{\"consume\": \"Living Bomb\"}*",
-            "Major: *{\"consume\": \"Dragon's Breath\"}*, *{\"consume\": \"Evocation\"}*, *{\"consume\": \"Blink\"}*",
+            "Major: *{\"consume\": \"Evocation\"}*, *{\"consume\": \"Blink\"}*",
+            "Optional: *{\"consume\": \"Dragon's Breath\"}*, *{\"consume\": \"Blast Wave\"}*",
             "Minor: *{\"consume\": \"Armors\"}*, *{\"consume\": \"Arcane Brilliance\"}*, *{\"consume\": \"Slow Fall\"}*"
           ],
           "stats": "Int > Hit (1742) > Haste (813/2005) > Crit > Haste > Mastery"
@@ -21790,9 +21794,6 @@
           "bestFlask": [
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
-          "flask": [
-            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*"
-          ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
           ],
@@ -21818,7 +21819,7 @@
             "Prime: *{\"consume\": \"Shield of the Righteous\"}*, *{\"consume\": \"Seal of Truth\"}*, *{\"consume\": \"Crusader Strike\"}*",
             "Optional: Replace *{\"consume\": \"Crusader Strike\"}* with *{\"consume\": \"Hammer of the Righteous\"}* for AoE",
             "Major: *{\"consume\": \"Ascetic Crusader\"}*",
-            "Optional: *{\"consume\": \"Focused Shield\"}*, *{\"consume\": \"Holy Wrath-cata\"}*, *{\"consume\": \"Divine Protection-cata\"}*",
+            "Optional: *{\"consume\": \"Focused Shield\"}*, *{\"consume\": \"Holy Wrath-cata\"}*, *{\"consume\": \"Divine Protection-cata\"}*, *{\"consume\": \"Lay on Hands\"}*",
             "Minor: *{\"consume\": \"Truth\"}*, *{\"consume\": \"Blessing of Might-cata\"}*, *{\"consume\": \"Blessing of Kings\"}*"
           ],
           "stats": "Mastery (102.4% CTC) > Dodge = Parry (102.4% CTC) > Stam > Exp (781) > Hit (961) > Dodge = Parry"
@@ -21972,8 +21973,8 @@
             "The rest of the Crafting Professions provide nearly identical benefits."
           ],
           "glyphs": [
-            "Prime: *{\"consume\": \"Penance\"}*, *{\"consume\": \"Power Word: Barrier\"}*, *{\"consume\": \"Power Word: Shield\"}*",
-            "Optional: Replace *{\"consume\": \"Power Word: Shield\"}* with *{\"consume\": \"Prayer of Healing\"}* for AoE.",
+            "Prime: *{\"consume\": \"Penance\"}*, *{\"consume\": \"Power Word: Shield\"}*, *{\"consume\": \"Prayer of Healing\"}*",
+            "Optional: *{\"consume\": \"Power Word: Barrier\"}*",
             "Major: *{\"consume\": \"Divine Accuracy-cata\"}*, *{\"consume\": \"Smite\"}*, *{\"consume\": \"Prayer of Mending\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
@@ -22129,8 +22130,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Mind Flay\"}*, *{\"consume\": \"Shadow Word: Pain\"}*, *{\"consume\": \"Shadow Word: Death\"}*",
-            "Major: *{\"consume\": \"Spirit Tap-cata\"}*, *{\"consume\": \"Fear Ward\"}*, *{\"consume\": \"Mass Dispel\"}*",
-            "Optional:  *{\"consume\": \"Psychic Scream\"}*",
+            "Major: *{\"consume\": \"Spirit Tap-cata\"}*, *{\"consume\": \"Inner Fire\"}*, *{\"consume\": \"Mass Dispel\"}*",
+            "Optional:  *{\"consume\": \"Psychic Scream\"}*, *{\"consume\": \"Fear Ward\"}*",
             "Minor: *{\"consume\": \"Shadowfiend\"}*, *{\"consume\": \"Levitate\"}*, *{\"consume\": \"Fortitude\"}*"
           ],
           "stats": "Int > Spi = Hit (1742) > Haste > Mastery >= Crit"
@@ -22206,7 +22207,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Mutilate\"}*, *{\"consume\": \"Rupture\"}*, *{\"consume\": \"Backstab\"}*",
             "Optional: If you can't *{\"skill\": \"Backstab\"}*, replace *{\"consume\": \"Backstab\"}* with *{\"consume\": \"Vendetta\"}*",
-            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Fan of Knives\"}*, *{\"consume\": \"Feint\"}*",
+            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Feint\"}*",
+            "Optional: *{\"consume\": \"Fan of Knives\"}*, *{\"consume\": \"Sprint\"}*",
             "Minor: *{\"consume\": \"Safe Fall\"}*, *{\"consume\": \"Blurred Speed\"}*, *{\"consume\": \"Poisons\"}*"
           ],
           "stats": "Agi > Hit (1127) > Mastery > Haste > Crit > Exp (781)"
@@ -22364,7 +22366,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Backstab\"}*, *{\"consume\": \"Hemorrhage\"}*, *{\"consume\": \"Slice and Dice\"}*",
             "Optional: If you can't *{\"skill\": \"Backstab\"}*, replace *{\"consume\": \"Backstab\"}* with *{\"consume\": \"Eviscerate\"}*",
-            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Sprint\"}*, *{\"consume\": \"Feint\"}*",
+            "Major: *{\"consume\": \"Tricks of the Trade\"}*, *{\"consume\": \"Feint\"}*",
+            "Optional: *{\"consume\": \"Fan of Knives\"}*, *{\"consume\": \"Sprint\"}*",
             "Minor: *{\"consume\": \"Safe Fall\"}*, *{\"consume\": \"Blurred Speed\"}*, *{\"consume\": \"Poisons\"}*"
           ],
           "stats": "Agi > Hit (481) > Haste > Exp (781) > Hit (1332) = Crit > Mastery"
@@ -22446,8 +22449,8 @@
             "Prime: *{\"consume\": \"Flame Shock\"}*, *{\"consume\": \"Lava Burst\"}*, *{\"consume\": \"Unleashed Lightning\"}*",
             "Optional: If the fight has little to no movement, you can replace *{\"consume\": \"Unleashed Lightning\"}* with *{\"consume\": \"Lightning Bolt\"}*.",
             "Major: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Healing Stream Totem\"}*",
-            "Optional: For AoE fights, use *{\"consume\": \"Chain Lightning\"}*",
-            "Minor: *{\"consume\": \"Thunderstorm\"}*, *{\"consume\": \"Renewed Life-cata\"}*"
+            "Optional: For AoE fights, use *{\"consume\": \"Chain Lightning\"}*, otherwise *{\"consume\": \"Thunder\"}* or *{\"consume\": \"Stoneclaw Totem\"}*",
+            "Minor: *{\"consume\": \"Thunderstorm\"}*, *{\"consume\": \"Renewed Life-cata\"}*, *{\"consume\": \"Water Walking\"}*"
           ],
           "stats": "Int > Spi = Hit (1742) > Haste > Mastery > Crit"
         },
@@ -22511,9 +22514,10 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Lava Lash\"}*, *{\"consume\": \"Stormstrike-cata\"}*",
-            "Optional: *{\"consume\": \"Windfury Weapon-cata\"}* or *{\"consume\": \"Feral Spirit\"}*\nMajor: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Fire Nova-cata\"}*, *{\"consume\": \"Chain Lightning\"}*",
-            "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
-            "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
+            "Optional: *{\"consume\": \"Windfury Weapon-cata\"}* or *{\"consume\": \"Feral Spirit\"}*",
+            "Major: *{\"consume\": \"Lightning Shield\"}*, *{\"consume\": \"Fire Nova-cata\"}*, *{\"consume\": \"Healing Stream Totem\"}*",
+            "Optional: *{\"skill\": \"Chain Lightning\"}*, *{\"consume\": \"Stoneclaw Totem\"}*",
+            "Minor: *{\"consume\": \"Renewed Life-cata\"}*, *{\"consume\": \"Water Walking\"}*"
           ],
           "stats": "Agi > Hit (1742) > Exp (541) > Mastery > Crit > Haste"
         },
@@ -22584,7 +22588,7 @@
             "Prime: *{\"consume\": \"Earth Shield\"}*, *{\"consume\": \"Earthliving Weapon\"}*, *{\"consume\": \"Riptide\"}*",
             "Major: *{\"consume\": \"Chain Heal\"}*, *{\"consume\": \"Healing Stream Totem\"}*, *{\"consume\": \"Healing Wave\"}*",
             "Optional: If you aren't using *{\"skill\": \"Healing Stream Totem\"}*, you can use *{\"consume\": \"Stoneclaw Totem\"}* instead",
-            "Minor: *{\"consume\": \"Renewed Life-cata\"}*"
+            "Minor: *{\"consume\": \"Renewed Life-cata\"}*, *{\"consume\": \"Water Walking\"}*"
           ],
           "stats": "Int > Spi* > Haste > Mastery > Crit"
         },
@@ -22675,8 +22679,9 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Unstable Affliction\"}*, *{\"consume\": \"Haunt\"}*, *{\"consume\": \"Corruption\"}*",
-            "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Shadow Bolt\"}*, *{\"consume\": \"Soul Swap\"}*",
-            "Minor: *{\"consume\": \"Drain Soul\"}*"
+            "Major: *{\"consume\": \"Shadow Bolt\"}*, *{\"consume\": \"Soul Swap\"}*",
+            "Optional: *{\"consume\": \"Soul Link\"}*, *{\"consume\": \"Life Tap\"}*",
+            "Minor: *{\"consume\": \"Drain Soul\"}*, *{\"consume\": \"Ritual of Souls\"}*, *{\"consume\": \"Unending Breath\"}*"
           ],
           "stats": "Int > Hit (1742) > Haste > Crit > Mastery"
         },
@@ -22689,19 +22694,21 @@
             "Have your *{\"skill\": \"Summon Felguard\"}* out.",
             "Cast *{\"skill\": \"Soulburn\"}* pre-pull if it's a single target fight. You will have 15 seconds to use this buff.",
             "Cast *{\"skill\": \"Soul Harvest\"}* pre-pull.",
-            "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
-            "Pre-cast *{\"skill\": \"Incinerate\"}*.",
-            "Cast *{\"skill\": \"Curse of the Elements\"}* if assigned while running at boss.",
-            "Cast *{\"skill\": \"Felstorm\"}* when your *{\"skill\": \"Summon Felguard\"}* is in melee range.",
-            "Cast *{\"skill\": \"Demon Soul\"}*.",
+            "Equip your Mastery gear set.",
             "Cast *{\"skill\": \"Metamorphosis\"}*.",
+            "Pre-pot *{\"consume\": \"Volcanic Potion\"}*.",
+            "Equip your normal gear set.",
+            "Pre-cast *{\"skill\": \"Incinerate\"}*.",
+            "Charge to get in melee range if appropriate.",
+            "Cast *{\"skill\": \"Curse of the Elements\"}* if assigned .",
+            "Cast *{\"skill\": \"Felstorm\"}* when your *{\"skill\": \"Summon Felguard\"}* is in melee range.",
+            "Cast *{\"skill\": \"Demon Soul\"}* and *{\"skill\": \"Immolation Aura\"}* if you are in melee range.",
             "Cast *{\"skill\": \"Immolate\"}*.",
-            "Cast *{\"skill\": \"Bane of Doom\"}* while running at boss. You can use Demon Leap to move in instantly instead.",
-            "Cast *{\"skill\": \"Corruption\"}* while running at boss.",
-            "Cast *{\"skill\": \"Summon Felhunter\"}* if *{\"skill\": \"Soulburn\"}* was used pre-pull.",
-            "Cast *{\"skill\": \"Immolation Aura\"}* if you are in melee range.",
-            "Cast *{\"skill\": \"Shadowflame\"}* if you are in melee range.",
+            "Cast *{\"skill\": \"Corruption\"}*.",
+            "Cast *{\"skill\": \"Bane of Doom\"}*.",
             "Cast *{\"skill\": \"Hand of Gul'dan\"}*.",
+            "Cast *{\"skill\": \"Shadowflame\"}* if you are in melee range.",
+            "Cast *{\"skill\": \"Summon Felhunter\"}* if *{\"skill\": \"Soulburn\"}* was used pre-pull. *{\"skill\": \"Felstorm\"}* should have finished by now.",
             "Proceed with single target rotation."
           ],
           "single": [
@@ -22778,7 +22785,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Immolate\"}*, *{\"consume\": \"Incinerate\"}*, *{\"consume\": \"Metamorphosis\"}*",
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
-            "Minor: *{\"consume\": \"Drain Soul\"}*"
+            "Optional: *{\"consume\": \"Soul Link\"}*, *{\"consume\": \"Life Tap\"}*",
+            "Minor: *{\"consume\": \"Drain Soul\"}*, *{\"consume\": \"Ritual of Souls\"}*, *{\"consume\": \"Unending Breath\"}*"
           ],
           "stats": "Int > Hit (1742) > Haste (1007/1993) > Mastery > Crit = Haste"
         },
@@ -22867,7 +22875,8 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Immolate\"}*, *{\"consume\": \"Imp\"}*, *{\"consume\": \"Conflagrate\"}*",
             "Major: *{\"consume\": \"Life Tap\"}*, *{\"consume\": \"Soulstone\"}*",
-            "Minor: *{\"consume\": \"Drain Soul\"}*"
+            "Optional: *{\"consume\": \"Soul Link\"}*, *{\"consume\": \"Life Tap\"}*",
+            "Minor: *{\"consume\": \"Drain Soul\"}*, *{\"consume\": \"Ritual of Souls\"}*, *{\"consume\": \"Unending Breath\"}*"
           ],
           "stats": "Int > Hit > Haste (2589) > Crit = Mastery > Haste"
         },
@@ -22955,7 +22964,7 @@
           "glyphs": [
             "Prime: *{\"consume\": \"Mortal Strike\"}*, *{\"consume\": \"Overpower\"}*, *{\"consume\": \"Slam\"}*",
             "Major: *{\"consume\": \"Sweeping Strikes\"}*, *{\"consume\": \"Cleaving\"}*",
-            "Optional: *{\"consume\": \"Colossus Smash\"}* or *{\"consume\": \"Rapid Charge\"}*",
+            "Optional: *{\"consume\": \"Colossus Smash\"}* or *{\"consume\": \"Thunder Clap\"}*",
             "Minor: *{\"consume\": \"Berserker Rage\"}*, *{\"consume\": \"Battle\"}*, *{\"consume\": \"Command\"}*"
           ],
           "stats": "Str > Hit (961) > Exp (781) > Crit > Mastery > Haste"
@@ -23081,9 +23090,6 @@
           "bestFlask": [
             "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
-          "flask": [
-            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*`\n + *{\"consume\": \"Elixir of the Master\"}*"
-          ],
           "bestPotion": [
             "*{\"consume\": \"Earthen Potion\"}*"
           ],
@@ -23112,8 +23118,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Shield Slam\"}*, *{\"consume\": \"Revenge\"}*, *{\"consume\": \"Devastate\"}*",
-            "Major: *{\"consume\": \"Shockwave\"}*, *{\"consume\": \"Cleaving\"}*, *{\"consume\": \"Thunder Clap\"}*",
-            "Minor: *{\"consume\": \"Battle\"}*, *{\"consume\": \"Command\"}*, *{\"consume\": \"Demoralizing Shout\"}*"
+            "Major: *{\"consume\": \"Shockwave\"}*, *{\"consume\": \"Thunder Clap\"}*",
+            "Optional:  *{\"consume\": \"Shield Wall\"}*,  *{\"consume\": \"Cleaving\"}*\nMinor: *{\"consume\": \"Battle\"}*, *{\"consume\": \"Command\"}*, *{\"consume\": \"Demoralizing Shout\"}*"
           ],
           "stats": "Mastery (102.4% CTC) > Dodge = Parry (102.4% CTC) > Stam > Exp (781) > Hit (961) > Parry > Dodge"
         },
@@ -23191,11 +23197,10 @@
             "*{\"consume\": \"Lavascale Minestrone\"}*"
           ],
           "bestFlask": [
-            "*{\"consume\": \"Elixir of Deep Earth\"}* or *{\"consume\": \"Prismatic Elixir\"}*",
-            "+ *{\"consume\": \"Elixir of the Master\"}*"
+            "*{\"consume\": \"Flask of Steelskin\"}*"
           ],
           "flask": [
-            "*{\"consume\": \"Flask of Steelskin\"}*"
+            "*{\"consume\": \"Flask of Titanic Strength\"}*"
           ],
           "bestPotion": [
             "*{\"consume\": \"Golemblood Potion\"}*"
@@ -23222,9 +23227,8 @@
           ],
           "glyphs": [
             "Prime: *{\"consume\": \"Heart Strike\"}*, *{\"consume\": \"Rune Strike\"}*, *{\"consume\": \"Death Strike\"}*",
-            "Optional: For AoE, replace *{\"consume\": \"Death Strike\"}* with *{\"consume\": \"Death and Decay\"}*",
-            "Major: *{\"consume\": \"Dancing Rune Weapon\"}*",
-            "Optional: *{\"consume\": \"Anti-Magic Shell\"}*, *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Bone Shield-cata\"}*, *{\"consume\": \"Vampiric Blood\"}*",
+            "Major: *{\"consume\": \"Anti-Magic Shell\"}*",
+            ", *{\"consume\": \"Bone Shield-cata\"}*\nOptional: *{\"consume\": \"Blood Boil\"}*, *{\"consume\": \"Dancing Rune Weapon\"}*, *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Vampiric Blood\"}*",
             "Minor: *{\"consume\": \"Blood Tap\"}*, *{\"consume\": \"Horn of Winter\"}*, *{\"consume\": \"Resilient Grip\"}*"
           ],
           "stats": "Stam > Exp (601) = Hit (961) > Haste (1421) > Mastery > Haste > Dodge = Parry"
