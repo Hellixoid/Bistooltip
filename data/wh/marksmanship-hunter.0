@@ -13,22 +13,22 @@
 <div data-markup-content-target="1">Haste Rating and Mastery - These two stats share a somewhat similar value after Crit. Depending on your gear one might be slightly better or worse than the other.</div></li></ol>
 <div class="wh-center" style="text-align: -webkit-center;">
 <div class="clear"></div>
+<div class="tabs-wrapper" style="width: 100%; max-width: 100%;">
 <div id="dsf67g4d-bis">
 <div class="tabs-container">
-<ul class="tabs">
-<li data-first-in-row="true" data-selected="true">
-<a href="#bis-best" rel="np">
+<ul class="tabs" role="tablist">
+<li data-first-in-row="true" data-selected="true" role="tab">
+<a href="#bis-best" rel="np" tabindex="-1">
 <div>
-<span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/class_hunter.gif");'></span>Best</div>
+<span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/class_hunter.jpg");'></span>Best</div>
 <b>
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/class_hunter.gif");'></span>Best</b></a></li>
-<li data-first-in-row="false">
+<li data-first-in-row="false" role="tab">
 <a href="#bis-without-avengers-of-hyjal-and-boes" rel="np">
 <div>
-<span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/class_hunter.gif");'></span>Without Avengers of Hyjal &amp; BoEs</div>
+<span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/class_hunter.jpg");'></span>Without Avengers of Hyjal &amp; BoEs</div>
 <b>
 <span class="icontiny lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/tiny/class_hunter.gif");'></span>Without Avengers of Hyjal &amp; BoEs</b></a></li></ul></div></div>
-<div style="width: 100%; max-width: 100%;">
 <div class="tabbed-contents">
 <div id="tab-bis-best" style="">
 <div id="markup-gear-planner-calc-0">
@@ -268,7 +268,7 @@
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/cata/spells/abilities/hunter">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>85</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
+<div class="ctc-tree-slider" data-active-tree="0">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">

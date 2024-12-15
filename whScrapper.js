@@ -10,5 +10,6 @@ var getIds = function() {
 		 })
 	}
 	console.log((result))
-	console.log(result.map(i=>i.entry))
+	console.log(result.map(i=> ""+i.entry))
 }
+getIds()
