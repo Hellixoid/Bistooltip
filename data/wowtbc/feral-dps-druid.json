@@ -6,6 +6,88 @@
       "spec": "feral-dps-druid",
       "bisList": [
         {
+          "name": "Deep Earth Headpiece",
+          "slot": "head",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "name": "Arcanum of the Ramkahen",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Agile Shadowspirit Diamond",
+                "image": "shadowspirit-diamond"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
+        },
+        {
+          "name": "Nocturnal Gaze",
+          "slot": "head",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (2200)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Obsidian Arborweave Headpiece",
           "slot": "head",
           "phase": [
@@ -366,13 +448,49 @@
             }
           },
           "t13": {
-            "bis": false,
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Hit",
             "enchant": {
               "recipe": false
             }
           },
           "source": "Firelands (H)",
           "source_type": "Ragnaros",
+          "rarity": "epic"
+        },
+        {
+          "name": "Cameo of Terrible Memories",
+          "slot": "neck",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -639,6 +757,88 @@
           "source": "Guardians of Hyjal - Revered",
           "source_type": "Reputation",
           "rarity": "rare"
+        },
+        {
+          "name": "Underdweller's Spaulders",
+          "slot": "shoulder",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Hit",
+            "enchant": {
+              "name": "Greater Inscription of Shattered Crystal",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Morchok",
+          "rarity": "epic"
+        },
+        {
+          "name": "Deep Earth Spaulders",
+          "slot": "shoulder",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Hagara the Stormbinder",
+          "rarity": "epic"
         },
         {
           "name": "Obsidian Arborweave Spaulders",
@@ -963,13 +1163,61 @@
             ]
           },
           "t13": {
+            "bis": true,
+            "reforge_from": "Hit",
+            "reforge_to": "Critical Strike",
+            "enchant": {
+              "name": "Cloak - Major Agility",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Firelands (H)",
+          "source_type": "Lord Rhyolith",
+          "rarity": "epic"
+        },
+        {
+          "name": "Batwing Cloak",
+          "slot": "back",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
             "bis": false,
             "enchant": {
               "recipe": false
             }
           },
-          "source": "Firelands (H)",
-          "source_type": "Lord Rhyolith",
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -1307,6 +1555,90 @@
           "rarity": "rare"
         },
         {
+          "name": "Deep Earth Raiment",
+          "slot": "chest",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Chest - Peerless Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Adept Lava Coral",
+                "image": "lava-coral"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Ultraxion",
+          "rarity": "epic"
+        },
+        {
+          "name": "Shadowbinder Chestguard",
+          "slot": "chest",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (2200)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Obsidian Arborweave Raiment",
           "slot": "chest",
           "phase": [
@@ -1635,6 +1967,118 @@
           "rarity": "rare"
         },
         {
+          "name": "Shadow Wing Armbands",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "name": "Bracer - Agility",
+              "rarity": "rare",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
+        },
+        {
+          "name": "Bracers of Manifold Pockets",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Bladeshadow Wristguards",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoE Pattern (525)",
+          "rarity": "epic"
+        },
+        {
           "name": "Flickering Wristbands of the Windstorm",
           "slot": "wrist",
           "phase": [
@@ -1825,6 +2269,84 @@
           "source": "Halls of Origination (H)",
           "source_type": "Temple Guardian Anhuur",
           "rarity": "rare"
+        },
+        {
+          "name": "Deep Earth Grips",
+          "slot": "hands",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "name": "Gloves - Major Agility",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warlord Zon'ozz",
+          "rarity": "epic"
+        },
+        {
+          "name": "Lightfinger Handwraps",
+          "slot": "hands",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Gloves of Dissolving Smoke",
@@ -2141,6 +2663,124 @@
           "source": "Justice Points (1650)",
           "source_type": "Vendor",
           "rarity": "rare"
+        },
+        {
+          "name": "Belt of Flayed Skin",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warlord Zon'ozz",
+          "rarity": "epic"
+        },
+        {
+          "name": "Belt of Hidden Keys",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Nightblind Cinch",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Trash Drop",
+          "rarity": "epic"
         },
         {
           "name": "Riplimb's Lost Collar",
@@ -2509,6 +3149,92 @@
           "rarity": "rare"
         },
         {
+          "name": "Deep Earth Legguards",
+          "slot": "legs",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "name": "Charscale Leg Armor",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Glinting Shadow Spinel",
+                "image": "shadow-spinel"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Bladeshadow Leggings",
+          "slot": "legs",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoE Pattern (525)",
+          "rarity": "epic"
+        },
+        {
           "name": "Obsidian Arborweave Legguards",
           "slot": "legs",
           "phase": [
@@ -2801,6 +3527,122 @@
           "rarity": "rare"
         },
         {
+          "name": "Molten Blood Footpads",
+          "slot": "feet",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "name": "Boots - Major Agility",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Spine of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Interrogator's Bloody Footpads",
+          "slot": "feet",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Rooftop Griptoes",
+          "slot": "feet",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Sandals of Leaping Coals",
           "slot": "feet",
           "phase": [
@@ -3082,6 +3924,82 @@
           "source": "The Deadmines (H)",
           "source_type": "Vanessa VanCleef",
           "rarity": "rare"
+        },
+        {
+          "name": "Seal of Primordial Shadow",
+          "slot": "finger 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Hit",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Emergency Descent Loop",
+          "slot": "finger 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Viridian Signet of the Avengers",
@@ -3460,6 +4378,82 @@
           "rarity": "rare"
         },
         {
+          "name": "Signet of Grasping Mouths",
+          "slot": "finger 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Haste",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Hagara the Stormbinder",
+          "rarity": "epic"
+        },
+        {
+          "name": "Emergency Descent Loop",
+          "slot": "finger 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Widow's Kiss",
           "slot": "finger 2",
           "phase": [
@@ -3836,6 +4830,74 @@
           "rarity": "rare"
         },
         {
+          "name": "Wrath of Unchaining",
+          "slot": "trinket 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Spine of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Starcatcher Compass",
+          "slot": "trinket 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
+        },
+        {
           "name": "Matrix Restabilizer",
           "slot": "trinket 1",
           "phase": [
@@ -4199,6 +5261,74 @@
           "source": "Grim Batol (H)",
           "source_type": "General Umbriss",
           "rarity": "rare"
+        },
+        {
+          "name": "Vial of Shadows",
+          "slot": "trinket 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Starcatcher Compass",
+          "slot": "trinket 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
         },
         {
           "name": "The Hungerer",
@@ -4566,6 +5696,76 @@
           "rarity": "rare"
         },
         {
+          "name": "Kiril, Fury of Beasts",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "2H Weapon - Mighty Agility",
+              "rarity": "common",
+              "recipe": true
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Madness of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Spire of Coagulated Globules",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
           "name": "Fandral's Flamescythe",
           "slot": "weapon",
           "phase": [
@@ -4905,6 +6105,48 @@
           "rarity": "rare"
         },
         {
+          "name": "Ripfang Relic",
+          "slot": "relic",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Expertise",
+            "reforge_to": "Mastery",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Delicate Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Valor Points (700)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Covenant of the Flame",
           "slot": "relic",
           "phase": [
@@ -5144,292 +6386,6 @@
           "source": "Blackrock Caverns (H)",
           "source_type": "Ascendant Lord Obsidius",
           "rarity": "rare"
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
         }
       ],
       "enchantsData": [
@@ -12262,6 +13218,82 @@
       ],
       "gearData": [
         {
+          "name": "Deep Earth Headpiece",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1700
+          },
+          "primary_stats": {
+            "agility": 489,
+            "stamina": 824
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Agility"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 308,
+            "hit": 357
+          },
+          "set": "Deep Earth Battlegarb",
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Nocturnal Gaze",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1608
+          },
+          "primary_stats": {
+            "agility": 426,
+            "stamina": 730
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Agility"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 328,
+            "mastery": 245
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (2200)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Obsidian Arborweave Headpiece",
           "ilvl": 391,
           "rarity": "epic",
@@ -12571,6 +13603,28 @@
           "phase": "T12`T13"
         },
         {
+          "name": "Cameo of Terrible Memories",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "agility": 271,
+            "stamina": 406
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 183,
+            "hit": 176
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Necklace of Smoke Signals",
           "ilvl": 378,
           "rarity": "epic",
@@ -12727,6 +13781,80 @@
           "source_type": "Reputation",
           "source": "Guardians of Hyjal - Revered",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Underdweller's Spaulders",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1570
+          },
+          "primary_stats": {
+            "agility": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 262,
+            "mastery": 241
+          },
+          "source_type": "Morchok",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Deep Earth Spaulders",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1570
+          },
+          "primary_stats": {
+            "agility": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "expertise": 198,
+            "mastery": 291
+          },
+          "set": "Deep Earth Battlegarb",
+          "source_type": "Hagara the Stormbinder",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
         },
         {
           "name": "Obsidian Arborweave Spaulders",
@@ -13002,6 +14130,35 @@
           "phase": "T12`T13"
         },
         {
+          "name": "Batwing Cloak",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "primary_stats": {
+            "agility": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 176,
+            "crit": 162
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Sleek Flamewrath Cloak",
           "ilvl": 378,
           "rarity": "epic",
@@ -13220,6 +14377,81 @@
           "source_type": "Captain Cookie",
           "source": "The Deadmines (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Deep Earth Raiment",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 2093
+          },
+          "primary_stats": {
+            "agility": 489,
+            "stamina": 824
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Agility"
+          },
+          "other_stats": {
+            "durability": 165,
+            "min_level": 85,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "crit": 406,
+            "mastery": 229
+          },
+          "set": "Deep Earth Battlegarb",
+          "source_type": "Ultraxion",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Shadowbinder Chestguard",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1979
+          },
+          "primary_stats": {
+            "agility": 446,
+            "stamina": 730
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 165,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 312,
+            "crit": 296
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (2200)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Obsidian Arborweave Raiment",
@@ -13503,6 +14735,102 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Shadow Wing Armbands",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 916
+          },
+          "primary_stats": {
+            "agility": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 167,
+            "crit": 211
+          },
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Bracers of Manifold Pockets",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 866
+          },
+          "primary_stats": {
+            "agility": 271,
+            "stamina": 406
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 176,
+            "mastery": 183
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Bladeshadow Wristguards",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 866
+          },
+          "primary_stats": {
+            "agility": 231,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 186,
+            "hit": 117
+          },
+          "source_type": "BoE Pattern (525)",
+          "source": "Leatherworking",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Flickering Wristbands of the Windstorm",
           "ilvl": 391,
           "rarity": "epic",
@@ -13633,6 +14961,78 @@
           "source_type": "Temple Guardian Anhuur",
           "source": "Halls of Origination (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Deep Earth Grips",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1308
+          },
+          "primary_stats": {
+            "agility": 388,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "crit": 276,
+            "expertise": 245
+          },
+          "set": "Deep Earth Battlegarb",
+          "source_type": "Warlord Zon'ozz",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Lightfinger Handwraps",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1237
+          },
+          "primary_stats": {
+            "agility": 341,
+            "stamina": 542
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 213,
+            "crit": 239
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Gloves of Dissolving Smoke",
@@ -13908,6 +15308,110 @@
           "source_type": "Vendor",
           "source": "Justice Points (1650)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Belt of Flayed Skin",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1177
+          },
+          "primary_stats": {
+            "agility": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 242,
+            "expertise": 262
+          },
+          "source_type": "Warlord Zon'ozz",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Belt of Hidden Keys",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1113
+          },
+          "primary_stats": {
+            "agility": 321,
+            "stamina": 542
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 181,
+            "mastery": 248
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Nightblind Cinch",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "waist",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1113
+          },
+          "primary_stats": {
+            "agility": 341,
+            "stamina": 542
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 201,
+            "crit": 248
+          },
+          "source_type": "Trash Drop",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Riplimb's Lost Collar",
@@ -14205,6 +15709,82 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Deep Earth Legguards",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1831
+          },
+          "primary_stats": {
+            "agility": 489,
+            "stamina": 824
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red",
+              "blue"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85,
+            "classes": [
+              "Druid"
+            ]
+          },
+          "secondary_stats": {
+            "hit": 238,
+            "expertise": 397
+          },
+          "set": "Deep Earth Battlegarb",
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Bladeshadow Leggings",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "legs",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1731
+          },
+          "primary_stats": {
+            "agility": 426,
+            "stamina": 730
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "hit": 308,
+            "mastery": 280
+          },
+          "source_type": "BoE Pattern (525)",
+          "source": "Leatherworking",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Obsidian Arborweave Legguards",
           "ilvl": 391,
           "rarity": "epic",
@@ -14454,6 +16034,112 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Molten Blood Footpads",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1476
+          },
+          "primary_stats": {
+            "agility": 391,
+            "stamina": 647
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 313,
+            "expertise": 193,
+            "lore": "From the blood, a ward against fire"
+          },
+          "source_type": "Spine of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Interrogator's Bloody Footpads",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1439
+          },
+          "primary_stats": {
+            "agility": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 273,
+            "hit": 220
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Rooftop Griptoes",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "feet",
+          "type": "leather",
+          "special_stats": {
+            "armor": 1360
+          },
+          "primary_stats": {
+            "agility": 321,
+            "stamina": 542
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Agility"
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 216,
+            "mastery": 226
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Sandals of Leaping Coals",
           "ilvl": 391,
           "rarity": "epic",
@@ -14683,6 +16369,65 @@
           "source_type": "Vanessa VanCleef",
           "source": "The Deadmines (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Seal of Primordial Shadow",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "expertise": 184,
+            "mastery": 200
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Emergency Descent Loop",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 184
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Viridian Signet of the Avengers",
@@ -14925,6 +16670,65 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Signet of Grasping Mouths",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 179,
+            "crit": 203
+          },
+          "source_type": "Hagara the Stormbinder",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Emergency Descent Loop",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "agility": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 184
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Widow's Kiss",
           "ilvl": 391,
           "rarity": "epic",
@@ -15160,6 +16964,45 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Wrath of Unchaining",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your attacks grant 99 Agility for the next 10 sec, stacking up to 10 times."
+          },
+          "source_type": "Spine of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Starcatcher Compass",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "agility": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "When you deal damage you have a chance to gain 3278 haste rating for 20 sec."
+          },
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Matrix Restabilizer",
           "ilvl": 397,
           "rarity": "epic",
@@ -15355,6 +17198,48 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Vial of Shadows",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "agility": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your melee and ranged attacks have a chance to trigger an additional attack for 4546 to 6819 physical damage."
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Starcatcher Compass",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "agility": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "When you deal damage you have a chance to gain 3278 haste rating for 20 sec."
+          },
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "The Hungerer",
           "ilvl": 391,
           "rarity": "epic",
@@ -15547,6 +17432,71 @@
           "source_type": "General Umbriss",
           "source": "Grim Batol (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Kiril, Fury of Beasts",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "polearm",
+          "special_stats": {
+            "weapon_damage": "2968 - 4453 Damage",
+            "weapon_speed": 3.5,
+            "weapon_dps": 1060,
+            "armor": 790
+          },
+          "primary_stats": {
+            "agility": 581,
+            "intellect": 871
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your melee and ranged attacks have a chance to trigger Fury of the Beast, granting 120 Agility and 10% increased size every 1 sec. This effect stacks a maximum of 10 times and lasts 20 sec."
+          },
+          "source_type": "Madness of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Spire of Coagulated Globules",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "2165 - 3248 Damage",
+            "weapon_speed": 2.7,
+            "weapon_dps": 1002
+          },
+          "primary_stats": {
+            "agility": 529,
+            "stamina": 824
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Agility"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "hit": 266,
+            "mastery": 409
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Fandral's Flamescythe",
@@ -15800,6 +17750,33 @@
           "source_type": "General Husam",
           "source": "Lost City of the Tol'vir (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Ripfang Relic",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "primary_stats": {
+            "agility": 153,
+            "stamina": 230
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ]
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 104,
+            "expertise": 99
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (700)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Covenant of the Flame",

@@ -6,6 +6,54 @@
       "spec": "restoration-shaman",
       "bisList": [
         {
+          "name": "Spiritwalker's Faceguard",
+          "slot": "head",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Arcanum of Hyjal",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Burning Shadowspirit Diamond",
+                "image": "shadowspirit-diamond"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
+        },
+        {
           "name": "Crown of Flame",
           "slot": "head",
           "phase": [
@@ -50,6 +98,40 @@
           },
           "source": "Firelands (H)",
           "source_type": "Ragnaros",
+          "rarity": "epic"
+        },
+        {
+          "name": "Wolfdream Circlet",
+          "slot": "head",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (2200)",
+          "source_type": "Vendor",
           "rarity": "epic"
         },
         {
@@ -299,6 +381,40 @@
           "source": "Justice Points (2200)",
           "source_type": "Vendor",
           "rarity": "rare"
+        },
+        {
+          "name": "Petrified Fungal Heart",
+          "slot": "neck",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Morchok",
+          "rarity": "epic"
         },
         {
           "name": "Flowform Choker",
@@ -666,6 +782,86 @@
           "rarity": "rare"
         },
         {
+          "name": "Spiritwalker's Mantle",
+          "slot": "shoulder",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Greater Inscription of Charged Lodestone",
+              "rarity": "special",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Hagara the Stormbinder",
+          "rarity": "epic"
+        },
+        {
+          "name": "Imperfect Specimens 27 and 28",
+          "slot": "shoulder",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Ultraxion",
+          "rarity": "epic"
+        },
+        {
           "name": "Erupting Volcanic Mantle",
           "slot": "shoulder",
           "phase": [
@@ -947,6 +1143,48 @@
           "source": "The Vortex Pinnacle (H)",
           "source_type": "Grand Vizier Ertan",
           "rarity": "rare"
+        },
+        {
+          "name": "Woundlicker Cover",
+          "slot": "back",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Cloak - Greater Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Shroud of Endless Grief",
@@ -1325,6 +1563,90 @@
           "rarity": "rare"
         },
         {
+          "name": "Spiritwalker's Hauberk",
+          "slot": "chest",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Chest - Peerless Stats",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Ultraxion",
+          "rarity": "epic"
+        },
+        {
+          "name": "Ghostworld Chestguard",
+          "slot": "chest",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (2200)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Erupting Volcanic Tunic",
           "slot": "chest",
           "phase": [
@@ -1614,6 +1936,118 @@
           "rarity": "rare"
         },
         {
+          "name": "Grotesquely Writhing Bracers",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Bracer - Mighty Intellect",
+              "rarity": "rare",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warlord Zon'ozz",
+          "rarity": "epic"
+        },
+        {
+          "name": "Thundering Deathscale Wristguards",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoE Pattern (525)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Bracers of the Spectral Wolf",
+          "slot": "wrist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Lava Line Wristbands",
           "slot": "wrist",
           "phase": [
@@ -1800,6 +2234,84 @@
           "source": "Blackrock Caverns (H)",
           "source_type": "Rom'ogg Bonecrusher",
           "rarity": "rare"
+        },
+        {
+          "name": "Spiritwalker's Handwraps",
+          "slot": "hands",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Critical Strike",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Gloves - Haste",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Purified Shadow Spinel",
+                "image": "shadow-spinel"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warlord Zon'ozz",
+          "rarity": "epic"
+        },
+        {
+          "name": "Gloves of Ghostly Dreams",
+          "slot": "hands",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Clawshaper Gauntlets",
@@ -2077,6 +2589,156 @@
           "source": "Lost City of the Tol'vir (H)",
           "source_type": "General Husam",
           "rarity": "rare"
+        },
+        {
+          "name": "Belt of Shattered Elementium",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Spine of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Girdle of Shattered Stone",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Morchok",
+          "rarity": "epic"
+        },
+        {
+          "name": "Girdle of Shamanic Fury",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Belt of Ghostly Graces",
+          "slot": "waist",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Trash Drop",
+          "rarity": "epic"
         },
         {
           "name": "Firemend Cinch",
@@ -2365,6 +3027,90 @@
           "source": "Ramkahen - Revered",
           "source_type": "Reputation",
           "rarity": "rare"
+        },
+        {
+          "name": "Spiritwalker's Legwraps",
+          "slot": "legs",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Powerful Ghostly Spellthread",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Reckless Lava Coral",
+                "image": "lava-coral"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Deathscale Leggings",
+          "slot": "legs",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Leatherworking",
+          "source_type": "BoE Pattern (525)",
+          "rarity": "epic"
         },
         {
           "name": "Erupting Volcanic Legwraps",
@@ -2765,6 +3511,88 @@
           "rarity": "rare"
         },
         {
+          "name": "Mindstrainer Treads",
+          "slot": "feet",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "name": "Boots - Lavawalker",
+              "rarity": "uncommon",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              },
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Sabatons of the Graceful Spirit",
+          "slot": "feet",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1650)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Treads of Implicit Obedience",
           "slot": "feet",
           "phase": [
@@ -3049,6 +3877,114 @@
           "source": "Grim Batol (H)",
           "source_type": "Forgemaster Throngus",
           "rarity": "rare"
+        },
+        {
+          "name": "Signet of Suturing",
+          "slot": "finger 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Infinite Loop",
+          "slot": "finger 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Seal of the Grand Architect",
+          "slot": "finger 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
         },
         {
           "name": "Quicksilver Signet of the Avengers",
@@ -3462,6 +4398,116 @@
           "rarity": "rare"
         },
         {
+          "name": "Ring of the Riven",
+          "slot": "finger 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Spirit",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Hagara the Stormbinder",
+          "rarity": "epic"
+        },
+        {
+          "name": "Infinite Loop",
+          "slot": "finger 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
+          "name": "Seal of the Grand Architect",
+          "slot": "finger 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1250)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Crystal Prison Band",
           "slot": "finger 2",
           "phase": [
@@ -3865,6 +4911,108 @@
           "rarity": "rare"
         },
         {
+          "name": "Heart of Unliving",
+          "slot": "trinket 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Spine of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Insignia of the Corrupted Mind",
+          "slot": "trinket 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Windward Heart",
+          "slot": "trinket 1",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
+        },
+        {
           "name": "Jaws of Defeat",
           "slot": "trinket 1",
           "phase": [
@@ -4191,6 +5339,108 @@
           "source": "The Stonecore (H)",
           "source_type": "High Priestess Azil",
           "rarity": "rare"
+        },
+        {
+          "name": "Seal of the Seven Signs",
+          "slot": "trinket 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warlord Zon'ozz",
+          "rarity": "epic"
+        },
+        {
+          "name": "Insignia of the Corrupted Mind",
+          "slot": "trinket 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Windward Heart",
+          "slot": "trinket 2",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "All Bosses",
+          "rarity": "epic"
         },
         {
           "name": "Eye of Blazing Power",
@@ -4555,6 +5805,178 @@
           "source": "The Stonecore (H)",
           "source_type": "High Priestess Azil",
           "rarity": "rare"
+        },
+        {
+          "name": "Maw of the Dragonlord",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Weapon - Power Torrent",
+              "rarity": "rare",
+              "recipe": true
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Madness of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Ti'tahk, the Steps of Time",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Madness of Deathwing",
+          "rarity": "epic"
+        },
+        {
+          "name": "Vagaries of Time",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Morchok",
+          "rarity": "epic"
+        },
+        {
+          "name": "Scalpel of Unrelenting Agony",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Yor'sahj the Unsleeping",
+          "rarity": "epic"
+        },
+        {
+          "name": "Visage of the Destroyer",
+          "slot": "weapon",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
         },
         {
           "name": "Ko'gun, Hammer of the Firelord",
@@ -5179,6 +6601,116 @@
           "rarity": "rare"
         },
         {
+          "name": "Timepiece of the Bronze Flight",
+          "slot": "off hand",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "enchant": {
+              "name": "Off-Hand - Superior Intellect",
+              "rarity": "common",
+              "recipe": true
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Warmaster Blackhorn",
+          "rarity": "epic"
+        },
+        {
+          "name": "Ledger of Revolting Rituals",
+          "slot": "off hand",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Ultraxion",
+          "rarity": "epic"
+        },
+        {
+          "name": "Dragonfire Orb",
+          "slot": "off hand",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Dragon Soul (H)",
+          "source_type": "Trash Drop",
+          "rarity": "epic"
+        },
+        {
           "name": "Ward of the Red Widow",
           "slot": "off hand",
           "phase": [
@@ -5514,6 +7046,48 @@
           }
         },
         {
+          "name": "Lightning Spirit in a Bottle",
+          "slot": "relic",
+          "phase": [
+            "T13"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t11": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t12": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t13": {
+            "bis": true,
+            "reforge_from": "Mastery",
+            "reforge_to": "Haste",
+            "enchant": {
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Brilliant Queen's Gambit",
+                "image": "queen's-garnet"
+              }
+            ]
+          },
+          "source": "Valor Points (700)",
+          "source_type": "Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Singed Plume of Aviana",
           "slot": "relic",
           "phase": [
@@ -5749,84 +7323,6 @@
           "source": "The Stonecore (H)",
           "source_type": "High Priestess Azil",
           "rarity": "rare"
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
-        },
-        {
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t11": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t12": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t13": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          }
         }
       ],
       "enchantsData": [
@@ -12659,6 +14155,46 @@
       ],
       "gearData": [
         {
+          "name": "Spiritwalker's Faceguard",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2366
+          },
+          "primary_stats": {
+            "intellect": 489,
+            "stamina": 824,
+            "spirit": 375
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "mastery": 282
+          },
+          "set": "Spiritwalker's Vestments",
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
           "name": "Crown of Flame",
           "ilvl": 397,
           "rarity": "epic",
@@ -12692,6 +14228,42 @@
           "source_type": "Ragnaros",
           "source": "Firelands (H)",
           "phase": "T12`T13"
+        },
+        {
+          "name": "Wolfdream Circlet",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "head",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2261
+          },
+          "primary_stats": {
+            "intellect": 426,
+            "stamina": 730,
+            "spirit": 332
+          },
+          "sockets": {
+            "socket_colors": [
+              "meta",
+              "red"
+            ],
+            "meta": 1,
+            "sockets": 1,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 237
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (2200)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Erupting Volcanic Faceguard",
@@ -12912,6 +14484,28 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Petrified Fungal Heart",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "neck",
+          "primary_stats": {
+            "intellect": 306,
+            "stamina": 459,
+            "spirit": 204
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 204
+          },
+          "source_type": "Morchok",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Flowform Choker",
           "ilvl": 391,
           "rarity": "epic",
@@ -13130,6 +14724,79 @@
           "source_type": "Karsh Steelbender",
           "source": "Blackrock Caverns (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Spiritwalker's Mantle",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2184
+          },
+          "primary_stats": {
+            "intellect": 368,
+            "stamina": 611,
+            "spirit": 254
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 250
+          },
+          "set": "Spiritwalker's Vestments",
+          "source_type": "Hagara the Stormbinder",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Imperfect Specimens 27 and 28",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "shoulder",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2184
+          },
+          "primary_stats": {
+            "intellect": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 100,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 260
+          },
+          "source_type": "Ultraxion",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Erupting Volcanic Mantle",
@@ -13371,6 +15038,35 @@
           "source_type": "Grand Vizier Ertan",
           "source": "The Vortex Pinnacle (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Woundlicker Cover",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "back",
+          "primary_stats": {
+            "intellect": 251,
+            "stamina": 406,
+            "spirit": 184
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 148
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Shroud of Endless Grief",
@@ -13631,6 +15327,81 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Spiritwalker's Hauberk",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2912
+          },
+          "primary_stats": {
+            "intellect": 489,
+            "stamina": 824,
+            "spirit": 332
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red",
+              "red"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 165,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 340
+          },
+          "set": "Spiritwalker's Regalia",
+          "source_type": "Ultraxion",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Ghostworld Chestguard",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "chest",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2783
+          },
+          "primary_stats": {
+            "intellect": 446,
+            "stamina": 730,
+            "spirit": 288
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 165,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 317
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (2200)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Erupting Volcanic Tunic",
           "ilvl": 391,
           "rarity": "epic",
@@ -13877,6 +15648,102 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Grotesquely Writhing Bracers",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "wrist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1274
+          },
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459,
+            "spirit": 199
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 187
+          },
+          "source_type": "Warlord Zon'ozz",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Thundering Deathscale Wristguards",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1218
+          },
+          "primary_stats": {
+            "intellect": 231,
+            "stamina": 406,
+            "spirit": 177
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 139
+          },
+          "source_type": "BoE Pattern (525)",
+          "source": "Leatherworking",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Bracers of the Spectral Wolf",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "wrist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1218
+          },
+          "primary_stats": {
+            "intellect": 271,
+            "stamina": 406,
+            "spirit": 196
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 154
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Lava Line Wristbands",
           "ilvl": 391,
           "rarity": "epic",
@@ -14005,6 +15872,78 @@
           "source_type": "Rom'ogg Bonecrusher",
           "source": "Blackrock Caverns (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Spiritwalker's Handwraps",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1820
+          },
+          "primary_stats": {
+            "intellect": 388,
+            "stamina": 611,
+            "spirit": 268
+          },
+          "sockets": {
+            "socket_colors": [
+              "blue"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "crit": 256
+          },
+          "set": "Spiritwalker's Vestments",
+          "source_type": "Warlord Zon'ozz",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Gloves of Ghostly Dreams",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "hands",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1739
+          },
+          "primary_stats": {
+            "intellect": 341,
+            "stamina": 542,
+            "spirit": 248
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 207
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Clawshaper Gauntlets",
@@ -14248,6 +16187,146 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Belt of Shattered Elementium",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1672
+          },
+          "primary_stats": {
+            "intellect": 391,
+            "stamina": 647,
+            "spirit": 279
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 255,
+            "lore": "From the plates, protection from harm"
+          },
+          "source_type": "Spine of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Girdle of Shattered Stone",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1638
+          },
+          "primary_stats": {
+            "intellect": 368,
+            "stamina": 611
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 248,
+            "crit": 250
+          },
+          "source_type": "Morchok",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Girdle of Shamanic Fury",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1565
+          },
+          "primary_stats": {
+            "intellect": 321,
+            "stamina": 542,
+            "spirit": 203
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "blue"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 226
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Belt of Ghostly Graces",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "waist",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1565
+          },
+          "primary_stats": {
+            "intellect": 321,
+            "stamina": 542,
+            "spirit": 213
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 60,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 239
+          },
+          "source_type": "Trash Drop",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Firemend Cinch",
           "ilvl": 378,
           "rarity": "epic",
@@ -14481,6 +16560,82 @@
           "source_type": "Reputation",
           "source": "Ramkahen - Revered",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Spiritwalker's Legwraps",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "legs",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2548
+          },
+          "primary_stats": {
+            "intellect": 489,
+            "stamina": 824,
+            "spirit": 352
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85,
+            "classes": [
+              "Shaman"
+            ]
+          },
+          "secondary_stats": {
+            "haste": 317
+          },
+          "set": "Spiritwalker's Vestments",
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": true
+        },
+        {
+          "name": "Deathscale Leggings",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "legs",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2435
+          },
+          "primary_stats": {
+            "intellect": 426,
+            "stamina": 730
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow",
+              "yellow"
+            ],
+            "sockets": 3,
+            "socket_bonus": "30 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 300,
+            "mastery": 279
+          },
+          "source_type": "BoE Pattern (525)",
+          "source": "Leatherworking",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Erupting Volcanic Legwraps",
@@ -14835,6 +16990,76 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Mindstrainer Treads",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "feet",
+          "type": "mail",
+          "special_stats": {
+            "armor": 2002
+          },
+          "primary_stats": {
+            "intellect": 368,
+            "stamina": 611,
+            "spirit": 207
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "red"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 280
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Sabatons of the Graceful Spirit",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "boe",
+          "slot": "feet",
+          "type": "mail",
+          "special_stats": {
+            "armor": 1913
+          },
+          "primary_stats": {
+            "intellect": 321,
+            "stamina": 542,
+            "spirit": 216
+          },
+          "sockets": {
+            "socket_colors": [
+              "red",
+              "yellow"
+            ],
+            "sockets": 2,
+            "socket_bonus": "20 Intellect"
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 226
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1650)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Treads of Implicit Obedience",
           "ilvl": 391,
           "rarity": "epic",
@@ -15066,6 +17291,96 @@
           "source_type": "Forgemaster Throngus",
           "source": "Grim Batol (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Signet of Suturing",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459,
+            "spirit": 169
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 209
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Infinite Loop",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 212,
+            "hit": 164
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Seal of the Grand Architect",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 176,
+            "crit": 162
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Quicksilver Signet of the Avengers",
@@ -15325,6 +17640,96 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Ring of the Riven",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 197,
+            "mastery": 189
+          },
+          "source_type": "Hagara the Stormbinder",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Infinite Loop",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "crit": 212,
+            "hit": 164
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Seal of the Grand Architect",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "finger",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "yellow"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 176,
+            "crit": 162
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (1250)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Crystal Prison Band",
           "ilvl": 391,
           "rarity": "epic",
@@ -15575,6 +17980,69 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Heart of Unliving",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 364
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your healing spells grant 99 Spirit for the next 10 sec, stacking up to 10 times."
+          },
+          "source_type": "Spine of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Insignia of the Corrupted Mind",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "When you deal damage you have a chance to gain 3278 haste rating for 20 sec."
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Windward Heart",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your critical heals have a chance to instantly heal the most injured nearby party member for 11726 to 13627."
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Jaws of Defeat",
           "ilvl": 391,
           "rarity": "epic",
@@ -15758,6 +18226,69 @@
           "source_type": "High Priestess Azil",
           "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Seal of the Seven Signs",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "When you heal you have a chance to gain 3278 haste rating for 20 sec."
+          },
+          "source_type": "Warlord Zon'ozz",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Insignia of the Corrupted Mind",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "When you deal damage you have a chance to gain 3278 haste rating for 20 sec."
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Windward Heart",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "primary_stats": {
+            "intellect": 517
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your critical heals have a chance to instantly heal the most injured nearby party member for 11726 to 13627."
+          },
+          "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Eye of Blazing Power",
@@ -15962,6 +18493,168 @@
           "source_type": "High Priestess Azil",
           "source": "The Stonecore (H)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Maw of the Dragonlord",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "mace",
+          "special_stats": {
+            "weapon_damage": "1210 - 2249 Damage",
+            "weapon_speed": 2.2,
+            "weapon_dps": 786.14
+          },
+          "primary_stats": {
+            "intellect": 249,
+            "stamina": 373
+          },
+          "other_stats": {
+            "durability": 110,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 3324,
+            "equip_1": "Your healing spells have a chance to trigger Cleansing Fire, healing all nearby friendly targets in front of you for 5960 to 8940."
+          },
+          "source_type": "Madness of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Ti'tahk, the Steps of Time",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "2459 - 3689 Damage",
+            "weapon_speed": 2.9,
+            "weapon_dps": 1060
+          },
+          "primary_stats": {
+            "intellect": 581,
+            "stamina": 871
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 3325,
+            "equip_1": "Your spells have a chance to grant you 2176 haste rating for 10 sec and 435 haste rating to up to 3 allies within 20 yards."
+          },
+          "source_type": "Madness of Deathwing",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Vagaries of Time",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "mace",
+          "special_stats": {
+            "weapon_damage": "1145 - 2127 Damage",
+            "weapon_speed": 2.2,
+            "weapon_dps": 743.64
+          },
+          "primary_stats": {
+            "intellect": 215,
+            "stamina": 353
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 110,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 3142,
+            "haste": 153,
+            "crit": 141
+          },
+          "source_type": "Morchok",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Scalpel of Unrelenting Agony",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "main hand",
+          "type": "dagger",
+          "special_stats": {
+            "weapon_damage": "780 - 1450 Damage",
+            "weapon_speed": 1.5,
+            "weapon_dps": 743.33
+          },
+          "primary_stats": {
+            "intellect": 215,
+            "stamina": 353,
+            "spirit": 160
+          },
+          "other_stats": {
+            "durability": 80,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 3142,
+            "haste": 127
+          },
+          "source_type": "Yor'sahj the Unsleeping",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Visage of the Destroyer",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "two-hand",
+          "type": "staff",
+          "special_stats": {
+            "weapon_damage": "2566 - 3850 Damage",
+            "weapon_speed": 3.2,
+            "weapon_dps": 1003
+          },
+          "primary_stats": {
+            "intellect": 529,
+            "stamina": 824,
+            "spirit": 397
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "spell_power": 3145,
+            "mastery": 278
+          },
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Ko'gun, Hammer of the Firelord",
@@ -16480,6 +19173,98 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
+          "name": "Timepiece of the Bronze Flight",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "off hand",
+          "type": "shield",
+          "special_stats": {
+            "armor": 12756
+          },
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459,
+            "spirit": 194
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "durability": 120,
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 194
+          },
+          "source_type": "Warmaster Blackhorn",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Ledger of Revolting Rituals",
+          "ilvl": 410,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "held in off-hand",
+          "primary_stats": {
+            "intellect": 286,
+            "stamina": 459,
+            "spirit": 197
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 189
+          },
+          "source_type": "Ultraxion",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Dragonfire Orb",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "held in off-hand",
+          "primary_stats": {
+            "intellect": 251,
+            "stamina": 406
+          },
+          "sockets": {
+            "socket_colors": [
+              "red"
+            ],
+            "sockets": 1,
+            "socket_bonus": "10 Intellect"
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "haste": 157,
+            "mastery": 179
+          },
+          "source_type": "Trash Drop",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
           "name": "Ward of the Red Widow",
           "ilvl": 391,
           "rarity": "epic",
@@ -16680,6 +19465,33 @@
           "source_type": "Vendor",
           "source": "Justice Points (950)",
           "phase": "Pre-Bis`T11`T12`T13"
+        },
+        {
+          "name": "Lightning Spirit in a Bottle",
+          "ilvl": 397,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "relic",
+          "primary_stats": {
+            "intellect": 153,
+            "stamina": 230,
+            "spirit": 109
+          },
+          "sockets": {
+            "socket_colors": [
+              "prismatic"
+            ]
+          },
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "mastery": 90
+          },
+          "source_type": "Vendor",
+          "source": "Valor Points (700)",
+          "phase": "T13",
+          "hide_loot_table": false
         },
         {
           "name": "Singed Plume of Aviana",

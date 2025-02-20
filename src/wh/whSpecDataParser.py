@@ -162,6 +162,7 @@ class WhSpecDataParser:
                 if "markup-table-wrapper" in next_node.attrs['class']:
                     notable = False
                     break
+                next_node.findChildren("table", True)
         return notable
 
     def rs_to_list(self, result_set):
