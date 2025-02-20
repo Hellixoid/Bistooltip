@@ -853,239 +853,122 @@
 <button aria-label="Stats" class="tab gear-planner-tab-header-tab" data-selected="false">Stats</button></div></div>
 <section class="gear-planner-customization">
 <div class="select-drop-down" data-active="false">
-<div class="select-drop-down-option c2" tabindex="0">
+<div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
-<img alt="Paladin" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/class_paladin.jpg"/>
-<span class="icon-label-text">Paladin</span>
+<span class="icon-label-text">Select</span>
 <span class="select-drop-down-caret">
 <svg aria-hidden="true" class="svg-inline--fa fa6-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
-<img alt="Blood Elf" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/race_bloodelf_male.jpg"/>
-<span class="icon-label-text">Blood Elf</span>
+<span class="icon-label-text">Alliance</span>
 <span class="select-drop-down-caret">
 <svg aria-hidden="true" class="svg-inline--fa fa6-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
-<img alt="Body 2" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ui-charactercreate-body-2.jpg"/>
-<span class="icon-label-text">Body 2</span>
+<span class="icon-label-text">Select</span>
 <span class="select-drop-down-caret">
 <svg aria-hidden="true" class="svg-inline--fa fa6-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
-<img alt="All Phases" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/inv_misc_pocketwatch_01.jpg"/>
-<span class="icon-label-text">All Phases</span>
+<span class="icon-label-text">Select</span>
 <span class="select-drop-down-caret">
 <svg aria-hidden="true" class="svg-inline--fa fa6-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div></section>
 <div class="gear-planner-slots">
-<div class="wow-gear-slot" data-quality="4" data-slot-id="1">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4207&amp;gems=52296:52207" href="https://www.wowhead.com/cata/item=71519/immolation-headguard" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_helmet_plate_raidpaladin_j_01.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-slot-id="1" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_head.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4207&amp;gems=52296:52207" href="https://www.wowhead.com/cata/item=71519/immolation-headguard" target="_blank">Immolation Headguard</a>
+<div class="wow-gear-slot-name">Head</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="1">
-<div class="iconsmall iconsmall-socket-meta" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_metagem_b.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52296" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/spell_fire_masterofelements.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=86932/arcanum-of-hyjal" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="2">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52207&amp;forg=162" href="https://www.wowhead.com/cata/item=71472/flowform-choker" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_necklace_firelands_1.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=86932/arcanum-of-hyjal" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="2" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_neck.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52207&amp;forg=162" href="https://www.wowhead.com/cata/item=71472/flowform-choker" target="_blank">Flowform Choker</a>
+<div class="wow-gear-slot-name">Neck</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="3">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4200&amp;gems=52207:52207" href="https://www.wowhead.com/cata/item=78841/mantle-of-radiant-glory" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_plate_raidpaladin_k_01.jpg");' target="_blank"></a>
+<div class="wow-gear-slot-sockets"></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="3" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_shoulder.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4200&amp;gems=52207:52207" href="https://www.wowhead.com/cata/item=78841/mantle-of-radiant-glory" target="_blank">Mantle of Radiant Glory</a>
+<div class="wow-gear-slot-name">Shoulders</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_gem_bloodstone_02.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=86899/greater-inscription-of-charged-lodestone" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
+<a href="https://www.wowhead.com/cata/spell=86899/greater-inscription-of-charged-lodestone" tabindex="-1"></a></div></div></div></div></div></div>
 <div class="wow-gear-slot" data-slot-id="4">
 <div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_shirt.jpg");'></div>
 <div class="wow-gear-slot-details">
 <div class="wow-gear-slot-name">Shirt</div>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="5">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4102&amp;gems=52207:52207:52208" href="https://www.wowhead.com/cata/item=78821/breastplate-of-radiant-glory" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_raidpaladin_k_01.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-slot-id="5" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_chest.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4102&amp;gems=52207:52207:52208" href="https://www.wowhead.com/cata/item=78821/breastplate-of-radiant-glory" target="_blank">Breastplate of Radiant Glory</a>
+<div class="wow-gear-slot-name">Chest</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="3">
-<div class="iconsmall iconsmall-socket-yellow" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior4.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52208" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=74250/enchant-chest-peerless-stats" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="6">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4223&amp;gems=52207:52207:71881" href="https://www.wowhead.com/cata/item=78444/dragonfracture-belt" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_raidpaladin_k_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=74250/enchant-chest-peerless-stats" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="6" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_waist.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4223&amp;gems=52207:52207:71881" href="https://www.wowhead.com/cata/item=78444/dragonfracture-belt" target="_blank">Dragonfracture Belt</a>
+<div class="wow-gear-slot-name">Waist</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_gizmo_rocketbootextreme.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=55016/nitro-boosts" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="7">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4110&amp;gems=52207:52236" href="https://www.wowhead.com/cata/item=71520/immolation-greaves" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_raidpaladin_j_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=55016/nitro-boosts" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="7" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_legs.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4110&amp;gems=52207:52236" href="https://www.wowhead.com/cata/item=71520/immolation-greaves" target="_blank">Immolation Greaves</a>
+<div class="wow-gear-slot-name">Legs</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="4">
-<div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52236" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/spell_nature_astralrecalgroup.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=75150/powerful-ghostly-spellthread" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="8">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4069&amp;gems=52236&amp;forg=145" href="https://www.wowhead.com/cata/item=71475/treads-of-the-penitent-man" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_raidpaladin_j_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=75150/powerful-ghostly-spellthread" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="8" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_feet.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4069&amp;gems=52236&amp;forg=145" href="https://www.wowhead.com/cata/item=71475/treads-of-the-penitent-man" target="_blank">Treads of the Penitent Man</a>
+<div class="wow-gear-slot-name">Feet</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="4">
-<div class="iconsmall iconsmall-socket-blue" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior3.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52236" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=74199/enchant-boots-haste" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="9">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4192&amp;forg=167" href="https://www.wowhead.com/cata/item=77316/flashing-bracers-of-warmth" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_bracer_plate_raidpaladin_k_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=74199/enchant-boots-haste" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="9" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_wrists.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4192&amp;forg=167" href="https://www.wowhead.com/cata/item=77316/flashing-bracers-of-warmth" target="_blank">Flashing Bracers of Warmth</a>
+<div class="wow-gear-slot-name">Wrist</div>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
@@ -1093,30 +976,13 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/trade_leatherworking.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=85010/draconic-embossment-intellect" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="10">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4068:4179&amp;gems=52207:52207" href="https://www.wowhead.com/cata/item=78469/gauntlets-of-the-golden-thorn" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_gauntlet_plate_raidpaladin_k_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=85010/draconic-embossment-intellect" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="10" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_hands.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4068:4179&amp;gems=52207:52207" href="https://www.wowhead.com/cata/item=78469/gauntlets-of-the-golden-thorn" target="_blank">Gauntlets of the Golden Thorn</a>
+<div class="wow-gear-slot-name">Hands</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div>
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
@@ -1127,72 +993,39 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/trade_engineering.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=82175/synapse-springs" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="11">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52207&amp;forg=167" href="https://www.wowhead.com/cata/item=71237/quicksilver-signet-of-the-avengers" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_94.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=82175/synapse-springs" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="11" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_finger.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52207&amp;forg=167" href="https://www.wowhead.com/cata/item=71237/quicksilver-signet-of-the-avengers" target="_blank">Quicksilver Signet of the Avengers</a>
+<div class="wow-gear-slot-name">Ring 1</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
-<div class="wow-gear-slot-enchants"></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/reforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="12">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52207" href="https://www.wowhead.com/cata/item=78496/signet-of-suturing" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_104.jpg");' target="_blank"></a>
+<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-enchants"></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="12" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_finger.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52207" href="https://www.wowhead.com/cata/item=78496/signet-of-suturing" target="_blank">Signet of Suturing</a>
+<div class="wow-gear-slot-name">Ring 2</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
-<div class="wow-gear-slot-enchants"></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="13">
-<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=77976/heart-of-unliving" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_qirajicrystal_05.jpg");' target="_blank"></a>
+<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-enchants"></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="13" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_trinket.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=77976/heart-of-unliving" target="_blank">Heart of Unliving</a>
+<div class="wow-gear-slot-name">Trinket 1</div>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="14">
-<a class="wow-gear-slot-icon" href="https://www.wowhead.com/cata/item=77981/windward-heart" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_elemental_crystal_air.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-slot-id="14" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_trinket.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" href="https://www.wowhead.com/cata/item=77981/windward-heart" target="_blank">Windward Heart</a>
+<div class="wow-gear-slot-name">Trinket 2</div>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="15">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4096:3605&amp;gems=52207" href="https://www.wowhead.com/cata/item=77096/woundlicker-cover" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_deathwingraid_d_03.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-slot-id="15" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_chest.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4096:3605&amp;gems=52207" href="https://www.wowhead.com/cata/item=77096/woundlicker-cover" target="_blank">Woundlicker Cover</a>
+<div class="wow-gear-slot-name">Back</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
@@ -1203,16 +1036,11 @@
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_22.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=55002/flexweave-underlay" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="16">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4097" href="https://www.wowhead.com/cata/item=78485/maw-of-the-dragonlord" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_mace_1h_deathwingraiddw_d_01.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=55002/flexweave-underlay" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="16" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_mainhand.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4097" href="https://www.wowhead.com/cata/item=78485/maw-of-the-dragonlord" target="_blank">Maw of the Dragonlord</a>
+<div class="wow-gear-slot-name">Main Hand</div>
 <div class="wow-gear-slot-enhancements">
 <div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
@@ -1221,47 +1049,25 @@
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
 <a href="https://www.wowhead.com/cata/spell=74242/enchant-weapon-power-torrent" tabindex="-1"></a></div></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="17">
-<a class="wow-gear-slot-icon" data-wowhead="ench=4091&amp;gems=52207" href="https://www.wowhead.com/cata/item=71408/ward-of-the-red-widow" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_shield_firelandsraid_d_01.jpg");' target="_blank"></a>
+<div class="wow-gear-slot" data-slot-id="17" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_offhand.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="ench=4091&amp;gems=52207" href="https://www.wowhead.com/cata/item=71408/ward-of-the-red-widow" target="_blank">Ward of the Red Widow</a>
+<div class="wow-gear-slot-name">Off Hand</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="2">
-<div class="iconsmall iconsmall-socket-red" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
 <div class="wow-gear-slot-enchants">
 <div class="wow-gear-slot-enchant">
 <div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
 <ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_enchantedscroll.jpg");'></ins>
 <del></del>
-<a href="https://www.wowhead.com/cata/spell=74235/enchant-off-hand-superior-intellect" tabindex="-1"></a></div></div></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
-<div class="wow-gear-slot" data-quality="4" data-slot-id="18">
-<a class="wow-gear-slot-icon" data-wowhead="gems=52207" href="https://www.wowhead.com/cata/item=71577/singed-plume-of-aviana" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inv_feather_06.jpg");' target="_blank"></a>
+<a href="https://www.wowhead.com/cata/spell=74235/enchant-off-hand-superior-intellect" tabindex="-1"></a></div></div></div></div></div></div>
+<div class="wow-gear-slot" data-slot-id="18" data-valid="false">
+<div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_ranged.jpg");'></div>
 <div class="wow-gear-slot-details">
-<a class="wow-gear-slot-name" data-wowhead="gems=52207" href="https://www.wowhead.com/cata/item=71577/singed-plume-of-aviana" target="_blank">Singed Plume of Aviana</a>
+<div class="wow-gear-slot-name">Ranged</div>
 <div class="wow-gear-slot-enhancements">
-<div class="wow-gear-slot-sockets">
-<div class="wow-gear-slot-socket" data-socket-type="7">
-<div class="iconsmall iconsmall-socket-prismatic" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/icons/small/inv_misc_cutgemsuperior6.jpg");'></ins>
-<del></del>
-<a href="https://www.wowhead.com/cata/item=52207" tabindex="-1"></a>
-<var></var></div></div></div>
-<div class="wow-gear-slot-enchants"></div>
-<div class="wow-gear-slot-reforge">
-<div class="iconsmall" data-env="cata" data-game="wow" data-tree="cata">
-<ins class="lazy-load-background" style='background-image: url("https://wow.zamimg.com/images/wow/interface/cursor/crosshair/unablereforge.png"); background-size: contain;'></ins>
-<del></del>
-<a aria-label="Icon" href="javascript:"></a></div></div></div></div></div>
+<div class="wow-gear-slot-sockets"></div>
+<div class="wow-gear-slot-enchants"></div></div></div></div>
 <div class="wow-gear-slot" data-slot-id="19">
 <div class="wow-gear-slot-icon" style='background-image: url("https://wow.zamimg.com/images/wow/icons/large/inventoryslot_tabard.jpg");'></div>
 <div class="wow-gear-slot-details">
@@ -1284,7 +1090,7 @@
 <div class="ctc-main-status-abilities">
 <a class="fa fa-book" href="https://www.wowhead.com/cata/spells/abilities/paladin">Class Abilities</a></div>
 <div class="ctc-main-status-required-level">Required level: <b>85</b></div></div>
-<div class="ctc-tree-slider" data-active-tree="0" data-mode="large">
+<div class="ctc-tree-slider" data-active-tree="0">
 <div class="ctc-tree-slider-btn" data-direction="left"></div>
 <div class="ctc-tree-slider-btn" data-direction="right"></div>
 <div class="ctc-tree-container" data-no-points-left="1" style="left: 0px;">
@@ -1764,13 +1570,13 @@
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Health</span>
-<span class="gear-planner-stat-summary-value">113255</span></div>
+<span class="gear-planner-stat-summary-value">44835</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mana</span>
-<span class="gear-planner-stat-summary-value">116622</span></div>
+<span class="gear-planner-stat-summary-value">0</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Mastery Points</span>
-<span class="gear-planner-stat-summary-value">1</span></div></div>
+<span class="gear-planner-stat-summary-value">0</span></div></div>
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
@@ -1782,46 +1588,45 @@
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Strength</span>
-<span class="gear-planner-stat-summary-value">181</span></div>
+<span class="gear-planner-stat-summary-value">189</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Agility</span>
-<span class="gear-planner-stat-summary-value">119</span></div>
+<span class="gear-planner-stat-summary-value">123</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Stamina</span>
-<span class="gear-planner-stat-summary-value">7015</span></div>
+<span class="gear-planner-stat-summary-value">173</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Intellect</span>
-<span class="gear-planner-stat-summary-value">6232</span></div>
+<span class="gear-planner-stat-summary-value">37</span></div>
 <div class="gear-planner-stat-summary-stat">
 <span class="gear-planner-stat-summary-label">Spirit</span>
-<span class="gear-planner-stat-summary-value">2939</span></div></div>
+<span class="gear-planner-stat-summary-value">64</span></div></div>
 <div class="gear-planner-stat-summary-group">
 <div class="select-drop-down" data-active="false">
 <div class="select-drop-down-option" tabindex="0">
 <div class="icon-label" data-size="small">
-<img alt="Melee" class="icon-label-icon" src="https://wow.zamimg.com/images/wow/icons/small/ability_dualwield.jpg"/>
-<span class="icon-label-text">Melee</span>
+<span class="icon-label-text">Select</span>
 <span class="select-drop-down-caret">
 <svg aria-hidden="true" class="svg-inline--fa fa6-caret-down" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
 <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor"></path></svg></span></div></div></div>
 <div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Spell Damage</span>
-<span class="gear-planner-stat-summary-value">8839</span></div>
+<span class="gear-planner-stat-summary-label">DPS</span>
+<span class="gear-planner-stat-summary-value">0</span></div>
 <div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Healing</span>
-<span class="gear-planner-stat-summary-value">8839</span></div>
+<span class="gear-planner-stat-summary-label">Attack Power</span>
+<span class="gear-planner-stat-summary-value">613</span></div>
 <div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Spell Crit</span>
-<span class="gear-planner-stat-summary-value">153 (13.54%)</span></div>
+<span class="gear-planner-stat-summary-label">Expertise</span>
+<span class="gear-planner-stat-summary-value">0 (0.00 / 0.00%)</span></div>
 <div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Spell Hit</span>
+<span class="gear-planner-stat-summary-label">Melee Crit</span>
+<span class="gear-planner-stat-summary-value">0 (0.50%)</span></div>
+<div class="gear-planner-stat-summary-stat">
+<span class="gear-planner-stat-summary-label">Melee Hit</span>
 <span class="gear-planner-stat-summary-value">0 (0.00%)</span></div>
 <div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Spell Haste</span>
-<span class="gear-planner-stat-summary-value">2373 (18.53%)</span></div>
-<div class="gear-planner-stat-summary-stat">
-<span class="gear-planner-stat-summary-label">Spell Pen</span>
-<span class="gear-planner-stat-summary-value">0</span></div></div></div></section></div></div>
+<span class="gear-planner-stat-summary-label">Melee Haste</span>
+<span class="gear-planner-stat-summary-value">0 (0.00%)</span></div></div></div></section></div></div>
 <div class="clear"></div></div></div></div></div>
 <h3 class="heading-size-3" id="obsidian-fragments-valor-points">Obsidian Fragments &amp; Valor Points for Holy Paladin Healer in Phase 4</h3>With Phase 4, Cataclysm Classic has a new dungeon difficulty added: Protocol Twilight. Completing these instances will reward you with <a class="icontiny q1" data-entity="currency" data-game="wow" data-type="currency" href="https://www.wowhead.com/cata/currency=3281/obsidian-fragment">
 <span>
