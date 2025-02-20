@@ -44,14 +44,20 @@ class WowtbcSpecDataParser:
                             if ench_data is not None:
                                 name = ench_data.get('name')
                                 if name is not None:
-                                    sorted_spec.add_enchant(item_slot_name, phase, self.id_resolver.get_enchant(name))
+                                    enchant = self.id_resolver.get_enchant(name)
+                                    if enchant == 0:
+                                        print("Failed to find gem: %s" % name)
+                                    sorted_spec.add_enchant(item_slot_name, phase, enchant)
 
                             gems_data = phase_data.get('gems')
                             if gems_data is not None:
                                 for gem in gems_data:
                                     name = gem.get('name')
                                     if name is not None:
-                                        sorted_spec.add_gem(item_slot_name, phase, self.id_resolver.get_gem_id(name))
+                                        gem_id = self.id_resolver.get_gem_id(name)
+                                        if gem_id == 0:
+                                            print("Failed to find gem: %s" % name)
+                                        sorted_spec.add_gem(item_slot_name, phase, gem_id)
 
                         elif phase in item_bis_phases:
                             i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name, suffix[1])

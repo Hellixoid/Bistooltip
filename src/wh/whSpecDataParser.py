@@ -146,24 +146,27 @@ class WhSpecDataParser:
         return header_dict
 
     def check_no_table_in_block(self, block):
-        notable = True
+        no_table = True
         next_node = block
         while True:
             next_node = next_node.nextSibling
             if next_node is None:
-                return notable
+                return no_table
             tag_name = next_node.name
             if tag_name == "h4" or tag_name == "h3":
                 break
             elif tag_name == "table":
-                notable = False
+                no_table = False
                 break
             elif tag_name == "div":
                 if "markup-table-wrapper" in next_node.attrs['class']:
-                    notable = False
+                    no_table = False
                     break
-                next_node.findChildren("table", True)
-        return notable
+                children = next_node.findChildren("table", True)
+                if len(children) > 0:
+                    no_table = False
+                    break
+        return no_table
 
     def rs_to_list(self, result_set):
         result_list = list()
