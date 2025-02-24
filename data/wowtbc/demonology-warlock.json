@@ -5151,7 +5151,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Will of Unbinding",
+          "name": "Cunning of the Cruel",
           "slot": "trinket 1",
           "phase": [
             "T13"
@@ -5181,11 +5181,11 @@
             }
           },
           "source": "Dragon Soul (H)",
-          "source_type": "Spine of Deathwing",
+          "source_type": "All Bosses",
           "rarity": "epic"
         },
         {
-          "name": "Cunning of the Cruel",
+          "name": "Will of Unbinding",
           "slot": "trinket 1",
           "phase": [
             "T13"
@@ -5215,7 +5215,7 @@
             }
           },
           "source": "Dragon Soul (H)",
-          "source_type": "All Bosses",
+          "source_type": "Spine of Deathwing",
           "rarity": "epic"
         },
         {
@@ -5551,7 +5551,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Cunning of the Cruel",
+          "name": "Will of Unbinding",
           "slot": "trinket 2",
           "phase": [
             "T13"
@@ -5581,7 +5581,7 @@
             }
           },
           "source": "Dragon Soul (H)",
-          "source_type": "All Bosses",
+          "source_type": "Spine of Deathwing",
           "rarity": "epic"
         },
         {
@@ -18102,24 +18102,6 @@
           "phase": "Pre-Bis`T11`T12`T13"
         },
         {
-          "name": "Will of Unbinding",
-          "ilvl": 416,
-          "rarity": "epic",
-          "bind": "bop",
-          "slot": "trinket",
-          "unique": true,
-          "other_stats": {
-            "min_level": 85
-          },
-          "secondary_stats": {
-            "equip_1": "Your harmful spells grant 99 Intellect for the next 10 sec, stacking up to 10 times."
-          },
-          "source_type": "Spine of Deathwing",
-          "source": "Dragon Soul (H)",
-          "phase": "T13",
-          "hide_loot_table": false
-        },
-        {
           "name": "Cunning of the Cruel",
           "ilvl": 410,
           "rarity": "epic",
@@ -18136,6 +18118,24 @@
             "equip_1": "Your damage dealing spells have a chance to trigger a Shadowbolt Volley, dealing 3183 to 4774 damage to all enemies within 10 yards of your current target."
           },
           "source_type": "All Bosses",
+          "source": "Dragon Soul (H)",
+          "phase": "T13",
+          "hide_loot_table": false
+        },
+        {
+          "name": "Will of Unbinding",
+          "ilvl": 416,
+          "rarity": "epic",
+          "bind": "bop",
+          "slot": "trinket",
+          "unique": true,
+          "other_stats": {
+            "min_level": 85
+          },
+          "secondary_stats": {
+            "equip_1": "Your harmful spells grant 99 Intellect for the next 10 sec, stacking up to 10 times."
+          },
+          "source_type": "Spine of Deathwing",
           "source": "Dragon Soul (H)",
           "phase": "T13",
           "hide_loot_table": false
@@ -18312,22 +18312,19 @@
           "hide_loot_table": false
         },
         {
-          "name": "Cunning of the Cruel",
-          "ilvl": 410,
+          "name": "Will of Unbinding",
+          "ilvl": 416,
           "rarity": "epic",
           "bind": "bop",
           "slot": "trinket",
           "unique": true,
-          "primary_stats": {
-            "intellect": 517
-          },
           "other_stats": {
             "min_level": 85
           },
           "secondary_stats": {
-            "equip_1": "Your damage dealing spells have a chance to trigger a Shadowbolt Volley, dealing 3183 to 4774 damage to all enemies within 10 yards of your current target."
+            "equip_1": "Your harmful spells grant 99 Intellect for the next 10 sec, stacking up to 10 times."
           },
-          "source_type": "All Bosses",
+          "source_type": "Spine of Deathwing",
           "source": "Dragon Soul (H)",
           "phase": "T13",
           "hide_loot_table": false
