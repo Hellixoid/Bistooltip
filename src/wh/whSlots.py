@@ -81,7 +81,7 @@ spec_to_slots = {
         "off-hand items": "Off hand",
         "main-hand weapon": "Weapon 1H",
     },
-    "feral-tank-druid": {
+    "guardian-druid": {
         "weapons": "Weapon",
         "two handed weapons": "Weapon",
         "two-handed weapons": "Weapon",
@@ -89,7 +89,7 @@ spec_to_slots = {
         "defensive trinkets": "Trinket",
         "offensive trinkets": "Trinket Off",
     },
-    "feral-dps-druid": {
+    "feral-druid": {
         "two handed weapons": "Weapon",
         "two-handed weapons": "Weapon",
         "weapons": "Weapon",

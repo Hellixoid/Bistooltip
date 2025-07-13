@@ -3,8 +3,8 @@ specs = [
     "frost-death-knight",
     "unholy-death-knight",
     "balance-druid",
-    "feral-tank-druid",
-    "feral-dps-druid",
+    "guardian-druid",
+    "feral-druid",
     "restoration-druid",
     "beast-mastery-hunter",
     "marksmanship-hunter",
@@ -12,6 +12,9 @@ specs = [
     "arcane-mage",
     "fire-mage",
     "frost-mage",
+    "brewmaster-monk",
+    "mistweaver-monk",
+    "windwalker-monk",
     "holy-paladin",
     "protection-paladin",
     "retribution-paladin",
@@ -29,7 +32,7 @@ specs = [
     "destruction-warlock",
     "arms-warrior",
     "fury-warrior",
-    "protection-warrior",
+    "protection-warrior"
 ]
 
 
