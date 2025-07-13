@@ -1,12 +1,12 @@
 {
   "componentChunkName": "component---src-templates-bis-lists-js",
-  "path": "/mop/bis-list/subtlety-rogue/",
+  "path": "/mop/bis-list/windwalker-monk/",
   "result": {
     "pageContext": {
-      "spec": "subtlety-rogue",
+      "spec": "windwalker-monk",
       "bisList": [
         {
-          "name": "Helmet of the Thousandfold Blades",
+          "name": "Red Crane Headpiece",
           "slot": "head",
           "phase": [
             "T14",
@@ -136,7 +136,7 @@
                 "image": "cogwheel"
               },
               {
-                "name": "Rigid Tinker's Gear",
+                "name": "Precise Tinker's Gear",
                 "image": "cogwheel"
               }
             ]
@@ -150,31 +150,6 @@
           "source": "Engineering (Pre-Raid)",
           "source_type": "Crafting",
           "rarity": "epic"
-        },
-        {
-          "name": "Windblast Helm",
-          "slot": "head",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Wing Leader Ner'onok",
-          "source_type": "Siege of Niuzao Temple",
-          "rarity": "rare"
         },
         {
           "name": "Soulburner Crown",
@@ -199,6 +174,31 @@
           },
           "source": "Lilian Voss",
           "source_type": "Scholomance",
+          "rarity": "rare"
+        },
+        {
+          "name": "Windblast Helm",
+          "slot": "head",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Wing Leader Ner'onok",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
@@ -448,7 +448,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Spaulders of the Thousandfold Blades",
+          "name": "Red Crane Spaulders",
           "slot": "shoulder",
           "phase": [
             "T14",
@@ -686,6 +686,31 @@
           "rarity": "epic"
         },
         {
+          "name": "Malevolent Gladiator's Cape of Cruelty",
+          "slot": "back",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Conquest Points",
+          "source_type": "PvP Vendor",
+          "rarity": "epic"
+        },
+        {
           "name": "Dory's Pageantry",
           "slot": "back",
           "phase": [
@@ -788,7 +813,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Tunic of the Thousandfold Blades",
+          "name": "Red Crane Tunic",
           "slot": "chest",
           "phase": [
             "T14",
@@ -810,12 +835,12 @@
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Deft Vermilion Onyx",
+                "image": "vermilion-onyx"
               },
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Deft Vermilion Onyx",
+                "image": "vermilion-onyx"
               }
             ]
           },
@@ -1117,10 +1142,8 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Bracer - Greater Agility",
-              "rarity": "common",
               "recipe": false
             }
           },
@@ -1144,8 +1167,10 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Bracer - Greater Agility",
+              "rarity": "common",
               "recipe": false
             }
           },
@@ -1258,7 +1283,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Gloves of the Thousandfold Blades",
+          "name": "Red Crane Grips",
           "slot": "hands",
           "phase": [
             "T14",
@@ -1742,7 +1767,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Malevolent Gladiator's Leather Legguards",
+          "name": "Malevolent Gladiator's Ironskin Legguards",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1876,8 +1901,8 @@
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Deft Vermilion Onyx",
+                "image": "vermilion-onyx"
               }
             ]
           },
@@ -2122,7 +2147,7 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -2197,7 +2222,7 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -2468,7 +2493,7 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -2493,7 +2518,7 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -2583,6 +2608,30 @@
           "rarity": "epic"
         },
         {
+          "name": "Bottle of Infinite Stars",
+          "slot": "trinket 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Elegon",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
           "name": "Relic of Xuen v2",
           "slot": "trinket 1",
           "phase": [
@@ -2605,30 +2654,6 @@
           },
           "source": "Inscription",
           "source_type": "Crafting",
-          "rarity": "epic"
-        },
-        {
-          "name": "Bottle of Infinite Stars",
-          "slot": "trinket 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Elegon",
-          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
@@ -2805,10 +2830,9 @@
           "rarity": "epic"
         },
         {
-          "name": "Relic of Xuen v2",
+          "name": "Bottle of Infinite Stars",
           "slot": "trinket 2",
           "phase": [
-            "Pre-Bis",
             "T14",
             "T15",
             "T16"
@@ -2825,14 +2849,15 @@
               "recipe": false
             }
           },
-          "source": "Inscription",
-          "source_type": "Crafting",
+          "source": "Elegon",
+          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Bottle of Infinite Stars",
+          "name": "Relic of Xuen v2",
           "slot": "trinket 2",
           "phase": [
+            "Pre-Bis",
             "T14",
             "T15",
             "T16"
@@ -2849,8 +2874,8 @@
               "recipe": false
             }
           },
-          "source": "Elegon",
-          "source_type": "Mogu'shan Vaults (H)",
+          "source": "Inscription",
+          "source_type": "Crafting",
           "rarity": "epic"
         },
         {
@@ -3003,7 +3028,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Spiritsever",
+          "name": "Claws of Shek'zeer",
           "slot": "weapon",
           "phase": [
             "T14",
@@ -3030,12 +3055,12 @@
               }
             ]
           },
-          "source": "Lei Shi",
-          "source_type": "Terrace of Endless Springs (H)",
+          "source": "Grand Empress Shek'zeer",
+          "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "Dagger of the Seven Stars",
+          "name": "Gara'kal, Fist of the Spiritbinder",
           "slot": "weapon",
           "phase": [
             "T14",
@@ -3054,37 +3079,12 @@
               "recipe": false
             }
           },
-          "source": "The Stone Guard",
+          "source": "Gara'jal the Spiritbinder",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Tolakesh, Horn of the Black Ox",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Wing Leader Ner'onok",
-          "source_type": "Siege of Niuzao Temple",
-          "rarity": "epic"
-        },
-        {
-          "name": "The Gloaming Blade",
+          "name": "Krol Scimitar",
           "slot": "weapon",
           "phase": [
             "Pre-Bis",
@@ -3109,7 +3109,32 @@
           "rarity": "epic"
         },
         {
-          "name": "Mantid Trochanter",
+          "name": "Ka'eng, Breath of the Shadow",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Taran Zhu",
+          "source_type": "Shado-Pan Monastery",
+          "rarity": "epic"
+        },
+        {
+          "name": "Ner'onok's Razor Katar",
           "slot": "weapon",
           "phase": [
             "Pre-Bis",
@@ -3122,156 +3147,6 @@
             "enchant": {
               "name": "Weapon - Dancing Steel",
               "rarity": "common",
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Commander Ri'mok",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
-          "name": "Amber Slicer of Klaxxi'vess",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Klaxxi - Exalted",
-          "source_type": "Reputation",
-          "rarity": "rare"
-        },
-        {
-          "name": "Koegler's Ritual Knife",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Flameweaver Koegle",
-          "source_type": "Scarlet Halls",
-          "rarity": "rare"
-        },
-        {
-          "name": "Masterwork Ghost Shard",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blacksmithing (Pre-Raid)",
-          "source_type": "Crafting",
-          "rarity": "rare"
-        },
-        {
-          "name": "Spiritsever",
-          "slot": "off hand",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": true,
-            "enchant": {
-              "name": "Weapon - Dancing Steel",
-              "rarity": "common",
-              "recipe": false
-            }
-          },
-          "source": "Lei Shi",
-          "source_type": "Terrace of Endless Springs (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Dagger of the Seven Stars",
-          "slot": "off hand",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Stone Guard",
-          "source_type": "Mogu'shan Vaults (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Tolakesh, Horn of the Black Ox",
-          "slot": "off hand",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
               "recipe": false
             }
           },
@@ -3283,10 +3158,135 @@
           },
           "source": "Wing Leader Ner'onok",
           "source_type": "Siege of Niuzao Temple",
+          "rarity": "rare"
+        },
+        {
+          "name": "Siege-Captain's Scimitar",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Commander Vo'jak",
+          "source_type": "Siege of Niuzao Temple",
+          "rarity": "rare"
+        },
+        {
+          "name": "Claws of Gekkan",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Gekkan",
+          "source_type": "Mogu'shan Palace",
+          "rarity": "rare"
+        },
+        {
+          "name": "Crescent of Ichor",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Sha of Violence",
+          "source_type": "Shado-Pan Monastery",
+          "rarity": "rare"
+        },
+        {
+          "name": "Claws of Shek'zeer",
+          "slot": "off hand",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": true,
+            "enchant": {
+              "name": "Weapon - Dancing Steel",
+              "rarity": "common",
+              "recipe": false
+            }
+          },
+          "source": "Grand Empress Shek'zeer",
+          "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "The Gloaming Blade",
+          "name": "Gara'kal, Fist of the Spiritbinder",
+          "slot": "off hand",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Gara'jal the Spiritbinder",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Krol Scimitar",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3311,7 +3311,32 @@
           "rarity": "epic"
         },
         {
-          "name": "Mantid Trochanter",
+          "name": "Ka'eng, Breath of the Shadow",
+          "slot": "off hand",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Taran Zhu",
+          "source_type": "Shado-Pan Monastery",
+          "rarity": "epic"
+        },
+        {
+          "name": "Ner'onok's Razor Katar",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3333,12 +3358,12 @@
               "recipe": false
             }
           },
-          "source": "Commander Ri'mok",
-          "source_type": "Gate of the Setting Sun",
+          "source": "Wing Leader Ner'onok",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
-          "name": "Amber Slicer of Klaxxi'vess",
+          "name": "Siege-Captain's Scimitar",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3358,12 +3383,12 @@
               "recipe": false
             }
           },
-          "source": "The Klaxxi - Exalted",
-          "source_type": "Reputation",
+          "source": "Commander Vo'jak",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
-          "name": "Koegler's Ritual Knife",
+          "name": "Claws of Gekkan",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3383,12 +3408,12 @@
               "recipe": false
             }
           },
-          "source": "Flameweaver Koegle",
-          "source_type": "Scarlet Halls",
+          "source": "Gekkan",
+          "source_type": "Mogu'shan Palace",
           "rarity": "rare"
         },
         {
-          "name": "Masterwork Ghost Shard",
+          "name": "Crescent of Ichor",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3408,8 +3433,8 @@
               "recipe": false
             }
           },
-          "source": "Blacksmithing (Pre-Raid)",
-          "source_type": "Crafting",
+          "source": "Sha of Violence",
+          "source_type": "Shado-Pan Monastery",
           "rarity": "rare"
         }
       ],

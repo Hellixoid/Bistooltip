@@ -1,12 +1,12 @@
 {
   "componentChunkName": "component---src-templates-bis-lists-js",
-  "path": "/mop/bis-list/subtlety-rogue/",
+  "path": "/mop/bis-list/mistweaver-monk/",
   "result": {
     "pageContext": {
-      "spec": "subtlety-rogue",
+      "spec": "mistweaver-monk",
       "bisList": [
         {
-          "name": "Helmet of the Thousandfold Blades",
+          "name": "Hood of Stilled Winds",
           "slot": "head",
           "phase": [
             "T14",
@@ -26,21 +26,21 @@
             },
             "gems": [
               {
-                "name": "Agile Primal Diamond",
+                "name": "Burning Primal Diamond",
                 "image": "primal-diamond"
               },
               {
-                "name": "Glinting Imperial Amethyst",
-                "image": "imperial-amethyst"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
-          "source": "Sha of Fear",
-          "source_type": "Terrace of Endless Springs (H)",
+          "source": "Blade Lord Ta'yak",
+          "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "Crown of Opportunistic Strikes",
+          "name": "Red Crane Helm",
           "slot": "head",
           "phase": [
             "T14",
@@ -59,12 +59,36 @@
               "recipe": false
             }
           },
-          "source": "Will of the Emperor",
+          "source": "Sha of Fear",
+          "source_type": "Terrace of Endless Springs (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Hood of Cursed Dreams",
+          "slot": "head",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Feng the Accursed",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Facemask of Unrepentant Banditry",
+          "name": "Cap of Wandering Pride",
           "slot": "head",
           "phase": [
             "T14",
@@ -88,7 +112,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Red Smoke Bandana",
+          "name": "Snowdrift Helm",
           "slot": "head",
           "phase": [
             "Pre-Bis",
@@ -113,7 +137,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Agile Retinal Armor",
+          "name": "Camouflage Retinal Armor",
           "slot": "head",
           "phase": [
             "Pre-Bis",
@@ -128,15 +152,15 @@
             },
             "gems": [
               {
-                "name": "Agile Primal Diamond",
+                "name": "Burning Primal Diamond",
                 "image": "primal-diamond"
               },
               {
-                "name": "Quick Tinker's Gear",
+                "name": "Smooth Tinker's Gear",
                 "image": "cogwheel"
               },
               {
-                "name": "Rigid Tinker's Gear",
+                "name": "Quick Tinker's Gear",
                 "image": "cogwheel"
               }
             ]
@@ -152,7 +176,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Windblast Helm",
+          "name": "Hood of Viridian Residue",
           "slot": "head",
           "phase": [
             "Pre-Bis",
@@ -172,37 +196,12 @@
               "recipe": false
             }
           },
-          "source": "Wing Leader Ner'onok",
+          "source": "Vizier Jin'bak",
           "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
-          "name": "Soulburner Crown",
-          "slot": "head",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Lilian Voss",
-          "source_type": "Scholomance",
-          "rarity": "rare"
-        },
-        {
-          "name": "Pheromone-Coated Choker",
+          "name": "Korven's Amber-Sealed Beetle",
           "slot": "neck",
           "phase": [
             "T14",
@@ -221,12 +220,12 @@
               "recipe": false
             }
           },
-          "source": "Imperial Vizier Zor'lok",
+          "source": "Wind Lord Mel'jarak",
           "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "Choker of the Unleashed Storm",
+          "name": "Worldwaker Cabochon",
           "slot": "neck",
           "phase": [
             "T14",
@@ -245,12 +244,12 @@
               "recipe": false
             }
           },
-          "source": "Blade Lord Ta'yak",
-          "source_type": "Heart of Fear (H)",
+          "source": "Will of the Emperor",
+          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Amulet of the Hidden Kings",
+          "name": "Zian's Choker of Coalesced Shadow",
           "slot": "neck",
           "phase": [
             "T14",
@@ -274,7 +273,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Hellrider's Choker",
+          "name": "Stomphowl Pendant",
           "slot": "neck",
           "phase": [
             "T14",
@@ -298,7 +297,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Choker of the Klaxxi'va",
+          "name": "Links of the Lucid",
           "slot": "neck",
           "phase": [
             "Pre-Bis",
@@ -323,7 +322,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Delicate Necklace of the Golden Lotus",
+          "name": "Mending Necklace of the Golden Lotus",
           "slot": "neck",
           "phase": [
             "Pre-Bis",
@@ -348,7 +347,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Don Guerrero's Glorious Choker",
+          "name": "Dorian's Necklace of Burgeoning Dreams",
           "slot": "neck",
           "phase": [
             "Pre-Bis",
@@ -373,7 +372,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Scorched Scarlet Key",
+          "name": "Mindbreaker Pendant",
           "slot": "neck",
           "phase": [
             "Pre-Bis",
@@ -383,6 +382,56 @@
           ],
           "pre-bis": {
             "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Sha of Doubt",
+          "source_type": "Temple of the Jade Serpent",
+          "rarity": "rare"
+        },
+        {
+          "name": "Mindcapture Pendant",
+          "slot": "neck",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Xin the Weaponmaster",
+          "source_type": "Mogu'shan Palace",
+          "rarity": "rare"
+        },
+        {
+          "name": "Temperature-Sensing Necklace",
+          "slot": "neck",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -398,57 +447,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Engraved Amber Pendant",
-          "slot": "neck",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Vizier Jin'bak",
-          "source_type": "Siege of Niuzao Temple",
-          "rarity": "rare"
-        },
-        {
-          "name": "Amulet of Swirling Mists",
-          "slot": "neck",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Justice Points (1250)",
-          "source_type": "Vendor",
-          "rarity": "rare"
-        },
-        {
-          "name": "Spaulders of the Thousandfold Blades",
+          "name": "Red Crane Mantle",
           "slot": "shoulder",
           "phase": [
             "T14",
@@ -464,14 +463,14 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Greater Tiger Claw Inscription",
+              "name": "Greater Crane Wing Inscription",
               "rarity": "epic",
               "recipe": false
             },
             "gems": [
               {
-                "name": "Glinting Imperial Amethyst",
-                "image": "imperial-amethyst"
+                "name": "Misty Wild Jade",
+                "image": "wild-jade"
               }
             ]
           },
@@ -480,31 +479,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Shadow Heart Spaulders",
-          "slot": "shoulder",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Grand Empress Shek'zeer",
-          "source_type": "Heart of Fear (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Netherrealm Shoulderpads",
+          "name": "Spaulders of the Divided Mind",
           "slot": "shoulder",
           "phase": [
             "T14",
@@ -528,7 +503,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Imperion Spaulders",
+          "name": "Whitepetal Shouldergarb",
           "slot": "shoulder",
           "phase": [
             "Pre-Bis",
@@ -537,18 +512,10 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Greater Tiger Claw Inscription",
-              "rarity": "epic",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Deft Vermilion Onyx",
-                "image": "vermilion-onyx"
-              }
-            ]
+            }
           },
           "t14": {
             "bis": false,
@@ -561,10 +528,42 @@
           "rarity": "epic"
         },
         {
-          "name": "Doubtridden Shoulderguards",
+          "name": "Incarnadine Scarlet Spaulders",
           "slot": "shoulder",
           "phase": [
             "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "name": "Greater Crane Wing Inscription",
+              "rarity": "epic",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Potent Vermilion Onyx",
+                "image": "vermilion-onyx"
+              }
+            ]
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "High Inquisitor Whitemane",
+          "source_type": "Scarlet Monastery",
+          "rarity": "rare"
+        },
+        {
+          "name": "Cloak of Overwhelming Corruption",
+          "slot": "back",
+          "phase": [
             "T14",
             "T15",
             "T16"
@@ -581,37 +580,12 @@
               "recipe": false
             }
           },
-          "source": "Sha of Doubt",
-          "source_type": "Temple of the Jade Serpent",
-          "rarity": "rare"
+          "source": "Protectors of the Endless",
+          "source_type": "Terrace of Endless Springs (H)",
+          "rarity": "epic"
         },
         {
-          "name": "Fizzy Spaulders",
-          "slot": "shoulder",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Yan-Zhu the Uncasked",
-          "source_type": "Stormstout Brewery",
-          "rarity": "rare"
-        },
-        {
-          "name": "Legbreaker Greatcloak",
+          "name": "Cape of Three Lanterns",
           "slot": "back",
           "phase": [
             "T14",
@@ -627,17 +601,17 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Cloak - Accuracy",
+              "name": "Cloak - Superior Intellect",
               "rarity": "common",
               "recipe": false
             }
           },
-          "source": "Garalon",
-          "source_type": "Heart of Fear (H)",
+          "source": "The Stone Guard",
+          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Arrow Breaking Windcloak",
+          "name": "Drape of Gathering Clouds",
           "slot": "back",
           "phase": [
             "T14",
@@ -656,12 +630,36 @@
               "recipe": false
             }
           },
-          "source": "Feng the Accursed",
+          "source": "Blade Lord Ta'yak",
+          "source_type": "Heart of Fear (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Mindshard Drape",
+          "slot": "back",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Spirit Kings",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Blackguard Cape",
+          "name": "Sagewhisper's Wrap",
           "slot": "back",
           "phase": [
             "Pre-Bis",
@@ -686,7 +684,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Dory's Pageantry",
+          "name": "Dirl's Drafty Drape",
           "slot": "back",
           "phase": [
             "Pre-Bis",
@@ -711,7 +709,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Aerial Bombardment Cloak",
+          "name": "Cape of Entanglement",
           "slot": "back",
           "phase": [
             "Pre-Bis",
@@ -722,7 +720,7 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "name": "Cloak - Accuracy",
+              "name": "Cloak - Superior Intellect",
               "rarity": "common",
               "recipe": false
             }
@@ -733,12 +731,12 @@
               "recipe": false
             }
           },
-          "source": "General Pa'valak",
-          "source_type": "Siege of Niuzao Temple",
+          "source": "Liu Flameheart",
+          "source_type": "Temple of the Jade Serpent",
           "rarity": "rare"
         },
         {
-          "name": "Wind-Soaked Drape",
+          "name": "Cloak of Cleansing Flame",
           "slot": "back",
           "phase": [
             "Pre-Bis",
@@ -758,12 +756,37 @@
               "recipe": false
             }
           },
-          "source": "Wise Mari",
-          "source_type": "Temple of the Jade Serpent",
+          "source": "Gekkan",
+          "source_type": "Mogu'shan Palace",
           "rarity": "rare"
         },
         {
-          "name": "Bladesong Cloak",
+          "name": "Cloak of Hidden Flasks",
+          "slot": "back",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Hoptallus",
+          "source_type": "Stormstout Brewery",
+          "rarity": "rare"
+        },
+        {
+          "name": "Pressed Flower Cloak",
           "slot": "back",
           "phase": [
             "Pre-Bis",
@@ -788,7 +811,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Tunic of the Thousandfold Blades",
+          "name": "Red Crane Vest",
           "slot": "chest",
           "phase": [
             "T14",
@@ -810,12 +833,12 @@
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               },
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
@@ -824,7 +847,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Chestguard of Total Annihilation",
+          "name": "Robes of Eighty Lights",
           "slot": "chest",
           "phase": [
             "T14",
@@ -843,12 +866,36 @@
               "recipe": false
             }
           },
-          "source": "Elegon",
-          "source_type": "Mogu'shan Vaults (H)",
+          "source": "Garalon",
+          "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "Chestguard of Nemeses",
+          "name": "Fireproofed Chestguard",
+          "slot": "chest",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Galeon",
+          "source_type": "World Boss",
+          "rarity": "epic"
+        },
+        {
+          "name": "Nightfire Robe",
           "slot": "chest",
           "phase": [
             "T14",
@@ -872,7 +919,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Softfoot Silentwrap",
+          "name": "Mistfall Robes",
           "slot": "chest",
           "phase": [
             "Pre-Bis",
@@ -897,7 +944,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Greyshadow Chestguard",
+          "name": "Wildblood Vest",
           "slot": "chest",
           "phase": [
             "Pre-Bis",
@@ -914,12 +961,12 @@
             },
             "gems": [
               {
-                "name": "Deft Vermilion Onyx",
+                "name": "Potent Vermilion Onyx",
                 "image": "vermilion-onyx"
               },
               {
-                "name": "Deft Vermilion Onyx",
-                "image": "vermilion-onyx"
+                "name": "Misty Wild Jade",
+                "image": "wild-jade"
               }
             ]
           },
@@ -934,7 +981,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Vulajin's Vicious Breastplate",
+          "name": "Chestwrap of Arcing Flame",
           "slot": "chest",
           "phase": [
             "Pre-Bis",
@@ -954,37 +1001,12 @@
               "recipe": false
             }
           },
-          "source": "BoE World Drop",
-          "source_type": "Auction House",
-          "rarity": "epic"
-        },
-        {
-          "name": "Nimbletoe Chestguard",
-          "slot": "chest",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Ook-Ook",
-          "source_type": "Stormstout Brewery",
+          "source": "Commander Vo'jak",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
-          "name": "Korloff's Raiment",
+          "name": "Chestguard of Despair",
           "slot": "chest",
           "phase": [
             "Pre-Bis",
@@ -1004,12 +1026,12 @@
               "recipe": false
             }
           },
-          "source": "Brother Korloff",
-          "source_type": "Scarlet Monastery",
+          "source": "Sha of Doubt",
+          "source_type": "Temple of the Jade Serpent",
           "rarity": "rare"
         },
         {
-          "name": "Delicate Chestguard of the Golden Lotus",
+          "name": "Warming Chestguard of the Golden Lotus",
           "slot": "chest",
           "phase": [
             "Pre-Bis",
@@ -1034,7 +1056,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Bracers of Unseen Strikes",
+          "name": "Bracers of Dark Thoughts",
           "slot": "wrist",
           "phase": [
             "T14",
@@ -1050,32 +1072,8 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Bracer - Greater Agility",
+              "name": "Bracer - Super Intellect",
               "rarity": "common",
-              "recipe": false
-            }
-          },
-          "source": "Blade Lord Ta'yak",
-          "source_type": "Heart of Fear (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Bracers of Violent Meditation",
-          "slot": "wrist",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
               "recipe": false
             }
           },
@@ -1084,7 +1082,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Smooth Beetle Wristbands",
+          "name": "Pearlescent Butterfly Wristbands",
           "slot": "wrist",
           "phase": [
             "T14",
@@ -1108,7 +1106,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Quillpaw Family Bracers",
+          "name": "Clever Ashyo's Armbands",
           "slot": "wrist",
           "phase": [
             "Pre-Bis",
@@ -1117,10 +1115,8 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Bracer - Greater Agility",
-              "rarity": "common",
               "recipe": false
             }
           },
@@ -1135,7 +1131,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Saboteur's Stabilizing Bracers",
+          "name": "Star Summoner Bracers",
           "slot": "wrist",
           "phase": [
             "Pre-Bis",
@@ -1144,8 +1140,10 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Bracer - Super Intellect",
+              "rarity": "common",
               "recipe": false
             }
           },
@@ -1155,37 +1153,12 @@
               "recipe": false
             }
           },
-          "source": "Saboteur Kip'tilak",
-          "source_type": "Gate of the Setting Sun",
+          "source": "Gu Cloudstrike",
+          "source_type": "Shado-Pan Monastery",
           "rarity": "rare"
         },
         {
-          "name": "Lightblade Bracer",
-          "slot": "wrist",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Armsmaster Harlan",
-          "source_type": "Scarlet Halls",
-          "rarity": "rare"
-        },
-        {
-          "name": "Cruel Mercy Bracers",
+          "name": "Sudden Insight Bracers",
           "slot": "wrist",
           "phase": [
             "Pre-Bis",
@@ -1210,55 +1183,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Bonebreaker Gauntlets",
-          "slot": "hands",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Garalon",
-          "source_type": "Heart of Fear (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Gauntlets of the Shadow's Caress",
-          "slot": "hands",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Tsulong",
-          "source_type": "Terrace of Endless Springs (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Gloves of the Thousandfold Blades",
+          "name": "Gauntlets of Undesired Gifts",
           "slot": "hands",
           "phase": [
             "T14",
@@ -1277,6 +1202,36 @@
               "name": "Gloves - Greater Haste",
               "rarity": "common",
               "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Misty Wild Jade",
+                "image": "wild-jade"
+              }
+            ]
+          },
+          "source": "Imperial Vizier Zor'lok",
+          "source_type": "Heart of Fear (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Red Crane Handwraps",
+          "slot": "hands",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
             }
           },
           "source": "Wind Lord Mel'jarak",
@@ -1284,7 +1239,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Murderer's Gloves",
+          "name": "Liferuned Leather Gloves",
           "slot": "hands",
           "phase": [
             "T14",
@@ -1308,7 +1263,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Fingers of the Loneliest Monk",
+          "name": "Ogo's Elder Gloves",
           "slot": "hands",
           "phase": [
             "Pre-Bis",
@@ -1333,7 +1288,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Greyshadow Gloves",
+          "name": "Wildblood Gloves",
           "slot": "hands",
           "phase": [
             "Pre-Bis",
@@ -1350,8 +1305,8 @@
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
@@ -1366,7 +1321,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Tombstone Gauntlets",
+          "name": "Rattling Gloves",
           "slot": "hands",
           "phase": [
             "Pre-Bis",
@@ -1386,12 +1341,12 @@
               "recipe": false
             }
           },
-          "source": "Darkmaster Gandling",
+          "source": "Rattlegore",
           "source_type": "Scholomance",
           "rarity": "rare"
         },
         {
-          "name": "Hound Trainer's Gloves",
+          "name": "Vellum-Ripper Gloves",
           "slot": "hands",
           "phase": [
             "Pre-Bis",
@@ -1411,12 +1366,12 @@
               "recipe": false
             }
           },
-          "source": "Houndmaster Braun",
+          "source": "Flameweaver Koegle",
           "source_type": "Scarlet Halls",
           "rarity": "rare"
         },
         {
-          "name": "Surehand Grips",
+          "name": "Wandering Friar's Gloves",
           "slot": "hands",
           "phase": [
             "Pre-Bis",
@@ -1441,7 +1396,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Stalker's Cord of Eternal Autumn",
+          "name": "Stonebound Cinch",
           "slot": "waist",
           "phase": [
             "T14",
@@ -1461,21 +1416,25 @@
             },
             "gems": [
               {
-                "name": "Glinting Imperial Amethyst",
-                "image": "imperial-amethyst"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               },
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
+              },
+              {
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
-          "source": "Tsulong, Lei Shi",
-          "source_type": "Terrace of Endless Springs (H)",
+          "source": "The Stone Guard",
+          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Tomb Raider's Girdle",
+          "name": "Weaver's Cord of Eternal Autumn",
           "slot": "waist",
           "phase": [
             "T14",
@@ -1494,12 +1453,12 @@
               "recipe": false
             }
           },
-          "source": "Feng the Accursed",
-          "source_type": "Mogu'shan Vaults (H)",
+          "source": "Tsulong, Lei Shi",
+          "source_type": "Terrace of Endless Springs (H)",
           "rarity": "epic"
         },
         {
-          "name": "Cannoneer's Gunpowder Carrier",
+          "name": "Carrot-Holder Belt",
           "slot": "waist",
           "phase": [
             "T14",
@@ -1523,7 +1482,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Klaxxi Lash of the Borrower",
+          "name": "Klaxxi Lash of the Harbinger",
           "slot": "waist",
           "phase": [
             "Pre-Bis",
@@ -1548,7 +1507,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Malevolent Gladiator's Waistband of Accuracy",
+          "name": "Hurricane Belt",
           "slot": "waist",
           "phase": [
             "Pre-Bis",
@@ -1563,12 +1522,8 @@
             },
             "gems": [
               {
-                "name": "Glinting Imperial Amethyst",
-                "image": "imperial-amethyst"
-              },
-              {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
@@ -1578,62 +1533,12 @@
               "recipe": false
             }
           },
-          "source": "Conquest Points",
-          "source_type": "PvP Vendor",
-          "rarity": "epic"
-        },
-        {
-          "name": "Belt of Brazen Inebriation",
-          "slot": "waist",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Hoptallus",
-          "source_type": "Stormstout Brewery",
+          "source": "Trial of the King",
+          "source_type": "Mogu'shan Palace",
           "rarity": "rare"
         },
         {
-          "name": "Icewrath Belt",
-          "slot": "waist",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Instructor Chillheart",
-          "source_type": "Scholomance",
-          "rarity": "rare"
-        },
-        {
-          "name": "Legguards of Failing Purification",
+          "name": "Fear-Blackened Leggings",
           "slot": "legs",
           "phase": [
             "T14",
@@ -1649,27 +1554,27 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Shadowleather Leg Armor",
+              "name": "Greater Cerulean Spellthread",
               "rarity": "rare",
               "recipe": false
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Potent Vermilion Onyx",
+                "image": "vermilion-onyx"
               },
               {
-                "name": "Glinting Imperial Amethyst",
-                "image": "imperial-amethyst"
+                "name": "Misty Wild Jade",
+                "image": "wild-jade"
               }
             ]
           },
-          "source": "Protectors of the Endless",
+          "source": "Tsulong",
           "source_type": "Terrace of Endless Springs (H)",
           "rarity": "epic"
         },
         {
-          "name": "Red Crane Leggings",
+          "name": "Red Crane Legwraps",
           "slot": "legs",
           "phase": [
             "T14",
@@ -1693,7 +1598,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Stoneflesh Leggings",
+          "name": "Magnetized Leggings",
           "slot": "legs",
           "phase": [
             "T14",
@@ -1712,12 +1617,12 @@
               "recipe": false
             }
           },
-          "source": "The Stone Guard",
+          "source": "Will of the Emperor",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Dreadsworn Slayer Legs",
+          "name": "Wind-Reaver Greaves",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1742,7 +1647,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Malevolent Gladiator's Leather Legguards",
+          "name": "Leggings of Whispered Dreams",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1753,18 +1658,14 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "name": "Shadowleather Leg Armor",
+              "name": "Greater Cerulean Spellthread",
               "rarity": "rare",
               "recipe": false
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
-              },
-              {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
@@ -1774,12 +1675,12 @@
               "recipe": false
             }
           },
-          "source": "Conquest Points",
-          "source_type": "PvP Vendor",
-          "rarity": "epic"
+          "source": "Lorewalker Stonestep",
+          "source_type": "Temple of the Jade Serpent",
+          "rarity": "rare"
         },
         {
-          "name": "Ghostwoven Legguards",
+          "name": "Darkbinder Leggings",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1799,37 +1700,12 @@
               "recipe": false
             }
           },
-          "source": "Jandice Barov",
-          "source_type": "Scholomance",
+          "source": "Taran Zhu",
+          "source_type": "Shado-Pan Monastery",
           "rarity": "rare"
         },
         {
-          "name": "Wall-Breaker Legguards",
-          "slot": "legs",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Raigonn",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
-          "name": "Tough Mushanhide Leggings",
+          "name": "Brambleguard Leggings",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1854,7 +1730,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Boots of the Still Breath",
+          "name": "Asani's Uncleansed Sandals",
           "slot": "feet",
           "phase": [
             "T14",
@@ -1870,24 +1746,178 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Boots - Blurred Speed",
+              "name": "Boots - Pandaren's Step",
               "rarity": "common",
               "recipe": false
             },
             "gems": [
               {
-                "name": "Delicate Primordial Ruby",
-                "image": "primordial-ruby"
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
           },
-          "source": "Imperial Vizier Zor'lok",
-          "source_type": "Heart of Fear (H)",
+          "source": "Protectors of the Endless",
+          "source_type": "Terrace of Endless Springs (H)",
           "rarity": "epic"
         },
         {
-          "name": "Treads of Deadly Secretions",
+          "name": "Phasewalker Striders",
           "slot": "feet",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Elegon",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Stompdodger Boots",
+          "slot": "feet",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Galeon",
+          "source_type": "World Boss",
+          "rarity": "epic"
+        },
+        {
+          "name": "Airstream Treads",
+          "slot": "feet",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "name": "Boots - Pandaren's Step",
+              "rarity": "common",
+              "recipe": false
+            },
+            "gems": [
+              {
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
+              }
+            ]
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Striker Ga'dok",
+          "source_type": "Gate of the Setting Sun",
+          "rarity": "rare"
+        },
+        {
+          "name": "Treads of Corrupted Water",
+          "slot": "feet",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Wise Mari",
+          "source_type": "Temple of the Jade Serpent",
+          "rarity": "rare"
+        },
+        {
+          "name": "Watersoul Signet",
+          "slot": "finger 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Protectors of the Endless",
+          "source_type": "Terrace of Endless Springs (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Circuit of the Frail Soul",
+          "slot": "finger 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Gara'jal the Spiritbinder",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Seal of the Profane",
+          "slot": "finger 1",
           "phase": [
             "T14",
             "T15",
@@ -1910,8 +1940,8 @@
           "rarity": "epic"
         },
         {
-          "name": "Flamefoot Tabi",
-          "slot": "feet",
+          "name": "Steaming Seal of Flame",
+          "slot": "finger 1",
           "phase": [
             "T14",
             "T15",
@@ -1934,8 +1964,32 @@
           "rarity": "epic"
         },
         {
-          "name": "Tukka-Tuk's Hairy Boots",
-          "slot": "feet",
+          "name": "Feng's Ring of Dreams",
+          "slot": "finger 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Feng the Accursed",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Leven's Circle of Hope",
+          "slot": "finger 1",
           "phase": [
             "Pre-Bis",
             "T14",
@@ -1954,13 +2008,63 @@
               "recipe": false
             }
           },
-          "source": "Valor Points (1750) & The August Celestials (Revered)",
+          "source": "Valor Points (1250) & Golden Lotus (Honored)",
           "source_type": "Reputation Vendor",
           "rarity": "epic"
         },
         {
-          "name": "Boots of Plummeting Death",
-          "slot": "feet",
+          "name": "Seal of the Prime",
+          "slot": "finger 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Shadow of the Empire",
+          "source_type": "Quest (The Klaxxi - Exalted)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Vithrak, Gaze of the Deadman",
+          "slot": "finger 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Flameweaver Koegle",
+          "source_type": "Scarlet Halls",
+          "rarity": "epic"
+        },
+        {
+          "name": "Alemental Seal",
+          "slot": "finger 1",
           "phase": [
             "Pre-Bis",
             "T14",
@@ -1970,16 +2074,8 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "name": "Boots - Blurred Speed",
-              "rarity": "common",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Deft Vermilion Onyx",
-                "image": "vermilion-onyx"
-              }
-            ]
+            }
           },
           "t14": {
             "bis": false,
@@ -1987,13 +2083,63 @@
               "recipe": false
             }
           },
-          "source": "Xin the Weaponmaster",
-          "source_type": "Mogu'shan Palace",
+          "source": "Yan-Zhu the Uncasked",
+          "source_type": "Stormstout Brewery",
           "rarity": "rare"
         },
         {
-          "name": "Dashing Strike Treads",
-          "slot": "feet",
+          "name": "Beastbinder Ring",
+          "slot": "finger 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Houndmaster Braun",
+          "source_type": "Scarlet Halls",
+          "rarity": "rare"
+        },
+        {
+          "name": "Viscous Ring",
+          "slot": "finger 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Commander Ri'mok",
+          "source_type": "Gate of the Setting Sun",
+          "rarity": "rare"
+        },
+        {
+          "name": "Triune Signet",
+          "slot": "finger 1",
           "phase": [
             "Pre-Bis",
             "T14",
@@ -2017,278 +2163,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Regail's Band of the Endless",
-          "slot": "finger 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Protectors of the Endless",
-          "source_type": "Terrace of Endless Springs (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Painful Thorned Ring",
-          "slot": "finger 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Wind Lord Mel'jarak",
-          "source_type": "Heart of Fear (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Feng's Seal of Binding",
-          "slot": "finger 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Feng the Accursed",
-          "source_type": "Mogu'shan Vaults (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Hereditary Saurok Loop",
-          "slot": "finger 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Galeon",
-          "source_type": "World Boss",
-          "rarity": "epic"
-        },
-        {
-          "name": "Anji's Keepsake",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Valor Points (1250) & Golden Lotus (Honored)",
-          "source_type": "Reputation Vendor",
-          "rarity": "epic"
-        },
-        {
-          "name": "Seal of the Windreaver",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Shadow of the Empire",
-          "source_type": "Quest (The Klaxxi - Exalted)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Perculia's Peculiar Signet",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "BoE World Drop",
-          "source_type": "Auction House",
-          "rarity": "epic"
-        },
-        {
-          "name": "Seal of Hateful Meditation",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Taran Zhu",
-          "source_type": "Shado-Pan Monastery",
-          "rarity": "rare"
-        },
-        {
-          "name": "Signet of Dancing Jade",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Liu Flameheart",
-          "source_type": "Temple of the Jade Serpent",
-          "rarity": "rare"
-        },
-        {
-          "name": "Pulled Grenade Pin",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Saboteur Kip'tilak",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
-          "name": "Mark of the Dancing Crane",
-          "slot": "finger 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Justice Points (1250)",
-          "source_type": "Vendor",
-          "rarity": "rare"
-        },
-        {
-          "name": "Regail's Band of the Endless",
+          "name": "Watersoul Signet",
           "slot": "finger 2",
           "phase": [
             "T14",
@@ -2312,7 +2187,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Painful Thorned Ring",
+          "name": "Circuit of the Frail Soul",
           "slot": "finger 2",
           "phase": [
             "T14",
@@ -2331,12 +2206,12 @@
               "recipe": false
             }
           },
-          "source": "Wind Lord Mel'jarak",
-          "source_type": "Heart of Fear (H)",
+          "source": "Gara'jal the Spiritbinder",
+          "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Feng's Seal of Binding",
+          "name": "Seal of the Profane",
           "slot": "finger 2",
           "phase": [
             "T14",
@@ -2355,12 +2230,12 @@
               "recipe": false
             }
           },
-          "source": "Feng the Accursed",
-          "source_type": "Mogu'shan Vaults (H)",
+          "source": "Amber-Shaper Un'sok",
+          "source_type": "Heart of Fear (H)",
           "rarity": "epic"
         },
         {
-          "name": "Hereditary Saurok Loop",
+          "name": "Steaming Seal of Flame",
           "slot": "finger 2",
           "phase": [
             "T14",
@@ -2384,7 +2259,31 @@
           "rarity": "epic"
         },
         {
-          "name": "Anji's Keepsake",
+          "name": "Feng's Ring of Dreams",
+          "slot": "finger 2",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Feng the Accursed",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Leven's Circle of Hope",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2409,7 +2308,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Seal of the Windreaver",
+          "name": "Seal of the Prime",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2434,7 +2333,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Perculia's Peculiar Signet",
+          "name": "Vithrak, Gaze of the Deadman",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2454,12 +2353,12 @@
               "recipe": false
             }
           },
-          "source": "BoE World Drop",
-          "source_type": "Auction House",
+          "source": "Flameweaver Koegle",
+          "source_type": "Scarlet Halls",
           "rarity": "epic"
         },
         {
-          "name": "Seal of Hateful Meditation",
+          "name": "Alemental Seal",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2479,12 +2378,12 @@
               "recipe": false
             }
           },
-          "source": "Taran Zhu",
-          "source_type": "Shado-Pan Monastery",
+          "source": "Yan-Zhu the Uncasked",
+          "source_type": "Stormstout Brewery",
           "rarity": "rare"
         },
         {
-          "name": "Signet of Dancing Jade",
+          "name": "Beastbinder Ring",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2504,12 +2403,12 @@
               "recipe": false
             }
           },
-          "source": "Liu Flameheart",
-          "source_type": "Temple of the Jade Serpent",
+          "source": "Houndmaster Braun",
+          "source_type": "Scarlet Halls",
           "rarity": "rare"
         },
         {
-          "name": "Pulled Grenade Pin",
+          "name": "Viscous Ring",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2529,12 +2428,12 @@
               "recipe": false
             }
           },
-          "source": "Saboteur Kip'tilak",
+          "source": "Commander Ri'mok",
           "source_type": "Gate of the Setting Sun",
           "rarity": "rare"
         },
         {
-          "name": "Mark of the Dancing Crane",
+          "name": "Triune Signet",
           "slot": "finger 2",
           "phase": [
             "Pre-Bis",
@@ -2554,36 +2453,12 @@
               "recipe": false
             }
           },
-          "source": "Justice Points (1250)",
-          "source_type": "Vendor",
+          "source": "High Inquisitor Whitemane",
+          "source_type": "Scarlet Monastery",
           "rarity": "rare"
         },
         {
-          "name": "Terror in the Mists",
-          "slot": "trinket 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": true,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Lei Shi",
-          "source_type": "Terrace of Endless Springs (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Relic of Xuen v2",
+          "name": "Relic of Yu'lon",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -2598,7 +2473,7 @@
             }
           },
           "t14": {
-            "bis": false,
+            "bis": true,
             "enchant": {
               "recipe": false
             }
@@ -2608,7 +2483,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Bottle of Infinite Stars",
+          "name": "Spirits of the Sun",
           "slot": "trinket 1",
           "phase": [
             "T14",
@@ -2627,36 +2502,36 @@
               "recipe": false
             }
           },
-          "source": "Elegon",
+          "source": "Tsulong",
+          "source_type": "Terrace of Endless Springs (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Qin-xi's Polarizing Seal",
+          "slot": "trinket 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Will of the Emperor",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Jade Bandit Figurine",
-          "slot": "trinket 1",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Trash Drop",
-          "source_type": "Mogu'shan Vaults",
-          "rarity": "epic"
-        },
-        {
-          "name": "Hawkmaster's Talon",
+          "name": "Blossom of Pure Snow",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -2681,7 +2556,55 @@
           "rarity": "epic"
         },
         {
-          "name": "Searing Words",
+          "name": "Jade Magistrate Figurine",
+          "slot": "trinket 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trash Drop",
+          "source_type": "Mogu'shan Vaults",
+          "rarity": "epic"
+        },
+        {
+          "name": "Jade Courtesan Figurine",
+          "slot": "trinket 1",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trash Drop",
+          "source_type": "Mogu'shan Vaults",
+          "rarity": "epic"
+        },
+        {
+          "name": "Price of Progress",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -2706,7 +2629,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Windswept Pages",
+          "name": "Vial of Ichorous Blood",
           "slot": "trinket 1",
           "phase": [
             "Pre-Bis",
@@ -2726,33 +2649,8 @@
               "recipe": false
             }
           },
-          "source": "Lorewalker Stonestep",
-          "source_type": "Temple of the Jade Serpent",
-          "rarity": "rare"
-        },
-        {
-          "name": "Flashing Steel Talisman",
-          "slot": "trinket 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "High Inquisitor Whitemane",
-          "source_type": "Scarlet Monastery",
+          "source": "General Pa'valak",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
@@ -2781,9 +2679,10 @@
           "rarity": "rare"
         },
         {
-          "name": "Terror in the Mists",
-          "slot": "trinket 2",
+          "name": "Empty Fruit Barrel",
+          "slot": "trinket 1",
           "phase": [
+            "Pre-Bis",
             "T14",
             "T15",
             "T16"
@@ -2800,15 +2699,39 @@
               "recipe": false
             }
           },
-          "source": "Lei Shi",
-          "source_type": "Terrace of Endless Springs (H)",
-          "rarity": "epic"
+          "source": "Ook-Ook",
+          "source_type": "Stormstout Brewery",
+          "rarity": "rare"
         },
         {
-          "name": "Relic of Xuen v2",
+          "name": "Relic of Yu'lon",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Inscription",
+          "source_type": "Crafting",
+          "rarity": "epic"
+        },
+        {
+          "name": "Qin-xi's Polarizing Seal",
+          "slot": "trinket 2",
+          "phase": [
             "T14",
             "T15",
             "T16"
@@ -2825,36 +2748,12 @@
               "recipe": false
             }
           },
-          "source": "Inscription",
-          "source_type": "Crafting",
-          "rarity": "epic"
-        },
-        {
-          "name": "Bottle of Infinite Stars",
-          "slot": "trinket 2",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Elegon",
+          "source": "Will of the Emperor",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Jade Bandit Figurine",
+          "name": "Spirits of the Sun",
           "slot": "trinket 2",
           "phase": [
             "T14",
@@ -2873,12 +2772,12 @@
               "recipe": false
             }
           },
-          "source": "Trash Drop",
-          "source_type": "Mogu'shan Vaults",
+          "source": "Tsulong",
+          "source_type": "Terrace of Endless Springs (H)",
           "rarity": "epic"
         },
         {
-          "name": "Hawkmaster's Talon",
+          "name": "Blossom of Pure Snow",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -2903,7 +2802,55 @@
           "rarity": "epic"
         },
         {
-          "name": "Searing Words",
+          "name": "Jade Magistrate Figurine",
+          "slot": "trinket 2",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trash Drop",
+          "source_type": "Mogu'shan Vaults",
+          "rarity": "epic"
+        },
+        {
+          "name": "Jade Courtesan Figurine",
+          "slot": "trinket 2",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Trash Drop",
+          "source_type": "Mogu'shan Vaults",
+          "rarity": "epic"
+        },
+        {
+          "name": "Price of Progress",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -2928,7 +2875,7 @@
           "rarity": "rare"
         },
         {
-          "name": "Windswept Pages",
+          "name": "Vial of Ichorous Blood",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -2948,33 +2895,8 @@
               "recipe": false
             }
           },
-          "source": "Lorewalker Stonestep",
-          "source_type": "Temple of the Jade Serpent",
-          "rarity": "rare"
-        },
-        {
-          "name": "Flashing Steel Talisman",
-          "slot": "trinket 2",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "High Inquisitor Whitemane",
-          "source_type": "Scarlet Monastery",
+          "source": "General Pa'valak",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
@@ -3003,7 +2925,32 @@
           "rarity": "rare"
         },
         {
-          "name": "Spiritsever",
+          "name": "Empty Fruit Barrel",
+          "slot": "trinket 2",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Ook-Ook",
+          "source_type": "Stormstout Brewery",
+          "rarity": "rare"
+        },
+        {
+          "name": "Jin'ya, Orb of the Waterspeaker",
           "slot": "weapon",
           "phase": [
             "T14",
@@ -3019,13 +2966,13 @@
           "t14": {
             "bis": true,
             "enchant": {
-              "name": "Weapon - Dancing Steel",
+              "name": "Weapon - Jade Spirit",
               "rarity": "common",
               "recipe": false
             },
             "gems": [
               {
-                "name": "Crystallized Dread",
+                "name": "Crystallized Horror",
                 "image": "crystallized"
               }
             ]
@@ -3035,7 +2982,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Dagger of the Seven Stars",
+          "name": "Loshan, Terror Incarnate",
           "slot": "weapon",
           "phase": [
             "T14",
@@ -3054,191 +3001,13 @@
               "recipe": false
             }
           },
-          "source": "The Stone Guard",
-          "source_type": "Mogu'shan Vaults (H)",
-          "rarity": "epic"
-        },
-        {
-          "name": "Tolakesh, Horn of the Black Ox",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Wing Leader Ner'onok",
-          "source_type": "Siege of Niuzao Temple",
-          "rarity": "epic"
-        },
-        {
-          "name": "The Gloaming Blade",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "BoE World Drop",
-          "source_type": "Auction House",
-          "rarity": "epic"
-        },
-        {
-          "name": "Mantid Trochanter",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": true,
-            "enchant": {
-              "name": "Weapon - Dancing Steel",
-              "rarity": "common",
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Commander Ri'mok",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
-          "name": "Amber Slicer of Klaxxi'vess",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Klaxxi - Exalted",
-          "source_type": "Reputation",
-          "rarity": "rare"
-        },
-        {
-          "name": "Koegler's Ritual Knife",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Flameweaver Koegle",
-          "source_type": "Scarlet Halls",
-          "rarity": "rare"
-        },
-        {
-          "name": "Masterwork Ghost Shard",
-          "slot": "weapon",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blacksmithing (Pre-Raid)",
-          "source_type": "Crafting",
-          "rarity": "rare"
-        },
-        {
-          "name": "Spiritsever",
-          "slot": "off hand",
-          "phase": [
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": true,
-            "enchant": {
-              "name": "Weapon - Dancing Steel",
-              "rarity": "common",
-              "recipe": false
-            }
-          },
-          "source": "Lei Shi",
+          "source": "Tsulong",
           "source_type": "Terrace of Endless Springs (H)",
           "rarity": "epic"
         },
         {
-          "name": "Dagger of the Seven Stars",
-          "slot": "off hand",
+          "name": "Kri'tak, Imperial Scepter of the Swarm",
+          "slot": "weapon",
           "phase": [
             "T14",
             "T15",
@@ -3256,13 +3025,37 @@
               "recipe": false
             }
           },
-          "source": "The Stone Guard",
+          "source": "Grand Empress Shek'zeer",
+          "source_type": "Heart of Fear (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Tihan, Scepter of the Sleeping Emperor",
+          "slot": "weapon",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Will of the Emperor",
           "source_type": "Mogu'shan Vaults (H)",
           "rarity": "epic"
         },
         {
-          "name": "Tolakesh, Horn of the Black Ox",
-          "slot": "off hand",
+          "name": "Je'lyu, Spirit of the Serpent",
+          "slot": "weapon",
           "phase": [
             "Pre-Bis",
             "T14",
@@ -3281,12 +3074,189 @@
               "recipe": false
             }
           },
-          "source": "Wing Leader Ner'onok",
-          "source_type": "Siege of Niuzao Temple",
+          "source": "Sha of Doubt",
+          "source_type": "Temple of the Jade Serpent",
           "rarity": "epic"
         },
         {
-          "name": "The Gloaming Blade",
+          "name": "Inscribed Crane Staff",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Inscription",
+          "source_type": "Crafting",
+          "rarity": "epic"
+        },
+        {
+          "name": "Carapace Breaker",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "name": "Weapon - Jade Spirit",
+              "rarity": "common",
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Raigonn",
+          "source_type": "Gate of the Setting Sun",
+          "rarity": "rare"
+        },
+        {
+          "name": "Amber Spine of Klaxxi'vess",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "The Klaxxi - Exalted",
+          "source_type": "Reputation",
+          "rarity": "rare"
+        },
+        {
+          "name": "Masterwork Forgewire Axe",
+          "slot": "weapon",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blacksmithing (Pre-Raid)",
+          "source_type": "Crafting",
+          "rarity": "rare"
+        },
+        {
+          "name": "Tornado-Summoning Censer",
+          "slot": "off hand",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Blade Lord Ta'yak",
+          "source_type": "Heart of Fear (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Fan of Fiery Winds",
+          "slot": "off hand",
+          "phase": [
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Feng the Accursed",
+          "source_type": "Mogu'shan Vaults (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Inscribed Red Fan",
+          "slot": "off hand",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": true,
+            "enchant": {
+              "name": "Off-Hand - Major Intellect",
+              "rarity": "common",
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Inscription",
+          "source_type": "Crafting",
+          "rarity": "epic"
+        },
+        {
+          "name": "Scroll of Whispered Secrets",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3311,7 +3281,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Mantid Trochanter",
+          "name": "Bottle of Potent Potables",
           "slot": "off hand",
           "phase": [
             "Pre-Bis",
@@ -3320,97 +3290,41 @@
             "T16"
           ],
           "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Hoptallus",
+          "source_type": "Stormstout Brewery",
+          "rarity": "rare"
+        },
+        {
+          "slot": "off hand",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
             "bis": true,
             "enchant": {
-              "name": "Weapon - Dancing Steel",
-              "rarity": "common",
               "recipe": false
             }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Commander Ri'mok",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
-          "name": "Amber Slicer of Klaxxi'vess",
-          "slot": "off hand",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "The Klaxxi - Exalted",
-          "source_type": "Reputation",
-          "rarity": "rare"
-        },
-        {
-          "name": "Koegler's Ritual Knife",
-          "slot": "off hand",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Flameweaver Koegle",
-          "source_type": "Scarlet Halls",
-          "rarity": "rare"
-        },
-        {
-          "name": "Masterwork Ghost Shard",
-          "slot": "off hand",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Blacksmithing (Pre-Raid)",
-          "source_type": "Crafting",
-          "rarity": "rare"
+          }
         }
       ],
       "enchantsData": [
