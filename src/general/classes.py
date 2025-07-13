@@ -3,10 +3,11 @@ classes = [
     "Druid",
     "Hunter",
     "Mage",
+    "Monk"
     "Paladin",
     "Priest",
     "Rogue",
     "Shaman",
+    "Warlock",
     "Warrior",
-    "Warlock"
 ]
