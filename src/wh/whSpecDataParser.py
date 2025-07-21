@@ -6,18 +6,20 @@ import bs4
 
 from src.general import phases
 from src import dirsAndFiles
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from src.general.randomItemSuffixes import find_suffix
 from src.general.sortedSpec import SortedSpec, Item
 from src.wh import whSlots
+from src.wh import whPhases
 
 
 class WhSpecDataParser:
-
     def __init__(self, consumables_file_path, ench_spells_file_path, horde_to_ali_file_path):
         self.ench_items_id_set = set()
         self.ench_spells_id_set = set()
+        self.phase0 = set()
+        self.phase1 = set()
 
         self.fill_enchantment_id_set(self.ench_items_id_set, consumables_file_path)
         self.fill_enchantment_id_set(self.ench_spells_id_set, ench_spells_file_path)
@@ -45,21 +47,74 @@ class WhSpecDataParser:
         return sorted_spec
 
     def extract_spec_data(self, doc, phase_id, sorted_spec, spec_id):
-        if phase_id == phases.phases.get("Pre-Bis-workaround"):
-            tbody_tag = doc.findNext("tbody")
-            self.parse_pr_table(tbody_tag, phase_id, sorted_spec, spec_id)
-        else:
-            h4_tags = doc.findChildren(["h4", "h3"])
-            for h4_tag in h4_tags:
-                tag_text = h4_tag.text.strip()
-                slot_name = self.normalize_slot_name(self.parse_slot(tag_text), spec_id)
-                if slot_name is not None:
-                    print(slot_name)
-                    notable = self.check_no_table_in_block(h4_tag)
-                    if not notable:
-                        tbody_tag = h4_tag.findNext("tbody")
-                        self.parse_table(tbody_tag, slot_name, phase_id, sorted_spec)
-                        self.find_ench(h4_tag, slot_name, phase_id, sorted_spec)
+        # Find first div with class 'tabbed-contents'
+        tabbed_contents = doc.find('div', class_='tabbed-contents')
+        if tabbed_contents:
+            # Iterate over all children of the tabbed-contents div
+            for child in tabbed_contents.children:
+                if child.name:  # Skip non-tag children (like text nodes)
+                    if phase_id == 0:
+                        self.phase0.add(child.attrs['id'])
+                    else:
+                        self.phase1.add(child.attrs['id'])
+
+            phase_gear_panel_sorting = whPhases.phase_gear_panel_sorting.get(phase_id)
+
+            add_enchs = True
+            for panel_id in phase_gear_panel_sorting:
+                for child in tabbed_contents.children:
+                    if child.name:  # Skip non-tag children (like text nodes)
+                        id_ = child.attrs['id']
+                        if panel_id == id_:
+                            self.parse_gear_panel(child, phase_id, sorted_spec, spec_id, add_enchs)
+                            add_enchs = False
+
+    def parse_gear_panel(self, gear_panel: Tag, phase_id, sorted_spec: SortedSpec, spec_id, add_enchs):
+        slots_tags = gear_panel.findChildren("div", class_='wow-gear-slot')
+        slots = self.rs_to_list(slots_tags)
+        for slot in slots:
+            slot_id = slot.get('data-slot-id')  # Use get() instead of direct access
+            if slot_id:
+                slot_name = whSlots.gear_planner_slots.get(slot_id)  # Fixed dictionary access
+                if slot_name:
+                    self.parse_slot_item(add_enchs, phase_id, slot, slot_name, sorted_spec)
+
+    def parse_slot_item(self, add_enchs, phase_id, slot, slot_name, sorted_spec):
+        item_link = slot.find("a", class_='wow-gear-slot-name')
+        if item_link:  # Check if item_link exists
+            item_id = self.get_item_id(item_link)
+            if item_id is not None:
+                phase = phases.id_to_phase[phase_id]
+                sorted_spec.add_item(slot_name,
+                                     phase,
+                                     Item(item_id, 0, None),
+                                     False)
+                if add_enchs:
+                    self.parse_enchs(phase, slot, slot_name, sorted_spec)
+
+    def parse_enchs(self, phase, slot, slot_name, sorted_spec):
+        enchs_tag = slot.find("div", class_='wow-gear-slot-enhancements')
+        if enchs_tag:  # Check if enhancements tag exists
+            sockets_tags = enchs_tag.findChildren("div", class_='wow-gear-slot-socket')
+            if sockets_tags:
+                sockets = self.rs_to_list(sockets_tags)
+                for socket in sockets:
+                    socket_link = socket.find('a')
+                    if socket_link:  # Check if socket link exists
+                        gem_id = self.get_item_id(socket_link)
+                        if gem_id is not None:
+                            sorted_spec.add_gem(slot_name, phase, gem_id)
+
+            enchsants_tags = enchs_tag.findChildren("div", class_="wow-gear-slot-enchant")
+            if enchsants_tags:
+                enchs = self.rs_to_list(enchsants_tags)
+                for ench_tag in enchs:
+                    ench_link = ench_tag.find('a')
+                    if ench_link:  # Check if enchant link exists
+                        enchantment = self.get_ench(ench_link)
+                        if enchantment is not None:
+                            sorted_spec.add_enchant(
+                                slot_name, phase, {"id": int(enchantment[1]), "type": enchantment[0]})
 
     def parse_table(self, tbody_tag, slot_name, phase_id, sorted_spec):
         tr_tags = tbody_tag.findChildren("tr")
@@ -176,7 +231,10 @@ class WhSpecDataParser:
         return result_list
 
     def get_item_id(self, link):
-        group = re.search(r".+=i?(\d+){1}(/{1}.+)?", link["href"]).group(1)
+        search = re.search(r".+=i?(\d+){1}(/{1}.+)?", link["href"])
+        if search is None:
+            return None
+        group = search.group(1)
         item_id = int(group)
         if str(item_id) in self.horde_to_ali_dict:
             return int(self.horde_to_ali_dict[str(item_id)])
@@ -239,3 +297,12 @@ class WhSpecDataParser:
                                 counter = counter + 1
                             if counter == 3:
                                 return
+
+    def printPhaseIds(self):
+        print("phase0:")
+        for e in self.phase0:
+            print(e)
+        print("\nphase1:")
+        for e in self.phase1:
+            print(e)
+        pass

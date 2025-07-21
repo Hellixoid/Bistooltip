@@ -3,7 +3,7 @@ classes = [
     "Druid",
     "Hunter",
     "Mage",
-    "Monk"
+    "Monk",
     "Paladin",
     "Priest",
     "Rogue",

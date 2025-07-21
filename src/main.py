@@ -81,6 +81,7 @@ def collect_wh_sorted_spec_data():
     for spec in whSpecs.specs:
         print(f'\nParsing spec {dataSources.wh}: {spec}')
         sorted_specs.append(spec_data_parser.parse(spec))
+    spec_data_parser.printPhaseIds()
     return sorted_specs
 
 
@@ -137,6 +138,6 @@ def build_ali_to_horde_mapping():
 
 if __name__ == '__main__':
     data_collection = False
-    process_wowtbc()
-    # process_wh()
+    # process_wowtbc()
+    process_wh()
     # build_ali_to_horde_mapping()

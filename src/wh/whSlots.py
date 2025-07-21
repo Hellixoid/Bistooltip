@@ -1,3 +1,23 @@
+gear_planner_slots = {
+    "1": "Head",
+    "2": "Neck",
+    "3": "Shoulder",
+    "15": "Back",
+    "5": "Chest",
+    "9": "Wrist",
+    "10": "Hands",
+    "6": "Waist",
+    "7": "Legs",
+    "8": "Feet",
+    "11": "Finger",
+    "12": "Finger",
+    "13": "Trinket",
+    "14": "Trinket",
+    "16": "Weapon",
+    "17": "Off hand",
+    "18": "Relic"
+}
+
 slot_to_slot_name = {
     "gloves": "Hands",
     "hands": "Hands",

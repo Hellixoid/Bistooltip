@@ -6,14 +6,21 @@ from selenium import webdriver
 from src.general import phases
 from src.wh import whPhases, whSpecs
 
-URL_PREFIX = 'https://www.wowhead.com/cata/guide/classes/'
-URL_SUFFIX = '-bis-gear-'
+URL_PREFIX = 'https://www.wowhead.com/mop-classic/guide/classes/'
+URL_SUFFIX = '-best-gear-bis-'
 
 
 def collect_specs_data(data_dir):
     options = webdriver.ChromeOptions()
-    options.add_argument(r"--user-data-dir=C:\Users\User\AppData\Local\Google\Chrome\User Data")
-    options.add_argument(r'--profile-directory=Profile 2')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--remote-debugging-port=9222')
+    options.add_argument('--start-maximized')
+    # options.add_argument('--disable-extensions')
+    options.add_argument('--disable-infobars')
+    options.add_argument(r'--user-data-dir=D:\code')
+    options.add_argument('--profile-directory=Profile 2')
     driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(20)
     for spec in whSpecs.specs:

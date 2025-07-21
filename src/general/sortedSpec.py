@@ -114,6 +114,9 @@ class Phase:
     def add_item(self, item, isbis):
         if item in self.items:
             return
+        for stored_item in self.items:
+            if item.id == stored_item.id:
+                return
         if isbis:
             self.items.insert(0, item)
         else:
