@@ -512,10 +512,18 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Greater Crane Wing Inscription",
+              "rarity": "epic",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
+              }
+            ]
           },
           "t14": {
             "bis": false,
@@ -537,18 +545,10 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Greater Crane Wing Inscription",
-              "rarity": "epic",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Potent Vermilion Onyx",
-                "image": "vermilion-onyx"
-              }
-            ]
+            }
           },
           "t14": {
             "bis": false,
@@ -1115,8 +1115,10 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Bracer - Mastery",
+              "rarity": "common",
               "recipe": false
             }
           },
@@ -1140,10 +1142,8 @@
             "T16"
           ],
           "pre-bis": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Bracer - Super Intellect",
-              "rarity": "common",
               "recipe": false
             }
           },
@@ -1507,7 +1507,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Hurricane Belt",
+          "name": "Malevolent Gladiator's Belt of Meditation",
           "slot": "waist",
           "phase": [
             "Pre-Bis",
@@ -1522,10 +1522,39 @@
             },
             "gems": [
               {
+                "name": "Misty Wild Jade",
+                "image": "wild-jade"
+              },
+              {
                 "name": "Smooth Sun's Radiance",
                 "image": "sun's-radiance"
               }
             ]
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Conquest Points",
+          "source_type": "PvP Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Hurricane Belt",
+          "slot": "waist",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
           },
           "t14": {
             "bis": false,
@@ -1647,7 +1676,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Leggings of Whispered Dreams",
+          "name": "Malevolent Gladiator's Copperskin Legguards",
           "slot": "legs",
           "phase": [
             "Pre-Bis",
@@ -1666,8 +1695,37 @@
               {
                 "name": "Smooth Sun's Radiance",
                 "image": "sun's-radiance"
+              },
+              {
+                "name": "Smooth Sun's Radiance",
+                "image": "sun's-radiance"
               }
             ]
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Conquest Points",
+          "source_type": "PvP Vendor",
+          "rarity": "epic"
+        },
+        {
+          "name": "Leggings of Whispered Dreams",
+          "slot": "legs",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
           },
           "t14": {
             "bis": false,
@@ -3115,7 +3173,7 @@
           "pre-bis": {
             "bis": true,
             "enchant": {
-              "name": "Weapon - Jade Spirit",
+              "name": "Weapon - Windsong",
               "rarity": "common",
               "recipe": false
             }
@@ -68510,7 +68568,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -68596,23 +68653,20 @@
           "general": "Welcome to the PvE Class Guide for Restoration Druid in Mist of Pandaria Classic. We'll look at the rotation and opener, best talent build, stat priority, consumables, and more so that you can heal at a high level in raids, dungeons, and challenge modes.",
           "single": [
             "Maintain *{\"skill\": \"Mastery: Harmony\"}*.",
-            "Maintain 3 stacks of *{\"skill\": \"Lifebloom\"}* on the active Tank. Refreshed by *{\"skill\": \"Healing Touch\"}*, *{\"skill\": \"Regrowth\"}*, and *{\"skill\": \"Nourish\"}*.",
+            "Maintain 3 stacks of *{\"skill\": \"Lifebloom\"}* on the active Tank. Refreshed by *{\"skill\": \"Regrowth\"}*.",
             "Maintain *{\"skill\": \"Rejuvenation\"}* on the Tank(s).",
             "Cast *{\"skill\": \"Wild Growth\"}* for AoE healing. You should use it after *{\"skill\": \"Swiftmend\"}* for *{\"skill\": \"Soul of the Forest\"}* whenever possible.",
             "Maintain *{\"skill\": \"Efflorescence\"}* on the raid for AoE healing with *{\"skill\": \"Wild Mushroom\"}* due to *{\"consume\": \"Glyph of Efflorescence\"}*.",
-            "Maintain *{\"skill\": \"Rejuvenation\"}* on the raid for AoE healing.",
-            "Cast *{\"skill\": \"Wild Mushroom: Bloom\"}* for AoE healing. Only place *{\"skill\": \"Wild Mushroom\"}* to refresh *{\"skill\": \"Efflorescence\"}* or during low damage.",
-            "Cast *{\"skill\": \"Healing Touch\"}* with *{\"skill\": \"Nature's Swiftness\"}* for an instant emergency heal.",
-            "Cast *{\"skill\": \"Swiftmend\"}* for an instant heal, otherwise save it for before *{\"skill\": \"Wild Growth\"}* and *{\"skill\": \"Tranquility\"}*.",
-            "Cast *{\"skill\": \"Healing Touch\"}* during high damage.",
-            "Cast *{\"skill\": \"Nourish\"}* as your filler during low damage.",
-            "Cast *{\"skill\": \"Regrowth\"}* as a quick emergency heal."
+            "Cast *{\"skill\": \"Wild Mushroom: Bloom\"}* for AoE healing.",
+            "Cast *{\"skill\": \"Regrowth\"}* with *{\"skill\": \"Nature's Swiftness\"}*, Clearcasting proccs, or as a quick emergency heal.",
+            "Cast *{\"skill\": \"Swiftmend\"}* for an instant emergency heal, otherwise save it for before *{\"skill\": \"Wild Growth\"}*, *{\"skill\": \"Lifebloom\"}*, or *{\"skill\": \"Tranquility\"}*.",
+            "Maintain *{\"skill\": \"Rejuvenation\"}* on the raid for AoE healing."
           ],
           "extra": {
             "name": "Raid & Defensive Cooldowns",
             "description": [
               "*{\"skill\": \"Tranquility\"}* with *{\"skill\": \"Soul of the Forest\"}*",
-              "*{\"skill\": \"Heart of the Wild\"}*",
+              "*{\"skill\": \"Nature's Vigil\"}*",
               "*{\"skill\": \"Ironbark\"}*",
               "*{\"skill\": \"Genesis-mop\"}*",
               "*{\"skill\": \"Innervate\"}*",
@@ -68647,7 +68701,8 @@
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
-            "Standard: *{\"consume\": \"Wild Growth\"}*, *{\"consume\": \"Rejuvenation\"}*, *{\"consume\": \"Efflorescence\"}*"
+            "Standard: *{\"consume\": \"Wild Growth\"}*, *{\"consume\": \"Efflorescence\"}*, *{\"consume\": \"Rebirth\"}*",
+            "Situational: *{\"consume\": \"Stampeding Roar\"}*"
           ],
           "minor_glyphs": [
             "Standard: *{\"consume\": \"Grace\"}*, *{\"consume\": \"Sprouting Mushroom\"}*"
@@ -68725,7 +68780,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -68809,7 +68863,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -68896,7 +68949,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69391,7 +69443,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Swordguard Embroidery\"}*.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69470,17 +69521,13 @@
           "general": "Welcome to the PvE Class Guide for Holy Priest in Mist of Pandaria Classic. We'll look at the rotation and opener, best talent build, stat priority, consumables, and more so that you can heal at a high level in raids, dungeons, and challenge modes.",
           "single": [
             "Use *{\"skill\": \"Inner Fire\"}*.",
-            "Use *{\"skill\": \"Chakra: Sanctuary\"}* for AoE healing or *{\"skill\": \"Chakra: Serenity\"}* for single target.",
-            "Cast *{\"skill\": \"Holy Word: Sanctuary\"}* for AoE heals or *{\"skill\": \"Holy Word: Serenity\"}* for single target depending on what *{\"wowBoss\": \"Chakra\"}* state you are in.",
-            "Maintain *{\"skill\": \"Renew\"}* on the Tank(s).",
+            "Use *{\"skill\": \"Chakra: Sanctuary\"}* for AoE healing or *{\"skill\": \"Chakra: Serenity\"}* for single target. You'll usually be in *{\"skill\": \"Chakra: Sanctuary\"}*.",
+            "Cast *{\"skill\": \"Holy Word: Sanctuary\"}* for AoE heals or *{\"skill\": \"Holy Word: Serenity\"}* for an instant emergency heal.",
             "Cast *{\"skill\": \"Flash Heal\"}* with *{\"skill\": \"From Darkness, Comes Light\"}* procs.",
             "Cast *{\"skill\": \"Prayer of Mending\"}*. Watch out for *{\"skill\": \"Divine Insight\"}* procs.",
             "Cast *{\"skill\": \"Cascade\"}* for AoE healing.",
             "Cast *{\"skill\": \"Circle of Healing\"}* for AoE healing.",
-            "Maintain *{\"skill\": \"Renew\"}* on the raid for AoE healing.",
             "Cast *{\"skill\": \"Prayer of Healing\"}* for AoE healing.",
-            "Cast *{\"skill\": \"Greater Heal\"}* for single target healing.",
-            "Cast *{\"skill\": \"Heal\"}* as your filler during low damage.",
             "Cast *{\"skill\": \"Flash Heal\"}* or *{\"skill\": \"Binding Heal\"}* for a quick emergency heal."
           ],
           "extra": {
@@ -69491,7 +69538,7 @@
               "*{\"skill\": \"Lightwell\"}*",
               "*{\"skill\": \"Void Shift\"}*",
               "*{\"skill\": \"Hymn of Hope\"}*",
-              "*{\"skill\": \"Mindbender\"}*",
+              "*{\"skill\": \"Shadowfiend\"}*",
               "*{\"skill\": \"Fade\"}* with *{\"consume\": \"Glyph of Fade\"}*"
             ]
           },
@@ -69594,7 +69641,6 @@
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
             "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Lightweave Embroidery\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69626,7 +69672,7 @@
             "Proceed with singlet target rotation."
           ],
           "single": [
-            "Use *{\"skill\": \"Deadly Poison\"}* and *{\"skill\": \"Leeching Poison\"}*.",
+            "Use *{\"skill\": \"Deadly Poison\"}*.",
             "Cast *{\"skill\": \"Vendetta\"}*.",
             "Cast *{\"skill\": \"Shadow Blades\"}*.",
             "Cast *{\"skill\": \"Redirect\"}* when switching targets with active Combo Points.",
@@ -69634,8 +69680,8 @@
             "Cast *{\"skill\": \"Preparation-cata\"}* to reset the cooldown of *{\"skill\": \"Vanish\"}*.",
             "Maintain *{\"skill\": \"Slice and Dice\"}*. This is refreshed by *{\"skill\": \"Envenom\"}*.",
             "Maintain *{\"skill\": \"Rupture\"}* at 1+ Combo Points.",
-            "Cast *{\"skill\": \"Marked for Death\"}* at 0 Combo Points if *{\"skill\": \"Slice and Dice\"}* is active.",
-            "Cast *{\"skill\": \"Envenom\"}* at 5 Combo Points. Pool Energy (about 90) before casting and refresh with 1 second or less unless you will cap on energy.",
+            "Cast *{\"skill\": \"Marked for Death\"}* at 0 Combo Points.",
+            "Cast *{\"skill\": \"Envenom\"}* at 4-5 Combo Points (always at 5 Combo Points on enemies below 35% HP). You can pool Energy before casting and refresh with 1 second or less unless you will cap on energy.",
             "Cast *{\"skill\": \"Dispatch\"}* on enemies below 35% HP or with *{\"skill\": \"Blindside\"}* procs.",
             "Cast *{\"skill\": \"Mutilate\"}* to generate Combo Points.",
             "Cast *{\"skill\": \"Tricks of the Trade\"}*."
@@ -69644,8 +69690,9 @@
             "<h3>2-3 targets:</h3>",
             "Maintain *{\"skill\": \"Deadly Poison\"}* and *{\"skill\": \"Rupture\"}* on all targets.",
             "Proceed with your single target rotation.",
-            "<h3>4-6 targets:</h3>",
+            "<h3>4+ targets:</h3>",
             "Maintain *{\"skill\": \"Rupture\"}* on as many targets as possible.",
+            "Cast *{\"skill\": \"Envenom\"}* at 5 Combo Points.",
             "Cast *{\"skill\": \"Fan of Knives\"}*."
           ],
           "extra": {
@@ -69678,7 +69725,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69704,13 +69750,13 @@
             "Cast *{\"skill\": \"Slice and Dice\"}*.",
             "Cast *{\"skill\": \"Revealing Strike\"}*.",
             "Cast *{\"skill\": \"Sinister Strike\"}* until 5 Combo Points.",
-            "Cast *{\"skill\": \"Killing Spree\"}* with any on-use effects.",
+            "Cast *{\"skill\": \"Killing Spree\"}*.",
+            "Cast *{\"skill\": \"Adrenaline Rush\"}*, *{\"skill\": \"Shadow Blades\"}*, and any on-use effects.",
             "Cast *{\"skill\": \"Rupture\"}*.",
-            "Cast *{\"skill\": \"Adrenaline Rush\"}* and *{\"skill\": \"Shadow Blades\"}*",
             "Proceed with single target rotation."
           ],
           "single": [
-            "Use *{\"skill\": \"Deadly Poison\"}* and *{\"skill\": \"Leeching Poison\"}*.",
+            "Use *{\"skill\": \"Deadly Poison\"}*.",
             "Cast *{\"skill\": \"Shadow Blades\"}*.",
             "Cast *{\"skill\": \"Adrenaline Rush\"}* at low Energy.",
             "Use *{\"skill\": \"Killing Spree\"}* at low Energy and when *{\"skill\": \"Adrenaline Rush\"}* and *{\"skill\": \"Shadow Blades\"}* are not active.",
@@ -69766,7 +69812,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69794,8 +69839,7 @@
             "Cast *{\"skill\": \"Hemorrhage\"}*.",
             "Cast *{\"skill\": \"Backstab\"}*.",
             "Cast *{\"skill\": \"Rupture\"}*.",
-            "Cast *{\"skill\": \"Backstab\"}*.",
-            "Cast *{\"skill\": \"Backstab\"}*.",
+            "Cast *{\"skill\": \"Backstab\"}* to 5 Combo Points.",
             "Cast *{\"skill\": \"Eviscerate\"}*.",
             "Cast *{\"skill\": \"Shadow Dance\"}* when *{\"skill\": \"Find Weakness\"}* is about to run out.",
             "Cast *{\"skill\": \"Ambush\"}* to 5 Combo Points.",
@@ -69808,7 +69852,7 @@
             "Cast *{\"skill\": \"Shadow Blades\"}* when you're done chaining *{\"skill\": \"Find Weakness\"}*."
           ],
           "single": [
-            "Use *{\"skill\": \"Deadly Poison\"}* and *{\"skill\": \"Leeching Poison\"}*.",
+            "Use *{\"skill\": \"Deadly Poison\"}*.",
             "Cast *{\"skill\": \"Shadow Blades\"}* when *{\"skill\": \"Find Weakness\"}* is not active.",
             "Cast *{\"skill\": \"Redirect\"}* when switching targets with active Combo Points.",
             "Cast *{\"skill\": \"Premeditation\"}* in *{\"skill\": \"Stealth\"}* or during *{\"skill\": \"Shadow Dance\"}* if below 4 Combo Points.",
@@ -69864,7 +69908,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -69949,7 +69992,6 @@
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
             "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Lightweave Embroidery\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70038,7 +70080,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70174,7 +70215,6 @@
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
             "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Lightweave Embroidery\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70256,7 +70296,6 @@
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
             "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Lightweave Embroidery\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70344,7 +70383,6 @@
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
             "*{\"wowBoss\": \"Tailoring\"}*: *{\"consume\": \"Lightweave Embroidery\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70435,7 +70473,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70541,7 +70578,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70803,7 +70839,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -70897,7 +70932,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
@@ -71161,7 +71195,6 @@
           ],
           "professions": [
             "*{\"wowBoss\": \"Engineering\"}*: *{\"consume\": \"Synapse Springs\"}* and *{\"consume\": \"Nitro Boosts\"}*.",
-            "*{\"wowBoss\": \"Blacksmithing\"}*: 2 extra gem sockets.",
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
