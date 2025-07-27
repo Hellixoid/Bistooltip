@@ -2662,6 +2662,31 @@
           "rarity": "epic"
         },
         {
+          "name": "Vision of the Predator",
+          "slot": "trinket 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Striker Ga'dok",
+          "source_type": "Gate of the Setting Sun",
+          "rarity": "rare"
+        },
+        {
           "name": "Price of Progress",
           "slot": "trinket 1",
           "phase": [
@@ -2908,7 +2933,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Price of Progress",
+          "name": "Vision of the Predator",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -2918,6 +2943,31 @@
           ],
           "pre-bis": {
             "bis": true,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Striker Ga'dok",
+          "source_type": "Gate of the Setting Sun",
+          "rarity": "rare"
+        },
+        {
+          "name": "Price of Progress",
+          "slot": "trinket 2",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
             "enchant": {
               "recipe": false
             }
@@ -68707,7 +68757,7 @@
           "minor_glyphs": [
             "Standard: *{\"consume\": \"Grace\"}*, *{\"consume\": \"Sprouting Mushroom\"}*"
           ],
-          "stats": "Haste (8033/10970) > Mastery > Spirit > Crit > Haste"
+          "stats": "Haste (6652/8033/10970) > Mastery > Spirit > Crit > Haste"
         },
         {
           "spec": "beast-mastery-hunter",
@@ -69275,7 +69325,7 @@
             "Standard: *{\"consume\": \"Beacon of Light\"}*, *{\"consume\": \"Hand of Sacrifice\"}*, *{\"consume\": \"Flash of Light\"}*",
             "Physical DR: *{\"consume\": \"Divine Protection\"}*"
           ],
-          "stats": "Haste (3506/5335/7170) > Mastery > Spirit > Crit"
+          "stats": "Haste (3506/5335/7170) > Mastery > Spirit > Crit > Haste"
         },
         {
           "spec": "protection-paladin",
