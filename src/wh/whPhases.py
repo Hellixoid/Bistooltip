@@ -14,6 +14,7 @@ phase_gear_panel_sorting = {
         "tab-mop-phase-1-pre-bis-pre-raid-opening-pre-bis"
         "tab-bis-lists-pre-raid-opening-bis",
         # toes
+        "tab-bis-lists-pre-raid-bis",
         "tab-bis-lists-toes-vendor-release",
         "tab-bis-lists-toes-release",
         "tab-mop-phase-1-toes-release",
@@ -23,7 +24,6 @@ phase_gear_panel_sorting = {
         "tab-bis-lists-pre-raid-hof-celestial",
         "tab-bis-lists-hof-vendor-release",
         # celest msv
-        "tab-bis-lists-pre-raid-bis",
         "tab-bis-lists-msv-vendor-release",
         "tab-mop-phase-1-pre-bis-msv-celestial-pre-bis",
         "tab-bis-lists-msv-release",
