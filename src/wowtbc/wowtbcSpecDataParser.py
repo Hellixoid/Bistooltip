@@ -29,6 +29,9 @@ class WowtbcSpecDataParser:
                         continue
 
                     item_slot_name = item['slot']
+                    if item_slot_name == 'offhand':
+                        item_slot_name = 'off hand'
+
                     try:
                         item_value = item['value']
                     except:
