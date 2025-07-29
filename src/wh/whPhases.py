@@ -13,6 +13,15 @@ phase_gear_panel_sorting = {
         "tab-bis-lists-pre-raid-opening",
         "tab-mop-phase-1-realistic-pre-raid-opening",
         "tab-mop-phase-1-pre-bis-pre-raid-opening-pre-bis"
+        # toes
+        "tab-bis-lists-toes-vendor-release",
+        "tab-bis-lists-toes-release",
+        "tab-mop-phase-1-toes-release",
+        # hof
+        "tab-bis-lists-hof-release",
+        "tab-mop-phase-1-hof-release",
+        "tab-bis-lists-pre-raid-hof-celestial",
+        "tab-bis-lists-hof-vendor-release",
         # celest msv
         "tab-bis-lists-msv-vendor-release",
         "tab-mop-phase-1-pre-bis-msv-celestial-pre-bis",
@@ -21,23 +30,14 @@ phase_gear_panel_sorting = {
         "tab-bis-lists-pre-raid-opening-bis",
         "tab-bis-lists-pre-raid-msv-celestial",
         "tab-mop-phase-1-pre-bis-celestial-msv-release-pre-bis",
-        # hof
-        "tab-bis-lists-hof-release",
-        "tab-mop-phase-1-hof-release",
-        "tab-bis-lists-pre-raid-hof-celestial",
-        "tab-bis-lists-hof-vendor-release",
-        # toes
-        "tab-bis-lists-toes-vendor-release",
-        "tab-bis-lists-toes-release",
-        "tab-mop-phase-1-toes-release",
     ],
     1: [
         # start
         "tab-bis-lists-mogushan-vaults",
-        # hof
-        "tab-bis-lists-heart-of-fear",
         # complete
         "tab-bis-lists-phase-1-bis",
         "tab-bis-lists-phase-1-bis-tierless",
+        # hof
+        "tab-bis-lists-heart-of-fear",
     ]
 }
