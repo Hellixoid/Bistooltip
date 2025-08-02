@@ -2904,31 +2904,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Vision of the Predator",
-          "slot": "trinket 1",
-          "phase": [
-            "Pre-Bis",
-            "T14",
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Striker Ga'dok",
-          "source_type": "Gate of the Setting Sun",
-          "rarity": "rare"
-        },
-        {
           "name": "Flashfrozen Resin Globule",
           "slot": "trinket 1",
           "phase": [
@@ -2951,6 +2926,31 @@
           },
           "source": "Vizier Jin'bak",
           "source_type": "Siege of Niuzao Temple",
+          "rarity": "rare"
+        },
+        {
+          "name": "Vision of the Predator",
+          "slot": "trinket 1",
+          "phase": [
+            "Pre-Bis",
+            "T14",
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Striker Ga'dok",
+          "source_type": "Gate of the Setting Sun",
           "rarity": "rare"
         },
         {
@@ -3101,7 +3101,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Vision of the Predator",
+          "name": "Flashfrozen Resin Globule",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -3121,12 +3121,12 @@
               "recipe": false
             }
           },
-          "source": "Striker Ga'dok",
-          "source_type": "Gate of the Setting Sun",
+          "source": "Vizier Jin'bak",
+          "source_type": "Siege of Niuzao Temple",
           "rarity": "rare"
         },
         {
-          "name": "Flashfrozen Resin Globule",
+          "name": "Vision of the Predator",
           "slot": "trinket 2",
           "phase": [
             "Pre-Bis",
@@ -3146,8 +3146,8 @@
               "recipe": false
             }
           },
-          "source": "Vizier Jin'bak",
-          "source_type": "Siege of Niuzao Temple",
+          "source": "Striker Ga'dok",
+          "source_type": "Gate of the Setting Sun",
           "rarity": "rare"
         },
         {
@@ -68853,7 +68853,7 @@
           "minor_glyphs": [
             "Standard: *{\"consume\": \"Grace\"}*, *{\"consume\": \"Sprouting Mushroom\"}*"
           ],
-          "stats": "Haste (6652/8033/10970) > Mastery > Spirit > Crit > Haste"
+          "stats": "Haste (3043/6652/8033/10970) > Mastery > Spirit > Crit > Haste"
         },
         {
           "spec": "beast-mastery-hunter",
@@ -70297,7 +70297,7 @@
           "glyphs": [
             "Standard: *{\"consume\": \"Telluric Currents\"}*, *{\"consume\": \"Spiritwalker's Grace\"}*, *{\"consume\": \"Healing Stream Totem\"}*"
           ],
-          "stats": "Haste (5676) > Crit  > Spirit > Mastery > Haste"
+          "stats": "Haste > Crit > Mastery > Spirit"
         },
         {
           "spec": "affliction-warlock",
@@ -70553,6 +70553,7 @@
             "Cast *{\"skill\": \"Berserker Rage\"}* if *{\"skill\": \"Enrage-alternate\"}* is not active.",
             "Cast *{\"skill\": \"Heroic Leap\"}* (Off GCD).",
             "Cast *{\"skill\": \"Mortal Strike\"}*.",
+            "Cast *{\"skill\": \"Slam\"}*.",
             "Proceed with single target rotation."
           ],
           "single": [
@@ -70562,20 +70563,18 @@
             "Cast *{\"skill\": \"Bloodbath\"}*.",
             "Cast *{\"skill\": \"Skull Banner\"}*.",
             "Cast *{\"skill\": \"Shattering Throw\"}*.",
+            "Cast *{\"skill\": \"Charge\"}* below 85 Rage.",
             "Cast *{\"skill\": \"Heroic Strike\"}* at 115+ Rage.",
-            "Maintain *{\"skill\": \"Deep Wounds\"}* with *{\"skill\": \"Mortal Strike\"}*.",
+            "Cast *{\"skill\": \"Mortal Strike\"}*.",
+            "Cast *{\"skill\": \"Dragon Roar\"}* if *{\"skill\": \"Colossus Smash\"}* is not active.",
             "Cast *{\"skill\": \"Colossus Smash\"}* if it is not active.",
             "Cast *{\"skill\": \"Berserker Rage\"}* during *{\"skill\": \"Colossus Smash\"}* if *{\"skill\": \"Enrage-alternate\"}* is not active.",
             "Cast *{\"skill\": \"Heroic Leap\"}* (Off GCD) during *{\"skill\": \"Colossus Smash\"}*.",
-            "Cast *{\"skill\": \"Dragon's Roar\"}* if *{\"skill\": \"Colossus Smash\"} is not active.",
-            "Cast *{\"skill\": \"Mortal Strike\"}*.",
-            "Maintain *{\"skill\": \"Sudden Death\"}* with *{\"skill\": \"Execute\"}* on targets below 20% HP.",
-            "Cast *{\"skill\": \"Slam\"}* on targets above 20% HP during *{\"skill\": \"Recklessness\"}* or at 40+ Rage during *{\"skill\": \"Colossus Smash\"}*.",
+            "Cast *{\"skill\": \"Execute\"}* on targets below 20% HP during *{\"skill\": \"Colossus Smash\"}*, at 100+ Rage, or to maintain *{\"skill\": \"Sudden Death\"}*.",
+            "Cast *{\"skill\": \"Overpower\"}* at 4+ stacks .",
+            "Cast *{\"skill\": \"Slam\"}* during *{\"skill\": \"Colossus Smash\"}* or at 100+ Rage.",
             "Cast *{\"skill\": \"Overpower\"}*.",
-            "Cast *{\"skill\": \"Execute\"}* on targets below 20% HP.",
             "Cast *{\"skill\": \"Slam\"}*.",
-            "Move out and cast *{\"skill\": \"Charge\"}* below 85 Rage.",
-            "Cast *{\"skill\": \"Heroic Throw\"}*.",
             "Cast *{\"skill\": \"Battle Shout\"}*."
           ],
           "aoe": [
@@ -70661,6 +70660,7 @@
             "Cast *{\"skill\": \"Skull Banner\"}*.",
             "Cast *{\"skill\": \"Shattering Throw\"}*.",
             "Cast *{\"skill\": \"Dragon Roar\"}* if talented and *{\"skill\": \"Colossus Smash\"}* is not active.",
+            "Cast *{\"skill\": \"Charge\"}* below 85 Rage.",
             "Cast *{\"skill\": \"Colossus Smash\"}* if *{\"skill\": \"Enrage-alternate\"}* is active and you have 1+ charge of *{\"skill\": \"Raging Blow\"}* and 80+ Rage.",
             "During the *{\"skill\": \"Colossus Smash\"}* window:",
             "Cast *{\"skill\": \"Heroic Strike\"}* (Off GCD) if it won't delay any of the following steps.",
@@ -70678,9 +70678,7 @@
             "Cast *{\"skill\": \"Bloodthirst\"}*.",
             "Cast *{\"skill\": \"Wild Strike\"}* with *{\"skill\": \"Bloodsurge\"}* procs.",
             "Cast *{\"skill\": \"Raging Blow\"}*.",
-            "Cast *{\"skill\": \"Heroic Throw\"}*.",
             "Cast *{\"skill\": \"Battle Shout\"}*.",
-            "Move out and cast *{\"skill\": \"Charge\"}* below 85 Rage.",
             "Cast *{\"skill\": \"Wild Strike\"}*."
           ],
           "aoe": [
@@ -70909,9 +70907,8 @@
             "The rest of the crafting professions (except Tailoring) and *{\"wowBoss\": \"Mining\"}* are very close in power."
           ],
           "glyphs": [
-            "Standard: *{\"consume\": \"Regenerative Magic\"}*, *{\"consume\": \"Festering Blood\"}*, *{\"consume\": \"Pestilence\"}*",
+            "Standard: *{\"consume\": \"Festering Blood\"}*, *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Anti-Magic Shell\"}*",
             "For Dungeons or with Plague Leech: *{\"consume\": \"Outbreak\"}*",
-            "Magic DR: *{\"consume\": \"Anti-Magic Shell\"}*",
             "Situational: *{\"consume\": \"Dark Simulacrum\"}*"
           ],
           "minor_glyphs": [
@@ -70988,9 +70985,8 @@
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
-            "Standard: *{\"consume\": \"Loud Horn\"}*, *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Regenerative Magic\"}*",
+            "Standard: *{\"consume\": \"Loud Horn\"}*, *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Anti-Magic Shell\"}*",
             "Burst DR: *{\"consume\": \"Icebound Fortitude\"}*",
-            "Magic DR: *{\"consume\": \"Anti-Magic Shell\"}*",
             "Situational: *{\"consume\": \"Dark Simulacrum\"}*"
           ],
           "minor_glyphs": [
@@ -71081,8 +71077,7 @@
             "The rest of the crafting professions are very close in power."
           ],
           "glyphs": [
-            "Standard: *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Loud Horn\"}*, *{\"consume\": \"Regenerative Magic\"}*",
-            "AoE: *{\"consume\": \"Festering Blood\"}*",
+            "Standard: *{\"consume\": \"Pestilence\"}*, *{\"consume\": \"Loud Horn\"}*, *{\"consume\": \"Festering Blood\"}*",
             "Burst DR: *{\"consume\": \"Icebound Fortitude\"}*",
             "Magic DR: *{\"consume\": \"Anti-Magic Shell\"}*",
             "Situational: *{\"consume\": \"Dark Simulacrum\"}*"
@@ -71266,7 +71261,7 @@
           "minor_glyphs": [
             "Standard: *{\"consume\": \"Spirit Roll\"}*, *{\"consume\": \"Water Roll\"}*"
           ],
-          "stats": "Spirit (5300) > Haste (4717) > Crit > Spirit > Haste > Mastery"
+          "stats": "Spirit (5300) > Crit > Haste (3145/6141) > Spirit > Mastery > Haste"
         },
         {
           "spec": "windwalker-monk",
