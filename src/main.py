@@ -132,12 +132,13 @@ def build_ali_to_horde_mapping():
         for hordeId in data:
             aliId = data[hordeId]
             file.write('Bistooltip_horde_to_ali[' + aliId + '] = ' + hordeId + ';\n')
+
     shutil.copyfile(
         dirsAndFiles.Bistooltip_horde_to_ali_data_file, dirsAndFiles.addon_Bistooltip_horde_to_ali_data_file)
 
 
 if __name__ == '__main__':
-    data_collection = True
+    data_collection = False
     process_wowtbc()
     process_wh()
     # build_ali_to_horde_mapping()

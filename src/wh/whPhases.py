@@ -5,6 +5,13 @@ id_to_url_path = {
 
 phase_gear_panel_sorting = {
     0: [
+        # celest msv
+        "tab-bis-lists-msv-vendor-release",
+        "tab-mop-phase-1-pre-bis-msv-celestial-pre-bis",
+        "tab-bis-lists-msv-release",
+        "tab-mop-phase-1-msv-release",
+        "tab-bis-lists-pre-raid-msv-celestial",
+        "tab-mop-phase-1-pre-bis-celestial-msv-release-pre-bis",
         # pre
         "tab-mop-phase-1-pre-bis-pre-raid-opening",
         "tab-mop-phase-1-pre-raid-opening",
@@ -23,13 +30,6 @@ phase_gear_panel_sorting = {
         "tab-mop-phase-1-hof-release",
         "tab-bis-lists-pre-raid-hof-celestial",
         "tab-bis-lists-hof-vendor-release",
-        # celest msv
-        "tab-bis-lists-msv-vendor-release",
-        "tab-mop-phase-1-pre-bis-msv-celestial-pre-bis",
-        "tab-bis-lists-msv-release",
-        "tab-mop-phase-1-msv-release",
-        "tab-bis-lists-pre-raid-msv-celestial",
-        "tab-mop-phase-1-pre-bis-celestial-msv-release-pre-bis",
     ],
     1: [
         # complete
