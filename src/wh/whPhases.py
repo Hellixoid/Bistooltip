@@ -5,6 +5,11 @@ id_to_url_path = {
 
 phase_gear_panel_sorting = {
     0: [
+        # hof
+        "tab-bis-lists-hof-release",
+        "tab-mop-phase-1-hof-release",
+        "tab-bis-lists-pre-raid-hof-celestial",
+        "tab-bis-lists-hof-vendor-release",
         # celest msv
         "tab-bis-lists-msv-vendor-release",
         "tab-mop-phase-1-pre-bis-msv-celestial-pre-bis",
@@ -25,16 +30,12 @@ phase_gear_panel_sorting = {
         "tab-bis-lists-toes-vendor-release",
         "tab-bis-lists-toes-release",
         "tab-mop-phase-1-toes-release",
-        # hof
-        "tab-bis-lists-hof-release",
-        "tab-mop-phase-1-hof-release",
-        "tab-bis-lists-pre-raid-hof-celestial",
-        "tab-bis-lists-hof-vendor-release",
     ],
     1: [
         # complete
         "tab-bis-lists-phase-1-bis",
         "tab-bis-lists-phase-1-bis-tierless",
+        "tab-bis-lists-terrace-of-endless-spring"
         # hof
         "tab-bis-lists-heart-of-fear",
         # start
