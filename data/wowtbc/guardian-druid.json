@@ -68553,17 +68553,15 @@
             "Cast *{\"skill\": \"Cobra Shot\"}* to generate Focus."
           ],
           "aoe": [
-            "<h3>2-4 targets:</h3>",
+            "<h3>2-3 targets:</h3>",
+            "Cast *{\"skill\": \"Explosive Trap\"}*.",
+            "Proceed with single target rotation, but use *{\"skill\": \"Multi-Shot\"}* instead of *{\"skill\": \"Arcane Shot\"}*.",
+            "<h3>4+ targets:</h3>",
             "Maintain *{\"skill\": \"Beast Cleave\"}* with *{\"skill\": \"Multi-Shot\"}*.",
             "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
-            "Proceed with single target rotation.",
-            "<h3>5+ targets:</h3>",
-            "Maintain *{\"skill\": \"Beast Cleave\"}* by casting *{\"skill\": \"Multi-Shot\"}*.",
-            "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
+            "Cast *{\"skill\": \"Glaive Toss\"}*.",
             "Cast *{\"skill\": \"Multi-Shot\"}*.",
-            "Cast *{\"skill\": \"Cobra Shot\"}*."
+            "Cast *{\"skill\": \"Cobra Shot\"}* to generate Focus."
           ],
           "extra": {
             "name": "Defensive Cooldowns",
@@ -68640,12 +68638,13 @@
           "aoe": [
             "<h3>2-3 targets:</h3>",
             "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
-            "Proceed with single target rotation.",
+            "Proceed with single target rotation, but use *{\"skill\": \"Multi-Shot\"}* instead of *{\"skill\": \"Arcane Shot\"}*.",
             "<h3>4+ targets:</h3>",
             "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
-            "Proceed with single target rotation, but use *{\"skill\": \"Multi-Shot\"}* instead of *{\"skill\": \"Arcane Shot\"}*."
+            "Cast *{\"skill\": \"Glaive Toss\"}*.",
+            "Cast *{\"skill\": \"Multi-Shot\"}*.",
+            "Cast *{\"skill\": \"Aimed Shot\"}* with 3 stacks of *{\"skill\": \"Master Marksman\"}*.",
+            "Cast *{\"skill\": \"Cobra Shot\"}* to generate Focus."
           ],
           "extra": {
             "name": "Defensive Cooldowns",
@@ -68718,17 +68717,15 @@
             "Cast *{\"skill\": \"Cobra Shot\"}* to generate Focus."
           ],
           "aoe": [
-            "<h3>2-4 targets:</h3>",
-            "Maintain *{\"skill\": \"Serpent Sting\"}* on all targets with *{\"skill\": \"Multi-Shot\"}*.",
+            "<h3>2-3 targets:</h3>",
             "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
-            "Proceed with single target rotation.",
-            "<h3>5+ targets:</h3>",
-            "Maintain *{\"skill\": \"Serpent Sting\"}* on all targets with *{\"skill\": \"Multi-Shot\"}*.",
+            "Proceed with single target rotation but replace *{\"skill\": \"Arcane Shot\"}* with *{\"skill\": \"Multi-Shot\"}*.",
+            "<h3>4+ targets:</h3>",
             "Cast *{\"skill\": \"Explosive Trap\"}*.",
-            "Cast *{\"skill\": \"Barrage\"}*.",
+            "Cast *{\"skill\": \"Glaive Toss\"}*.",
             "Cast *{\"skill\": \"Multi-Shot\"}*.",
-            "Cast *{\"skill\": \"Cobra Shot\"}*."
+            "Cast *{\"skill\": \"Explosive Shot\"}* with *{\"skill\": \"Lock and Load\"}* procs.",
+            "Cast *{\"skill\": \"Cobra Shot\"}* to generate Focus."
           ],
           "extra": {
             "name": "Defensive Cooldowns",
