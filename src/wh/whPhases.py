@@ -5,6 +5,11 @@ id_to_url_path = {
 
 phase_gear_panel_sorting = {
     0: [
+        # toes
+        "tab-bis-lists-pre-raid-bis",
+        "tab-bis-lists-toes-vendor-release",
+        "tab-bis-lists-toes-release",
+        "tab-mop-phase-1-toes-release",
         # hof
         "tab-bis-lists-hof-release",
         "tab-mop-phase-1-hof-release",
@@ -25,11 +30,6 @@ phase_gear_panel_sorting = {
         "tab-mop-phase-1-realistic-pre-raid-opening",
         "tab-mop-phase-1-pre-bis-pre-raid-opening-pre-bis"
         "tab-bis-lists-pre-raid-opening-bis",
-        # toes
-        "tab-bis-lists-pre-raid-bis",
-        "tab-bis-lists-toes-vendor-release",
-        "tab-bis-lists-toes-release",
-        "tab-mop-phase-1-toes-release",
     ],
     1: [
         # complete
