@@ -18,8 +18,6 @@ class WhSpecDataParser:
     def __init__(self, consumables_file_path, ench_spells_file_path, horde_to_ali_file_path):
         self.ench_items_id_set = set()
         self.ench_spells_id_set = set()
-        self.phase0 = set()
-        self.phase1 = set()
 
         self.fill_enchantment_id_set(self.ench_items_id_set, consumables_file_path)
         self.fill_enchantment_id_set(self.ench_spells_id_set, ench_spells_file_path)
@@ -48,26 +46,12 @@ class WhSpecDataParser:
 
     def extract_spec_data(self, doc, phase_id, sorted_spec, spec_id):
         # Find first div with class 'tabbed-contents'
-        tabbed_contents = doc.find('div', class_='tabbed-contents')
-        if tabbed_contents:
-            # Iterate over all children of the tabbed-contents div
-            for child in tabbed_contents.children:
-                if child.name:  # Skip non-tag children (like text nodes)
-                    if phase_id == 0:
-                        self.phase0.add(child.attrs['id'])
-                    else:
-                        self.phase1.add(child.attrs['id'])
+        gear_planners = doc.find_all('section', class_='gear-planner')
 
-            phase_gear_panel_sorting = whPhases.phase_gear_panel_sorting.get(phase_id)
-
-            add_enchs = True
-            for panel_id in phase_gear_panel_sorting:
-                for child in tabbed_contents.children:
-                    if child.name:  # Skip non-tag children (like text nodes)
-                        id_ = child.attrs['id']
-                        if panel_id == id_:
-                            self.parse_gear_panel(child, phase_id, sorted_spec, spec_id, add_enchs)
-                            add_enchs = False
+        add_enchs = True
+        for gear_planner in gear_planners:
+            self.parse_gear_panel(gear_planner, phase_id, sorted_spec, spec_id, add_enchs)
+            add_enchs = False
 
     def parse_gear_panel(self, gear_panel: Tag, phase_id, sorted_spec: SortedSpec, spec_id, add_enchs):
         slots_tags = gear_panel.findChildren("div", class_='wow-gear-slot')
@@ -297,12 +281,3 @@ class WhSpecDataParser:
                                 counter = counter + 1
                             if counter == 3:
                                 return
-
-    def printPhaseIds(self):
-        print("phase0:")
-        for e in self.phase0:
-            print(e)
-        print("\nphase1:")
-        for e in self.phase1:
-            print(e)
-        pass

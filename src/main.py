@@ -81,7 +81,6 @@ def collect_wh_sorted_spec_data():
     for spec in whSpecs.specs:
         print(f'\nParsing spec {dataSources.wh}: {spec}')
         sorted_specs.append(spec_data_parser.parse(spec))
-    spec_data_parser.printPhaseIds()
     return sorted_specs
 
 
