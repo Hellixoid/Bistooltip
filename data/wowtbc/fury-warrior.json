@@ -2254,18 +2254,10 @@
             }
           },
           "t15": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Gloves - Super Strength",
-              "rarity": "common",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Smooth Sun's Radiance",
-                "image": "sun's-radiance"
-              }
-            ]
+            }
           },
           "source": "Iron Qon",
           "source_type": "Throne of Thunder (H)",
@@ -2320,10 +2312,18 @@
             }
           },
           "t15": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Gloves - Super Strength",
+              "rarity": "common",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Inscribed Vermilion Onyx",
+                "image": "vermilion-onyx"
+              }
+            ]
           },
           "source": "Council of Elders",
           "source_type": "Throne of Thunder (H)",
