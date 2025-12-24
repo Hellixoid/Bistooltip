@@ -5447,35 +5447,6 @@
           "rarity": "epic"
         },
         {
-          "name": "Soothing Talisman of the Shado-Pan Assault",
-          "slot": "trinket 1",
-          "phase": [
-            "T15",
-            "T16"
-          ],
-          "pre-bis": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t14": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "t15": {
-            "bis": false,
-            "enchant": {
-              "recipe": false
-            }
-          },
-          "source": "Valor Points (1750) & Shado-Pan Assault (Friendly)",
-          "source_type": "Reputation Vendor",
-          "rarity": "epic"
-        },
-        {
           "name": "Lightning-Imbued Chalice",
           "slot": "trinket 1",
           "phase": [
@@ -5502,6 +5473,35 @@
           },
           "source": "Lei Shen",
           "source_type": "Throne of Thunder (H)",
+          "rarity": "epic"
+        },
+        {
+          "name": "Soothing Talisman of the Shado-Pan Assault",
+          "slot": "trinket 1",
+          "phase": [
+            "T15",
+            "T16"
+          ],
+          "pre-bis": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t14": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "t15": {
+            "bis": false,
+            "enchant": {
+              "recipe": false
+            }
+          },
+          "source": "Valor Points (1750) & Shado-Pan Assault (Friendly)",
+          "source_type": "Reputation Vendor",
           "rarity": "epic"
         },
         {
@@ -5900,7 +5900,7 @@
           "rarity": "epic"
         },
         {
-          "name": "Soothing Talisman of the Shado-Pan Assault",
+          "name": "Lightning-Imbued Chalice",
           "slot": "trinket 2",
           "phase": [
             "T15",
@@ -5924,12 +5924,12 @@
               "recipe": false
             }
           },
-          "source": "Valor Points (1750) & Shado-Pan Assault (Friendly)",
-          "source_type": "Reputation Vendor",
+          "source": "Lei Shen",
+          "source_type": "Throne of Thunder (H)",
           "rarity": "epic"
         },
         {
-          "name": "Lightning-Imbued Chalice",
+          "name": "Soothing Talisman of the Shado-Pan Assault",
           "slot": "trinket 2",
           "phase": [
             "T15",
@@ -5953,8 +5953,8 @@
               "recipe": false
             }
           },
-          "source": "Lei Shen",
-          "source_type": "Throne of Thunder (H)",
+          "source": "Valor Points (1750) & Shado-Pan Assault (Friendly)",
+          "source_type": "Reputation Vendor",
           "rarity": "epic"
         },
         {
