@@ -793,10 +793,18 @@
             }
           },
           "t15": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Greater Tiger Claw Inscription",
+              "rarity": "epic",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Sensei's Wild Jade",
+                "image": "wild-jade"
+              }
+            ]
           },
           "source": "Ji-Kun",
           "source_type": "Throne of Thunder (H)",
@@ -851,22 +859,10 @@
             }
           },
           "t15": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Greater Tiger Claw Inscription",
-              "rarity": "epic",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Adept Vermilion Onyx",
-                "image": "vermilion-onyx"
-              },
-              {
-                "name": "Fractured Sun's Radiance",
-                "image": "sun's-radiance"
-              }
-            ]
+            }
           },
           "source": "Iron Qon",
           "source_type": "Throne of Thunder (H)",
@@ -1452,10 +1448,26 @@
             }
           },
           "t15": {
-            "bis": false,
+            "bis": true,
             "enchant": {
+              "name": "Chest - Glorious Stats",
+              "rarity": "common",
               "recipe": false
-            }
+            },
+            "gems": [
+              {
+                "name": "Adept Vermilion Onyx",
+                "image": "vermilion-onyx"
+              },
+              {
+                "name": "Adept Vermilion Onyx",
+                "image": "vermilion-onyx"
+              },
+              {
+                "name": "Adept Vermilion Onyx",
+                "image": "vermilion-onyx"
+              }
+            ]
           },
           "source": "Ra-den",
           "source_type": "Throne of Thunder (H)",
@@ -1510,26 +1522,10 @@
             }
           },
           "t15": {
-            "bis": true,
+            "bis": false,
             "enchant": {
-              "name": "Chest - Glorious Stats",
-              "rarity": "common",
               "recipe": false
-            },
-            "gems": [
-              {
-                "name": "Adept Vermilion Onyx",
-                "image": "vermilion-onyx"
-              },
-              {
-                "name": "Fractured Sun's Radiance",
-                "image": "sun's-radiance"
-              },
-              {
-                "name": "Sensei's Wild Jade",
-                "image": "wild-jade"
-              }
-            ]
+            }
           },
           "source": "Dark Animus",
           "source_type": "Throne of Thunder (H)",
@@ -3419,8 +3415,8 @@
             },
             "gems": [
               {
-                "name": "Fractured Tinker's Gear",
-                "image": "cogwheel"
+                "name": "Fractured Sun's Radiance",
+                "image": "sun's-radiance"
               },
               {
                 "name": "Sensei's Wild Jade",
