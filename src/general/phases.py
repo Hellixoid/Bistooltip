@@ -1,14 +1,14 @@
 phases = {
     "Pre-Bis": 0,
-    "T15": 1
+    "T16": 1
 }
 
 id_to_phase = {
     0: "Pre-Bis",
-    1: "T15"
+    1: "T16"
 }
 
 phase_to_name = {
     "Pre-Bis": "PR",
-    "T15": "P3"
+    "T16": "P5"
 }
