@@ -11,6 +11,7 @@ cons_quest_collection_file = '../data/items/consumablesAndQuest.json'
 items_collection_file = '../data/items/list.json'
 ench_spells_collection_file = '../data/items/ench_spells.json'
 tokens_file = '../data/tokens.json'
+soo_wf_gear_file = '../data/soo_wf_gear.json'
 
 Bistooltip_wowtbc_items_data_file = '../data/Bistooltip_wowtbc_items.lua'
 Bistooltip_wowtbc_bislists_data_file = '../data/Bistooltip_wowtbc_bislists.lua'

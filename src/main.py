@@ -77,7 +77,8 @@ def collect_wh_sorted_spec_data():
     spec_data_parser = WhSpecDataParser(
         dirsAndFiles.cons_quest_collection_file,
         dirsAndFiles.ench_spells_collection_file,
-        dirsAndFiles.horde_to_ali_file)
+        dirsAndFiles.horde_to_ali_file,
+        dirsAndFiles.soo_wf_gear_file)
     for spec in whSpecs.specs:
         print(f'\nParsing spec {dataSources.wh}: {spec}')
         sorted_specs.append(spec_data_parser.parse(spec))

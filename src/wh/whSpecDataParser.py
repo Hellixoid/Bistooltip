@@ -15,7 +15,7 @@ from src.wh import whPhases
 
 
 class WhSpecDataParser:
-    def __init__(self, consumables_file_path, ench_spells_file_path, horde_to_ali_file_path):
+    def __init__(self, consumables_file_path, ench_spells_file_path, horde_to_ali_file_path, soo_wf_gear_file):
         self.ench_items_id_set = set()
         self.ench_spells_id_set = set()
 
@@ -23,6 +23,9 @@ class WhSpecDataParser:
         self.fill_enchantment_id_set(self.ench_spells_id_set, ench_spells_file_path)
         with open(horde_to_ali_file_path) as json_file:
             self.horde_to_ali_dict = json.load(json_file)
+        pass
+        with open(soo_wf_gear_file) as json_file:
+            self.soo_wf_gear_dict = json.load(json_file)
         pass
 
     def fill_enchantment_id_set(self, id_set: set, data_file_path):
@@ -68,6 +71,8 @@ class WhSpecDataParser:
         if item_link:  # Check if item_link exists
             item_id = self.get_item_id(item_link)
             if item_id is not None:
+                if str(item_id) in self.soo_wf_gear_dict:
+                    item_id = int(self.soo_wf_gear_dict[str(item_id)])
                 phase = phases.id_to_phase[phase_id]
                 sorted_spec.add_item(slot_name,
                                      phase,
