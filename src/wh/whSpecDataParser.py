@@ -106,6 +106,8 @@ class WhSpecDataParser:
                                 slot_name, phase, {"id": int(enchantment[1]), "type": enchantment[0]})
 
     def parse_table(self, tbody_tag, slot_name, phase_id, sorted_spec):
+        """DEPRECATED: legacy table-based scraping path, superseded by the gear-planner
+        parser (parse_gear_panel). Kept for possible future reuse; not called currently."""
         tr_tags = tbody_tag.findChildren("tr")
         tr_tags_list = self.rs_to_list(tr_tags)
         header_columns = self.parse_header(tr_tags_list[0])
@@ -139,6 +141,8 @@ class WhSpecDataParser:
                     sorted_spec.add_gem(slot_name, phases.id_to_phase[phase_id], gem_id)
 
     def parse_pr_table(self, tbody_tag, phase_id, sorted_spec, spec_id):
+        """DEPRECATED: legacy table-based scraping path, superseded by the gear-planner
+        parser (parse_gear_panel). Kept for possible future reuse; not called currently."""
         tr_tags = tbody_tag.findChildren("tr")
         tr_tags_list = self.rs_to_list(tr_tags)
         header_columns = self.parse_header(tr_tags_list[0])
@@ -180,6 +184,7 @@ class WhSpecDataParser:
         pass
 
     def parse_header(self, header):
+        """DEPRECATED: helper for the legacy table-based parser. Kept for possible future reuse."""
         header_dict = dict()
         b_tags = header.findChildren("b")
         index = 0
@@ -190,6 +195,7 @@ class WhSpecDataParser:
         return header_dict
 
     def check_no_table_in_block(self, block):
+        """DEPRECATED: helper for the legacy table-based parser. Kept for possible future reuse."""
         no_table = True
         next_node = block
         while True:
@@ -236,6 +242,7 @@ class WhSpecDataParser:
         return (groups[1], groups[2])
 
     def parse_slot(self, text):
+        """DEPRECATED: helper for the legacy table-based parser. Kept for possible future reuse."""
         if " options for " in text:
             return text[:text.index(" options for ")]
         if " for " in text:
@@ -243,6 +250,8 @@ class WhSpecDataParser:
         return text
 
     def normalize_slot_name(self, slot, spec_id):
+        """DEPRECATED: helper for the legacy table-based parser; sole consumer of
+        whSlots.spec_to_slots / slot_to_slot_name. Kept for possible future reuse."""
         slot = slot.lower()
         if slot in whSlots.spec_to_slots.get(spec_id):
             return whSlots.spec_to_slots.get(spec_id).get(slot)
@@ -252,6 +261,7 @@ class WhSpecDataParser:
         return None
 
     def find_ench(self, tag: bs4.element.Tag, slot_name, phase_id, sorted_spec: SortedSpec, lookup_only_child=False):
+        """DEPRECATED: helper for the legacy table-based parser. Kept for possible future reuse."""
         tags = []
         if not lookup_only_child:
             tags = tag.findAllNext(["h3", "h4", "script", "a"])
@@ -262,6 +272,7 @@ class WhSpecDataParser:
         return
 
     def find_ench_in_tags(self, tags, slot_name, phase_id, sorted_spec: SortedSpec):
+        """DEPRECATED: helper for the legacy table-based parser. Kept for possible future reuse."""
         counter = 0
         for tag in tags:
             tag_name = tag.name

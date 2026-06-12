@@ -18,6 +18,9 @@ gear_planner_slots = {
     "18": "Relic"
 }
 
+# DEPRECATED: slot_to_slot_name and spec_to_slots below are only used by the legacy
+# table-based parser (WhSpecDataParser.normalize_slot_name). The live gear-planner parser
+# uses gear_planner_slots above. Kept for possible future reuse.
 slot_to_slot_name = {
     "gloves": "Hands",
     "hands": "Hands",

@@ -16,10 +16,57 @@ from src.wowtbc.wowtbcSpecDataParser import WowtbcSpecDataParser
 data_collection = None
 
 
-def collect_wowtbc_specs_bis_data():
-    cleaner.delete_folder(dirsAndFiles.wowtbc_spec_data_dir)
-    os.mkdir(dirsAndFiles.wowtbc_spec_data_dir)
-    wowtbcSpecDataGatherer.collect_specs_data(dirsAndFiles.wowtbc_spec_data_dir)
+class SourceConfig:
+    """Per-source paths used by the shared gather/convert/save pipeline steps."""
+
+    def __init__(self, name, spec_data_dir, items_data_file, addon_items_data_file,
+                 bislists_data_file, addon_bislists_data_file):
+        self.name = name
+        self.spec_data_dir = spec_data_dir
+        self.items_data_file = items_data_file
+        self.addon_items_data_file = addon_items_data_file
+        self.bislists_data_file = bislists_data_file
+        self.addon_bislists_data_file = addon_bislists_data_file
+
+
+wowtbc_config = SourceConfig(
+    dataSources.wowtbc,
+    dirsAndFiles.wowtbc_spec_data_dir,
+    dirsAndFiles.Bistooltip_wowtbc_items_data_file,
+    dirsAndFiles.addon_Bistooltip_wowtbc_items_data_file,
+    dirsAndFiles.Bistooltip_wowtbc_bislists_data_file,
+    dirsAndFiles.addon_Bistooltip_wowtbc_bislists_data_file)
+
+wh_config = SourceConfig(
+    dataSources.wh,
+    dirsAndFiles.wh_spec_data_dir,
+    dirsAndFiles.Bistooltip_wh_items_data_file,
+    dirsAndFiles.addon_Bistooltip_wh_items_data_file,
+    dirsAndFiles.Bistooltip_wh_bislists_data_file,
+    dirsAndFiles.addon_Bistooltip_wh_bislists_data_file)
+
+
+def gather_spec_data(spec_data_dir, gather_fn):
+    cleaner.delete_folder(spec_data_dir)
+    os.mkdir(spec_data_dir)
+    gather_fn(spec_data_dir)
+
+
+def convert_sorted_spec_to_item_list(config, sorted_specs):
+    item_list_constructor = ItemListConstructor(config.name)
+    for spec in sorted_specs:
+        item_list_constructor.add_sorted_spec(spec)
+    item_list_constructor.add_horde_ali_mapping(dirsAndFiles.horde_to_ali_file)
+    item_list_constructor.add_tokens(dirsAndFiles.tokens_file)
+    item_list_constructor.save_data(config.items_data_file, config.name)
+    # item_list_constructor.save_csv(config.name)
+    shutil.copyfile(config.items_data_file, config.addon_items_data_file)
+
+
+def save_bislist(config, sorted_specs):
+    bis_list_constructor = BisListConstructor(sorted_specs)
+    bis_list_constructor.save_data(config.bislists_data_file, config.name)
+    shutil.copyfile(config.bislists_data_file, config.addon_bislists_data_file)
 
 
 def collect_wowtbc_item_ids():
@@ -47,31 +94,6 @@ def collect_wowtbc_sorted_spec_data():
     return sorted_specs
 
 
-def convert_wowtbc_sorted_spec_to_item_list(sorted_specs):
-    item_list_constructor = ItemListConstructor(dataSources.wowtbc)
-    for spec in sorted_specs:
-        item_list_constructor.add_sorted_spec(spec)
-    item_list_constructor.add_horde_ali_mapping(dirsAndFiles.horde_to_ali_file)
-    item_list_constructor.add_tokens(dirsAndFiles.tokens_file)
-    item_list_constructor.save_data(dirsAndFiles.Bistooltip_wowtbc_items_data_file, dataSources.wowtbc)
-    # item_list_constructor.save_csv(dataSources.wowtbc)
-    shutil.copyfile(
-        dirsAndFiles.Bistooltip_wowtbc_items_data_file, dirsAndFiles.addon_Bistooltip_wowtbc_items_data_file)
-
-
-def save_wowtbc_bislist(sorted_specs):
-    bis_list_constructor = BisListConstructor(sorted_specs)
-    bis_list_constructor.save_data(dirsAndFiles.Bistooltip_wowtbc_bislists_data_file, dataSources.wowtbc)
-    shutil.copyfile(
-        dirsAndFiles.Bistooltip_wowtbc_bislists_data_file, dirsAndFiles.addon_Bistooltip_wowtbc_bislists_data_file)
-
-
-def collect_wh_specs_bis_data():
-    cleaner.delete_folder(dirsAndFiles.wh_spec_data_dir)
-    os.mkdir(dirsAndFiles.wh_spec_data_dir)
-    whSpecDataGatherer.collect_specs_data(dirsAndFiles.wh_spec_data_dir)
-
-
 def collect_wh_sorted_spec_data():
     sorted_specs = []
     spec_data_parser = WhSpecDataParser(
@@ -85,45 +107,24 @@ def collect_wh_sorted_spec_data():
     return sorted_specs
 
 
-def convert_wh_sorted_spec_to_item_list(sorted_specs):
-    item_list_constructor = ItemListConstructor(dataSources.wh)
-    for spec in sorted_specs:
-        item_list_constructor.add_sorted_spec(spec)
-    item_list_constructor.add_horde_ali_mapping(dirsAndFiles.horde_to_ali_file)
-    item_list_constructor.add_tokens(dirsAndFiles.tokens_file)
-    item_list_constructor.save_data(dirsAndFiles.Bistooltip_wh_items_data_file, dataSources.wh)
-    # item_list_constructor.save_csv(dataSources.wh)
-    shutil.copyfile(
-        dirsAndFiles.Bistooltip_wh_items_data_file, dirsAndFiles.addon_Bistooltip_wh_items_data_file)
-
-
-def save_wh_bislist(sorted_specs):
-    bis_list_constructor = BisListConstructor(sorted_specs)
-    bis_list_constructor.save_data(dirsAndFiles.Bistooltip_wh_bislists_data_file, dataSources.wh)
-    shutil.copyfile(
-        dirsAndFiles.Bistooltip_wh_bislists_data_file, dirsAndFiles.addon_Bistooltip_wh_bislists_data_file)
-
-
 def process_wowtbc():
     if data_collection is True:
-        collect_wowtbc_specs_bis_data()
+        gather_spec_data(wowtbc_config.spec_data_dir, wowtbcSpecDataGatherer.collect_specs_data)
     collect_wowtbc_item_ids()
     spec_data = collect_wowtbc_sorted_spec_data()
-    convert_wowtbc_sorted_spec_to_item_list(spec_data)
-    save_wowtbc_bislist(spec_data)
+    convert_sorted_spec_to_item_list(wowtbc_config, spec_data)
+    save_bislist(wowtbc_config, spec_data)
 
 
 def process_wh():
     if data_collection is True:
-        collect_wh_specs_bis_data()
+        gather_spec_data(wh_config.spec_data_dir, whSpecDataGatherer.collect_specs_data)
     spec_data = collect_wh_sorted_spec_data()
-    convert_wh_sorted_spec_to_item_list(spec_data)
-    save_wh_bislist(spec_data)
+    convert_sorted_spec_to_item_list(wh_config, spec_data)
+    save_bislist(wh_config, spec_data)
 
 
 def build_ali_to_horde_mapping():
-    data = None
-
     with open(dirsAndFiles.horde_to_ali_file) as json_file:
         data = json.load(json_file)
 

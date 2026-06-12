@@ -34,38 +34,30 @@ class ItemListConstructor:
                         print("Item without ID: " + item.name)
                     self.add_bis_statement(item.id, item.suffix, spec.id, slot.name, phase.name, i + 1)
 
+    def _copy_bis_statements(self, source_item_id, target_id):
+        bis_item = self.item_list.get(int(source_item_id))
+        if bis_item is None:
+            return
+        for spec_id in bis_item.specs:
+            spec = bis_item.specs[spec_id]
+            for slot_name in spec.slots:
+                slot = spec.slots[slot_name]
+                for i in range(len(phases.phases.keys())):
+                    self.add_bis_statement(
+                        int(target_id), "", spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
+
     def add_tokens(self, tokens_file_path):
         with open(tokens_file_path) as json_file:
             data = json.load(json_file)
             for tokenId in data:
-                items = data[tokenId]
-                for itemId in items:
-                    bis_item = self.item_list.get(int(itemId))
-                    if bis_item is None:
-                        continue
-                    for spec_id in bis_item.specs:
-                        spec = bis_item.specs[spec_id]
-                        for slot_name in spec.slots:
-                            slot = spec.slots[slot_name]
-                            for i in range(len(phases.phases.keys())):
-                                self.add_bis_statement(
-                                    int(tokenId), "", spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
+                for itemId in data[tokenId]:
+                    self._copy_bis_statements(itemId, tokenId)
 
     def add_horde_ali_mapping(self, horde_to_ali_file_path):
         with open(horde_to_ali_file_path) as json_file:
             data = json.load(json_file)
             for hordeId in data:
-                aliId = data[hordeId]
-                bis_item = self.item_list.get(int(aliId))
-                if bis_item is None:
-                    continue
-                for spec_id in bis_item.specs:
-                    spec = bis_item.specs[spec_id]
-                    for slot_name in spec.slots:
-                        slot = spec.slots[slot_name]
-                        for i in range(len(phases.phases.keys())):
-                            self.add_bis_statement(
-                                int(hordeId), "", spec_id, slot_name, phases.id_to_phase[i], slot.phases[i])
+                self._copy_bis_statements(data[hordeId], hordeId)
 
     def save_data(self, addon_data_file, source_name):
         with open(addon_data_file, 'w') as file:

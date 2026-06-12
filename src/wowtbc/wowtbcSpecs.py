@@ -1,38 +1,4 @@
-specs = [
-    "blood-tank-death-knight",
-    "frost-death-knight",
-    "unholy-death-knight",
-    "balance-druid",
-    "guardian-druid",
-    "feral-druid",
-    "restoration-druid",
-    "beast-mastery-hunter",
-    "marksmanship-hunter",
-    "survival-hunter",
-    "arcane-mage",
-    "fire-mage",
-    "frost-mage",
-    "brewmaster-monk",
-    "mistweaver-monk",
-    "windwalker-monk",
-    "holy-paladin",
-    "protection-paladin",
-    "retribution-paladin",
-    "discipline-priest",
-    "holy-priest",
-    "shadow-priest",
-    "assassination-rogue",
-    "combat-rogue",
-    "subtlety-rogue",
-    "elemental-shaman",
-    "enhancement-shaman",
-    "restoration-shaman",
-    "affliction-warlock",
-    "demonology-warlock",
-    "destruction-warlock",
-    "arms-warrior",
-    "fury-warrior",
-    "protection-warrior"
-]
-
+# The wowtbc spec list currently matches the canonical list, so we reuse it. If the wowtbc
+# source ever diverges (it has in the past), replace this with an explicit list specific to wowtbc.
+from src.general.specs import specs
 
