@@ -10,8 +10,10 @@ gems_collection_file = '../data/items/gems.json'
 cons_quest_collection_file = '../data/items/consumablesAndQuest.json'
 items_collection_file = '../data/items/list.json'
 ench_spells_collection_file = '../data/items/ench_spells.json'
+
+forever_base_dir = r'D:\bnet\World of Warcraft'
+forever_product = 'wowf'
 tokens_file = '../data/tokens.json'
-soo_wf_gear_file = '../data/soo_wf_gear.json'
 
 Bistooltip_wowtbc_items_data_file = '../data/Bistooltip_wowtbc_items.lua'
 Bistooltip_wowtbc_bislists_data_file = '../data/Bistooltip_wowtbc_bislists.lua'

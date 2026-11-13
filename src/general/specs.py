@@ -1,10 +1,10 @@
+# WoW Forever spec roster (Classic Vanilla — no Death Knight / Monk). Feral druid is
+# split into DPS and Tank, which both the Wowhead and wowtbc.gg sources treat as
+# separate specs.
 specs = [
-    "blood-tank-death-knight",
-    "frost-death-knight",
-    "unholy-death-knight",
     "balance-druid",
-    "guardian-druid",
-    "feral-druid",
+    "feral-dps-druid",
+    "feral-tank-druid",
     "restoration-druid",
     "beast-mastery-hunter",
     "marksmanship-hunter",
@@ -12,9 +12,6 @@ specs = [
     "arcane-mage",
     "fire-mage",
     "frost-mage",
-    "brewmaster-monk",
-    "mistweaver-monk",
-    "windwalker-monk",
     "holy-paladin",
     "protection-paladin",
     "retribution-paladin",
@@ -36,12 +33,9 @@ specs = [
 ]
 
 spec_to_class = {
-    "blood-tank-death-knight": "Death knight",
-    "frost-death-knight": "Death knight",
-    "unholy-death-knight": "Death knight",
     "balance-druid": "Druid",
-    "guardian-druid": "Druid",
-    "feral-druid": "Druid",
+    "feral-dps-druid": "Druid",
+    "feral-tank-druid": "Druid",
     "restoration-druid": "Druid",
     "beast-mastery-hunter": "Hunter",
     "marksmanship-hunter": "Hunter",
@@ -49,9 +43,6 @@ spec_to_class = {
     "arcane-mage": "Mage",
     "fire-mage": "Mage",
     "frost-mage": "Mage",
-    "brewmaster-monk": "Monk",
-    "mistweaver-monk": "Monk",
-    "windwalker-monk": "Monk",
     "holy-paladin": "Paladin",
     "protection-paladin": "Paladin",
     "retribution-paladin": "Paladin",
@@ -73,12 +64,9 @@ spec_to_class = {
 }
 
 spec_to_spec_name = {
-    "blood-tank-death-knight": "Blood tank",
-    "frost-death-knight": "Frost",
-    "unholy-death-knight": "Unholy",
     "balance-druid": "Balance",
-    "guardian-druid": "Guardian",
-    "feral-druid": "Feral",
+    "feral-dps-druid": "Feral DPS",
+    "feral-tank-druid": "Feral Tank",
     "restoration-druid": "Restoration",
     "beast-mastery-hunter": "Beast mastery",
     "marksmanship-hunter": "Marksmanship",
@@ -86,9 +74,6 @@ spec_to_spec_name = {
     "arcane-mage": "Arcane",
     "fire-mage": "Fire",
     "frost-mage": "Frost",
-    "brewmaster-monk": "Brewmaster",
-    "mistweaver-monk": "Mistweaver",
-    "windwalker-monk": "Windwalker",
     "holy-paladin": "Holy",
     "protection-paladin": "Protection",
     "retribution-paladin": "Retribution",

@@ -71,7 +71,44 @@ resolve item names found in the guides (mainly used for `wowtbc`).
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `data/alitohorde.json`  | Horde item ID → Alliance item ID mapping. Applied during parsing so both factions resolve to one item; the reverse map is emitted as `Bistooltip_horde_to_ali.lua`. **Deprecated** — this was used back in WotLK, when factions had distinct item IDs; kept for backward compatibility. |
 | `data/tokens.json`      | Tier-token ID → list of item IDs it can be exchanged for; BiS statements are copied onto the token.                                                                                                                                                                                     |
-| `data/soo_wf_gear.json` | Heroic item ID → Siege of Orgrimmar warforged item ID.                                                                                                                                                                                                                                  |
+
+---
+
+## Rebuilding the item / enchant DBs from a WoW Forever client
+
+The item collections above (`data/items/list.json`, `consumablesAndQuest.json`,
+`ench_spells.json`) can be regenerated directly from an installed
+**WoW Forever** client — no external tools, downloads, or manual steps. A small
+pure-Python package in [`src/forever`](src/forever) reads the client's local
+CASC storage and decodes the relevant DB2 tables:
+
+| Module | Role |
+|--------|------|
+| [`casc.py`](src/forever/casc.py) | Local CASC reader: `.build.info` → build config → encoding → root → `.idx` → `data.NNN` → BLTE. Resolves a FileDataID to its bytes. |
+| [`wdc5.py`](src/forever/wdc5.py) | WDC5 `.db2` decoder (sparse/offset-map, pallet, common and bit-packed fields). |
+| [`dbd.py`](src/forever/dbd.py) | [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) `.dbd` schema parser; selects the column layout **by layout hash**. |
+| [`defs/*.dbd`](src/forever/defs) | Vendored schemas (ItemSparse, SpellName, SpellEffect, …) so nothing is fetched at runtime. |
+| [`buildForeverDb.py`](src/forever/buildForeverDb.py) | Orchestrator / CLI that writes the three JSON files. |
+
+Source tables: `list.json` + `consumablesAndQuest.json` come from
+`ItemSparse.db2` (split by `InventoryType`: equippable → items, otherwise →
+consumables/quest); `ench_spells.json` comes from the permanent item-enchant
+spells (`SpellEffect.db2` effect `53`, named via `SpellName.db2`, with the
+`Enchant ` prefix stripped) — this includes profession enchants such as
+engineering scopes and leatherworking armor kits. **Gems are skipped** (WoW
+Forever has none), so `data/items/gems.json` is left untouched.
+
+Run it standalone (regenerates the files in place):
+
+```bash
+cd src
+python -m forever.buildForeverDb
+```
+
+Options: `--base "D:\bnet\World of Warcraft"` (install root), `--product wowf`,
+`--out <dir>`. The install path and product default to
+`forever_base_dir` / `forever_product` in [`dirsAndFiles.py`](src/dirsAndFiles.py);
+`main.py` also exposes it as `process_forever()` (see below).
 
 ---
 
@@ -118,6 +155,7 @@ python main.py
 ```python
 if __name__ == '__main__':
     data_collection = True  # True = re-scrape sources; False = reuse cached raw data
+    # process_forever()      # rebuild item/enchant DBs from the WoW Forever client
     # process_wowtbc()          # build the wowtbc.gg data
     process_wh()  # build the Wowhead data
     # build_ali_to_horde_mapping()
@@ -128,6 +166,10 @@ if __name__ == '__main__':
   no Chrome needed).
 - Uncomment **`process_wh()`**, **`process_wowtbc()`**, and/or **`build_ali_to_horde_mapping()`**
   to choose which outputs to (re)generate.
+- **`process_forever()`** — regenerates the item/enchant collection DBs in `data/items/`
+  from the local WoW Forever client (see
+  [Rebuilding the item / enchant DBs](#rebuilding-the-item--enchant-dbs-from-a-wow-forever-client)).
+  Independent of `data_collection` and needs no Chrome.
 
 Each `process_*` run: (optionally) gathers → parses every spec → writes the `*_items.lua` and
 `*_bislists.lua` files → copies them into `addon/Bistooltip/`.

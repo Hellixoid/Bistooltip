@@ -132,15 +132,11 @@ class BisListConstructor:
         file.write('\n')
 
         file.write(f'Bistooltip_{source_name}_phases = {{ ')
-        slot_vals = list(self.sorted_specs[0].slots.values())
-        phase_index = 1
-        for phase in slot_vals[0].phases:
-            phase_name = phases.phase_to_name[phase.name]
+        phase_names = [phases.phase_to_name[p] for p in phases.phases]
+        for phase_index, phase_name in enumerate(phase_names, start=1):
             file.write(f'"{phase_name}"')
-            if phase_index == len(slot_vals[0].phases):
+            if phase_index == len(phase_names):
                 file.write(f' ')
             else:
                 file.write(f', ')
-            phase_index += 1
-        pass
         file.write('};\n\n')

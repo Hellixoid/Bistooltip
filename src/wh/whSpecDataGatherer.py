@@ -3,11 +3,13 @@ import os.path
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-from src.general import phases
-from src.wh import whPhases, whSpecs
+from src.wh import whSpecs
 
-URL_PREFIX = 'https://www.wowhead.com/mop-classic/guide/classes/'
-URL_SUFFIX = '-best-gear-bis-'
+URL_PREFIX = 'https://www.wowhead.com/forever/guide/classes/'
+
+# WoW Forever currently publishes a single BiS page per spec (Phase 1), so there is
+# no per-phase URL. The page is saved under phase id 0 to match the parser.
+PHASE_ID = 0
 
 
 def collect_specs_data(data_dir):
@@ -17,7 +19,6 @@ def collect_specs_data(data_dir):
     options.add_argument('--disable-gpu')
     options.add_argument('--remote-debugging-port=9222')
     options.add_argument('--start-maximized')
-    # options.add_argument('--disable-extensions')
     options.add_argument('--disable-infobars')
     options.add_argument(r'--user-data-dir=D:\code')
     options.add_argument('--profile-directory=Profile 2')
@@ -25,25 +26,22 @@ def collect_specs_data(data_dir):
     driver.set_page_load_timeout(20)
     for spec in whSpecs.specs:
         print("Collecting spec " + spec)
-        for phase_id in phases.phases.values():
-            print("Phase: " + str(phase_id))
-            collected_flag = False
-            while collected_flag is not True:
-                try:
-                    save_spec_page(data_dir, spec, phase_id, driver)
-                    collected_flag = True
-                except Exception as e:
-                    print("Failed to load page: %s" % (e))
+        collected_flag = False
+        while collected_flag is not True:
+            try:
+                save_spec_page(data_dir, spec, driver)
+                collected_flag = True
+            except Exception as e:
+                print("Failed to load page: %s" % (e))
     try:
         driver.close()
     except Exception as e:
         print("Failed to close driver: %s" % (e))
 
 
-def save_spec_page(data_dir, spec_id, phase_id, driver):
-    url = get_url(spec_id, phase_id)
-    url = fix_url(url)
-    file_path = os.path.join(data_dir, spec_id + '.' + str(phase_id))
+def save_spec_page(data_dir, spec_id, driver):
+    url = get_url(spec_id)
+    file_path = os.path.join(data_dir, spec_id + '.' + str(PHASE_ID))
 
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -53,9 +51,5 @@ def save_spec_page(data_dir, spec_id, phase_id, driver):
         output_file.write(str(doc).replace("><", ">\n<").replace("\n</", "</"))
 
 
-def fix_url(url: str):
-    return url.replace("mage/arcane/dps-bis-gear-pre-raid-pve-p3", "mage/arane/dps-bis-gear-pre-raid-pve-p3")
-
-
-def get_url(spec_id, phase_id):
-    return URL_PREFIX + whSpecs.spec_to_url_path[spec_id] + URL_SUFFIX + whPhases.id_to_url_path[phase_id]
+def get_url(spec_id):
+    return URL_PREFIX + whSpecs.spec_to_wh_bis_path[spec_id]

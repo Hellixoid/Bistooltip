@@ -1,80 +1,67 @@
 import json
 import traceback
 
-from src.general.idResolver import IdResolver
-from src.general.phases import phases
-from src.general.randomItemSuffixes import find_suffix
-from src.general.sortedSpec import SortedSpec, Item, Slot
+from src.general import phases
+from src.general.sortedSpec import SortedSpec, Item
+
+# wowtbc.gg warcraftforever slot key -> app canonical slot name.
+_SLOT_MAP = {
+    "head": "Head",
+    "neck": "Neck",
+    "shoulder": "Shoulder",
+    "back": "Back",
+    "chest": "Chest",
+    "wrist": "Wrist",
+    "hands": "Hands",
+    "waist": "Waist",
+    "legs": "Legs",
+    "feet": "Feet",
+    "finger": "Finger",
+    "trinket": "Trinket",
+    "ranged": "Ranged",
+    "thrown": "Ranged",
+    "main-hand": "Weapon",
+    "main hand": "Weapon",
+    "one-hand": "Weapon",
+    "two-hand": "Weapon",
+    "off-hand": "Off hand",
+    "off hand": "Off hand",
+    "relic": "Relic",
+}
+
+# WoW Forever is a single endgame phase; use the level-60 bracket from the caps map.
+_CAP = "60"
 
 
 class WowtbcSpecDataParser:
-    def __init__(self, id_resolver: IdResolver):
-        self.id_resolver = id_resolver
+    """Parses the wowtbc.gg warcraftforever page-data (Classic+ schema): the BiS
+    data lives in pageContext.bisList.caps[<level-cap>][<slot>] = [item_id, ...]
+    in priority order, so item IDs are used directly (no name resolution)."""
 
     def parse(self, spec_path):
-        with open(spec_path) as json_file:
+        with open(spec_path, encoding="utf-8") as json_file:
             data = json.load(json_file)
-            spec_id = data['result']['pageContext']['spec']
-            item_list = data['result']['pageContext']['bisList']
-            sorted_spec = SortedSpec(spec_id)
-            for item in item_list:
-                try:
-                    try:
-                        item_name = item['name']
-                        suffix = find_suffix(item_name)
-                        if suffix[0] is not None:
-                            item_name = item_name[0:len(item_name) - len(suffix[0]) - 1]
-                    except Exception as e:
-                        print('\tSkipping empty item')
-                        continue
 
-                    item_slot_name = item['slot']
-                    if item_slot_name == 'offhand':
-                        item_slot_name = 'off hand'
+        pc = data['result']['pageContext']
+        spec_id = pc['spec']
+        caps = pc['bisList']['caps']
+        sorted_spec = SortedSpec(spec_id)
+        phase_name = phases.id_to_phase[0]
 
-                    try:
-                        item_value = item['value']
-                    except:
-                        item_value = 0
-                    item_bis_phases = item['phase']
-                    for phase in phases:
-                        phase_data = item.get(phase.lower())
-                        if phase_data is not None and "bis" in phase_data and phase_data['bis']:
-                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name, suffix[1])
-                            sorted_spec.add_item(item_slot_name, phase, i, True)
-
-                            ench_data = phase_data.get('enchant')
-                            if ench_data is not None:
-                                name = ench_data.get('name')
-                                if name is not None:
-                                    enchant = self.id_resolver.get_enchant(name)
-                                    if enchant == 0:
-                                        print("Failed to find gem: %s" % name)
-                                    sorted_spec.add_enchant(item_slot_name, phase, enchant)
-
-                            gems_data = phase_data.get('gems')
-                            if gems_data is not None:
-                                for gem in gems_data:
-                                    name = gem.get('name')
-                                    if name is not None:
-                                        gem_id = self.id_resolver.get_gem_id(name)
-                                        if gem_id == 0:
-                                            print("Failed to find gem: %s" % name)
-                                        sorted_spec.add_gem(item_slot_name, phase, gem_id)
-
-                        elif phase in item_bis_phases:
-                            i = Item(self.id_resolver.get_item_id(item_name), item_value, item_name, suffix[1])
-                            sorted_spec.add_item(item_slot_name, phase, i, False)
-                except Exception as e:
-                    print("failed at: ", spec_id, item_name)
-                    traceback.print_exc()
-                    pass
-
-            for slot in sorted_spec.slots.values():
-                slot: Slot = slot
-                for phase in slot.phases:
-                    if phase.second_bis is not None:
-                        phase.items = list(filter(lambda itemx: itemx.id != phase.second_bis.id, phase.items))
-                        phase.items.insert(1, phase.second_bis)
-
+        cap = caps.get(_CAP)
+        if cap is None and caps:
+            cap = caps[max(caps, key=lambda k: int(k))]  # fall back to the highest cap
+        if not cap:
             return sorted_spec
+
+        for raw_slot, item_ids in cap.items():
+            slot_name = _SLOT_MAP.get(str(raw_slot).lower())
+            if slot_name is None:
+                continue
+            for i, item_id in enumerate(item_ids):
+                try:
+                    sorted_spec.add_item(slot_name, phase_name, Item(int(item_id), 0, None), i == 0)
+                except Exception:
+                    print("failed at:", spec_id, raw_slot, item_id)
+                    traceback.print_exc()
+        return sorted_spec

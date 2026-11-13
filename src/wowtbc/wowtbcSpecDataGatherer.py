@@ -5,7 +5,7 @@ import requests
 
 from src.wowtbc.wowtbcSpecs import specs
 
-URL_PREFIX = 'https://wowtbc.gg/page-data/mop/bis-list/'
+URL_PREFIX = 'https://wowtbc.gg/page-data/warcraftforever/bis-list/'
 URL_SUFFIX = '/page-data.json'
 
 
@@ -20,5 +20,5 @@ def save_spec_page(data_dir, spec_name):
     r = requests.get(url)
     file_path = os.path.join(data_dir, spec_name + '.json')
 
-    with open(file_path, 'w') as output_file:
+    with open(file_path, 'w', encoding="utf-8") as output_file:
         json.dump(r.json(), output_file, ensure_ascii=False, indent=2)

@@ -6,12 +6,12 @@ from src.general import cleaner, phases
 from src import dirsAndFiles
 import dataSources
 from src.wh import whSpecs, whSpecDataGatherer
-from src.wowtbc import wowtbcItemsIdsCollector, wowtbcSpecDataGatherer, wowtbcSpecs
+from src.wowtbc import wowtbcSpecDataGatherer, wowtbcSpecs
 from src.general.bisListConstructor import BisListConstructor
-from src.general.idResolver import IdResolver
 from src.general.itemListConstructor import ItemListConstructor
 from src.wh.whSpecDataParser import WhSpecDataParser
 from src.wowtbc.wowtbcSpecDataParser import WowtbcSpecDataParser
+from src.forever import casc as forever_casc, buildForeverDb
 
 data_collection = None
 
@@ -69,24 +69,9 @@ def save_bislist(config, sorted_specs):
     shutil.copyfile(config.bislists_data_file, config.addon_bislists_data_file)
 
 
-def collect_wowtbc_item_ids():
-    cleaner.delete_file(dirsAndFiles.item_ids_file)
-    cleaner.delete_file(dirsAndFiles.gem_ids_file)
-    cleaner.delete_file(dirsAndFiles.ench_ids_file)
-    wowtbcItemsIdsCollector.collect_item_ids(
-        dirsAndFiles.wowtbc_spec_data_dir, dirsAndFiles.item_ids_file, dirsAndFiles.items_collection_file)
-    wowtbcItemsIdsCollector.collect_gem_ids(
-        dirsAndFiles.wowtbc_spec_data_dir, dirsAndFiles.gem_ids_file, dirsAndFiles.gems_collection_file)
-    wowtbcItemsIdsCollector.collect_ench_ids(
-        dirsAndFiles.wowtbc_spec_data_dir, dirsAndFiles.ench_ids_file,
-        dirsAndFiles.cons_quest_collection_file, dirsAndFiles.ench_spells_collection_file)
-
-
 def collect_wowtbc_sorted_spec_data():
     sorted_specs = []
-    id_resolver = IdResolver(dirsAndFiles.item_ids_file, dirsAndFiles.gem_ids_file,
-                             dirsAndFiles.ench_ids_file, dirsAndFiles.horde_to_ali_file)
-    spec_data_parser = WowtbcSpecDataParser(id_resolver)
+    spec_data_parser = WowtbcSpecDataParser()
     for spec in wowtbcSpecs.specs:
         print(f'\nParsing spec {dataSources.wowtbc}: {spec}')
         file_path = os.path.join(dirsAndFiles.wowtbc_spec_data_dir, spec + '.json')
@@ -96,11 +81,7 @@ def collect_wowtbc_sorted_spec_data():
 
 def collect_wh_sorted_spec_data():
     sorted_specs = []
-    spec_data_parser = WhSpecDataParser(
-        dirsAndFiles.cons_quest_collection_file,
-        dirsAndFiles.ench_spells_collection_file,
-        dirsAndFiles.horde_to_ali_file,
-        dirsAndFiles.soo_wf_gear_file)
+    spec_data_parser = WhSpecDataParser()
     for spec in whSpecs.specs:
         print(f'\nParsing spec {dataSources.wh}: {spec}')
         sorted_specs.append(spec_data_parser.parse(spec))
@@ -110,7 +91,6 @@ def collect_wh_sorted_spec_data():
 def process_wowtbc():
     if data_collection is True:
         gather_spec_data(wowtbc_config.spec_data_dir, wowtbcSpecDataGatherer.collect_specs_data)
-    collect_wowtbc_item_ids()
     spec_data = collect_wowtbc_sorted_spec_data()
     convert_sorted_spec_to_item_list(wowtbc_config, spec_data)
     save_bislist(wowtbc_config, spec_data)
@@ -122,6 +102,21 @@ def process_wh():
     spec_data = collect_wh_sorted_spec_data()
     convert_sorted_spec_to_item_list(wh_config, spec_data)
     save_bislist(wh_config, spec_data)
+
+
+def process_forever():
+    """Regenerate the item/enchant collection DBs from the WoW Forever client.
+
+    Reads the local CASC install directly (no external tools) and overwrites
+    data/items/list.json, consumablesAndQuest.json and ench_spells.json.
+    Gems are skipped (WoW Forever has none). See src/forever/.
+    """
+    build = forever_casc.Build(dirsAndFiles.forever_base_dir, dirsAndFiles.forever_product)
+    out_dir = os.path.dirname(dirsAndFiles.items_collection_file)
+    n_items, n_cons = buildForeverDb.build_items(build, out_dir)
+    n_ench = buildForeverDb.build_enchants(build, out_dir)
+    print(f'forever: {n_items} items, {n_cons} consumables/quest, {n_ench} enchants '
+          f'(build {build.entry.version})')
 
 
 def build_ali_to_horde_mapping():
@@ -140,6 +135,7 @@ def build_ali_to_horde_mapping():
 
 if __name__ == '__main__':
     data_collection = True
-    # process_wowtbc()
+    # process_forever()      # rebuild item/enchant DBs from the WoW Forever client
+    process_wowtbc()
     process_wh()
     # build_ali_to_horde_mapping()
