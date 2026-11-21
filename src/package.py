@@ -4,7 +4,7 @@ import re
 
 from src import dirsAndFiles
 
-addon_version = "9.17"
+addon_version = "10.000"
 
 
 def get_file_data(path):
