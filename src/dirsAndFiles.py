@@ -30,5 +30,6 @@ addon_Bistooltip_horde_to_ali_data_file = '../addon/Bistooltip/Bistooltip_horde_
 
 addon_toc_file = '../addon/Bistooltip/Bistooltip.toc'
 addon_core_file = '../addon/Bistooltip/Core.lua'
+addon_bislist_file = '../addon/Bistooltip/Bislist.lua'
 addon_dir = '../addon'
 addon_zip_dir = '../addonZips'

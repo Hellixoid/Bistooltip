@@ -4,7 +4,7 @@ import re
 
 from src import dirsAndFiles
 
-addon_version = "10.000"
+addon_version = "10.001"
 
 
 def get_file_data(path):
@@ -29,7 +29,11 @@ def update_addon_version(version):
     data = get_file_data(dirsAndFiles.addon_core_file)
     data = re.sub(r"Bis-Tooltip v\d+\.\d+", "Bis-Tooltip v" + version, data)
     save_data_to_file(dirsAndFiles.addon_core_file, data)
-    pass
+
+    # Version label shown in the BiS list window header.
+    data = get_file_data(dirsAndFiles.addon_bislist_file)
+    data = re.sub(r'ver:SetText\("v\d+\.\d+"\)', 'ver:SetText("v' + version + '")', data)
+    save_data_to_file(dirsAndFiles.addon_bislist_file, data)
 
 
 def create_addon_zip(version):
